@@ -1,0 +1,1011 @@
+﻿Waterplan <> CCEP FBN / E-Leads Workshop
+
+
+Camila Behar with Coca-Cola Europacific Partners
+Recorded on Apr 30, 2026 via Microsoft Teams, 1h 3m
+
+
+
+
+
+
+Participants
+
+
+Waterplan
+Camila Behar, Solutions Specialist
+SSP2
+Ivo Kalaizic
+
+
+Coca-Cola Europacific Partners
+James Taylor, Environmental Manager
+Jos Peeters, Sr. Manager Environment BeNeLux
+Laurie Sarkissian, Responsable Environnement France
+
+
+
+
+
+
+Transcript
+
+
+0:00 | Jos
+hello? Hello? Good afternoon. 
+
+
+0:08 | SSP2
+Can you hear me well? 
+
+
+0:10 | Jos
+Yes, I can hear you. 
+
+
+0:11 | SSP2
+Is it joss? How do I pronounce it correctly? Yeah, joss. Yes, perfect. That's great. Where are you based? Joss? 
+
+
+0:23 | Jos
+I'm based in the Netherlands? 
+
+
+0:26 | SSP2
+Oh, okay. And, 
+
+
+0:27 | Jos
+you, I'm. 
+
+
+0:29 | SSP2
+based in Buenos Aires in Argentina, Buenos Aires, Argentina. 
+
+
+0:33 | Jos
+Yeah, the other side of the world, the other? 
+
+
+0:36 | SSP2
+Side of the world, that's right? It's it's 10 a M for us. So, yeah… we are opposite, we are now entering, we are in fall. We are now entering the best time of the year there in terms of weather. 
+
+
+0:53 | Jos
+Yeah, indeed. Indeed. It's nice weather here now and absolutely spring almost going into summer even so it's a nice weather. Yeah. 
+
+
+1:05 | SSP2
+That's great. Hi, Laurie. How are you? 
+
+
+1:08 | Laurie
+Good. How are you? 
+
+
+1:11 | SSP2
+I'm good. It's nice to meet you. 
+
+
+1:13 | Laurie
+Nice to meet you too. Where? 
+
+
+1:16 | SSP2
+Are you based? Laurie up in France? 
+
+
+1:20 | Laurie
+Yeah. In France, in Rennes in Brittany. 
+
+
+1:26 | SSP2
+That's great. And now we have James as well. Hi, James. Hi. How are you? 
+
+
+1:37 | James
+I'm good. Thank you. 
+
+
+1:39 | SSP2
+Just trying to. 
+
+
+1:40 | James
+Get my camera to work. 
+
+
+1:42 | SSP2
+Yeah, no worries. Are you up in Iceland? 
+
+
+1:50 | James
+No, I'm based in Stockholm? 
+
+
+1:53 | SSP2
+Oh, in Stockholm. Okay. That's great. I was saying, I'm in Buenos Aires. Now, we're having… Io as well? Joining is also based in Buenos Aires, I think. 
+
+
+2:08 | Ivo
+Sorry, sorry to interrupt. Always getting into Microsoft teams. I don't know. My computer doesn't like it. 
+
+
+2:19 | SSP2
+No worries. We're just getting started. So I think this is the career that we have for today. So thank you all for making the time to meet with us. If it works, we can start with a quick round of intros. I feel I have some information but we haven't like formally introduced ourselves. So I can kick off on the waterplan side and hand it over to Ivo. And then from the CCP side, you can give us a quick intro of yourselves and your roles. So I'm Cami, I'm based in Buenos Aires, as I was mentioning, and my role here within waterplan is within the solutions team. So basically, I'm the main point of contact for everyone at CCP. So I'm working closely with Tobias, with Elena, also with the pac side. So with Megan and her team. Yeah. So basically, my job is to make the platform helpful and solve your problems. So transform your needs into value. So that's why we're here. Okay? And it's really nice to meet you. So, Ivo, I'll hand it over to you. Well? 
+
+
+3:28 | Ivo
+I'm Ivo caleixic, I'm also argentinian and based in Buenos Aires. Previously, I lived in Barcelona for some years. I'm an industrial engineer and I'm a product manager here within waterplan. And I'm focused principally in target tracking like helping you to follow your environmental commitments, like water use ratio. So well, a pleasure to be here and please… feel like open mic to all the feedback. And I'm super happy to receive it. Okay? 
+
+
+4:05 | SSP2
+I'll hand it over to you, Jos Laurie or James? 
+
+
+4:09 | Jos
+Shall I continue? Jos? Peuters? I'm the environmental lead in the benelux, that's the Belgium and the Netherlands… four manufacturing sites in antwerp, ghent, chaux Fontaine, that are the three Belgium ones and in dongen, that's the Dutch one in the Netherlands… doing this role for two years now and involved in water and carbon saving projects. So also with waterplan. 
+
+
+4:47 | Ivo
+Can I ask you a question? Yeah, of course, are you in your house or that's your office? 
+
+
+4:54 | Jos
+Indeed, it's my home office. I love. 
+
+
+4:59 | Ivo
+That track. Yeah. 
+
+
+5:01 | Jos
+And. 
+
+
+5:01 | Ivo
+with. 
+
+
+5:04 | Jos
+Christmas, there were even lights in it. So with Christmas, I put on the lights. 
+
+
+5:11 | Ivo
+I love that code spirit. 
+
+
+5:13 | Jos
+Yeah, it's a little bit when you work at coca cola at CCP, then there are lots of coca cola gadgets and you almost drown in it, but I made the appointment with myself. They only are in my office here in my home office, and the rest of my house is free of the coca cola stuff. 
+
+
+5:36 | SSP2
+Except. 
+
+
+5:39 | Jos
+The fridge there's also. 
+
+
+5:44 | SSP2
+That's great. 
+
+
+5:47 | James
+I can go next. Yeah. So, James Taylor, I've been at CCP since 2019. I'm the environment lead for the nordic. So we've got sites in Sweden, Norway and Iceland. I've been doing this for just over two years before that I was a site environment manager in the UK and I relocated to Sweden last summer. So nearly a year. But yeah, similar job to what Jos does, but for the sites in Sweden, Norway and Iceland… and no coke merch in the background. 
+
+
+6:29 | SSP2
+And. 
+
+
+6:29 | Laurie
+Laurie, so I'm environmental manager for France. So same thing as James and Jos, but for France and I've been doing it for a bit more than two years also. 
+
+
+6:42 | SSP2
+Okay. That's great. And you have your coke background as well, Laurie. I. 
+
+
+6:46 | Laurie
+have I always have a coke background? Yes, but no coke merch? 
+
+
+6:51 | SSP2
+Yet. Okay. So the idea for today's session is to have like a kind of conversational meeting with you, go through the platform. We really want you to like challenge us in terms of what's not working, what could be better? We also want to show you some features that maybe you are not aware of or you do not use with that much frequency. But it's this is important, for us to really understand how we're using the platform? How can you could use it in the future? And like don't be shy, to share like anything that either you don't feel it's too like intuitive or comfortable or even if there's something that you have a frustration in your like daily jobs that you think it could be solved with some kind of digitization or integration with waterplan that's our goal as well. Okay? So ultimately solve the frustrations and pains, of your job that could be solved here in waterplan. Okay? So, please? 
+
+
+8:00 | James
+Share your. 
+
+
+8:01 | SSP2
+Thoughts freely. We're gonna, I'm gonna start sharing the platform. But first, just, a quick question, like if you could share like what is your main general menus of the platform? And how are you seeing it tied, to your daily, or jobs to be done, in, yeah, in your daily day? 
+
+
+8:30 | James
+And so, yeah, I think, for me in the nordics, obviously, I think the main part is on the source vulnerability assessments. So we're starting to do our first like full assessment with Iceland. Well, it's my next call after this is to kick off. 
+
+
+8:52 | SSP2
+With me. Yeah. So. 
+
+
+8:53 | James
+So, yeah. So I think… that's kind of like the main use that we have. I guess in the nordics, on a, I guess regular basis. I mean, obviously we've got the projects and the targets. I don't know. I wouldn't say that I use it on a daily basis. I think because obviously we're still capturing all the data internally and then it's being transferred towards plans. So I think especially in the nordics we're still kind of using the internal tools that we have… because it's obviously it's got carbon with it as well. So it's a bit easier to kind of get the overview of everything together. Yeah. I'm having a quick look from the sva point of view like really good to have the, I guess the more frequent updates to kind of the risks, and the challenges with water generally again probably not the best area, to have a comment on it because we don't really have any water risks in the nordics, no, no leadership sites and no real kind of water stress issues. But to kind of have that frequent update in the system is really useful. I mean, with the sva, obviously, it's a five year… assessment. So we off in the past, it's been, we do the assessment essentially, forget about it for five years and then redo it again. So, yeah, I think in the nordics that's kind of where we using waterplan probably the most at the minute is just playing like we've got the old svas. But then with the Iceland really just seeing how we can go from like the excel based into kind… of a bit more of a live usable product rather than just a once every five year not updated, not live assessment. Yeah… I'm just trying to think. I mean other than that, yeah, we've used like the target setting, and it is a good tool. I have found like it is good to visualize I think the, I don't think issue because it's probably on CCP's side more than the waterplan, is kind of, the lag between when we do the data internally and then it being available in waterplan. I'm my understanding from Tobias is we just let Tobias know and then he'll arrange for it to be updated with the waterplan rather than it being a kind of a real time… process. So. 
+
+
+11:41 | SSP2
+Okay. Sorry, James. 
+
+
+11:43 | Ivo
+So what you're mentioning is like target, they like the target tracking feature is useful for you. But your main issue or problem there is to update the targets, sorry the projects. Yeah. So we. 
+
+
+11:59 | James
+have to have the projects on our internal tool through… integrum, which is then I guess the data shared with you guys to upload the projects to be more… yeah, to move the data from integrum internally for us into waterplan. And I guess when the sites are uploading it into integrum, they're doing it and then they're kind of going away. And then by the time they come back to it, if it's not available in waterplan, there, you don't look at it in waterplan. They just go to the Power BI, dashboards that we've got… with carbon as well. So they're looking at it as like an overall project overview. But yeah, like I say, I guess it's probably more of a, how do you move the data from integrum to towards playing real time? It's probably more of a challenge than from… our side rather than. Yeah. So, yeah. 
+
+
+13:02 | Jos
+I recognize what James is saying. Especially also the last part there is, yeah, I shall explain it. There are also some actions, on the CSP side because we are adding more and more ways of working more and more data files tools. And there are so many on the moment. And I see water plan as an opportunity to combine them all to have one platform for every that we have… an example of it last week, we had the iso 46,001 audits, in the Belgium and, the Dutch side that's the water efficiency management that's an iso certification. That was the first audit. And the auditor. He really said, my God, what a lot of tools, and files and processes. Do you have almost all overlapping other ones? Duplicating other ones? How do you still have a view on it? What you need? Yeah. And so we also wrote… not, it's not an NC, not a non compliance but an, how do you call it an improvement opportunity, to get a better overview of all, the ways of working that we have, and I see there an opportunity, but then we have to choose to go for waterplan completely and. 
+
+
+14:40 | Laurie
+Drop the rest. 
+
+
+14:42 | Jos
+We are also doing, but on the moment, it's still a duplication you. 
+
+
+14:48 | SSP2
+Mean like everything that has to do with energy, carbon waste, like everything that falls into, the iso no more that. 
+
+
+14:57 | Jos
+I mean, we have a target. We have target setting for 2022 1,030. We have target settings for the yellow vodka file here. Then James and Laurie know what I mean? The targeting for the abps. But there is also targeting per period and they're all and we have the management, the water management plan and it's all a little bit the same. And now besides these four, we also have water plan as the fifth one. Same with risk assessments. We have, the sva, the fava, the ervm, lately… we were listening listing them all and we have, in total, we have seven water risk assessments only for our environment only because of droughts or that's yeah, I hope there we can combine them into a water plan to give a good overview over it. Okay? 
+
+
+16:01 | Laurie
+I think that's. 
+
+
+16:01 | SSP2
+helpful. And we can show we are starting to integrate some of those things like, the water management plans. So I think that would, we are walking towards that path, but I think that's great. As I think that the path, is that one, right? Like having all everything centralized here and everything connected so that it makes sense. Like when you act on something, it replicates on the other things that's amazing if it works. Yeah, I'm. 
+
+
+16:35 | Jos
+curious, Laurie and James, you also see it like this or do you have a separate meaning, separate… meeting? What do you mean? No, no, the meaning, how do you call it? Do you think different about it? No? 
+
+
+16:51 | Laurie
+I'm aligned with what you guys were saying. I think honestly, I think there has been a great job centralizing a lot of the things that we had before. We had a lot of excel files. I think a lot of this stuff has been entered in water plan already. But yes, I think there's still some things to add in there today. I don't use water plan on a daily basis. I, yes, I use it, but for as you said, the target settings for like 20 30, this kind of things. It's more on a need to, yeah, need to go basis. So if there's something specific, if we want to look at the projects, right? Or a specific risk or the targets, but, I don't open it on a daily basis… and to fully aligned also with what James was saying. The point, the pro, the problem, yeah kind of that we have today is that if we want to really follow up on all the projects related to water, they're not completely updated in the tool because we have to update it in our specific tool. And then it needs to be uploaded in water plan. And… as of now, I haven't really used it very much for now, the projects part. But I feel it's more from my first understanding. It's more how… do you say? It's? Not really a project management tool. We have projects and you're able to like see based on your water ratio, for example, how this project will impact this and that. But if I review my projects on a monthly basis, for example, with my team, I don't really have anything in water plan as of now to really do a follow up on the project. So what I've been using on the site is a different tool where I can do my updates on a quite regularly. So feedback from the teams. And then I update the internal tool as a second basis. And I wouldn't want to update again on a third basis the water plan tool. I don't know if that makes sense. 
+
+
+19:13 | SSP2
+Yeah, that makes sense. And let me, this is a new feature that we launched this week. So let me show you because I think, it tackles what you're saying. I'm going to share my screen and you let me know when you can see it. Yeah. But then the, 
+
+
+19:32 | Laurie
+second thing also, and it's more on our side, it's not really on your side, but I think it's also something James was mentioning is that we have everything related to water in water plan. But for us as environmental manager, we manage water, but we also manage climate. And if tomorrow, I want to manage my water projects, I don't want to have to go when I review it with the teams who are also doing both. I wouldn't want to go on one platform to manage the water projects and then go in another platform to manage the climate projects. So, but I think this is more of a ccep problem. It's not really you guys problem when. 
+
+
+20:15 | SSP2
+You mean climate, you mean energy and carbon waste as well? Biodiversity too. Like all of those, all of the above. Yeah. Okay. Sorry, just to be. 
+
+
+20:28 | Ivo
+Clear those three or there's anything else like climate, carbon waste in biodiversity? 
+
+
+20:36 | Laurie
+Energy? 
+
+
+20:37 | SSP2
+And biodiversity. 
+
+
+20:39 | Ivo
+Too or not? 
+
+
+20:41 | Laurie
+Biodiversity. I don't really have any projects. I don't know if James or just you have something. 
+
+
+20:47 | James
+Not so much, but I think it'll probably be. 
+
+
+20:49 | SSP2
+Getting. 
+
+
+20:50 | Laurie
+bigger. Yeah. At the. 
+
+
+20:52 | James
+minute, not so much like today. I, we've got no projects, but I know as part of probably the iso, the 14,001 review, it's… likely that it will become part of. 
+
+
+21:08 | SSP2
+We need to. 
+
+
+21:09 | James
+Look at a site level, but I think the wider biodiversity stuff is kind of handled by packs at like CCP level rather than a site by site. Yeah. 
+
+
+21:18 | SSP2
+More… the replenishment projects. Yeah, you handle more the energy, carbon and water waste as well or waste. Yeah. 
+
+
+21:32 | Jos
+Waste less than, yeah, waste less than energy and water energy and water that are the two biggest ones and waste, you can divide in two parts. It's waste about the, from, the manufacturing side and it's waste that we create in the market and that's about our packaging materials. And that is really a topic for parks and not for environment. Okay? 
+
+
+22:02 | SSP2
+You focus, on the sites and the manufacturing. Yeah. 
+
+
+22:05 | Jos
+So that impact is it's a lot smaller than, the total one and… the, 
+
+
+22:13 | SSP2
+tool you mentioned Lori that you used and maybe your son, James is the same as integrum or you use a separate tool for like project? 
+
+
+22:22 | Laurie
+I use a separate tool. I made my own tool, but I also have to enter it in integrum. It's just that integrum. I don't feel like it's also a very good project management tool. So I update integrum like on a yearly basis. But I have another tool that I update very regularly, okay? 
+
+
+22:43 | SSP2
+Give you. 
+
+
+22:44 | Jos
+a little bit, give you a little bit inside what's going on in CCP. On the moment. We have four project following tools. So there are four different departments. They all created their own tool. So I don't know how it's, in France and nordics, but, in benelux, the technical departments, they really are complaining and that they have, to follow up so many tools. They have to follow up four tools. Why… not one, with a module for every topic? What's needed? 
+
+
+23:22 | SSP2
+Maybe this, and here, all feedback is open. But recently this week in the platform, we launched this feature which is, it's called mitigation actions, but really this name can be changed. And the idea here is also to see like what are the CCP names that you feel are most intuitive, for the platform? And here, what you're seeing are some integrations from like… sbas, from water management plans, from past sbas. But here, the goal is to see all projects and it can work as a project management tool worry because. 
+
+
+24:11 | Jos
+let's see. 
+
+
+24:13 | SSP2
+Let's open one of the projects… here. You can see like the project, it can be a project from the water management plan or an efficiency project or even an internal like task. And where, what integrating here is like the different labels that could be related to the issue, the action priority, the cost that they go to edit the action. There's a lot of fields like you can add the site, the responsible, an id if you want to. And then what we can add, this is a general election. It's an implementation plan. So let's say we want different subtasks and the status and the responsible of those are tasks, the start date, the end date, if there's a cost associated, if there's a like, I don't know a file need for those subtasks and all projects from like putting a new meter to like updating the environmental aspects, of the site can be tracked here. And we also implemented the again chart. So you can see for each project, whether it's from my water management plan with all the subtasks. Yeah, the associated tasks, this is new. So we just launched it this week, but would something like this feel like more useful in terms of tracking the projects? Yeah. 
+
+
+25:46 | Laurie
+Definitely. But I would also need a comment section because sometimes it's just writing a comment. It's not necessarily an action like… on a specific project if the team is working on it and they're like I have no action on my side, but I still want to put an update of where the project is at. I'm not exactly sure where I would put it in, what you just shared with me but. 
+
+
+26:12 | SSP2
+Okay. Yeah, add… a comment. Basically, now we are uploading, we can upload like from sbas, but also have like manual input in terms of the types of projects you follow regularly. Are these related to the water management plans? Like what are the types of general projects that we could start imputing here. If we think of this story as a project management tool? 
+
+
+26:42 | Laurie
+You, you want to use an example to enter in there? Yeah, for example. 
+
+
+26:48 | SSP2
+In, in your project management tool, you track like the sbas, the water management tasks, from the sba, regular projects, like what are the types of any? 
+
+
+27:04 | Laurie
+Any types of pro, any types of projects that are happening on the site… for that specific, for that specific year? Okay? For that specific month? Sorry or year? Yeah. I mean, yeah. Okay. Anything related to water and to energy, or anything else? Okay? 
+
+
+27:28 | SSP2
+What about like the actions that are from the sba? Are you also tracking it there? I don't know anyone can. 
+
+
+27:40 | Laurie
+Today? No, but I could be, yeah, but I know this is something that you guys were working on. No, to implement the wmp, in water plan directly. I think we had a call about this, yeah. 
+
+
+27:53 | SSP2
+That, that's this tool, that we're doing, we are implementing the wmp here that's that what this would be for. So in a general manner, a comment section would be great and we can upload what we already have and show it back to you. Okay? 
+
+
+28:12 | James
+So, then you will have an action plan, an action overview per site, for instance. Yeah. 
+
+
+28:20 | SSP2
+Yes. Yeah. The. 
+
+
+28:22 | Laurie
+Gantt chart is also very nice to have you. 
+
+
+28:26 | SSP2
+Have everything like in list per site per status per type of action, and also of the Gantt chart. 
+
+
+28:40 | SSP2
+Let me see here. Like how are we on time? We are good on time. You all of you mentioned that it's not that you use a platform daily and you mainly use it for like targets setting whenever you want information about risk. Let's say we have here, the risk map. Have you, do you use this feature? Are you familiar with what this is? 
+
+
+29:15 | James
+I've seen it in it used is, yeah, how do you call it, in our topic in our work? We, yeah… we don't really use it. Okay. It's… more the box department who is using this? I… think for me, I use this when we'll do when we would be doing an sba. I think it's a useful tool. I've used it a couple of times when we know that there's a, an issue trying to see if there's any more information. So we, there was in Stockholm last summer… there was an issue with. 
+
+
+30:13 | SSP2
+the water. 
+
+
+30:15 | James
+Supply and it was, I checked on there just to see if there was any additional information. Okay? But okay, I mean, that's very ad hoc use. I mean, it was like, and we were like we were notified from the municipal water supplier anyway. So we knew what the problem was. Okay. It's more kind of feeding into, I guess the sva or when we're like planning to do the sva to kind of understand like has there been any significant changes from the previous… or the Jos mentioned the facility assessment as well just to okay. I guess kind of get an idea of whether we're going to end up moving to a high risk location site. 
+
+
+31:07 | SSP2
+There's a bit. 
+
+
+31:07 | James
+Of a guidance to that. But again, like those assessments, I think for every five years as well, yeah, I can't remember that. But, yeah. 
+
+
+31:16 | Laurie
+Yeah. Okay. In. 
+
+
+31:19 | SSP2
+Terms of like finding more risk information, so so that you have a sneak peek about this one here, you'll be able to see like all the sites. So you have to like filters. We can hide the projects because these are like the replenishment projects. You will be able to see the sites and find the ones that you're interested. In this case, let's see we can do by benelux and. 
+
+
+31:48 | Laurie
+apply and you're gonna. 
+
+
+31:49 | SSP2
+See the sites and the different scores that these supports are according to the water plan methodology, right? Which we can go into like deep into that, in a different session. But basically, we consider global data and local data to build this representation of the hazards of each of your sites in the sbas. We do an additional analysis that will be understanding your internal vulnerabilities with a survey similar complementary to the fawa survey. Okay? But here, in order to like what this risk means… it's a combination of for example, like satellite data or global models available for different risk types, scarcity, quality, flood, infrastructure, reputation, and regulatory, and also local data. It's what, what's happening at the level, of the close, basing, what's happening at the level of your municipality of local government, in terms of yeah of these risks? Okay? So just to give you an additional like level of granularity in terms of what you can see for each of your sites, when you're trying to find more information about risks, you're gonna see that. Let's go to a specific site which you can click here or go. We can do, I don't know, dungeon. 
+
+
+33:22 | SSP2
+You're gonna see here is the follower results and then the risk of delivered from the water plan methodology. And yes, I know you mentioned that the idea is to have something integrated. We are working on that. But in terms of having risk information that might be handy for explaining a phenomena or for an audit process, you can come here as a source of information as well because it has integrated your last sba just so to give you like a close look up of this, let's see what… you're gonna see here, are different basins. So if you see the legends, we have a hydro basin, level five, hydro basin, level six and a hydro basin level seven. So the seven is the one that's closest to the site. And then the others are wider why we divide this. It's because whenever we look for risk information from these different sources like global data, like satellites or global models, from local data, we try to find evidence from these three levels and likely trying to find more on the seventh level. Okay? So it's more representative of what's happening closer to your site. Okay? Is that, is that like clear, do you have any question around that? 
+
+
+34:53 | SSP2
+And to see the information that's regarding risk, you can like open up here and see how we are building this information. So we're building this information. I haven't used this before… just to know how many details I need to show you. Yeah. 
+
+
+35:21 | Jos
+On my side, your connection was dipping. I think it cut for a minute. 
+
+
+35:28 | SSP2
+Can you hear me now? Yes. Okay. I was asking if you use this like the dive into the risk section or just to know how much detail I need to go. 
+
+
+35:46 | Jos
+In the technical situation, I didn't use this yet. 
+
+
+35:50 | SSP2
+Okay. So let's do like a quick snapshot on how to see information related to risk. You can access here in the risk section and you have the different risk types. If you are looking to understand something about scarcity, you can see we used local data sources and global data sets. If we go for example, to global data sets, you're going to see the different indicators that we used to measure that risk. Okay? Let's see, and we can click here and go to this one which is the aridity index. And you'll see how we scored this risk based on a question and an answer that we, that is based on the different evidence. Okay? And everything is clickable. If we go to a local data source, for example, groundwater availability, you'll see the same structure, the score for this particular site. The question, the answer and the evidence. Okay? And for all sites, we include the sba report, the latest sba report as a source of information. Okay? So all the risk information is centralized here. I know it's maybe an ad hoc use, but that's the level of granularity that you have like evidence indicator component and risk type. Okay? And this is all done. 
+
+
+37:23 | Jos
+By you? 
+
+
+37:25 | SSP2
+Yes, by waterplan. 
+
+
+37:29 | Jos
+Possible that we can ask you to include reports or something like that. For instance, in the Gent site, we had an investigation about flooding risks by the insurance company. They really did a deep dive on site on flooding risks. Is it possible that you add that kind of in this risk assessment? 
+
+
+38:00 | SSP2
+Yeah, that's what we do, we input what we call local data. It's not only the sbas, but if you have any specific reports, then we can include them and that feeds as an additional evidence to the score. So, yeah, the answer is, yes. 
+
+
+38:16 | Jos
+And can we include them ourselves in waterplan? Or do we have to contact you or how does that work? 
+
+
+38:23 | SSP2
+Yeah. You need to contact us because we have a water expert team that reviews the evidence and assesses if it's a valid evidence in which risk it fits. And, yeah, and that's how we do it. Oh… so you can reach out and let me know what is the type of information? And we can review it together. 
+
+
+38:50 | Ivo
+But yes, amazing. Just like that's what we are trying to do, like representing your current assessment here with all the information needed. 
+
+
+39:01 | SSP2
+Yeah, because that's also. 
+
+
+39:03 | Jos
+One of the things with water, when you look to energy and carbon, it's worldwide everywhere, it's the same… but water can be very local. 
+
+
+39:14 | SSP2
+And especially. 
+
+
+39:15 | Jos
+Flooding risks, for instance, it really can be on the spot. If the spot is higher as the rest of the surroundings, there's no risk. And if it's lower, you have a very high risk and that can be yeah 100 meters further. It's a completely different risk. It's a special thing in water. 
+
+
+39:39 | SSP2
+Right. And that's why we use the combination of both. For example, we use like flood area percentages from like global models, but also we use the flood zone locations and different maps for really being local. So yeah, we can chat about incorporating specific sources that you would like to be considered. Okay. And another thing that you have access to are future projections maybe like there's a project that you're looking to implement and you see it would like impact water scarcity at your site here for each site. And we can then use the same site as an example. 
+
+
+40:24 | James
+We have the projected. 
+
+
+40:26 | SSP2
+Scarcity risk and the projected flood risk… all the way to 20 80 using different, using climate models and three scenarios, business as usual, an optimistic scenario and a pessimistic scenario. 
+
+
+40:39 | James
+And then if you open. 
+
+
+40:40 | SSP2
+Up you'll see like the different indicators that fit these projections, is this something that you think might be helpful or it's a feature that's not really useful… in terms of the way you think about projects? 
+
+
+41:02 | James
+In terms of the water management plan coming out of the sva system? Yes. I think in terms of like the yearly kind of the abp projects, I mean, yeah, they're very heavily focused on obviously water reduction, water ratio, energy ratio where I don't think this would necessarily feed into… but in terms of like when we do the sva and we identify the water management plan as… a separate thing when we start looking at like infrastructure risks and what projects do we need to look at for? Yeah, I'm… just trying to think so, like at the site I used to work at, we had an issue where we had very soft water, but if there was a drought, the water would be switched to another source which was harder and we didn't have any water softening capability. So having that kind of view which I think this would give to a degree. Yeah, that would help, I guess, prioritise that change to the water treatment process. But like Jos was saying that's a very local issue. So I think it would still heavily… it would still be heavily based on the output of the sva rather than a routine review, of the data on either a monthly or annual basis, for example. Okay? 
+
+
+42:39 | Jos
+Yeah, it maybe can help and also in the fauva risk assessment that's the basic of we. 
+
+
+42:48 | James
+Offer we have three. 
+
+
+42:49 | Jos
+Levels, of sites that are the high risk locations, the contribution contributing sites and the. 
+
+
+43:00 | James
+low. 
+
+
+43:00 | Jos
+id, even don't know how we call them. But if you're a high risk location, you will have more budget for water saving opportunities than when you're a contributing site. But that risk assessment is only done once in five years. Yeah. 
+
+
+43:18 | SSP2
+So, yeah. 
+
+
+43:20 | Jos
+Can we use this? Yeah? 
+
+
+43:22 | James
+Once in the five? 
+
+
+43:23 | Jos
+Year, but on daily basic basing, no? 
+
+
+43:27 | SSP2
+No. 
+
+
+43:27 | James
+Okay. 
+
+
+43:29 | SSP2
+That's helpful in terms of before, like moving to, the targets part in terms of something that you actually do daily that you think might be better to have it like automated or a source of information you look for regularly? Is there something there like a source of information that you consult regularly that would be better to have it here or a type of task that you use multiple excels that could be here and could solve it like that job, for example. Can you think of something like that? 
+
+
+44:10 | James
+I think the. 
+
+
+44:10 | Laurie
+yearly target settings. I don't know if it's something you're already working on. I think Tobias already mentioned it, but for me, the yearly target settings could be interesting to have in there because we have, we currently have an excel file which is not ideal. 
+
+
+44:26 | James
+And. 
+
+
+44:27 | Laurie
+it doesn't go into as much detail as sites would like. So this would be my first response. But then I… don't see anything else. 
+
+
+44:41 | Jos
+But on the other hand, it's now combined with the energy ratio? Yeah. And it's only filling in once, the data and it's used for the water ratio calculation and the energy ratio calculation. And if you put in now different ways of calculation again, I think you're even further from, what do you want to achieve? 
+
+
+45:04 | Laurie
+Yeah, but I think maybe, could, would it be something that could be possible for you, to do the yearly targets to have both energy and water just for that specific purpose because technically what they're what we're taking to do the calculation is the production volumes. So it's applicable for both energy and water. So I don't think there's a lot of more, I mean, maybe in the well, no, because most of the information it's us after who enter it. So. 
+
+
+45:38 | James
+I don't know. Yeah, sorry. 
+
+
+45:42 | SSP2
+Sorry, James, go ahead. No. I was going to say. 
+
+
+45:46 | James
+Just on the same topic for the annual target… setting, I think obviously, if you could do both, then that's great because it's one tool. I think… at the minute, the way it works is every site gets a file from finance to do their own production volume. But I know that there is a master file that has all sites on it. So, I mean, I guess automating that. So you could just say, right, this is the production volume for all the sites in one automated review of the spreadsheet would then basically put us in, I think a good position where the target setting becomes what projects are you going to do? Not? Can you emulate what production volumes you're going to have on a month to month basis? Because we've basically got, I mean, if you take the whole of CCP basically got 90 sites where, I mean, I guess maybe there's some outliers, but I imagine at least 80 percent of them are all doing the same calculation for production volume based off one spreadsheet rather than either an automated process, or one process to review it. And… I mean to be honest, it's also whether it's is our, I mean maybe this is for us internally as well. It's like is our way of calculating our annual targets. A good approach, a good process because I mean at the minute we say this is what our performance was last year, this is our forecasted production volume this year. Therefore that's what our water consumption is going to be minus any projects? Like, is there a better way to forecast that? I don't know, but… I think it should, sorry. 
+
+
+47:38 | Ivo
+Sorry, James, no. 
+
+
+47:39 | James
+It's fine. I. 
+
+
+47:40 | Laurie
+was gonna say by having it in water plan, it will also align with the target setting that we defined for 20 30 because yeah, if we're using a specific calculation for 20 30, but then on a yearly basis, we're using a completely different calculation. It doesn't really make any sense. So, if we're fine with the way that we're doing it for 20 30, then we can just use the same type of logic. Yeah, yeah, exactly. Yeah. 
+
+
+48:09 | James
+I think it's very. 
+
+
+48:10 | SSP2
+Helpful. What you're saying and it's part of the conversations we, yeah, we're having with Tobias. 
+
+
+48:16 | Ivo
+Versus. 
+
+
+48:19 | SSP2
+Versus 20 30? Sorry. Yes, go ahead. Yeah. 
+
+
+48:24 | Jos
+That is absolutely a benefit. But I also see some. 
+
+
+48:29 | James
+Issues. 
+
+
+48:30 | Ivo
+That means that we have to download all. 
+
+
+48:33 | James
+The forecast. 
+
+
+48:34 | Jos
+For all the sites, all the production volumes to an external party. I. 
+
+
+48:41 | James
+doubt. 
+
+
+48:42 | Jos
+if that will be… same way that's in the QA department, they're having to do the calculations for the cpu targets, health to safety, to do it for the lti targets. And I see it's more logical that we ourselves, our DNA department creates a tool within csup to. 
+
+
+49:05 | James
+Do all these. 
+
+
+49:06 | Jos
+Calculations with the same data, the single source of. 
+
+
+49:09 | James
+Truth, but if. 
+
+
+49:11 | Ivo
+to download this all? 
+
+
+49:13 | Jos
+To an external party, I. 
+
+
+49:15 | James
+don't know. Yeah, I mean, one way or another, but I, yeah, I guess that's a decision for someone else. But like, I guess, yeah, I agree. Like whether it's water plan, or internally where we take that and become an… automated process. 
+
+
+49:40 | Ivo
+Maybe like this is a conversation like, I mean, we are aligned with the two different methodologies, maybe that's something that we can keep discussing with to us and think about the solution. Like currently, we are calculating in platform like 20 30 targets with the word calculator. Can you see my screen? Yeah. So, well, in this case, I choose France as a country as… a demo and, but I wanted to show like some new things that we are having first of all, understand like your thoughts regarding target tracking like or this tool, like if you, the world calculator, I think that it's useful for you, but I just want you to hear from your voices, your thoughts regarding that. 
+
+
+50:35 | Ivo
+You have the chance like to work with the word calculator. Yeah. 
+
+
+50:40 | James
+I think. 
+
+
+50:40 | Laurie
+For me, the word calculator, was it? 
+
+
+50:45 | James
+Was fine. 
+
+
+50:46 | Laurie
+It was very, it was good. Yeah. 
+
+
+50:49 | Ivo
+The 2000? 
+
+
+50:49 | Jos
+30 year calculator. Yeah. 
+
+
+50:51 | Ivo
+Yeah. So internally, I always think about like work calculator, that name. So in the case of friends, like you can see the different sites that belong to the site group of France and check like, the targets of itself and you can like go directly to the site particular and review here the logic of how they achieve that number. But something new that we can see, let me go back to the site group and. 
+
+
+51:25 | James
+that now. 
+
+
+51:26 | Ivo
+You can define like yearly targets. This is something that literally we launched yesterday and I implemented, to show you here, but I think that this is aligned with what we were mentioning, not about the logic of how we calculate but at least the logic of how we represent it and understand if there's a correlation between the 20 30 target and the yearly target that we are setting. Okay. So, for example, the case of France is quite different to other countries because it's the expectation of the target number. It's higher than the baseline because there was a site that was closed and it's expected that the intensity of all other sites increase, but we always are trying to still below the target line. So basically what we are defining now is like the baseline, this historical data and the 20 30 target. And what we are going to be able now is to set intermediate target for the different years and also show it in a monthly or periodical or period way. I know that video is like the taxonomy, of the CCP. But for example, in this case, we can just, I don't know, click on one point four and start for one point 39 for example, and start like doing that one point 39. Sorry, start doing that logic of intermediate steps. And I think that this is like the first step of the conversation of how they lost if there is a correlation between 20 30 targets and early targets. And I want to like go deep on that, but. 
+
+
+53:10 | James
+Well, once we. 
+
+
+53:10 | Ivo
+set like the target, the main objective of what we are trying to, the problem that we are trying to solve is to give you visibility of if you're going with your current plan or your different scenarios, how you're going to be in 20 30 against like your targets, you know, in this case, for example, with the same base cases scenario that we have, we know that we are like, there's a still gapping to a still gap to a target of zero point 49 for zero point zero, 49 liters over liters. But well, first. 
+
+
+53:48 | James
+Question here, like do you have the, 
+
+
+53:51 | Ivo
+chance like to play with this loading projects, I understood that the current, there is a like we need to create a bridge on how to upload projects from integrum. But if we close it, like if we jump that river and we started thinking on creating. 
+
+
+54:13 | James
+projects in. 
+
+
+54:13 | Ivo
+Waterfront and creating scenarios and understanding like how we are going to be in 20 30. Like do you have a chance to play with that? 
+
+
+54:26 | James
+I've had a chance. Yeah, I've played around with it and yeah… I mean, it is a good tool like, I mean, I think it's good to be able to, yeah… kind of have a scenario of like if we only do opex projects, this is where we're going to be. If we're only going to do capex projects, this is where we're going to be or, you know, a mixture of like this is what's in, the annual business plan, or long range plan. I think probably, the issue is again… probably a us problem. It's the, it's… the things that happen like the production changes that we can't we don't have vision of like two or three years down the line, like a new production line is going to be coming and it derails, the whole process. So, yeah, I guess, does that really make a difference? Because you just take that into account? But. 
+
+
+55:28 | Laurie
+Take that into account if you have new volumes. But if you don't have any volumes, you won't take it into account. Yeah. 
+
+
+55:34 | James
+And. 
+
+
+55:37 | Ivo
+Laurie and josh, you have the chance like to play with it. And also, I'm open to feedback. Like the main goal of decision is to understand it. There's I think. 
+
+
+55:50 | James
+I… don't remember if it's already available, but I know like you've got the true cost of water. Yeah. 
+
+
+55:58 | Laurie
+Yeah, it's at the top, right? Yeah. 
+
+
+56:00 | James
+But do you have a calculator with built to calculate the true cost of water? Or do you just take that from? I guess Tobias at the minute can. 
+
+
+56:12 | Ivo
+Set it like manually here. Like we can input the number. I think that, let me check internally. I don't know if, you know, but I think that this cost it's get from Tobias analysis. And I think we also have because like, 
+
+
+56:26 | James
+this is like it's another process that we use a spreadsheet internally to kind of update… and keep track of. And I mean, I don't know Laurie and josh's experience might be different, but I know like the sites in the nordic, they update it when they're asked to, yes, and it might be every two years. So, I don't know. Yeah, but yeah. 
+
+
+56:53 | Laurie
+I mean, I don't know. 
+
+
+56:54 | James
+Whether that's something that could be automated in some way. I don't know. 
+
+
+57:03 | SSP2
+Yeah, that's exactly the kind of the kind of like feedback we need like something that you feel could be automated today. This is, this is a manual input. This is a data point, that we either got from Tobias or that it was imputed manually. But this is the kind of things like we want to like know from you. Like, if doing the true cost of water spreadsheet is a pain for the sites and they don't update it regularly because it's difficult to do it, then there's a, there's an opportunity there for sure. Yeah. 
+
+
+57:40 | James
+And I think it would be difficult. I'm not sure, how we do it because obviously, there's a lot of different components within the true cost of water. Like every site has a different Contract with their local provider, like to a point someone's got to share that information. So it might just be that it is one of those things where a manual process is the easiest because somewhere down the line, someone's manually, got to get all the data anyway. But… you know, I know. 
+
+
+58:11 | Ivo
+That we are on time. But if you have like three more minutes what I wanted to know, if, like I, and my understanding of the current, like the challenging part of using this training authority target tracking tool, it's like ingesting the projects like please. 
+
+
+58:30 | James
+Correct me if I'm wrong, like. 
+
+
+58:32 | Ivo
+A, like the part of submitting all the projects, then with all that said, like the part of creating a scenario, it's clear. Do you need help with that? Do you think that it worth having a next session? Like training session with? 
+
+
+58:47 | James
+That or… scenarios? Yeah, or. 
+
+
+58:54 | Ivo
+Creating scenarios? Yeah. 
+
+
+58:58 | Laurie
+Not for me. I don't think so. I think one of my biggest issue also today is that I don't necessarily have all the savings associated to one project. So I don't have much to input in the scenario because I can have the project, but I don't know how much it will save me. So I don't know what will be the impact on my ratio. So, but then once again, it's more of an us problem than a tool problem. 
+
+
+59:32 | Laurie
+Do you want to use a scenario? At least on my side? I think I'm okay. I don't know for Justin and James, yeah, with the. 
+
+
+59:41 | Jos
+Same discussion with the carbon and water roadmap. I have a discussion with the sites on the moment. 
+
+
+59:48 | James
+They have. 
+
+
+59:50 | Jos
+Quite good water saving plans, but they're not uploaded to the carbon and water roadmap and they don't want. 
+
+
+59:56 | James
+To upload it… because they, 
+
+
+59:59 | Jos
+say, when we upload it, we have to report to the oa department. We have to report to the 100,000,000 plus department. We have to do reports to the CRS department. And there are so many meetings then at once. And when we do it ourselves with opex, nobody knows on the end of the year, we're done it done. 
+
+
+1:00:20 | Laurie
+Technically, you could use the scenario because you can, because you don't have it inputted in integrum, then the scenario could be a way of you, sorry, a way for you to enter the project as a scenario, an idea without putting it officially into integrum. No, totally. 
+
+
+1:00:41 | Jos
+Yeah, but the water plan is putting it out of integrum. 
+
+
+1:00:48 | Laurie
+Plug in manually. Yeah. 
+
+
+1:00:49 | Jos
+But I don't know it's our, my environmental managers are updating it. I. 
+
+
+1:00:55 | Ivo
+mean, I don't know. 
+
+
+1:00:56 | Jos
+What they, for plans that I have, I saw them now in the iso 46,001 now that they present all great water saving projects. 
+
+
+1:01:05 | Laurie
+Projects, but. 
+
+
+1:01:08 | Jos
+Yeah, do. 
+
+
+1:01:09 | Ivo
+You want to tell me like a site? I know that we are like three minutes over there. Yeah. 
+
+
+1:01:15 | Jos
+And, I have a next meeting in it. Okay? 
+
+
+1:01:19 | Ivo
+But, 
+
+
+1:01:19 | Jos
+for instance, the hand side, they're. 
+
+
+1:01:24 | Ivo
+working on the, 
+
+
+1:01:26 | Jos
+the bottle washer on their RGB line, they're working on, yeah. 
+
+
+1:01:35 | Ivo
+GE. 
+
+
+1:01:35 | Jos
+And T, okay. 
+
+
+1:01:37 | Ivo
+All right. What they wanted to show you is like this is another site, I know, but like we can input here like different projects for a particular site. And basically, later, we will have access here to projects where you can see like all the projects related, like just observing the ones that your role have access to. No, I have access like to the whole company, but here, like we can create manual different projects and understand from your perspective and to report yourself like how your projects are. Yeah, but who? 
+
+
+1:02:14 | Jos
+Does need to update it in model plan or upload it? The. 
+
+
+1:02:18 | Ivo
+Site can do it. You can do it like everyone can do it like the idea. My goal here is that to be honest like that, the sites use the water plant, so your report like the reporting or the direct line to your like to the elites. It's easier and streamlined and you can understand the different projects and the different scenarios that the sites are planning and regarding like the water. 
+
+
+1:02:50 | SSP2
+We can, yeah, we can chat about it and even do like trainings with sites that's we can do that and. 
+
+
+1:02:58 | Ivo
+Lauri, I'm super curious as a product manager to understand like the tool you created for tracking a like carbon. Yeah… it's super technical. 
+
+
+1:03:10 | Laurie
+It's not a very technical tool. Don't worry. I'm not an IT developer or anything. No. 
+
+
+1:03:17 | Ivo
+No, no. Even he's. 
+
+
+1:03:18 | SSP2
+helping you. Yeah. 
+
+
+1:03:21 | Jos
+I'm sorry? 
+
+
+1:03:21 | Ivo
+Guys, I need, to go yeah me too. 
+
+
+1:03:24 | SSP2
+Yeah, yeah. But thank you so much. We'll send like some bullets of what we discussed today and again, we are super open to like speaking with you and making the platform helpful for you. Okay? So, let's get the conversation active, perfect. 
+
+
+1:03:41 | Ivo
+Thank you so much. 
+
+
+1:03:42 | SSP2
+Thank you so much. Thank you bye.

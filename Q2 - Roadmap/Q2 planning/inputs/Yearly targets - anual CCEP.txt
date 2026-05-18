@@ -1,0 +1,1376 @@
+﻿Tobias <> Waterplan - Efficiency & Site Weekly
+
+
+Camila Behar with Coca-Cola Europacific Partners
+Recorded on Mar 19, 2026 via Google Meet, 1h 1m
+
+
+
+
+
+
+Participants
+
+
+Waterplan
+Camila Behar, Solutions Specialist
+Ivo Kalaizic
+
+
+Coca-Cola Europacific Partners
+Tobias Ramberg, Senior Environmental Manager central QESH
+
+
+
+
+
+
+Transcript
+
+
+0:00 | Ivo
+hi Tobi. How are you doing? Hello? 
+
+
+0:02 | Tobias
+I'm fine. Thanks for asking you. 
+
+
+0:07 | Ivo
+Very good. Also. Where are you now? 
+
+
+0:12 | Tobias
+I am home. I am home. No, I've not been traveling this week, so it's nice. 
+
+
+0:17 | Ivo
+Two weeks in a row. 
+
+
+0:21 | Tobias
+Amazing to be home. 
+
+
+0:23 | Ivo
+Yes. And we're not meeting on Friday, so I hope that gives you, yeah, a third base as well for. 
+
+
+0:35 | Tobias
+good purposes. Yeah, it's better with Thursdays to be fair. Perfect. 
+
+
+0:40 | Ivo
+Okay. So, so we, today, we had like a few items, to review with you. 
+
+
+0:48 | Tobias
+I'll. 
+
+
+0:49 | Ivo
+start and then at the end, maybe… you can jump in. We want to mainly go over some like pending stuff and then understand a bit more about like your annual target setting process since we have like on the scope to do in the platform, start with that with the pending things and then we'll go over there. Would that work for you? 
+
+
+1:13 | Tobias
+Yes, but you can still remember we spoke about the target setting last period. We still need to sit down and see what we need to do with it. And we have booked a meeting now, the first of may. Are we going to review it? Me, Marta and another Guy in Barcelona. So I think we need to discuss it after that, because if we start to prepare something and we decide to not have it in water plan or so it's and we do work for nothing. So we need to push that a little bit forward if that's okay. Are. 
+
+
+1:48 | Ivo
+you like planning on changing your internal process? Is that it? 
+
+
+1:52 | Tobias
+No, yes. And no, maybe there's I have showed, maybe I can, we can take a minute and I can show you this file that we're working with it. That was a file that was developed from somebody in this company 15 years ago, and that person doesn't even work anymore. So we get a lot of like pushbacks and questions from Elise and they are asking like, but how does that file come up with this target? And how does that work? And to be honest, we don't know really by ourselves because we don't have really access to that target either to that file. It seems to be quite. 
+
+
+2:28 | Ivo
+Easy. It's not like the only the word calculator. No. 
+
+
+2:32 | Tobias
+It's not, no, I know we can take and we can take a minute. I will push it up on the screen and then you will see it. Yes. So you understand it, and why it's a little bit complicated. Okay. Yeah. 
+
+
+2:46 | Ivo
+We can like go over the other things and then we can jump straight into this because it will take probably a bit longer, yes. And thanks for sending the 20 25 data. The data guru Tony Gomez, is reviewing it. He will answer to you probably tomorrow, and he will be working on the platform next week. 
+
+
+3:08 | Tobias
+So, 
+
+
+3:09 | Ivo
+just want to deliver that message. Then let's see the other thing I have is that the roles. So thanks for answering the roles. We already like changed the roles and permissions on the platform. And so there were like 10 or 15 people that weren't registered. So we sent out invites that's that happens when you create, a new role in the platform. I don't know if you want us like to send a separate email to them, if you want me to share the list of those people, so you can reach out separately. So they don't think like this comes out of the blue. 
+
+
+3:51 | Tobias
+I can do that. Have you already sent the invite or like, 
+
+
+3:57 | Ivo
+we created the user so that, and then we can send the invites to them? 
+
+
+4:01 | Tobias
+Okay. I mean, let me know when you're gonna send that and give me the people list and then I can share with them because also from the beginning, people thought it was like scams and pinch emails. So they like declined it from the beginning. We have a very strict it policy in this company, and sometimes they're sending out like tests and then people are super afraid to click on links and stuff like that. So that can be good to remind them. 
+
+
+4:27 | Ivo
+Perfect. Can you give me a second that I move locations? Yes? 
+
+
+4:32 | Tobias
+No problem. 
+
+
+4:36 | Ivo
+What's up, David? It's? 
+
+
+4:38 | Tobias
+Fine. Are you drinking? Are you drinking mate or? Yeah. 
+
+
+4:40 | Ivo
+But the good thing is that I bought a new set. Okay? 
+
+
+4:45 | Tobias
+A new set. Also. Yes, pouring up with hot water all the time more. Yeah. 
+
+
+4:51 | Ivo
+So standing with like a special mate set that it's like, okay. 
+
+
+4:58 | Tobias
+It's good. Are you back in Argentina now or what? 
+
+
+5:03 | Ivo
+You're. 
+
+
+5:04 | Tobias
+back in Argentina now? Yes. 
+
+
+5:06 | Ivo
+I'm back in Argentina, and today, I came to the co, work and literally, I was just finger coming and told her. Hey, I'm in a room. Come with me. But first. 
+
+
+5:18 | Tobias
+When we spoke, you stuck in the Netherlands, why were you in Netherlands? No? 
+
+
+5:23 | Ivo
+Me, when we started talking together, I was in Brazil in Rio de Janeiro. Okay? 
+
+
+5:30 | Tobias
+I thought you said you were sitting, you said like I'm also sitting in Europe so easy, to reach out to me. I think you were in holland during that time or in the Netherlands, but maybe I'm mistaken. Yeah. Okay. I was wrong. Yeah, I. 
+
+
+5:44 | Ivo
+lived in Barcelona, but I moved back to Argentina last year, no. 
+
+
+5:48 | Tobias
+Okay. Otherwise… we can continue. So now you're in the same room, amazing? 
+
+
+6:00 | Ivo
+Rose, I'll send you the list of people so you can like give them a heads up. Then on the usage metrics, have you been able like to review the deck? I sent you with the updated table that we discussed last week. If not, I can share it now. Yes. 
+
+
+6:20 | Tobias
+Didn't I reply to you on that one or no? 
+
+
+6:27 | Ivo
+And. 
+
+
+6:27 | Tobias
+then I'm not sure if I got an email about it. Let me see. 
+
+
+6:38 | Ivo
+I can forward it. No, you. 
+
+
+6:44 | Tobias
+Just sent me waterplan risk mythology follow up. I have not received an email about that. Maybe I am. 
+
+
+6:54 | Ivo
+Let's see. 
+
+
+7:00 | Tobias
+Platform uses plan, primary version. I don't recognize that maybe I have missed it then. Okay? 
+
+
+7:07 | Ivo
+No problem. I can. 
+
+
+7:08 | Tobias
+Check it. Yeah. 
+
+
+7:11 | Ivo
+I can present it to you mainly. 
+
+
+7:15 | Tobias
+This. 
+
+
+7:15 | Ivo
+is what we discussed last week? Maybe if you're okay with this? So we can present it to Elena. And then here it is the timeline. Yeah. In, in this week which we're like doing this iteration to see if this platform usage plan makes sense? Yeah. And then we already reviewed the list and update the users. The next thing would be to align on groups selected for first workshops with elites here, like starting end of March, we like iberia, France, Germany, like we grew up to based on like time zones mainly. But… the goal would be like to align, you know, what do you think about? Like these staged meetings with them, the groups, and if we can like start setting the meetings, maybe we can align, we can set a meeting with Elena to present all of the, all of this to her next week. Yeah. 
+
+
+8:17 | Tobias
+Yeah, exactly. Presented for her next week and then I have no problem to start to work with it. And what will be the intention with the work groups? What is the topic so. 
+
+
+8:28 | Ivo
+The idea with these work groups would be like platform workshop to sense like what is it, what is that they are using today? Do some like discovery with them in terms of what do they feel the platform like is lacking? Or how we can help them in their day to day tasks that we can like improve the platform for that, and also talk with them about like target setting and target tracking that you mentioned. 
+
+
+8:55 | Tobias
+Yeah. In. 
+
+
+8:56 | Ivo
+The last call also? 
+
+
+8:57 | Tobias
+Give them at the same time they're a little bit training about the risk database. Okay? 
+
+
+9:03 | Ivo
+We can do like, yeah. 
+
+
+9:04 | Tobias
+Like you did for me with the one Thomas is with me because that's very helpful. 
+
+
+9:10 | Ivo
+Okay. We can do like a platform workshop. Maybe maybe we will take like an hour to. 
+
+
+9:16 | Tobias
+start. 
+
+
+9:17 | Ivo
+With risk looking at our modules, a focus and target setting, and then chat with them on anything that they feel the automation or digitalization will help them in a day to day. And that's okay. But that will be the goal. I can resend this so you can check it out. Yeah. So the next step would be maybe to set a meeting with Elena to validate with next week work. 
+
+
+9:45 | Tobias
+With Elena, you mean? Yeah. 
+
+
+9:49 | Ivo
+Is she available at our usual time? I will. 
+
+
+9:53 | Tobias
+Let see if she is available. She is probably, she's not traveling. Let me just add in her name here. Let's… see and I can see her calendar. 
+
+
+10:10 | Tobias
+Yeah, she is free on Monday. She has available time. She is then fully booked on the 20 fourth and 20 fifth, 26. She has a slot four o'clock 26. She has a slot available free. 
+
+
+10:29 | Ivo
+Which time? Sorry, four? 
+
+
+10:31 | Tobias
+O'clock cet time on the 20 sixth. 
+
+
+10:39 | Ivo
+Okay. Yeah, I can do that. Okay? 
+
+
+10:42 | Tobias
+She has 30 minutes there, but maybe that's enough. Yeah. 
+
+
+10:47 | Ivo
+Let's do that. We'll keep our usual slot. And then I'll vlog with Elena there. Yeah, that's good. Amazing. Let me check the topics. I prepared for you. Okay? And the last thing, let me stop. Sorry before moving like, do you think that in those conversations with the elites that discovery, it's good to discuss about? Do you remember what we discussed previous meeting other than multi level scenario? Like how is a site group or an elite can use the scenario created by sites and to generate like the company or the site group scenario? 
+
+
+11:34 | Tobias
+I think that can be good. Yeah. 
+
+
+11:39 | Ivo
+Perfect. I think one hour will work for everyone there. And I'm just rushing everyone do this same process like the different elites should like there's a… that's depend on the eating on the elite or that's like from like a company way of doing the scenarios or planning bottom up. I. 
+
+
+12:05 | Tobias
+Mean, it's not like, I mean we can't force them to go into water plan and create a scenario, but we talk about it every meeting. We have to encourage them because this is how I mean, if I ask if I call Monica and ask, okay, how much can you achieve in terms of water? What's your target one to 30? I mean, if she have not done that exercise in water plan, she can't tell us because that is why we built it. I mean to create scenarios and to understand the outcome, what I need to say, what I need to do. And we talked about this also like this week and on Monday. So there's a lot of discussion. We also talked with aps about it. So, I mean, yeah, we are getting there and we showed them some, I showed them some slides made from water plan and the difference between for. 
+
+
+12:52 | Ivo
+What we discussed previous meeting, I think that we don't need like to open water. What I want to understand really well is like the step by step of how they. 
+
+
+13:05 | Tobias
+Plan their target. 
+
+
+13:06 | Ivo
+Achievement in a country's level and how they do it in their current work. If they do it in excel, file for me. It's great. What I want to know is like what the step by step that they do. And with that trying to understand if there is an undeserved need, you know, and they. 
+
+
+13:22 | Tobias
+Probably do this differently. So I think it's best to ask them person by person. How they do it. I mean, because then you will get the best data. I mean, I don't have details in what they are doing day by day. I mean, I just see stuff that they're presenting great. 
+
+
+13:36 | Ivo
+Thank you. Okay, one, I have their thing is that in the user list, there is a person medica Natasha that you mentioned is environmental manager of east and Greek. Yeah. And… we don't have that site in no. 
+
+
+14:00 | Tobias
+Because we called that probably something else east and Greek is the same. Let me see. And we… probably can have like even if, yeah, we have, eastern creek is a pre for manufacturer site. They also put in targets and stuff like that. Let me see. No, they have not done anything. No, you can delete that name. Okay? 
+
+
+14:30 | Ivo
+I'll delete that user. Yeah. 
+
+
+14:33 | Tobias
+Yeah. Do that and if they miss it, then can reach out to us again and ask. 
+
+
+14:39 | Ivo
+Okay. Because, yeah, we don't have that site. So just wanted to check if we should add. 
+
+
+14:43 | Tobias
+It, no, I'm not sure. We probably closed it. Okay, nothing. 
+
+
+14:48 | Ivo
+Bloody perfect. Okay. So the last thing is that you sent before jumping into the idea? I'm not tired of saying you sent a few sbas. Yes. Perfect. So what you would like us to do is to incorporate like uploading the platform and incorporating them as evidence for the new site risk assessments. Just wanted to try. 
+
+
+15:12 | Tobias
+To, yeah, I mean, sometimes I'm a little bit like too fast. I can upload them myself to water panels. I know that, no, this is just because we want to have the newest version of the sbas in the platform. So we need to update those sbas every fifth years. And now the reason they didn't update. So basically, we can replace the old one and put a new one there basically because this is the new one that we did with new information. 
+
+
+15:38 | Ivo
+We're based on the sharepoint. And then when we kick off the assessments for this year, use those, yeah, exactly. 
+
+
+15:46 | Tobias
+And I'll probably send upload more sbas, but I just want you to know that I have uploaded, maybe you see the evidence of that I went into the share drive and uploaded the new sbas because every year we are doing sbas and every year they're sending me sbas also. So I mean, good for have good to have them in waterplan. So we have also like a catalog with all the newest one. Okay? 
+
+
+16:13 | Ivo
+Next next week, I'm meeting with Megan, you know, like the risk assessments through waterplan's methodology including sdas is in her scope of the license. 
+
+
+16:27 | Tobias
+So, 
+
+
+16:28 | Ivo
+I'm meeting with her like just to do like a recap on what are the next steps? But are you like, do you have some visibility on that? I'm referring to updating the risk assessment for this year for all sites including. 
+
+
+16:44 | Tobias
+Global. 
+
+
+16:45 | Ivo
+data and also local data and each and the latest sbas, so maybe like the scores might change for what's in there for last year? You? 
+
+
+16:55 | Tobias
+Mean the vulnerability assessment or the questionnaire? Yeah, both. 
+
+
+16:59 | Ivo
+Things like the data that we handle and the vulnerability assessment as well. 
+
+
+17:03 | Tobias
+Yeah, I need to good point. I maybe need to check that if we should do it now, Manuel sends a message also. Hi, Tobias, all local environmental manager received a registration mail from waterplan. What's that planned? Or do we have a, to do there? I'm just asking because until now, it's just us centrally working in water plan. We have not trained the local environmental manager yet. Okay? 
+
+
+17:30 | Ivo
+So, when we created the users, it popped the invitation. 
+
+
+17:35 | Tobias
+We created users for all E, people. They can create an account and we will train them later on in the. 
+
+
+17:52 | Ivo
+Plan. We have sites first elites and then sites in the climate literature. 
+
+
+18:16 | Tobias
+Then I probably need to send all environmental management an email today. If everybody receiving emails like this. 
+
+
+18:23 | Ivo
+Let me send you a list… should be on the. 
+
+
+18:29 | Tobias
+There's. 
+
+
+18:41 | Tobias
+a need now. Okay. Thanks. I… will check this one ability questions. I will come back… sometimes like Elena and people are like, no, we're not gonna do that. We just update this every fourth year. Why should we do it now? A… lot of extra work for old people. They say they don't have time to do that, blah, blah, blah. So I need to check that if you want to do it. 
+
+
+19:14 | Ivo
+Okay. And all you check, is that something that, you decide with Elena? Like what's the word? I will check? 
+
+
+19:23 | Tobias
+This with Elena. I have Monday meetings with us. I will take it up there. Okay? 
+
+
+19:29 | Ivo
+Okay. So I'll mention it to Megan next week and maybe, in our next call, we can have like a learn on what we will do, if it will do, we can only use, we can update this with only our data within the other accessibility assessment, the analysis company, right? That's helpful for you. We can do that, but let us know. Okay, in… the meantime, I'll upload this. Yes. I, I've sent you the list. Have you received it? 
+
+
+20:06 | Ivo
+The users? 
+
+
+20:11 | Tobias
+Sorry, I was typing with Manu if. 
+
+
+20:14 | Ivo
+I. 
+
+
+20:17 | Tobias
+received it. Yeah, let me check. No, not yet. Yeah, I got it. Okay… use and not registrated. Yeah, I got a huge list here. Yeah. Okay. I mean, that's fine. I will reach, oh, there was only almost. Okay. I'm gonna find, I will send to people. Okay? 
+
+
+20:45 | Ivo
+Cool. Perfect. 
+
+
+20:46 | Tobias
+Okay, perfect. 
+
+
+20:49 | Ivo
+Next steps around this would be for me to resend the timeline and set the contact invite. We did enough for next week. Yeah. 
+
+
+20:57 | Tobias
+Perfect. Okay. 
+
+
+20:58 | Ivo
+Now we're we wanted, to understand more was, the annual target setting process because we weren't sure if it was like the same as the 20 30 target with the world calculator. But for each year or how does that work? And how we can of. 
+
+
+21:14 | Tobias
+Course, meeting. 
+
+
+21:15 | Ivo
+But how to put it on? 
+
+
+21:17 | Tobias
+The, I will share my screen boom. So here, we have an environmental network. It's a shared drive in that shared drive. We have a lot of folders and you can see now they're from 20 20 to 20 26. And then we have, yeah, 15 years of all targets file here as well. If I take 20 26 and I open up, we have all the countries in here. And then if I take a site, we should choose a good one. We can take an Australia site and we take, I, 
+
+
+21:51 | Ivo
+have first question the difference between yellow, and already yellow and red. It's like it has any meaning like, yes. So. 
+
+
+22:01 | Tobias
+Red files is API. It's as a pacific sites and yellow one is a european sites. That is how we call the code. I don't ask me why they call the code because Germany is red? 
+
+
+22:18 | Ivo
+That's confusion or? Yeah. 
+
+
+22:21 | Tobias
+No. Australia's red because it's an API AC pacific. 
+
+
+22:24 | Ivo
+Side, Germany? No. 
+
+
+22:27 | Tobias
+Germany. Was that red? Yeah. Then it's something wrong. Probably they did some mistake… but, okay. And then we take, we can take a big site. Do we have richland? Yeah, they have richland, so… this is how the file looks like this file is, I should not say it's bloody big, but it's quite big. There's a help section here describing what they should do, like an instruction. I will not go through that because that doesn't make sense. Then we have an energy tab. And this is now why this is a little bit complicated in the energy tab. We add in the budget for volumes 20 26, period by period. So this is budget number that comes from finance in each country for each site. So. 
+
+
+23:25 | Ivo
+They say, and, 
+
+
+23:26 | Tobias
+volume. Yeah, I mean estimate investment. They are made of sales predictions from sales people. So that goes into another department. And, they say we're gonna sell this in January. They're gonna sell that in August. And then you see production volumes go up and down and some months are peak seasons. Maybe you don't see that a lot for Australia, but if you look in Europe, you see small volumes and then goes up because it's summer and then it goes down a little bit until Christmas. Then what they have in here, this is our upload that we are doing from integrum. So this is basically the same upload that we are doing to you. But we upload all the data from richland from integrum into this. And this tells how much energy they used, how much gas they used, how much LPG gas they used. And based on that, we are recalculating that into total energy. And this is in kilowatts. So we are basically then how do you, how do you say it? Doing the conversion? Yeah, you have a conversion factor for all electricity, gas and kilowatts. So we are calculating kilowatts then it gives a number of. 
+
+
+24:42 | Ivo
+Do you also are involved in all these calculations? Like updating the conversion factors, knowing the conversion factors? 
+
+
+24:50 | Tobias
+That's done by site. So the sites are, I can show you have seen this probably before. Do you have access? This is the integrum file. Maybe I should show you this before, so you understand how it's connected? No, I took too long. So this is how it's connected. Take a smartphone. 
+
+
+25:15 | Tobias
+We can take Australia as an example. And then you choose richland. So this is like every period where an environmental manager add in data. So every period they go in this file and this is how you get your data into waterplan but you only get the water tab. So this is a file, this is the energy tab. And here they are putting in all the energy uses in kilowatts. This is for period two for richland. So everything is here and we have the water here. So main water received that's the amount of water in liters, that's the trucked water into site because of trucking in water that's the wastewater discharge to municipal treatment. This is reused and recycled water. So this is data that you get access to and every end of year, we are pushing that data into these columns from integrum. So they make a connection, nothing that we do just sitting a team behind this to doing that. And then they're pushing in all of this then the site it's just need to fill in the yellow boxes here because that is what we then design the new targets on because everything based on volumes, if you produce less, you use less energy, then the ratio is less. I mean that is how the calculation is made. And don't ask me how this works in the background because we don't know. And then we calculate the volume changes here. You can see that's two minus compared to last year, same period. This is eight percent up compared to last year, same period. Then it continues like that to… keep on. 
+
+
+26:53 | Ivo
+The flow. If you go back, scroll it down like, the, so the budget is an input, the percentage of change is just comparing versus last year and the electricity and gas. It's like you are doing the same relation that previous year or, yeah. 
+
+
+27:11 | Tobias
+Actually exactly. So that's the same. They are mixing up to see like, okay, we are using more electricity this year, this period than we did last year. So he's taking this 15 percent increase and add up this also 15 percent in some way. So the summary gets the total there. And I think that's just flat also, with that one, this is, the total energy last year, 20 25. And this is the total energy this year. And I assume that this is like a 15 point eight percent difference but this is like a calculator and this is a little bit stuff that we need to figure out. Then there's another tab here. It says energy project. I sorry for I'm talking energy but you need to understand this as well. Let me put in energy here here. We can modify the targets that if we just put in the volumes here, boom, we can stick to that and we don't do anything. And then we will have a ratio down here and that's the yearly ratio. And this is the ratio that we need to conclude to every month. But then I can start to mix those. I can start to change them. So for example, if I say that in this site, we're going to produce a lot of no refillable pet bottles, they consume less electricity than to produce a glass bottle, then I can say that to my favorite, I will use minus 3,000 kilowatts this period because I see in my mix product mix that I will use produce more and the pets. And then of course, this target for period one, it will change because then I added in something that is beneficial for me. So it will take that in consideration and say, okay, but then you're gonna have a product mix there. I'm gonna need to delete it because or something's up. And then I can also do, you see here like we can also put in projects here. So for example, we can put in here, they have added in a project to say like they're gonna do a high pressure set point reduction from 37 to 32 bars meaning is that they're gonna use less electricity. Now, they didn't add anything in. So I think that probably didn't fly. But here you have projects. So they're gonna switch something and then they see that they're gonna probably in this case, use more electricity. And then that target file will be considered that again, then if we jump to water, you see that in this file, we don't populate any production volumes because we are already taking the production volumes from this tab from this yellow. Bar there. 
+
+
+29:51 | Tobias
+What happened now? Here, again, they add in how much water they used every pair, how much they consumed, then they got a ratio and that's the water use ratio that we are tracking. And that was the year to date that they had then in consideration with the new volumes, boom. They will deliver that one point seven eight one. So say… exactly. And then what's it's happening also that you can see that in here, you see the project and adjustment, you see some minus. And then again, we have a project tab here. And this is basically the same as the build calculator and the project that we are doing. We're calculating everything backwards so you can see that he will receive less borehole water. He will receive there's. A lot of stuff here in here. 
+
+
+30:45 | Ivo
+Not the work regulator, the target tracking tool. No. 
+
+
+30:47 | Tobias
+Yeah, exactly. But this is basically the same. I mean when we are putting in a project because we want to reduce water use ratio. We say that we're going to do this project, we're going to save 30,000 cubic meters of water. So we create a plan 20 26. We now take this plan that we have in the project roadmap and add them in this target file. Look at this one. We have now a project cip rings time optimization. You can probably find that project in water plan for 20 26. They're gonna save this amount of water every period to do that project. So they will save 392 cubic meters of water. Not a big project, but they will do… tabor floats. They will replace a cooling tower. They will save 600 cubic meters every period. And eventually they will save 6,600 cubic meters of water. Then in the bottom of this, no. So then if I go back here, I can find all of this project in this list. So it's correcting the water use ratio. So taking it from one point seven eight one to one point seven two three. But it also, because in this project list, we say this project, we're gonna do period five and we're gonna reduce 111 plus 600 plus 42. So under period five, you will find the summary of all those projects and we will save that amount of water. Okay? So, and then for the month for the period like. 
+
+
+32:16 | Ivo
+To let me do a quick recap until now, what you are doing is like they are observing the behavior of previous year later, finances, inputting the estimated productions. And based on all the relations of resources needed in the previous year, like you replicate that for the next year and. 
+
+
+32:38 | Tobias
+you. 
+
+
+32:38 | Ivo
+impact all the future projects that you will do within that same year. So, until now, you're not like the only commitment that the site is doing is that they are the projects that they are mapping. If they don't do it in the month, they. 
+
+
+32:56 | Tobias
+Yeah, they will be off track. They will be off track. Yeah, until. 
+
+
+33:01 | Ivo
+Now, we only do that like. 
+
+
+33:03 | Tobias
+Just to understand, yeah, exactly. That's how it works. So if I, then maybe I should overcomplicate. 
+
+
+33:12 | Ivo
+this? Sorry, yeah, there. 
+
+
+33:26 | Tobias
+Because somebody has, you have double mics on my? 
+
+
+33:31 | Ivo
+Question. Was those projects impact monthly and impact on the annual target? And when sites compare their performance monthly, they are checking. 
+
+
+33:44 | Tobias
+Both. 
+
+
+33:45 | Camila
+Right. So. 
+
+
+33:47 | Tobias
+So, this looks like this. Now we take an example. So this is the, here is where, we are tracking our targets. So if I go now to record, no, sorry to water here, and this is how everything is connected. And this is why it's a little bit tricky. So if I now choose here, I will choose the department, I will use, select all. And then I will take richland here again so you can see the collaboration… there's. Richland, we choose richland, so. 
+
+
+34:18 | Camila
+You see this is? 
+
+
+34:19 | Tobias
+Peer two, I have sorted on peer two. 
+
+
+34:20 | Camila
+The target for the. 
+
+
+34:22 | Tobias
+Peer two was one point seven three that's the target if I then go back to the target settings file. 
+
+
+34:29 | Camila
+You see it? 
+
+
+34:30 | Tobias
+Doesn't match even that's a crazy that. 
+
+
+34:32 | Camila
+Should be. 
+
+
+34:32 | Tobias
+Exactly the same value because this is recent that we look at. So this is a little bit strange so that's the target for the period. And then, yeah, they should do a lot of projects. Of course, period two, maybe not super much, but a little bit sorry. 
+
+
+34:50 | Ivo
+Like when I did the recap, I think, I don't know if we stopped the process of target setting, you know, in a part or if that was all like it's an additional step after mapping the projects? 
+
+
+35:03 | Camila
+And no, no. 
+
+
+35:05 | Tobias
+I mean, now they have mapped all of the projects, then that project is like been calculating here in this target model. And then this should be the target. And this is the yearly outcome that he will have. And this is of course, what he aims for. And then we can see that we made a reduction of three percent with previous years. So we are doing an improvement, of course. So this is it. And then underneath to get like a chart on the water reduction stuff that he has added in. 
+
+
+35:36 | Camila
+This is. 
+
+
+35:36 | Tobias
+What we are then sharing to the whole business unit, all of these targets, can? 
+
+
+35:40 | Ivo
+You square it with them? I didn't finish super understanding the last part like the graph and that last table, like there we're observing the, 
+
+
+35:51 | Camila
+water, you're reading like. 
+
+
+35:54 | Ivo
+The pnl of the water savings there. Yeah. 
+
+
+35:57 | Tobias
+Exactly. Amazing. 
+
+
+36:00 | Ivo
+And can you scroll down to the… graph is showing the 20 25 like baseline, yeah. 
+
+
+36:10 | Tobias
+Budget 25. I think this is previous year. This is the 20 26 years budget according to the production volumes, then this is a slightly mix of product mix favorable VS non favorable. Now, this is the adverse and this is the favor. And, 
+
+
+36:29 | Camila
+then, yeah, it. 
+
+
+36:30 | Tobias
+Continues with all the project. And now, of course, they are so small this project. So you can't see a lot and I think the fire is not very. 
+
+
+36:38 | Camila
+There? 
+
+
+36:39 | Ivo
+Was a moment where you told me that maybe the site knows that the, that? 
+
+
+36:46 | Camila
+Year was? 
+
+
+36:47 | Ivo
+Going to or is going to be a change in the mix of product and that will change like the water consumption, yeah. 
+
+
+36:54 | Tobias
+Okay. 
+
+
+36:56 | Camila
+That's that. 
+
+
+36:56 | Tobias
+One, so we have, when, it can change to our favor or it can change the adverse. So, of course, we can say that opposite. We, we see that glass volumes will pop up a lot. And then we know when it pops a lot up a lot, we know that we're going to use more water, then we probably need to put in more water consumption there compared to last year because the. 
+
+
+37:16 | Ivo
+net, the net sum of all those mix change should be zero. No, like I don't know, I will do a 1,000 more liters of coke and a 1,000 less liters of Fanta. I don't know. 
+
+
+37:32 | Camila
+No, it's not. 
+
+
+37:34 | Tobias
+On it's not on mix like that. This is more if we are doing glass and they have a lagging box cans because all of them consumes different with water. That is why we do the rule calculator for example, then we put in all the SKUs, because they're consuming more or less water. 
+
+
+37:53 | Camila
+Great. 
+
+
+38:00 | Ivo
+interesting. And can we go to, like, can we go back to the graph this? 
+
+
+38:07 | Camila
+One below, yeah, on the water. Amazing. 
+
+
+38:13 | Ivo
+So, you could see. 
+
+
+38:15 | Tobias
+If I find another, maybe this was a bad example, maybe we have other sites that is a little bit better? No? 
+
+
+38:23 | Ivo
+Problem? 
+
+
+38:24 | Camila
+Okay. 
+
+
+38:26 | Ivo
+You have all the projects mapped and, 
+
+
+38:29 | Camila
+like you're. 
+
+
+38:30 | Ivo
+you're trying to show like a waterfall of what's going to happen after? 
+
+
+38:33 | Tobias
+Yeah, exactly. And, 
+
+
+38:36 | Camila
+I, to be fair. 
+
+
+38:36 | Tobias
+To be honest, this is like a summary, just, I never use this. I never look at this and I don't look at these target files very much either because I have 90 of them. I mean, if you look at this, I mean, there are so many files here, but we are reviewing them with the sites like every year. So when they are setting the target, we are working with the files, but, we pull out a summary of all of these files and we add them in another system because what we are interested in is just those numbers basically and. 
+
+
+39:09 | Camila
+We just want. 
+
+
+39:10 | Tobias
+to see that the sites are reducing against last year, we don't want them to go up in water uses. We want them to, reduce every year. And this is like the example of Barcelona, but they didn't add in a lot of savings. So this project list is quite empty as you can see. Yeah. 
+
+
+39:28 | Camila
+They only. 
+
+
+39:28 | Tobias
+added in like project mix changes and that's led to 9,609 cubic meters a year. But I think Spain has like a little bit like another system to work with. 
+
+
+39:39 | Ivo
+And I'll tell you a question. Do you know? Like can you go to a health page like the. 
+
+
+39:44 | Camila
+initial like they're reading me? 
+
+
+39:47 | Ivo
+Yeah. I mean this is something from the like the whole coca cola company across worldwide. 
+
+
+39:53 | Tobias
+No, no, this is just for us coca cola enterprise. I have a meeting on next week with Valentin from hellenic because I'm gonna ask the question, how he does when he sets target. And to be fair, I mean, some people, I think some bottlers, they are using the view calculator and the graph that you get in the view calculator, the excel file and just set that those as targets. 
+
+
+40:21 | Ivo
+You're not considering like you're just considering like the current production lines and, the production volumes you're not like. And in your use case, you're considering like the projects that you really do. Yeah. 
+
+
+40:33 | Tobias
+So, the reality and the theory is two different things. I mean, in theory, you can reduce your water according to the view calculator because it just gives you a prediction on what you can achieve to undertake. But then of course, you need to do a lot of stuff to be able to come to that number. So, and this is a little bit what the people are doing here in the water project. If they are really good and mature, they should populate a lot of different projects here to reduce water. Because then we can also track the month by month to see. Okay. But when you now switch to blah, blah, blah. Was that an impact on the voltage ratio? Yes, it's dropped. This was, really good. And then we get them to a lower number every year. 
+
+
+41:11 | Camila
+And what, when. 
+
+
+41:13 | Ivo
+we are comparing period to period, you're just comparing to the target of that period, it's not that on period two, you compare to an annual target. 
+
+
+41:23 | Tobias
+No. So you can see here what we are comparing them all the ways is the target with previous year. So we're also checking if they were better or worse than last year. And, yes, richland, in this case, they were worse. So they had a better target and outcome last year than they had this year. And then of course, that can have many different reasons. But then I mean, super fast, I can go in and I can switch the year here and I can. 
+
+
+41:49 | Ivo
+Push, can you switch like the period? This is period two? I think now. 
+
+
+41:53 | Tobias
+Yeah, this is period 220 26. And then I can switch to period one and that's then it gives another outcome another target. So we have different targets every period. 
+
+
+42:05 | Camila
+Okay. 
+
+
+42:08 | Tobias
+Seven two three, you know, we're going to see if that is correct. Yeah. Now, you see it matching one seven two three that's the period target. 
+
+
+42:16 | Camila
+And that is what? 
+
+
+42:17 | Tobias
+You see in the portal boom, but he achieved one point eight four three. So he didn't deliver his target very well. And then I can check and review the comment here and why, yeah, high town? 
+
+
+42:29 | Camila
+Water? 
+
+
+42:30 | Tobias
+Conductivity, week one impacted standard ratio to maintain specific. So, and then I see why he didn't perform. 
+
+
+42:36 | Camila
+So, this is how we're. 
+
+
+42:37 | Tobias
+tracking it every period. And then, yeah, we need to write a report and I calculate the cost of water and we do a lot of stuff with the data, of course. 
+
+
+42:46 | Camila
+Great. 
+
+
+42:47 | Tobias
+And then below here, you have also a graph where you can see like the budget and the outcome for. 
+
+
+42:54 | Camila
+previous year. 
+
+
+42:59 | Camila
+Can you? 
+
+
+43:00 | Ivo
+Go to the water sheet once again? 
+
+
+43:07 | Camila
+Out. 
+
+
+43:15 | Ivo
+So, intrinsically you're not setting a reduction percentage and a reduction. 
+
+
+43:23 | Tobias
+no, no, no. The production reduction comes from the water project. 
+
+
+43:28 | Camila
+Or if the volumes. 
+
+
+43:29 | Tobias
+is less, but it doesn't mean that it needs to be a water reduction either because some people are telling like, ah, but we didn't achieve the target because we didn't produce according to budget. No, but, okay, but you use the same amount of water even if you produce 20,030 1,000, I mean, the mix should be the same. 
+
+
+43:49 | Camila
+Basically. 
+
+
+43:50 | Tobias
+In theory. 
+
+
+43:52 | Ivo
+I'm thinking like how do you tie this to the 20? 
+
+
+43:56 | Tobias
+30 targets, we don't that's the problem. 
+
+
+43:59 | Ivo
+Ah, because I'm thinking if there's no like reduction? 
+
+
+44:03 | Camila
+Target? 
+
+
+44:03 | Ivo
+Per SE, like the reduction comes if the budget and the consumption ratio helps. 
+
+
+44:13 | Tobias
+In the calculation. 
+
+
+44:15 | Ivo
+And if they do enough projects to reduce that, I mean exactly, there's no tie between annual performance and 20 30 targets. So, probably if this is not tied like, 
+
+
+44:32 | Camila
+early. 
+
+
+44:36 | Ivo
+And you'll have like you won't know if 20 30 targets will be, will? 
+
+
+44:43 | Tobias
+Be accomplished? No, exactly. So, so I mean, this, we are tracking this in we. 
+
+
+44:50 | Camila
+Can track that also. 
+
+
+44:52 | Tobias
+We have also a page for that. But I mean, if I press on richland here, now, I mean, yeah, 20 26 years target should probably be that. 
+
+
+45:02 | Camila
+Should I achieve? 
+
+
+45:03 | Tobias
+Here? I mean, 20 26. The target should be about one point seven six, that should be his target. But if you go back to here and look, yeah, he is after because he has one point seven three three. So there's a gap here. I know that, but in a perfect world, and if they were mature enough, he should have project aligned to come to one point seven six. 
+
+
+45:24 | Camila
+But they are not. 
+
+
+45:25 | Tobias
+Very good to doing that, I should not say they are not very good, but the sites are not very good. They don't do project in that phase that we really want them to do. They need to accelerate this and do more. But they are not. And of course, this gap is bigger with other sites and less with other sites. If I take Spain, they have already achieved targets for 50 percent of all the sites because they already started in 2019 and had a really good roadmap. 
+
+
+45:49 | Camila
+So there's a little bit also why? 
+
+
+45:51 | Tobias
+We created waterplan and we say, like, OK, now, you can really track it. What's happening here? What should you do in richland to achieve those… and even like this? 
+
+
+46:01 | Ivo
+Like that? 
+
+
+46:03 | Camila
+This is not. 
+
+
+46:03 | Ivo
+Connected. No, it's. 
+
+
+46:05 | Tobias
+not, it's not, but we can also clearly see that he has added in three projects here. And if you do those three projects for richland, he will come to this. 
+
+
+46:16 | Camila
+So then he's basically. 
+
+
+46:17 | Tobias
+Smashing that target, of course. And I have no problem to say like, okay, we will be above target here until 28 and 28. We will deliver a massive project and then we will jump down. Yeah, I mean, that's fine because this will contribute to the whole company target. 
+
+
+46:32 | Camila
+And of course, it will. 
+
+
+46:34 | Tobias
+probably also reflect in the target file when we are doing that 20 28 because he will drop from one point seven to one point four or something like that. 
+
+
+46:41 | Camila
+But this is also. 
+
+
+46:42 | Tobias
+A little bit why we need to sit in Barcelona, me and my people to say, okay, should we connect waterplan's… 20 30 target with this model in some way to say, like, yeah, now, you added in one point seven to three. The gap with waterplan in your 20 30 target is 15 percent. So, so every, everybody understands this because we don't speak about it a lot. Yeah, we speak it, in company level view, CCP worldwide, but we don't speak it on site level. We have it in waterplan and people are aware and can check it, but we don't visualize it in a very good way and it should be connected because this is also what people think is. 
+
+
+47:18 | Camila
+A little bit tricky. 
+
+
+47:19 | Tobias
+Because then they ask why we do waterplan for nttarta targets and why do we do nttarta targets? They don't understand. And then I said, yeah, but you need to look at your nttarta prediction and build a plan for that in your yearly target setting, that should reflect that one point seven two three that they had over there, but they don't understand this and that's the trick too. 
+
+
+47:43 | Camila
+And. 
+
+
+47:43 | Ivo
+given that, like given this situation, now, I know you're going to discuss this in like a few weeks with your teammates, but given the current situation and that the disconnection independently of the methodology you choose to set 20 27 targets, the disconnection is happening between annual and 20 30… in your view in your ideal world, like how would waterplan help you with this? Like how do you envision the platform integrating this? 
+
+
+48:18 | Camila
+I mean, I don't. 
+
+
+48:19 | Tobias
+know, I mean to be 100 percent crystal clear. I think that we already have all that data in waterplan. I mean, if you take this and then you sort here in some way to say like, okay, what should we do? Because we are putting in everything in years here. So, I mean to say like, okay, if we take the day trends, and then I choose 20 26 here or 20 27. There should be a plan of all the reduction projects that we have in all of our sites uploaded, if they have approved and put them in your annual business plan. Yeah. Then of course, you should say like, okay, this site, we have the last year production volumes because we're feeding that into in waterplan. So basically, we should go out in waterplan and download the target file already done because this is telling us if we are doing those projects, this is the outcome and this is what we're going to achieve. 
+
+
+49:09 | Camila
+Crystal. 
+
+
+49:10 | Tobias
+Clear like that. But of course, we don't have the budget numbers that's the only difference. We don't know if sites go up. 
+
+
+49:18 | Camila
+Maybe I'm. 
+
+
+49:19 | Ivo
+confused in. 
+
+
+49:22 | Camila
+One path. 
+
+
+49:23 | Ivo
+We are going… like top down decision of, okay, this site needs to reduce in a X percent they, what they would and you're having like this chart that you're observing now on waterfront? 
+
+
+49:42 | Tobias
+And in the other, 
+
+
+49:44 | Ivo
+in the like in the excel file, you're observing it by period, but it's some finance input that the finals determine that site, for example, if a site you were the country we were observing was Australia, if a site of Australia closed, so the Richmond site will start like increasing the production in or maybe I'm going to a particular edge case, but let's assume that the population of our sites, I don't know. So we sell more coke… targets like as the input is going up, all the targets will also go up and it's going to be a disconnection with this chart or not. 
+
+
+50:26 | Tobias
+Yeah, it. 
+
+
+50:27 | Ivo
+Wasn't clear. Yeah. 
+
+
+50:29 | Tobias
+I mean, it, of course, it can, I mean, we can take, we have that situation. We closed clamart, in France. 
+
+
+50:38 | Camila
+Clamart. 
+
+
+50:39 | Tobias
+had six lines. Now, we are taking those lines and populated them in other factories in France. Meaning is like a site like grigny, they already achieved when to target this year, they were already there. But now we're building a new glass line there. We're putting in more volumes. So now they will be again over the target. So they will not achieve it that's, the site that has a higher target this year than they had lost because of production volumes and new lines. 
+
+
+51:06 | Ivo
+Yes. 
+
+
+51:08 | Camila
+But what I'm. 
+
+
+51:10 | Ivo
+thinking is imagine that we can go to see in a monthly or a period view here in this chart now, like the pain of me as a site manager going into water plan and can you hover, the target line in 20 27 for example, the. 
+
+
+51:31 | Camila
+The other one? 
+
+
+51:32 | Ivo
+The target like the black one, yeah. Amazing. And I see there, I see that I projected, well, it is true that you don't have, a target line for 20 37 like you have the target of 20 30 and you have like a projected value, not a real value. But there I observed, okay, my target value for 20 37 is one point six six one. And then I go to the exit file and I see that my target of an year based on the finance inputs is other thing, you know, and there, yeah, can be there like that would be, it would be a pain because I said, yeah, it's a pain that I should follow. 
+
+
+52:07 | Tobias
+And that is because they have not implemented all the best practices for water reduction and water efficiency in a site and. 
+
+
+52:16 | Camila
+This is, what? 
+
+
+52:17 | Tobias
+The blue calculate tells us it basically tells us the blue calculator that we can achieve that black number 20 30, but it requires to do something. It will not come by itself because that's compared with a site that has already implemented all of those best practices and. 
+
+
+52:35 | Camila
+Those best. 
+
+
+52:36 | Tobias
+Practices underneath here, but is there there enough? Yes, in this case, it is, but in some sites, they have zero project listed. So they will never achieve the 20 30 target because they have not started to work with the best practices to install them, then, it really doesn't matter, what finance adding in, as a budget. Yeah, if they close all of the can lines and just produce glass in a site, of course, it will change. But then you need to update the 20 part to target as well because then that's not correct. 
+
+
+53:09 | Ivo
+I think that I need to think a lot of good questions. I've. 
+
+
+53:15 | Tobias
+thought about this for five years and it's not crystal clear for me. Either this is super messy. This is also a bit why I want to check, with Valentine because we reviewed this one to target module with him and I want to ask him how. 
+
+
+53:28 | Camila
+If we can do this. 
+
+
+53:30 | Tobias
+In a smarter way, it needs to have a collaboration, this 20 target assessment and the yearly target in some way. And I started to think also like maybe we should have the, 
+
+
+53:40 | Camila
+the. 
+
+
+53:41 | Ivo
+yearly? 
+
+
+53:42 | Tobias
+Target here like a dot also in 20 26 to say like, yeah, but this, the target for this site is up here and maybe, we should put it here and what the plan also. So everybody jumps in to see like as you said, the production manager is like, my God, I'm way off here. What's happening? Because they need to be bend that curve down but it goes up in many sites. 
+
+
+54:06 | Tobias
+It's crazy. 
+
+
+54:07 | Ivo
+And shash, the last one, do? 
+
+
+54:11 | Camila
+You matter, I? 
+
+
+54:12 | Ivo
+Don't know, let's forget about the dot line that we use a lot based on a project that happens on. But do you matter the comparison of this line in versus the projected impact? If you go, to the black line again into the DH for example, and you see the projected value into the DH is one point 615 for you that do not add in any type of value, but you are looking for it's 20 30 based on what calculator? 
+
+
+54:50 | Tobias
+Yeah, this is more give for me. It doesn't give a lot of value. This is just telling the sites with that value and we have just splitted it through the years. But this gives them a little bit like to understand that they should be underneath this. And of course. 
+
+
+55:07 | Ivo
+If I add in, follow that type of path, they will achieve it like that's exactly. 
+
+
+55:12 | Tobias
+Exactly. So they don't think that they need to drop from here to there, in a year. They basically have a couple of years to reduce, little bit to achieve that. It just gives them a visual, to understand that they don't need to when. 
+
+
+55:28 | Ivo
+They report you or they report like, the target achievement and like in their period, the video report or yearly report. 
+
+
+55:41 | Camila
+They report versus. 
+
+
+55:44 | Ivo
+The target created on the xlify that you shared like to the video? Yes, yes. 
+
+
+55:51 | Tobias
+Everything is like for site level for country level for everything. Okay? 
+
+
+55:58 | Ivo
+But so for us for site level or country level, this waterfall, this target evolution chart is not useful to. 
+
+
+56:04 | Camila
+Report this? 
+
+
+56:07 | Ivo
+You mean the black line? Yes, this chart, they. 
+
+
+56:10 | Tobias
+don't report anything based on this, imagine. 
+
+
+56:15 | Ivo
+That they have the projects like upload and the data. It's amazing. And that's all working. Well. Yeah. And the target is not representing the reality and. 
+
+
+56:24 | Tobias
+this is what I hope, that when we're putting in like because and this is what I said, to told me like a couple of weeks ago, that said that I really also want the production here to see that how we are following these lines. So that every period close instead of sitting in my dashboard here to check off those numbers, I want to have those in waterplan every period also to see like, okay, but this is outcome because then we can also super easy to follow if they're off track on track, whatever. 
+
+
+56:56 | Camila
+I will take. 
+
+
+56:57 | Ivo
+That one. But. 
+
+
+56:59 | Tobias
+Now, I don't see that. No, it's gone. I can't populate the production volumes anymore, yes. 
+
+
+57:05 | Ivo
+I will check that because with some modifications. 
+
+
+57:18 | Ivo
+If you'd like to review again with like more, maybe… this is the production volume. So if you try, if you have the opportunity to review the new chart like the other one that we added, I presented to you last week, yeah, I think. 
+
+
+57:36 | Camila
+That's but here we can see like crystal. 
+
+
+57:38 | Tobias
+Clear that, yeah, it goes a little bit in the wrong direction should. 
+
+
+57:43 | Camila
+Continue down like. 
+
+
+57:44 | Tobias
+this. And then, 
+
+
+57:56 | Ivo
+well, I'm… not coming if you have any other questions. No, no, no. 
+
+
+58:01 | Tobias
+And I'm sorry because this is so messy. I mean, this is basically something that you probably need to sit and do in a room a full day. And that is why we also said we need a full day to start to sit and review this because it's so crazy. All of these files and there's so many typos in these files also that we need to correct every year with people like we don't understand where that value comes from because it's an excel file and very easy for people to do this wrong. And then we get faulty ratios. And then I mean, this process takes weeks of work every year, we are doing it. 
+
+
+58:33 | Ivo
+No, I'm not. So, what I think is that as the work calculator is a methodology aligned with the whole company and like worldwide, you can use it, I think that this way of setting that. 
+
+
+58:44 | Camila
+Periodical. 
+
+
+58:46 | Ivo
+targets should be the same like you already have like the work calculator is amazing. All the type of insights and methodology they developed. I, 
+
+
+58:58 | Camila
+think that. 
+
+
+58:59 | Ivo
+We can think about that anyway. It's like more an internal conversation from your side and, I know that you will meet like next week. So let us know how that meets go, please because it's super, yeah, yeah. If we understand like how we can solve that pain to a lot of people, both players. That would be amazing also, yes. 
+
+
+59:24 | Camila
+I would also connect with. 
+
+
+59:25 | Tobias
+Valentin, maybe he also have some good stuff to. 
+
+
+59:31 | Camila
+Contribute. 
+
+
+59:31 | Tobias
+With, when we talk about this, but. 
+
+
+59:32 | Ivo
+Great. We will sort it out in. 
+
+
+59:35 | Tobias
+Some way or another, but, let us wait a little bit, so we don't work with stuff that is, doesn't make sense. Okay? 
+
+
+59:43 | Camila
+But this was. 
+
+
+59:44 | Ivo
+Helpful. No, thanks. Thanks for sharing. 
+
+
+59:46 | Tobias
+Okay. 
+
+
+59:49 | Camila
+Let me. 
+
+
+59:50 | Ivo
+know if you, I sent you, the users, so you'd like to, 
+
+
+59:53 | Tobias
+like, yes, I will send them an email and say that they will come a link and then they can I'll. 
+
+
+59:56 | Ivo
+send you the timeline and send the invite with Elena. So we can, yes. And, 
+
+
+1:00:04 | Tobias
+that's perfect. 
+
+
+1:00:05 | Ivo
+Okay. The. 
+
+
+1:00:06 | Tobias
+Same to you guys. Have a nice day.

@@ -1,0 +1,820 @@
+﻿Tobias <> Waterplan - Efficiency & Site Weekly
+
+
+Camila Behar with Coca-Cola Europacific Partners
+Recorded on May 11, 2026 via Google Meet, 54m
+
+
+
+
+
+
+Participants
+
+
+Waterplan
+Camila Behar, Solutions Specialist
+Ivo Kalaizic
+
+
+Coca-Cola Europacific Partners
+Tobias Ramberg, Senior Environmental Manager central QESH
+
+
+
+
+
+
+Transcript
+
+
+0:00 | Camila
+hi, Toby. How are you? 
+
+
+0:01 | Ivo
+How are you? Hello? 
+
+
+0:04 | Camila
+How are you doing? 
+
+
+0:06 | Tobias
+I'm fine and you? 
+
+
+0:07 | Camila
+I'm fine. Your audio is a bit weird. What your audio is a bit weird. I think it's low or something. 
+
+
+0:30 | Ivo
+I think that is better. 
+
+
+0:43 | Ivo
+These are like the first words that I'm saying loud in my day. I'm realizing here, it's like, you know, we're not hearing so well, you totally. But yesterday, I went to I'm from river plate toy. And yesterday, I went to the stadium and we were like we were playing like the local tournament, but we're in the instances where it's like a win or you're out of tournament and we went for extra time and later to penalties. So, and I was not feeling so well on Sunday Saturday morning. So, my plan was like, well, I will go to the stadium and I go into a chill. I finished the match like without voice 10 degrees here in Buenos Aires. 
+
+
+1:42 | Tobias
+Yes, disconnect and connect again. I have some problems. I'll come back. 
+
+
+2:09 | Tobias
+Now, you hear me better? Right? 
+
+
+2:11 | Camila
+Yes, yes, yes, yes, that's perfect. 
+
+
+2:16 | Tobias
+Good, good. 
+
+
+2:20 | Ivo
+Well, how are your holidays? It? 
+
+
+2:24 | Tobias
+Was fine. I have been in Italy for a long weekend in Turin with some friends. It was fine, but a little bit like tired how you can be tired from holiday, but yeah. 
+
+
+2:38 | Camila
+Now you need a holiday from the holidays? 
+
+
+2:41 | Tobias
+Yeah, I mean, exactly. A lot of partying and a lot of food and a lot of walking so nice to be back home again, but it was nice, the weather was okay. And Turin was a nice place. Okay? That's good. 
+
+
+3:00 | Camila
+We celebrated on Friday… the waterplan's birthday party. 
+
+
+3:08 | Tobias
+Okay. So, what was it like four years, five years or? 
+
+
+3:11 | Camila
+Five years? 
+
+
+3:12 | Tobias
+Five years with waterplan. Oh, that's good. 
+
+
+3:15 | Camila
+Yes. So, yeah, we just had some pizzas and it was good. 
+
+
+3:21 | Tobias
+Okay. I mean, that's nice. It's nice to celebrate. You should not forget that. I mean, it's super important. Yeah, that's. 
+
+
+3:27 | Camila
+right. So, Toby, for today, we had a few things about updates on target tracking that Ivo will handle. And then share with you what we've gathered so far from the elites workshop. 
+
+
+3:42 | Ivo
+We've. 
+
+
+3:43 | Camila
+met with ethereum FBN and GV and Germany. The meeting was the Indonesia and Philippines did not happen but I'll follow up with them to reschedule and. 
+
+
+4:00 | Tobias
+Yeah. 
+
+
+4:01 | Camila
+We're just missing PNG and Australia and New Zealand, which will be soon. I think it's this week or the following, it's in agenda, it's scheduled. 
+
+
+4:14 | Tobias
+Okay. And Philippines and Indonesia, was it booked or? Yeah, it was booked but, 
+
+
+4:22 | Camila
+Edward is Indonesia, right? 
+
+
+4:26 | Tobias
+Philippines. 
+
+
+4:27 | Camila
+Philippines. So Edward couldn't join and Indira was out of office. 
+
+
+4:33 | Tobias
+Yeah, he has a daughter, that is, I think quite sick is on the hospital. Yeah. So maybe we need to wait a bit. So, you also have like a lady that reports to him. Her name is Darren. Maybe we can invite her as well. So I reached out to her today to see what's like the status is with Indira because we have not been spoken with Indira for a couple. 
+
+
+4:58 | Ivo
+Of weeks. 
+
+
+4:58 | Tobias
+Weeks to be honest. Yeah, I. 
+
+
+5:00 | Camila
+got an email that he was on leave on personality tests, something like that. So when I wanted to reschedule, so, yeah, I didn't pursue, no. 
+
+
+5:11 | Tobias
+No, no. We can just wait with that, put it on hold. It's fine. 
+
+
+5:15 | Camila
+Okay. At. 
+
+
+5:16 | Tobias
+the moment. Yeah, I think that's good. Yeah. 
+
+
+5:22 | Ivo
+And I wanted to share Toby, like two things first from the product side, we enable a new capability of locking targets and you as a company manager. And yeah, right now, only the company manager role is able to lock and unlock. If you want to share your screen, we can see it together. 
+
+
+5:53 | Ivo
+If you go there to edit. 
+
+
+6:01 | Ivo
+You can see on the top, yeah, there are the locked target. And if you lock what… will happen… we can do a simulation. And maybe, well, I will tell you the story. And if you want, we can do a simulation. But if now a site that has the, you can go side by side and you can lock the different targets. Okay? From different, like now you did for Indonesia, that's the company level? 
+
+
+6:32 | Tobias
+Aha, okay. So. 
+
+
+6:34 | Ivo
+If you go to a company level, or if you are like if you go to a company level and a site that the target is still unlocked modified, you will receive the same notification that you are receiving there. Like your target may need an update there because a site that has the target or the ability to modify it did. 
+
+
+6:58 | Tobias
+It. 
+
+
+6:58 | Ivo
+but for review, if you would like, we can try it together, lock these targets, first, close that and lock these targets. Okay? Now, you receive the notification like your target may need an update, but you are not able. I go now to edit. 
+
+
+7:22 | Ivo
+You need to go back to like all targets. 
+
+
+7:27 | Tobias
+What happened now? No, I got lost to the. 
+
+
+7:32 | Ivo
+landing page, you notice it's all targets? Yeah, there I go there. Okay? If you go there edit, you say you receive like your worm may need an update but you can't see it. So because you first need to unlock the target and why with it? Because now any site that has the ability to modify their targets can do it but are not impacting directly on the company level. And if you're impacting it, you need to first unlock it, you Tobi, are going to be able to review it and accept it. And then you will need to lock it again. 
+
+
+8:10 | Tobias
+Okay. So still, if I'm in a country target, they can change it or? 
+
+
+8:16 | Ivo
+If you're in a site, if you do not unlock it, yes. 
+
+
+8:23 | Tobias
+Okay. So then I need to do this exercise 95 times or? 
+
+
+8:30 | Ivo
+We can discuss on this right now. Yes. What's the idea? What we thought about? We can later separate the current roles. First of thing. We're going to extend the permission to lock to can manage and company owner, there are two different roles here in waterplan, what we are thinking about. Maybe it's useful that the… elites or the responsible of the targets in the side groups can modify the roles… to can manage. So they also have the ability to lock the target, but they don't have the ability to do all the company manager permissions. Okay? 
+
+
+9:12 | Tobias
+But then it will still be… wrong. I mean, if I lock the company target and they go in and change all the targets, then the company targets will be wrong, no. 
+
+
+9:26 | Ivo
+Because you are not accepting and until you don't accept. 
+
+
+9:29 | Tobias
+That, no, no, of course, not. But then they will say like, but we changed the target. So it was not okay. And I will lose track of what they changed and not changed. Then I need to go into each country and each site to check it. We wanted to have it like locked everywhere. So if they need to change it, they really need to reach out because then we can control it in some way. So if like bocalod, wants to change the target, we know that they want to change the target and we know why they want to change it. 
+
+
+9:55 | Ivo
+So, do you think that you, as company manager, if you have the option to lock all site targets, that would be useful? 
+
+
+10:03 | Tobias
+Yes… because, I mean in general, now they have done the assessment, we have aligned this with our CEOS with our company. I mean stakeholders. So we have this target. If now everybody starts to start to change it because something happened. Oh, this was too tough. I am going to push it up a little bit, then it will be a mess and then we will tell different stories. So if then a E lead tells a story to somebody, they will say we have one point five for geb, but I still have one point three for example, then we will speak different languages. So we will lose the tracking and the visibility on what's happening. And today they shared, they sent the files to me as it was before. And then I locked it down. If they wanted to change that one to target, they needed to send me again a new excel file and I need to review and ask them why they want to change it. And then they said, yeah, because we updated our water treatment plan to a more inefficient one. So we wanted to increase the target then I know it and I can put a note on it to understand why we changed it. And then I, also when I'm sharing this with stakeholders, understand why we changed the target? 
+
+
+11:15 | Ivo
+All right. Let's think of this. If you consider that right now all the targets should be locked, I will take that and I will review if I can do it like in a bulk way from the back end of the platform. In the meanwhile, I will refine on the idea of that you as a company manager have the ability to lock and unlock all the targets. Okay. Yeah… Manuel, I think that that's all… from this part. 
+
+
+11:54 | Tobias
+And then when they are, this is also a little bit. So… when I'm locking also the target, they can't even go in and check their calculator. It will also be locked. So they have no visibility about that either? 
+
+
+12:11 | Ivo
+Sorry. Can you repeat that? So? 
+
+
+12:13 | Tobias
+When I'm locked this now, they can't even see their calculator. So if they want to understand how they calculated the target, they are not able to see it then I need, then I need to unlock it for them to be able to open the calculator to see what kind of volumes and stuff they added in? 
+
+
+12:30 | Ivo
+No, they should see. Let me, we're going to try it live and see this. I will, can you allow me to change your role? I will give you access just for one role now and we can see what happens there. Yeah, it's fine team management. Yes, you can. 
+
+
+13:08 | Ivo
+Company owner, I will give you access to. 
+
+
+13:18 | Ivo
+Okay. So now… you should only have access to Barcelona. Okay. Do you want to do a CTRL shift R? 
+
+
+13:41 | Ivo
+No. 
+
+
+14:03 | Ivo
+They go to respond now… redrawing… right? So, if you want, go to the edit there. 
+
+
+14:21 | Ivo
+Lock it. Yes… you couldn't look that, okay? But it's up here, receiving the possibility of the bottom, but you don't have access and that's right? That you don't have access because I moved to canedit, and you as a canedit shouldn't have the ability, but you shouldn't see that bottom. So I will take that also and I will lock with my access. The target. Great. If you want now to, sorry, again, CTRL shift R. 
+
+
+15:04 | Ivo
+Oh, you don't need to log in again, go to the edit. Amazing that you are not seeing the calculator and you would like to see the calculator? Yeah, because this is a 1,000,000 they. 
+
+
+15:21 | Camila
+Want to see the data that they added in. 
+
+
+15:23 | Ivo
+Total sense. Okay, amazing. I will take those two. What do you want me to do? I give you two options. First, one… the first thing that I will do is that the users that are not company owners are not going to see the locking target bottom, because as you saw it didn't make anything. No, exactly. So I will erase it. Then. I think that in the meanwhile you having the ability to have the locking… bottom of the company as a whole, it's still being useful in the meanwhile. Yeah. And I will also ask or think about how we can include the Google calculator in a site level. So when a target is locked, the ability to see all the calculations, it's still being able because I understand perfectly, it's so useful. That will be good. Great. Amazing. 
+
+
+16:41 | Ivo
+And you need to change my role also. So I don't see this boring you. Yeah, I will go on that again. 
+
+
+16:53 | Ivo
+Thank you very much. 
+
+
+16:59 | Ivo
+Yes. If you do computer shift R, again, you have all the info. 
+
+
+17:09 | Ivo
+Okay. 
+
+
+17:22 | Ivo
+I will go. 
+
+
+17:24 | Camila
+On this one. 
+
+
+17:26 | Ivo
+Hey, do you want me to share these slides coming? Yeah. 
+
+
+17:32 | Camila
+And also, we just, Tommy just sent an email about the data, the dashboard. Yeah, we can review that as well after the slides or you can take it offline. That's fine. So, yeah. 
+
+
+17:51 | Ivo
+I. 
+
+
+17:51 | Camila
+can check it, let, 
+
+
+17:52 | Ivo
+me, share my screen. 
+
+
+18:01 | Ivo
+Hey, Cami, I don't know if you want to leave or not. I can do it because I assist to two of the three events conversations that we have. Super interesting, super interesting. I didn't have the possibility to assist to the last one but Cami did so if you want like Cami? 
+
+
+18:21 | Camila
+Yeah, sure. So we met, as I said, we'd FBN with GV with iberia, with Germany and nordics and general like sentiment was that they are more embedded into like the target tracking module, but it's not fully adopted because the project part is down. It's done in intragram. So they are not like very familiar with the project module in waterplan, but they really see value in the scenario modeling part of target tracking. 
+
+
+19:01 | Ivo
+So, 
+
+
+19:02 | Camila
+maybe, yeah, we can go to the following one. We did like also like an overview of the risk modules. The other features and general sentiment again was that risk is like seen… very little. It's not something that they use the risk modules, maybe like when they need to do svas, like James who are doing with Iceland, he will take a bit a deeper look at the risk part, but it's more of a one off type of thing that they look into the risk platform. Some takeaways is that they are seeing waterplan as another tool. Like Rory's Rory really likes it and he wants to be, he wants waterplan to be the tool, but they are finding like different, they are doing different tasks in integrum under Power BI and waterplan. So I think we need to work on fully embedding the tool into their workflows. Then what they mentioned was that they asked about our integration with integrum. And I think it was Manuel and James that said like if there's a possibility that integrum also shows updates done through waterplan. So it's a bidirectional update thing to build more trust, but still they are doing most of the updates in integrum. So that's maybe something we should look at. And then there was like a mention about carbon as well, like if a target, if carbon could be integrated because they are doing like target setting and planning in different platforms. So up to here, like what do you think like, is this resonate with what you were expecting? 
+
+
+21:04 | Tobias
+Yeah, this is exactly what I expected. 
+
+
+21:08 | Camila
+Okay. Let. 
+
+
+21:09 | Ivo
+Me tell you what the main idea here is? Like, what do you think if we can, we review this? And we dedicate like 10 minutes altogether and we like build a plan on what we can think that we can like quick wins for having like more access and like they love what I say, we love the scenario part. We have there, the quotes, but we're still having a lot of platforms. I don't know which one to update at the end of the day. They request me that integrum is the official source of truth. So if I need to do my work on one platform, I will do it on integrum. That makes sense when I tell the story. So just to compliment you, Tom Cami here, you have like the navigation is not intuitive at the beginning. I think that was, I remember the comment of Antonio, like he mentioning like he has the platform in Spanish and says, like responder, what did that mean with target tracking? And well, that basically with the new capability of renaming features that's a little bit solved. And also just to interrupt. And we can go there. We are this week implementing like a home page. We don't go. I don't want to go to this topic but just like we show them this and they say that this would solve the problem. So that's for like doing the comment on this… and that the target can be edited and the idea here like it needs to raise or will be solved with the feedback that we received today of the capability of locking the targets, you know, yeah… the key patterns here, the top three barriers, integral, duplication, energy, carbon scope and user experience. And that are things that appear in all the workshops. 
+
+
+23:21 | Camila
+Yeah. So this led us to understanding like why they are not like fully adopting the tool and they are using it more like as a one off some double work with intergram in terms of projects. So we mentioned they could update the projects in waterplan as well, but they said that they would just update it in intergram. They wouldn't do double work updating the projects here. Then. Well, the UX naming that's being solved. So no worries there. The feeling we got is that the platform is like more optional than mandatory at some point. So maybe there's not quite a requirement there. Then what we said, the water only scope. So maybe if there's a vision of all the topics these teams lead together, it will be easier for them to see the value here. Same with the permission controls about the targets. And then they mentioned that for site managers and project tracking tools, it would be like they all have different project tracking tools. We show them the new project tracking tools. Remember the mitigation action one and they liked it. There was a positive sentiment. But again, there needs to be an alignment on where and what shall we use as a company. Yeah. So that leads us to some feedback specific feedback that we got. Maybe we can go to the other one. Yeah. So here we have something CC. So the integrum thing here… maybe we can explore like how to meet… integrum. I know if there's like if… that was a path Toby that we could explore like also updating integrum with some water plant data, you? 
+
+
+25:26 | Tobias
+Mean that we can cross reference and if we do something, a water plant will come in integrum as well. Yeah, we can probably explore that. It will probably be super hard and we need to involve a lot of people like from BBT from it over here to be able to get it to work. And then we probably need to, I mean we probably need to invite integrum as well in some way. Yeah. I mean, at the moment, I don't know we probably need to involve a lot of people if we're going to do that. If. 
+
+
+25:57 | Ivo
+you give me like, let me opinion like let's discuss them all and we can go later like taking the ones that we can fast and think out the strategy. Yeah. 
+
+
+26:11 | Camila
+Okay. Then we have the permission logs and targets, which is what we discussed. It's already on the work on progress. 
+
+
+26:18 | Tobias
+Yeah, we're working on that. 
+
+
+26:20 | Camila
+Not a big thing to. 
+
+
+26:21 | Ivo
+Change. Yeah. 
+
+
+26:23 | Tobias
+That's not a big thing to change. I mean, we're on it so that we can solve. Yeah. 
+
+
+26:28 | Camila
+Same with navigation and naming. The fourth one is the yearly target setting. We got from some of the conversations this difficulty that the annual target setting is not mapping the same methodology as the target. And we show them that now you get the possibility to input your annual targets in waterplan, but the methodology, it's still something that needs to be defined. 
+
+
+26:59 | Ivo
+Did we share that with you? Toi, I don't know. 
+
+
+27:03 | Tobias
+The navigation or no? 
+
+
+27:05 | Ivo
+No, no. You now can modify your yearly targets and do like if you, yeah. 
+
+
+27:11 | Tobias
+The ones that you have all the years there. Yeah, yeah, I know that. 
+
+
+27:16 | Ivo
+To represent more your reality, you know? 
+
+
+27:18 | Tobias
+Exactly. Yeah, I know that. 
+
+
+27:21 | Camila
+Then there was feedback. It was specifically Laurie, I think on the mitigation actions module, the one that has a project management, some add comments and activity log because that would be more helpful then energy and carbon scope to have it all centralized at one place. So they can just action on one platform which goes with the tool saturation at sites. It's a mixed thing. 
+
+
+27:49 | Tobias
+And did you have a meeting with Marta about that? Or have you been spoken to Marta about? Yeah? 
+
+
+27:55 | Camila
+Mili, I think Mili has spoken with Marta about. 
+
+
+27:58 | Tobias
+that. Okay? 
+
+
+28:00 | Camila
+But maybe we need like to think together of a different slash new approach. We can speak to Mili about what was the initial feedback? And then, yeah, think of a strategy together. Yeah. So this one, the sites height projects was more than for like a risk flags based on their permissions for everyone to like see and play around projects without affecting like overall metrics. Then there was a few that wanted like some regional dashboards specifically around the mitigation actions that's an improvement we can take. And a very good and interesting feedback was from Antonio on the target tracking side on the scenarios. He mentioned, it would be great to have financial views by year, like how much investment each scenario will give you but split around year so they can plan accordingly. So those, these are some of the feedback themes, we gathered… 
+
+
+29:11 | Tobias
+Valid feedback I should say and good stuff. I also had that final finance view by year. I also have that as a on to do on my work to do list. 
+
+
+29:21 | Ivo
+Great. Just to give you like one second, like the representation of what we understand from him, like right now on the platform, if you go to the waterfall chart by impact, you can see like from the last reported year to the target year, how the different projects that are mapped with impact. And he wants to see that literally, like and you can see it also by year. So here we have like the representation of the year impact and he wants to know the same view, literally the same view. But instead of representing the impact metric representing the financial metric. So, yeah, I, in two days, I have mapped to pay or, yeah, all this amount of money and distribute it more equitably the money that's like his comment… and a. 
+
+
+30:17 | Tobias
+Good comment because yeah, this is also a little bit what I have highlighted before. I mean that view, is still not, very good. We should be able to just press a button and get that view so that we can share that with people. Yeah, in some way. 
+
+
+30:35 | Ivo
+In my opinion, that's a super valuable feedback. But literally, I was thinking on this, I don't know. I don't know if yesterday, literally one moment of my day like this is an amazing feedback and we will do it but I don't know if we'll solve the problem and it's interesting that now here it's like sort like number 10… because maybe the issues are, I don't know with the interim duplication, you know? 
+
+
+31:11 | Tobias
+Maybe maybe, but I mean it's like I got some feedback, from Eliana this morning. She wanted me to, yeah, create new templates or new slides with how much can we save? If we do that? How much will it cost? If we do that? Blah, blah. What's the gap? If we do that? Blah, blah. I mean, I need to put out data and do it in excel. And I mean, why don't, we have that in waterplan. So it's now, it's tricky. It should be like, I don't know a function where you can basically put in your metrics that you want to do. And then you get a very nice graph of it in some way. I don't know, I put, I can put up a excel file in copilot there or something and then say create a chart for me and I get a super great chart. I mean, in three seconds. So, but I mean waterplan is also an AI tool, right? Can't we create stuff there? 
+
+
+32:05 | Ivo
+Yes, I'm interested to understand better what you need to do. We can go deep dive on that like if you want, like we can finish this conversation. I don't know well here's some feedback, of them… here's… like the recommended action plan with… Germany. But the implementation of the target locking, they send the workshop and here's was like an idea for iberia, like they told us that they need to do the report. I don't know if the month report soon or the quarter report soon, like later this month. And we propose like to run a parallel pilot with your area like do all the same updates in both platforms like on integrum and on the excel files that they currently use for reporting at the end. They were playing like or they think that that's the normal path that it's accepted by leadership and we can try doing with their feedback also. Yeah. But running like the same simulation water brand. And if we get like to the same results in because we can, there are some different metrics that we can evaluate, right? Less time or have like the possibility to share with you and you can send it, see it from your username platform. And, we get to the same, that will be a success case. And if not, we can understand like all the potential things that we should need to improve for make that happen, you know? And so, I remember your thoughts on that. I. 
+
+
+34:02 | Tobias
+mean, I mean that can maybe be good. I mean, we, I will go down to Barcelona next week and start to discuss the yearly target. So, yeah, and maybe we should do something in parallel with that. I don't know, I don't know what he means with that, what they need to do now, but they. 
+
+
+34:20 | Camila
+they mentioned they need to review all the projects like the ones that are ongoing. 
+
+
+34:26 | Tobias
+Yeah. We are doing a update in our carbon and water robot that should be done like end of may. Yeah. 
+
+
+34:32 | Camila
+Okay. Well, that, that's what they are doing. And they mentioned they are doing it in integrum. And, and we say, okay, maybe we can do the same thing in water plan and see if we get to the same results in terms of you and in terms of data requirements. And if so, then if it would be like better to discuss with you to do it directly in water plan and then sync it, us syncing it to integrum. Yeah. 
+
+
+35:00 | Tobias
+Maybe that can be a good thing. And, 
+
+
+35:03 | Ivo
+and we, 
+
+
+35:04 | Tobias
+will update the project list, when they are done with this work with updating the carbon and water robot, because then they probably have added in some more project and cleaned the list a little bit. Okay? 
+
+
+35:19 | Ivo
+What I also suggest maybe is like maybe we can like… Cami and I, we can be super involved there and like having like direct line with you Tobi, and I don't want that the sites or that iberia team feel this as an extra work and a duplication of their work because if we run that game, we will lose, I'm completely sure. But if we show them at the end of the game that with less effort, we get the same result that will be like, the game changer, you know? So. 
+
+
+36:00 | Tobias
+I mean, the only problem is without is like they still need if we, and this is the part that makes everything complicated because we have the energy part and we have the water part. And if they need to do updates for carbon reductions, they will do that integral. And if they want to do updates for water reduction, they will do it in water plant. And then again, we have several different platforms. So, I mean the game changes is, to have Elena and Marta to understand that we just need one platform, and stop doing it in integral. I mean, that's the game changer. I think if we can't come to that, I mean we will sit there with two platforms and then I understand that the elites will think that we have two platforms. And then of course, integrum will always take the lead because we put the information in integrum. 
+
+
+36:49 | Camila
+Okay. And there were a few other things that maybe we need to dive a bit deeper. They were mentioned at the end by. So something that was also mentioned was a true cost of water at excel that. 
+
+
+37:06 | Ivo
+they. 
+
+
+37:08 | Camila
+mentioned that if you are looking at a water platform, then it will be good to have it integrated. And then there were a few other excel items shared by Manuel and Rory that they do some production regressions and planning things. I don't know if you are familiar with that. They just mentioned that and we just needed to like run, but they said that maybe if you're looking at digitizing, then we can have different conversations about that as well. Yeah. 
+
+
+37:40 | Tobias
+100 percent. And I think true cost of water should also be there. Like when you pop up the respond tab, everything should be there. You should have like a folder with the water, true cost of water. You should have the maybe guidance. I mean, today, we have a water portal but it's also like how do you say it? Like I had a meeting with Edward this morning and he, like, I don't understand how to find water reduction project. And then I said, have you been in the water portal? And he looks like a question mark even if I had sent like 300 emails to these people and we have gathered everything on this share drive for water. But why do we have a share drive for water? It should be waterplan again. But I mean, like, yeah, I understand that you also have limited resources and time but there is a lot of stuff that we can push to waterplan. And then every time they need to find something, there will be a click in waterplan and they go into the waterplan and do something. But as long as we have stuff on different share drives and pages, yeah, they will be divided and they will be all over the place. I understand that. 
+
+
+38:41 | Ivo
+Well, yeah, really regarding like the integrum sync with waterplan. I'm not so worried like I think that we can, I will discuss internally and maybe Toby, do you know that maybe we can update the frequency that currently we are like we are syncing and we can do it. I don't know daily if that's something necessary. And with that, we will have like real time data of the data edited in integrum, not bidirectional. But that will solve one part of the problem. 
+
+
+39:17 | Tobias
+I think that, yeah, 100 percent. And I mean, I have said it for a long time and also to Thomas… I mean, we need to… do something better in waterplan than we already have for the users to rather want to go to waterplan and do stuff than to go to Power BI and integrum. And today, I also go to Power BI and integrum. And I evaluate performance of the period. If I want to see data for the period, if I want to see a comment because we don't have that in integrum in waterplan. Yeah, we have that metric but it's not for period and it's not, I mean… visually in a good way so that I can work with data in a good way. So, I mean, yeah, we probably need to do a game changer there as well for people to start to connect in waterplan instead. 
+
+
+40:13 | Ivo
+Okay. And that's. 
+
+
+40:15 | Tobias
+maybe also how we convince, I don't know Marta… and Elena because yeah, they are, I don't know they are so like Power BI is the best tool in the world. And I say this is so 2001. 
+
+
+40:29 | Ivo
+Let me propose you a challenge. One of my… one of my personal objectives now is like, I want like a success on the sites using waterplan. Okay. So for that, I want to do two things first of all, like or three things. First of all, like syncing with you and Cami and having this type of conversation and understanding like the current pains that we are not solving. So we can work on those second is like, I will ask you if you are relying on every time that you need to do a validation on or at least you can do it like the first time, not every time but the first time that you need to run an analysis and you need to go to integrum or to Power BI because you are looking for some particular metric related to water, record your screen, like you are used to that record your screen and send it through whatsapp or whenever whichever media you want and they, you can say me like look evil here. I don't have this information in waterfront. I'm trying, I need to go to the other platform and this is the reason why. And with that, I will also like try to understand how we can show you they heard that. And although. 
+
+
+41:52 | Camila
+and the. 
+
+
+41:53 | Ivo
+third one that I say three things and I'm not remembering but. 
+
+
+42:01 | Ivo
+Well, let's I forgot the third one but the first two like it's singing together and understanding the pains. And the third one would be like always… without making… the feeling of double working or extra working to the sites. I think that these conversations that can be guided with the different elites were super helpful. Like we just saw a lot of comments that maybe you had it on your mind and you shared with us, but like now are clearly represented and that's because we did the feedback sessions with them, you know? So I think that would be useful also and well, running those parallel analysis also too. 
+
+
+42:47 | Tobias
+I can do not a problem. It will probably be very long videos but I can maybe shorten them down explaining what I'm doing. Great. 
+
+
+42:58 | Camila
+I think as next step, maybe… we could build a more like bring down these ideas that we discussed today into a more specific plan to… more visual plan to validate and also to validate with Elena. So the next, so we have a clear like action for the next. 
+
+
+43:26 | Tobias
+three. 
+
+
+43:26 | Camila
+Months together and we can track progress about that. How would that look like for you? 
+
+
+43:33 | Tobias
+That's fine. 
+
+
+43:35 | Ivo
+That's good for me. That would be the best. 
+
+
+43:39 | Camila
+I'm thinking like maybe we can bring like a proposal to validate with you next week and set a meeting with Elena. The following one. So we can kick off. Would that work? 
+
+
+43:57 | Ivo
+Okay. Tobi, you are also in charge of? I just want to like to ask you two things regarding like carbon. You are the one who measures the sites related to carbon? 
+
+
+44:11 | Tobias
+No, I mean we have divided it. So Marta is working full time with carbon and I'm working full time with water, but I have for five years also worked with carbon. So I. 
+
+
+44:21 | Ivo
+have, okay. So you, do, you know the scope? 
+
+
+44:23 | Tobias
+Yeah. I know exactly what they are doing and what they are not doing. 
+
+
+44:25 | Ivo
+And, they are measuring scope one and two or two and three also, yes. 
+
+
+44:31 | Tobias
+We are measuring everything. Okay? 
+
+
+44:34 | Ivo
+And like for you have like the activity variables and the, you translate them to emissions and energy and you track. 
+
+
+44:42 | Tobias
+Those, yeah, I mean exactly to make it to simplify it, I mean, we have mapped. So, you know, that huge water file that I have sent, to superdata. Tommy. I mean, that's part of our carbon accounting calculation but for water. So we do the same for energy. We basically have mapped all the electricity, used, the fuel, used, everything that you're using in a site waste, the cotwo that you put, in a drinks. And then we see that, okay, these sites are using too much fossil fuels. How do we reduce them? How do we trans, transist that to green electricity, for example, how do we reduce the cotwo in our bottles? And then we make plans. And then they, again, in integrum, they create a project as exactly as we do, for water. And then they say we want to remove cotwo in our bottles and put in sterile air instead and blah, blah blah. And then they make a project and then we calculate the carbon saving based on that and the cost. And we do a carbon reduction plan. And then, they transmit that to 20 30… and we do that for the whole value chain. So, I mean this includes everything from company cars, to trucks to coolers that we have at customer's level. I mean, it's big. 
+
+
+45:57 | Ivo
+Yeah. Scope three is big. Yeah. And then. 
+
+
+46:00 | Tobias
+internally for scope one, it's like for us, of course. Yeah. But we have all of these mapped. So we know exactly how much carbon we released last year and until 2019, we have all the data and. 
+
+
+46:12 | Ivo
+Do you use your like, from where you grab the emission factors like you purchase them? No? 
+
+
+46:18 | Tobias
+We use efra, the emission factor. So they are sourced from the, for the company. So we have a special source for them. And every year, we are pulling down all the data that we have in integrum, for supply chain, of course. So then we are using the water use ratio, the energy use ratio, the fossil fuel, everything that we report in integrum, they are transformed into carbon because then we are taking the consumption electricity, the emissions factor and it would be a calculation behind it. Okay? And then we are creating a super big excel file together with a company external company that helps us with that. And that's the file that I shared with you. And then we work from that. So, if we want to, for example, calculate a reduction, we can put in the metrics in that excel file and it will give us the calculation based on the last year emissions factor if they're not changing. So now, it's quite big, but it's not, I mean, yeah, it's not super complicated to bonus, but… all right. 
+
+
+47:20 | Ivo
+Toby. 
+
+
+47:20 | Camila
+Next week, you… can't make it on the 20 first. Are you out like the whole week or can we reschedule to another day? 
+
+
+47:30 | Tobias
+I will be out now. We'll see, I will travel to Barcelona on Wednesday and… maybe I can do… a meeting one o'clock… Wednesday. I can also do, Tuesday… Monday, next week, I'm free. But for the, from Wednesday to Friday, I'm off. Beautiful. 
+
+
+47:58 | Ivo
+Barcelona. Okay? 
+
+
+48:00 | Camila
+We can do Tuesday, which time is it? 
+
+
+48:04 | Ivo
+Whatever? 
+
+
+48:06 | Tobias
+Suits you? I'm free from two o'clock to four. Okay. So you can book in something there? Perfect? 
+
+
+48:15 | Camila
+And then for the 20 eighth, is Elena like available on our usual time slot? Can you check do? 
+
+
+48:26 | Tobias
+You have 20? 
+
+
+48:29 | Ivo
+Eight, when. 
+
+
+48:29 | Tobias
+we do have the meeting, we have two o'clock or do we have three o'clock I don't remember. It's three o'clock yeah, I don't have a meeting there on the 20 eighth. 
+
+
+48:38 | Ivo
+Let. 
+
+
+48:39 | Tobias
+me see. 
+
+
+48:43 | Camila
+I, because you rejected this one, yeah. 
+
+
+48:49 | Tobias
+Because I thought I wanted, I was in Barcelona that day but I was not, so, you can put it in again. Let me see. So two o'clock Leon is booked there, but if we do three o'clock TT times is free. Yeah. 
+
+
+49:06 | Camila
+Let's do three o'clock… okay. I'll invite Elena to that one and we can align on. Yeah, and we, what we've done so far. And the plan that we will arrive previously for the next couple of months? 
+
+
+49:25 | Tobias
+Okay. 
+
+
+49:27 | Camila
+We have June July just to double check Toby because like for your budget cycle, like considering this license, the water plant license. Like when do you need to like submit for the budget for this one? 
+
+
+49:46 | Tobias
+That you should probably ask Elena. I don't know because I'm not managing that budget. It's managed by Elena. 
+
+
+49:53 | Camila
+Okay. Is. 
+
+
+49:54 | Ivo
+I. 
+
+
+49:55 | Tobias
+assume it's probably like end of the year, but I'm not 100 percent sure. I think they're preparing the budget, like they're starting to do that in the Autumn and this go year by year, I think, because now we have the license for 20 26, I assume. Yeah. 
+
+
+50:12 | Camila
+Exactly. 
+
+
+50:13 | Tobias
+So the license is from there from January to December. 
+
+
+50:18 | Camila
+The license, yeah, ends in December. Yeah. 
+
+
+50:21 | Tobias
+Exactly. So then they will probably start to do that in December. 
+
+
+50:28 | Camila
+Yeah. Maybe I'll talk to Elena because if, yeah, because if it's due December, then we need to kick it off earlier, maybe, yeah, to arrive on time, but I'll ask her. No worries. Yeah. Okay. So let's do this. We meet next Tuesday and then on the following Thursday with Elena and we validate the action plan for the cup next couple of months. Okay. Yeah. 
+
+
+50:53 | Tobias
+That's good. Sounds like. 
+
+
+50:55 | Ivo
+A plan. I was thinking if to do this or not, but regarding, like we have this five minute left day of the meeting of you prefer to stop here? I. 
+
+
+51:06 | Tobias
+can do, I can do four minutes because I need to pop into a meeting sharp two o'clock. 
+
+
+51:12 | Camila
+okay. 
+
+
+51:18 | Ivo
+I'm just thinking like regarding all the conversations we had, but I know nothing, man. Let's stop here. Let's just talk here, and we can do it next week. I think like the best plan. I will meet with Kami probably later today or tomorrow and start thinking about this plan. And maybe we can also sync via whatsapp if necessary. We can do it faster also. 
+
+
+51:46 | Tobias
+What, what I'm doing? So? 
+
+
+51:49 | Ivo
+You also know that I want to know that principally I. 
+
+
+51:54 | Tobias
+can show you what I'm doing like every period and because then we need to report what the data and what is targets every period? No. 
+
+
+52:02 | Ivo
+Yes. Do you remember that? I have three things and, I just forget the third one. Well, that was, I don't want to sound like bad or anything. But if we can have like a view? 
+
+
+52:21 | Camila
+Of your. 
+
+
+52:22 | Ivo
+Periodical report, like what Toby reports and what the site reports, I think. And literally when I was thinking of, this was like it would be ideal if we can be on that meeting. You know, I didn't know that it's an internal coke meeting or CCP meeting and I don't know if that would be available like possible, but maybe, yes, and if that's a possibility like I want to tell you that we would love to be there just a little, just one to understand the logic of the flow. And if not, if you can share like the content also, that would be amazing. So we can try to replicate them. I mean, I will do. 
+
+
+53:00 | Tobias
+That, I think that will make crystal, that will make sense for you also why we're reporting and how we're reporting. And I think that reporting also can be improved in so many ways because there's a lot of still data crunching and download data and master data, and understand stuff. And we can probably do, I can probably ask to have them to add in a lot of metrics in the Power BI, but I don't do that because I want to have those metrics in water plan instead because I think that's nicer to have everything in the same place and also for the elites to go in there and generate maybe a final report so they can share it with us. But… I will share you some videos and I will try to explain a little bit what I'm doing, but it's also hard because it's a quite big process. 
+
+
+53:48 | Tobias
+But I will send you some stuff, yeah. 
+
+
+53:50 | Ivo
+Yeah, I will wait that message. Amazing. 
+
+
+53:54 | Tobias
+Okay. Thank you. So. 
+
+
+53:57 | Camila
+Much, no. 
+
+
+53:58 | Tobias
+Problem speak later. Bye bye. Have. 
+
+
+54:00 | Camila
+A good week. Same.

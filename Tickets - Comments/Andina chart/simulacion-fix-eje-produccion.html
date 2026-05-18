@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulacion Fix - Eje Y Produccion (Andina Chile)</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #f5f7fa;
+      color: #1a1a2e;
+      padding: 24px;
+    }
+    h1 { font-size: 22px; margin-bottom: 4px; }
+    .subtitle { color: #6b7280; font-size: 14px; margin-bottom: 24px; }
+    .data-source {
+      background: #eff6ff;
+      border: 1px solid #bfdbfe;
+      border-radius: 8px;
+      padding: 12px 16px;
+      margin-bottom: 20px;
+      font-size: 13px;
+      color: #1e40af;
+    }
+    .data-source strong { color: #1e3a8a; }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 24px;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 24px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+      border: 1px solid #e5e7eb;
+    }
+    .card-header {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 16px;
+    }
+    .badge {
+      font-size: 11px;
+      font-weight: 600;
+      padding: 3px 8px;
+      border-radius: 4px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .badge-bug { background: #fef2f2; color: #dc2626; border: 1px solid #fecaca; }
+    .badge-fix { background: #f0fdf4; color: #16a34a; border: 1px solid #bbf7d0; }
+    .card-title { font-size: 16px; font-weight: 600; }
+    .chart-container { position: relative; height: 420px; }
+    .explanation {
+      background: white;
+      border-radius: 12px;
+      padding: 24px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+      border: 1px solid #e5e7eb;
+    }
+    .explanation h2 { font-size: 18px; margin-bottom: 12px; }
+    .explanation p { color: #4b5563; line-height: 1.6; margin-bottom: 10px; font-size: 14px; }
+    .explanation code {
+      background: #f3f4f6;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 13px;
+      color: #dc2626;
+    }
+    .highlight { color: #2563eb; font-weight: 600; }
+    .stats-row {
+      display: flex;
+      gap: 16px;
+      margin-top: 12px;
+    }
+    .stat {
+      background: #f9fafb;
+      border: 1px solid #e5e7eb;
+      border-radius: 8px;
+      padding: 12px 16px;
+      flex: 1;
+    }
+    .stat-label { font-size: 12px; color: #6b7280; margin-bottom: 4px; }
+    .stat-value { font-size: 18px; font-weight: 700; }
+    .stat-value.red { color: #dc2626; }
+    .stat-value.green { color: #16a34a; }
+    .annotation {
+      font-size: 12px;
+      color: #9ca3af;
+      text-align: center;
+      margin-top: 8px;
+    }
+    .controls {
+      background: white;
+      border-radius: 12px;
+      padding: 16px 24px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+      border: 1px solid #e5e7eb;
+      margin-bottom: 24px;
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+    .control-group {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .control-group label {
+      font-size: 13px;
+      font-weight: 500;
+      color: #374151;
+    }
+    .toggle {
+      position: relative;
+      width: 44px;
+      height: 24px;
+      background: #d1d5db;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .toggle.active { background: #3b82f6; }
+    .toggle::after {
+      content: '';
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background: white;
+      border-radius: 50%;
+      top: 2px;
+      left: 2px;
+      transition: transform 0.2s;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    }
+    .toggle.active::after { transform: translateX(20px); }
+    .file-ref {
+      font-size: 12px;
+      color: #9ca3af;
+      font-family: monospace;
+      margin-top: 6px;
+    }
+    .diff-block {
+      background: #1e1e2e;
+      color: #cdd6f4;
+      border-radius: 8px;
+      padding: 16px;
+      font-family: 'SF Mono', Monaco, 'Cascadia Code', monospace;
+      font-size: 13px;
+      line-height: 1.7;
+      overflow-x: auto;
+      margin-top: 12px;
+    }
+    .diff-remove { color: #f38ba8; }
+    .diff-add { color: #a6e3a1; }
+    .diff-context { color: #6c7086; }
+    table.data-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+      margin-top: 12px;
+    }
+    table.data-table th {
+      background: #f9fafb;
+      padding: 8px 10px;
+      text-align: left;
+      border-bottom: 2px solid #e5e7eb;
+      font-weight: 600;
+      color: #374151;
+    }
+    table.data-table td {
+      padding: 6px 10px;
+      border-bottom: 1px solid #f3f4f6;
+      color: #4b5563;
+    }
+    table.data-table tr:hover { background: #f9fafb; }
+    .api-badge {
+      display: inline-block;
+      background: #dbeafe;
+      color: #1d4ed8;
+      font-size: 10px;
+      font-weight: 600;
+      padding: 2px 6px;
+      border-radius: 3px;
+      margin-left: 6px;
+    }
+    @media (max-width: 900px) {
+      .grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Simulacion: Fix Eje Y Produccion - Andina Chile</h1>
+  <p class="subtitle">Datos reales del site group <strong>"Andina Chile"</strong> (Planta Antofagasta, Punta Arenas, Renca) extraidos de la API de Waterplan.</p>
+
+  <div class="data-source">
+    <strong>Fuente:</strong> API Waterplan (produccion) &mdash;
+    Company: <code>coca-cola-andina</code> |
+    Site Group: <code>Andina Chile</code> (01992f9e-250b-7cc2-8c3c-9013f21ee5af) |
+    Sites: Antofagasta, Punta Arenas, Renca
+    <span class="api-badge">LIVE DATA</span>
+  </div>
+
+  <div class="controls">
+    <div class="control-group">
+      <div class="toggle active" id="toggleProduction" onclick="toggleProductionLine()"></div>
+      <label>Show production</label>
+    </div>
+    <div class="control-group">
+      <div class="toggle" id="toggleZero" onclick="toggleStartAtZero()"></div>
+      <label>Y-axis starts at zero (production)</label>
+    </div>
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <div class="card-header">
+        <span class="badge badge-bug">CURRENT BUG</span>
+        <span class="card-title">Target evolution &mdash; WUR (Andina Chile)</span>
+      </div>
+      <div class="chart-container">
+        <canvas id="chartBug"></canvas>
+      </div>
+      <p class="annotation" id="bugAnnotation">Right axis: Chart.js auto-scale &mdash; 13K m3 range on 1M values = massive distortion</p>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <span class="badge badge-fix">WITH FIX</span>
+        <span class="card-title">Target evolution &mdash; WUR (Andina Chile)</span>
+      </div>
+      <div class="chart-container">
+        <canvas id="chartFix"></canvas>
+      </div>
+      <p class="annotation" id="fixAnnotation">Right axis: calculateNiceAxisRange applied &mdash; ~1.4% variation shown in context</p>
+    </div>
+  </div>
+
+  <div class="stats-row" style="margin-bottom: 24px;">
+    <div class="stat">
+      <div class="stat-label">Production axis range (Bug)</div>
+      <div class="stat-value red" id="bugRangeLabel">--</div>
+      <div class="stat-label" style="margin-top: 4px;" id="bugRangeDetail">--</div>
+    </div>
+    <div class="stat">
+      <div class="stat-label">Production axis range (Fix)</div>
+      <div class="stat-value green" id="fixRangeLabel">--</div>
+      <div class="stat-label" style="margin-top: 4px;" id="fixRangeDetail">--</div>
+    </div>
+    <div class="stat">
+      <div class="stat-label">Actual production variation</div>
+      <div class="stat-value" style="color: #2563eb;" id="variationLabel">~1.4%</div>
+      <div class="stat-label" style="margin-top: 4px;" id="variationDetail">996,204 to 1,009,880 m3</div>
+    </div>
+  </div>
+
+  <!-- Real data table -->
+  <div class="card" style="margin-bottom: 24px;">
+    <h2 style="font-size: 16px; margin-bottom: 8px;">Datos reales - Andina Chile <span class="api-badge">API LIVE DATA</span></h2>
+    <table class="data-table">
+      <thead>
+        <tr>
+          <th>Year</th>
+          <th>WUR (m3/m3)</th>
+          <th>Source</th>
+          <th>Production (m3)</th>
+          <th>Source</th>
+          <th>Target (m3/m3)</th>
+        </tr>
+      </thead>
+      <tbody id="dataTableBody"></tbody>
+    </table>
+  </div>
+
+  <div class="explanation">
+    <h2>Diagnostico tecnico</h2>
+    <p>
+      <strong>Archivo:</strong> <code>useChartData.ts</code> linea 540-546<br>
+      <strong>Root cause:</strong> Cuando <code>showProduction = true</code>, el <code>rightYAxisRange</code> queda en <code>undefined</code>.
+      Solo se calcula rango explicito para el modo <code>% Change vs Baseline</code>.
+      Al quedar <code>undefined</code>, Chart.js auto-escala al rango mas ajustado posible.
+    </p>
+    <p>
+      <strong>Impacto en Andina Chile:</strong> Produccion va de <span class="highlight">996,204</span> a <span class="highlight">1,009,880 m3</span> (rango real: 13,676 m3).
+      Chart.js crea un eje de solo ~14K unidades sobre ~1M &mdash; una variacion del <span class="highlight">1.4%</span> ocupa
+      el <span class="highlight">~100% del alto visual</span> del grafico. La caida de 2023 (996K) parece un colapso catastrofico
+      cuando en realidad es una fluctuacion normal del 1.4%.
+    </p>
+
+    <div class="diff-block">
+      <div class="diff-context">// useChartData.ts - linea 540</div>
+      <div class="diff-remove">- const rightYAxisRange = isPercentChangeVsBaselineRightAxis</div>
+      <div class="diff-remove">-   ? getPercentChangeRightYAxisRange(...)</div>
+      <div class="diff-remove">-   : undefined;</div>
+      <br>
+      <div class="diff-add">+ const rightYAxisRange = isPercentChangeVsBaselineRightAxis</div>
+      <div class="diff-add">+   ? getPercentChangeRightYAxisRange(...)</div>
+      <div class="diff-add">+   : getRightAxisNiceRange(activeRightAxisData?.datasets, startAtZero);</div>
+      <br>
+      <div class="diff-context">// Nueva funcion helper:</div>
+      <div class="diff-add">+ const getRightAxisNiceRange = (</div>
+      <div class="diff-add">+   datasets: MutableScenarioDataset[] | undefined,</div>
+      <div class="diff-add">+   startAtZero: boolean</div>
+      <div class="diff-add">+ ): NiceAxisRange | null => {</div>
+      <div class="diff-add">+   if (!datasets?.length) return null;</div>
+      <div class="diff-add">+   const values = datasets</div>
+      <div class="diff-add">+     .flatMap(ds => ds.data?.map(p => p.y) ?? [])</div>
+      <div class="diff-add">+     .filter(Number.isFinite);</div>
+      <div class="diff-add">+   if (!values.length) return null;</div>
+      <div class="diff-add">+   const min = startAtZero ? 0 : Math.min(...values);</div>
+      <div class="diff-add">+   return calculateNiceAxisRange(min, Math.max(...values), {</div>
+      <div class="diff-add">+     clampLowerBoundToZero: Math.min(...values) >= 0,</div>
+      <div class="diff-add">+   });</div>
+      <div class="diff-add">+ };</div>
+    </div>
+    <div class="file-ref">src/features/TargetTracking/components/TargetChartPanel/components/EvolutionChart/hooks/useChartData.ts</div>
+  </div>
+
+<script>
+// =============================================
+// REAL DATA - Andina Chile (Site Group)
+// From Waterplan API - fetched 2026-05-18
+// =============================================
+
+const years = [2022, 2023, 2024, 2025, 2026, 2027, 2028, 2029, 2030];
+
+// --- WUR Historical (Andina Chile) ---
+// POST /v3/data-gathering/coca-cola-andina/get-single-metric
+// filters: { sites: [Antofagasta, Punta Arenas, Renca] }
+const wurHistorical = {
+  2022: 1.8395720892993814,
+  2023: 1.7657574812018549,
+  2024: 1.6938661236083960,
+  2025: 1.6906400109218708,
+};
+
+// --- WUR Forecast base (no projects, Andina Chile) ---
+// GET /v3/target-tracking/v2/coca-cola-andina/site-groups/{sg}/targets/water_use_ratio/forecast
+const wurForecastBase = {
+  2025: 1.6906400109218708,
+  2026: 1.6906400109218708,
+  2027: 1.6906400109218708,
+  2028: 1.6906400109218708,
+  2029: 1.6906400109218708,
+  2030: 1.6906400109218708,
+};
+
+// --- WUR Base case (with projects, Andina Chile) ---
+// GET .../forecast-with-projects
+const wurBaseCaseForecast = {
+  2025: 1.6906400109218708,
+  2026: 1.6906400109218708,
+  2027: 1.5279915607896344,
+  2028: 1.5279915607896344,
+  2029: 1.5279915607896344,
+  2030: 1.5279915607896344,
+};
+
+// --- Target (company-level) ---
+// GET /v3/target-tracking/v2/coca-cola-andina/targets
+const targetBaseline = { year: 2024, value: 1.6398083446921965 };
+const targetGoal = { year: 2030, value: 1.27 };
+
+// --- Production Historical (Andina Chile) ---
+// POST /v3/data-gathering/coca-cola-andina/get-single-metric (production)
+// filters: { sites: [Antofagasta, Punta Arenas, Renca] }
+const productionHistorical = {
+  2022: 1009880.53296,
+  2023: 996204.51828,
+  2024: 1001575.96596,
+  2025: 1006203.88308,
+};
+
+// --- Production Forecast (Andina Chile) ---
+// Extracted from WUR forecast response (production field)
+const productionForecastValue = 1006203.88308;
+const productionForecast = {
+  2025: productionForecastValue,
+  2026: productionForecastValue,
+  2027: productionForecastValue,
+  2028: productionForecastValue,
+  2029: productionForecastValue,
+  2030: productionForecastValue,
+};
+
+// =============================================
+// Build chart data arrays
+// =============================================
+
+const wurData = years.map(y => wurHistorical[y] ?? null);
+
+function interpolateTarget(year) {
+  if (year < targetBaseline.year || year > targetGoal.year) return null;
+  const t = (year - targetBaseline.year) / (targetGoal.year - targetBaseline.year);
+  return targetBaseline.value + t * (targetGoal.value - targetBaseline.value);
+}
+const targetData = years.map(y => interpolateTarget(y));
+
+const forecastBaseData = years.map(y => wurForecastBase[y] ?? null);
+const baseCaseData = years.map(y => wurBaseCaseForecast[y] ?? null);
+
+const productionData = years.map(y => {
+  if (productionHistorical[y] !== undefined) return productionHistorical[y];
+  if (productionForecast[y] !== undefined) return productionForecast[y];
+  return null;
+});
+
+let showProduction = true;
+let startAtZero = false;
+let chartBug, chartFix;
+
+// =============================================
+// Axis range functions (exact replica from chart.utils.ts)
+// =============================================
+
+function getAutoScaleRange(data) {
+  const values = data.filter(v => v !== null);
+  const min = Math.min(...values);
+  const max = Math.max(...values);
+  const padding = (max - min) * 0.05;
+  return {
+    min: Math.floor((min - padding) / 1000) * 1000,
+    max: Math.ceil((max + padding) / 1000) * 1000,
+  };
+}
+
+function calculateNiceAxisRange(min, max, options = {}) {
+  if (!Number.isFinite(min) || !Number.isFinite(max)) return null;
+  const tickCount = Math.max(2, Math.floor(options.tickCount || 6));
+  const lowerValue = Math.min(min, max);
+  const upperValue = Math.max(min, max);
+  const rawRange = upperValue - lowerValue;
+  const fallbackRange = Math.max(Math.abs(upperValue), 1);
+  const range = rawRange === 0 ? fallbackRange : rawRange;
+
+  const multipliers = [1, 2, 2.5, 5, 10];
+  const rawStep = range / (tickCount - 1);
+  const magnitude = Math.pow(10, Math.floor(Math.log10(rawStep)));
+  const normalized = rawStep / magnitude;
+  const multiplier = multipliers.find(s => normalized <= s) || 10;
+  const stepSize = parseFloat((multiplier * magnitude).toPrecision(12));
+
+  let lowerBound = Math.floor(lowerValue / stepSize) * stepSize;
+  const upperBound = Math.ceil(upperValue / stepSize) * stepSize;
+  if (options.clampLowerBoundToZero && lowerBound < 0) lowerBound = 0;
+  const maxBound = upperBound === lowerBound ? lowerBound + stepSize : upperBound;
+
+  return {
+    min: parseFloat(lowerBound.toPrecision(12)),
+    max: parseFloat(maxBound.toPrecision(12)),
+    stepSize
+  };
+}
+
+function fmtNum(value) {
+  return value.toLocaleString('en-US', { maximumFractionDigits: 0 });
+}
+
+function fmtShort(value) {
+  if (Math.abs(value) >= 1000000) return (value / 1000000).toFixed(2) + 'M';
+  if (Math.abs(value) >= 1000) return Math.round(value / 1000) + 'K';
+  return value.toString();
+}
+
+// =============================================
+// Chart construction
+// =============================================
+
+function getProductionDataset() {
+  return {
+    type: 'line',
+    label: 'Production',
+    data: productionData,
+    borderColor: '#15803d',
+    backgroundColor: '#15803d12',
+    fill: true,
+    yAxisID: 'y1',
+    pointRadius: 5,
+    pointBackgroundColor: '#15803d',
+    pointBorderColor: '#fff',
+    pointBorderWidth: 2,
+    borderWidth: 2,
+    tension: 0.2,
+    order: 0,
+  };
+}
+
+function getBaseDatasets() {
+  return [
+    {
+      label: 'Target',
+      data: targetData,
+      borderColor: '#4b5563',
+      borderWidth: 3,
+      pointRadius: 5,
+      pointBackgroundColor: '#4b5563',
+      pointBorderColor: '#fff',
+      pointBorderWidth: 2,
+      tension: 0,
+      spanGaps: true,
+      order: 2,
+    },
+    {
+      label: 'WUR',
+      data: wurData,
+      borderColor: '#3b82f6',
+      borderWidth: 2.5,
+      pointRadius: 5,
+      pointBackgroundColor: '#3b82f6',
+      pointBorderColor: '#fff',
+      pointBorderWidth: 2,
+      tension: 0.2,
+      order: 3,
+    },
+    {
+      label: 'Forecast base (no projects)',
+      data: forecastBaseData,
+      borderColor: '#93c5fd',
+      borderWidth: 2,
+      pointRadius: 3,
+      pointBackgroundColor: '#93c5fd',
+      backgroundColor: '#93c5fd15',
+      fill: true,
+      tension: 0,
+      spanGaps: false,
+      order: 4,
+    },
+    {
+      label: 'Base case (with projects)',
+      data: baseCaseData,
+      borderColor: '#60a5fa',
+      borderWidth: 2,
+      borderDash: [6, 4],
+      pointRadius: 3,
+      pointBackgroundColor: '#60a5fa',
+      tension: 0,
+      spanGaps: false,
+      order: 5,
+    },
+  ];
+}
+
+function createChart(canvasId, rightAxisConfig, isBugVersion) {
+  const ctx = document.getElementById(canvasId).getContext('2d');
+
+  const datasets = [...getBaseDatasets()];
+  if (showProduction) {
+    datasets.unshift(getProductionDataset());
+  }
+
+  const allLeftValues = [
+    ...Object.values(wurHistorical),
+    ...Object.values(wurBaseCaseForecast),
+    targetGoal.value,
+  ];
+  const leftRange = calculateNiceAxisRange(
+    Math.min(...allLeftValues),
+    Math.max(...allLeftValues),
+    { clampLowerBoundToZero: true }
+  );
+
+  return new Chart(ctx, {
+    type: 'line',
+    data: { labels: years, datasets },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      interaction: { mode: 'index', intersect: false },
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: { usePointStyle: true, padding: 14, font: { size: 11 } }
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              const label = context.dataset.label || '';
+              const val = context.parsed.y;
+              if (val === null || val === undefined) return '';
+              if (context.dataset.yAxisID === 'y1') {
+                return `${label}: ${fmtNum(val)} m3`;
+              }
+              return `${label}: ${val.toFixed(4)} m3/m3`;
+            }
+          }
+        }
+      },
+      scales: {
+        y: {
+          position: 'left',
+          min: leftRange?.min,
+          max: leftRange?.max,
+          title: { display: true, text: 'WUR (m3/m3)', font: { size: 12, weight: 'bold' } },
+          ticks: {
+            stepSize: leftRange?.stepSize,
+            callback: v => v.toFixed(2),
+          },
+          grid: { color: '#f0f0f0' },
+        },
+        y1: {
+          display: showProduction,
+          position: 'right',
+          min: rightAxisConfig?.min,
+          max: rightAxisConfig?.max,
+          title: {
+            display: showProduction,
+            text: 'Production (m3)',
+            font: { size: 12, weight: 'bold' },
+            color: isBugVersion ? '#dc2626' : '#16a34a',
+          },
+          ticks: {
+            display: showProduction,
+            stepSize: rightAxisConfig?.stepSize,
+            callback: v => fmtNum(v),
+            color: isBugVersion ? '#dc262680' : '#16a34a80',
+          },
+          grid: { display: false },
+        },
+        x: {
+          grid: { color: '#f0f0f0' },
+          ticks: { font: { weight: 'bold' } },
+        },
+      },
+    },
+  });
+}
+
+// =============================================
+// Render & controls
+// =============================================
+
+function renderCharts() {
+  if (chartBug) chartBug.destroy();
+  if (chartFix) chartFix.destroy();
+
+  const prodValues = productionData.filter(v => v !== null);
+  const prodMin = Math.min(...prodValues);
+  const prodMax = Math.max(...prodValues);
+  const variation = ((prodMax - prodMin) / prodMin * 100).toFixed(1);
+
+  // BUG: no explicit range
+  const bugRange = showProduction ? getAutoScaleRange(productionData) : undefined;
+
+  // FIX: calculateNiceAxisRange applied
+  let fixRange = null;
+  if (showProduction) {
+    const minVal = startAtZero ? 0 : prodMin;
+    fixRange = calculateNiceAxisRange(minVal, prodMax, {
+      clampLowerBoundToZero: prodMin >= 0,
+    });
+  }
+
+  chartBug = createChart('chartBug', bugRange, true);
+  chartFix = createChart('chartFix', fixRange, false);
+
+  // Update stats
+  if (bugRange) {
+    document.getElementById('bugRangeLabel').textContent =
+      `${fmtNum(bugRange.min)} - ${fmtNum(bugRange.max)}`;
+    const bugSpan = bugRange.max - bugRange.min;
+    document.getElementById('bugRangeDetail').textContent =
+      `Only ${fmtNum(bugSpan)} m3 span = visual distortion`;
+  }
+  if (fixRange) {
+    document.getElementById('fixRangeLabel').textContent =
+      `${fmtNum(fixRange.min)} - ${fmtNum(fixRange.max)}`;
+    const fixSpan = fixRange.max - fixRange.min;
+    document.getElementById('fixRangeDetail').textContent =
+      `${fmtNum(fixSpan)} m3 span = proportional context`;
+  }
+
+  document.getElementById('variationLabel').textContent = `~${variation}%`;
+  document.getElementById('variationDetail').textContent =
+    `${fmtNum(prodMin)} to ${fmtNum(prodMax)} m3`;
+}
+
+function toggleProductionLine() {
+  showProduction = !showProduction;
+  document.getElementById('toggleProduction').classList.toggle('active', showProduction);
+  renderCharts();
+}
+
+function toggleStartAtZero() {
+  startAtZero = !startAtZero;
+  document.getElementById('toggleZero').classList.toggle('active', startAtZero);
+  renderCharts();
+}
+
+// Build data table
+function buildDataTable() {
+  const tbody = document.getElementById('dataTableBody');
+  tbody.innerHTML = '';
+  years.forEach(y => {
+    const wur = wurHistorical[y];
+    const wurFC = wurForecastBase[y];
+    const wurBC = wurBaseCaseForecast[y];
+    const prod = productionHistorical[y];
+    const prodFC = productionForecast[y];
+    const tgt = interpolateTarget(y);
+
+    const isHistWur = !!wur;
+    const wurVal = wur ? wur.toFixed(4) : (wurFC ? wurFC.toFixed(4) : '-');
+    const wurSrc = wur ? 'Historical' : (wurFC ? 'Forecast' : '-');
+    const isHistProd = !!prod && y <= 2025;
+    const prodVal = prod ? fmtNum(prod) : (prodFC ? fmtNum(prodFC) : '-');
+    const prodSrc = isHistProd ? 'Historical' : (prodFC || prod ? 'Forecast' : '-');
+    const tgtVal = tgt ? tgt.toFixed(4) : '-';
+
+    // For 2025, production exists in both historical and forecast (same value)
+    // Mark as historical since it's the "last reported value"
+
+    const row = document.createElement('tr');
+    row.innerHTML = `
+      <td><strong>${y}</strong></td>
+      <td>${wurVal}</td>
+      <td><span style="color:${isHistWur ? '#2563eb' : '#9ca3af'};font-size:11px">${wurSrc}</span></td>
+      <td>${prodVal}</td>
+      <td><span style="color:${isHistProd ? '#15803d' : '#9ca3af'};font-size:11px">${prodSrc}</span></td>
+      <td>${tgtVal}</td>
+    `;
+    tbody.appendChild(row);
+  });
+}
+
+buildDataTable();
+renderCharts();
+</script>
+</body>
+</html>

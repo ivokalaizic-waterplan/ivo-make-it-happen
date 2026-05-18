@@ -1,0 +1,1134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Target Tracking — Hands-on Training | Jero & Juli</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+    :root {
+      --wp-blue: #1B65F1;
+      --wp-blue-light: #E8F0FE;
+      --wp-blue-dark: #0F3D91;
+      --wp-navy: #0D1B3E;
+      --wp-teal: #00B4D8;
+      --wp-green: #06D6A0;
+      --wp-green-light: #E6FAF3;
+      --wp-red: #EF476F;
+      --wp-red-light: #FDE8ED;
+      --wp-orange: #FF9F1C;
+      --wp-orange-light: #FFF3E0;
+      --wp-purple: #7C3AED;
+      --wp-purple-light: #F0E6FF;
+      --wp-gray-50: #F8FAFC;
+      --wp-gray-100: #F1F5F9;
+      --wp-gray-200: #E2E8F0;
+      --wp-gray-300: #CBD5E1;
+      --wp-gray-500: #64748B;
+      --wp-gray-700: #334155;
+      --wp-gray-900: #0F172A;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      color: var(--wp-gray-900);
+      background: var(--wp-gray-50);
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, var(--wp-navy) 0%, var(--wp-blue-dark) 60%, var(--wp-blue) 100%);
+      color: white;
+      padding: 4rem 2rem 3.5rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: -40%; right: -20%;
+      width: 600px; height: 600px;
+      background: radial-gradient(circle, rgba(6,214,160,0.15) 0%, transparent 70%);
+      border-radius: 50%;
+    }
+    .hero-inner {
+      max-width: 820px;
+      margin: 0 auto;
+      position: relative;
+      z-index: 1;
+    }
+    .hero-badge {
+      display: inline-block;
+      background: rgba(255,255,255,0.12);
+      border: 1px solid rgba(255,255,255,0.2);
+      padding: 0.3rem 0.9rem;
+      border-radius: 100px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-bottom: 1.2rem;
+      backdrop-filter: blur(4px);
+    }
+    .hero h1 {
+      font-size: 2.4rem;
+      font-weight: 800;
+      line-height: 1.15;
+      margin-bottom: 1rem;
+      letter-spacing: -0.02em;
+    }
+    .hero p {
+      font-size: 1.05rem;
+      color: rgba(255,255,255,0.95);
+      max-width: 620px;
+      line-height: 1.6;
+    }
+    .hero-meta {
+      display: flex;
+      gap: 1.5rem;
+      margin-top: 1.5rem;
+      flex-wrap: wrap;
+    }
+    .hero-meta-item {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-size: 0.85rem;
+      color: rgba(255,255,255,0.85);
+    }
+
+    .container {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+
+    /* Setup box */
+    .setup-box {
+      background: white;
+      border: 2px solid var(--wp-blue);
+      border-radius: 12px;
+      padding: 1.5rem 2rem;
+      margin: -1.5rem auto 2.5rem;
+      position: relative;
+      z-index: 2;
+      max-width: 820px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+    }
+    .setup-box h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--wp-navy);
+      margin-bottom: 0.8rem;
+    }
+    .setup-box ul {
+      margin: 0.5rem 0 0 1.5rem;
+      color: var(--wp-gray-700);
+    }
+    .setup-box li {
+      margin-bottom: 0.4rem;
+      font-size: 0.9rem;
+    }
+
+    /* Env requirements */
+    .env-box {
+      background: #FFFBEB;
+      border: 1px solid #FDE68A;
+      border-radius: 12px;
+      padding: 1.5rem 2rem;
+      margin: 0 auto 2.5rem;
+      max-width: 820px;
+    }
+    .env-box h3 {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: #92400E;
+      margin-bottom: 0.6rem;
+    }
+    .env-box p, .env-box li {
+      font-size: 0.88rem;
+      color: #78350F;
+    }
+    .env-box ul {
+      margin: 0.5rem 0 0 1.5rem;
+    }
+    .env-box li { margin-bottom: 0.3rem; }
+    .env-box code {
+      background: rgba(0,0,0,0.06);
+      padding: 0.1rem 0.35rem;
+      border-radius: 3px;
+      font-size: 0.82rem;
+    }
+
+    /* Sections */
+    section { margin-bottom: 3rem; }
+    .section-header {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      margin-bottom: 1.5rem;
+      padding-top: 1rem;
+    }
+    .section-num {
+      background: var(--wp-blue);
+      color: white;
+      width: 2.2rem;
+      height: 2.2rem;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.85rem;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+    .section-header h2 {
+      font-size: 1.4rem;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      color: var(--wp-navy);
+    }
+
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--wp-gray-900);
+      margin: 1.8rem 0 0.8rem;
+    }
+    p { margin-bottom: 1rem; color: var(--wp-gray-700); }
+    strong { color: var(--wp-gray-900); }
+    ul, ol { margin: 0.5rem 0 1rem 1.5rem; color: var(--wp-gray-700); }
+    li { margin-bottom: 0.5rem; padding-left: 0.2rem; }
+
+    /* Task cards */
+    .task {
+      background: white;
+      border: 1px solid var(--wp-gray-200);
+      border-radius: 12px;
+      padding: 1.5rem 1.75rem;
+      margin: 1.2rem 0;
+      position: relative;
+    }
+    .task::before {
+      content: '';
+      position: absolute;
+      left: 0; top: 0; bottom: 0;
+      width: 4px;
+      border-radius: 12px 0 0 12px;
+    }
+    .task.do::before { background: var(--wp-blue); }
+    .task.question::before { background: var(--wp-orange); }
+    .task.observe::before { background: var(--wp-teal); }
+    .task.feedback::before { background: var(--wp-red); }
+    .task.context::before { background: var(--wp-purple); }
+
+    .task-label {
+      font-size: 0.65rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 0.4rem;
+    }
+    .task.do .task-label { color: var(--wp-blue); }
+    .task.question .task-label { color: var(--wp-orange); }
+    .task.observe .task-label { color: var(--wp-teal); }
+    .task.feedback .task-label { color: var(--wp-red); }
+    .task.context .task-label { color: var(--wp-purple); }
+
+    .task h4 {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--wp-navy);
+      margin-bottom: 0.4rem;
+    }
+    .task p { font-size: 0.9rem; margin-bottom: 0.5rem; color: var(--wp-gray-700); }
+    .task p:last-child { margin-bottom: 0; }
+    .task ol, .task ul { font-size: 0.9rem; }
+
+    .task-hint {
+      background: var(--wp-gray-50);
+      border-radius: 6px;
+      padding: 0.6rem 0.8rem;
+      font-size: 0.82rem;
+      color: var(--wp-gray-500);
+      margin-top: 0.6rem;
+    }
+
+    /* Phase headers */
+    .phase {
+      background: linear-gradient(135deg, var(--wp-blue-light), #f0f6ff);
+      border: 1px solid rgba(27,101,241,0.15);
+      border-radius: 12px;
+      padding: 1.25rem 1.75rem;
+      margin: 2rem 0 1.2rem;
+    }
+    .phase.prereq { background: linear-gradient(135deg, var(--wp-purple-light), #e8dff5); border-color: rgba(124,58,237,0.15); }
+    .phase.carbon { background: linear-gradient(135deg, #f5f5f5, #e8e8e8); border-color: rgba(0,0,0,0.1); }
+    .phase.wrap { background: linear-gradient(135deg, var(--wp-green-light), #d4f5e9); border-color: rgba(6,214,160,0.2); }
+    .phase.danger { background: linear-gradient(135deg, var(--wp-red-light), #fcd5dd); border-color: rgba(239,71,111,0.2); }
+    .phase h3 { margin: 0 0 0.3rem; font-size: 1.1rem; color: var(--wp-navy); }
+    .phase p { margin: 0; font-size: 0.88rem; color: var(--wp-gray-500); }
+
+    /* Callouts */
+    .callout {
+      border-radius: 10px;
+      padding: 1.25rem 1.5rem;
+      margin: 1.2rem 0;
+    }
+    .callout-insight { background: var(--wp-blue-light); border-left: 4px solid var(--wp-blue); }
+    .callout-warning { background: var(--wp-orange-light); border-left: 4px solid var(--wp-orange); }
+    .callout-success { background: var(--wp-green-light); border-left: 4px solid var(--wp-green); }
+    .callout-label {
+      font-size: 0.7rem; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.4rem;
+    }
+    .callout-insight .callout-label { color: var(--wp-blue); }
+    .callout-warning .callout-label { color: #D97706; }
+    .callout-success .callout-label { color: #059669; }
+    .callout p:last-child { margin-bottom: 0; }
+
+    /* Dependency diagram */
+    .dep-flow {
+      display: grid;
+      grid-template-columns: 1fr auto 1fr auto 1fr;
+      align-items: center;
+      gap: 0.3rem;
+      margin: 1.5rem 0;
+    }
+    .dep-flow-bottom {
+      display: flex;
+      justify-content: center;
+      margin: 0.6rem 0 1.5rem;
+    }
+    .dep-step {
+      background: white;
+      border: 2px solid var(--wp-gray-200);
+      border-radius: 10px;
+      padding: 0.7rem 0.8rem;
+      text-align: center;
+    }
+    .dep-step.active { border-color: var(--wp-blue); box-shadow: 0 2px 12px rgba(27,101,241,0.12); }
+    .dep-step-num {
+      font-size: 0.6rem; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 0.08em;
+      color: var(--wp-gray-500); margin-bottom: 0.15rem;
+    }
+    .dep-step.active .dep-step-num { color: var(--wp-blue); }
+    .dep-step-title {
+      font-weight: 700; font-size: 0.82rem; color: var(--wp-navy);
+    }
+    .dep-step-desc {
+      font-size: 0.68rem; color: var(--wp-gray-500); margin-top: 0.1rem;
+    }
+    .dep-arrow {
+      color: var(--wp-gray-300); font-size: 1.2rem; text-align: center; flex-shrink: 0;
+    }
+    .dep-arrow-down {
+      color: var(--wp-gray-300); font-size: 1.2rem; text-align: center;
+      margin: 0.2rem 0;
+    }
+
+    /* Divider */
+    .domain-divider {
+      text-align: center; padding: 2rem 0; position: relative;
+    }
+    .domain-divider::before {
+      content: ''; position: absolute; top: 50%; left: 0; right: 0;
+      height: 1px; background: var(--wp-gray-200);
+    }
+    .domain-divider span {
+      background: var(--wp-gray-50); padding: 0 1rem; position: relative;
+      font-size: 0.75rem; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 0.1em; color: var(--wp-gray-500);
+    }
+
+    /* Tables */
+    .table-wrap {
+      overflow-x: auto; margin: 1rem 0 1.5rem;
+      border-radius: 10px; border: 1px solid var(--wp-gray-200);
+    }
+    table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+    thead { background: var(--wp-gray-100); }
+    th {
+      text-align: left; padding: 0.65rem 1rem; font-weight: 600;
+      font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.04em;
+      color: var(--wp-gray-500); border-bottom: 1px solid var(--wp-gray-200);
+    }
+    td {
+      padding: 0.65rem 1rem; border-bottom: 1px solid var(--wp-gray-100);
+      color: var(--wp-gray-700); vertical-align: top;
+    }
+    tr:last-child td { border-bottom: none; }
+
+    /* Person badges */
+    .person-badge {
+      display: inline-block;
+      padding: 0.15rem 0.6rem;
+      border-radius: 100px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+    }
+    .person-jero { background: #DBEAFE; color: #1E40AF; }
+    .person-juli { background: #FCE7F3; color: #9D174D; }
+
+    /* Split columns */
+    .split-data {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.2rem;
+      margin: 1rem 0;
+    }
+    .split-data .split-col {
+      background: white;
+      border: 1px solid var(--wp-gray-200);
+      border-radius: 10px;
+      padding: 1.2rem 1.4rem;
+    }
+    .split-col h5 {
+      font-size: 0.82rem;
+      font-weight: 700;
+      margin-bottom: 0.8rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .split-col table { font-size: 0.82rem; }
+    .split-col td, .split-col th { padding: 0.4rem 0.6rem; }
+
+    @media (max-width: 700px) {
+      .split-data { grid-template-columns: 1fr; }
+    }
+
+    .footer {
+      text-align: center; padding: 2rem; color: var(--wp-gray-500);
+      font-size: 0.8rem; border-top: 1px solid var(--wp-gray-200); margin-top: 3rem;
+    }
+
+    @media (max-width: 640px) {
+      .hero { padding: 3rem 1.5rem 2.5rem; }
+      .hero h1 { font-size: 1.8rem; }
+      .container { padding: 0 1.5rem; }
+      .setup-box, .env-box { margin-left: 1.5rem; margin-right: 1.5rem; }
+      .hero-meta { flex-direction: column; gap: 0.5rem; }
+      .dep-flow { grid-template-columns: 1fr; gap: 0.5rem; }
+      .dep-flow .dep-arrow { transform: rotate(90deg); }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-badge">Hands-on Training</div>
+      <h1>Target Tracking<br>de punta a punta</h1>
+      <p>Van a recorrer la plataforma como un cliente real. Primero entienden la estructura y la data que ya existe, despues eliminan los targets de su sitio y los recrean desde cero &mdash; targets, escenarios, graficos. <strong>Todo lo que les cueste o confunda es feedback valioso.</strong></p>
+      <div class="hero-meta">
+        <div class="hero-meta-item">
+          <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          ~2 horas estimadas
+        </div>
+        <div class="hero-meta-item">
+          <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
+          Jero (Goodyear) &middot; Juli (Queretaro)
+        </div>
+        <div class="hero-meta-item">
+          <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+          Semana del 18 de mayo 2026
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- SETUP -->
+  <div class="container">
+    <div class="setup-box">
+      <h3>Reglas del juego</h3>
+      <ul>
+        <li><strong>Conectarse al Google Meet que les comparte Ivo.</strong> La reunion se va a grabar y transcribir automaticamente. No necesitan hacer nada extra.</li>
+        <li><strong>Pensar en voz alta.</strong> Si algo les parece raro, confuso, o no saben donde ir: diganlo. "No entiendo que es esto", "no se donde hacer click" &mdash; todo cuenta.</li>
+        <li><strong>Si se traban, intentar 2 minutos solos.</strong> Si no sale, anoten donde se trabaron y sigan con la siguiente tarea. No le pregunten a nadie &mdash; la idea es capturar la friccion real.</li>
+        <li><strong>Si encuentran un bug o algo raro</strong>, diganlo en voz alta y ademas anoten la URL + que paso.</li>
+        <li><strong>No lean este documento completo antes de arrancar.</strong> Vayan leyendo fase por fase a medida que avanzan.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="env-box">
+      <h3>Asignacion de sitios</h3>
+      <p>Cada uno trabaja sobre <strong>un solo sitio</strong> durante todo el ejercicio:</p>
+      <ul>
+        <li><span class="person-badge person-jero">JERO</span> &rarr; <strong>Goodyear</strong></li>
+        <li><span class="person-badge person-juli">JULI</span> &rarr; <strong>Queretaro</strong></li>
+      </ul>
+      <p style="margin-top: 0.8rem;">La empresa demo-sales tiene 5 sitios en total (Goodyear, Queretaro, Cajamar, Alexandria, Madrid), pero ustedes solo van a trabajar sobre el suyo. Si quieren ver como referencia un target ya armado, pueden mirar el sitio <strong>Alexandria</strong>.</p>
+    </div>
+  </div>
+
+  <main class="container">
+
+    <!-- FASE 0: CONTEXTO -->
+    <section>
+      <div class="section-header">
+        <div class="section-num" style="background: var(--wp-purple);">0</div>
+        <h2>Antes de arrancar: como encaja todo</h2>
+      </div>
+
+      <p>Target Tracking no vive solo. Depende de otros modulos de la plataforma. Este es el flujo completo de la informacion:</p>
+
+      <div class="dep-flow">
+        <div class="dep-step">
+          <div class="dep-step-num">Paso 1</div>
+          <div class="dep-step-title">Data Gathering</div>
+          <div class="dep-step-desc">Variables + data real cargada</div>
+        </div>
+        <div class="dep-arrow">&rarr;</div>
+        <div class="dep-step">
+          <div class="dep-step-num">Paso 2</div>
+          <div class="dep-step-title">Company Catalog</div>
+          <div class="dep-step-desc">Variables compuestas + metricas</div>
+        </div>
+        <div class="dep-arrow">&rarr;</div>
+        <div class="dep-step">
+          <div class="dep-step-num">Paso 3</div>
+          <div class="dep-step-title">Projects</div>
+          <div class="dep-step-desc">Acciones con impacto medible</div>
+        </div>
+      </div>
+      <div class="dep-arrow-down">&darr;</div>
+      <div class="dep-flow-bottom">
+        <div class="dep-step active">
+          <div class="dep-step-num">Paso 4</div>
+          <div class="dep-step-title">Target Tracking</div>
+          <div class="dep-step-desc">Targets + escenarios + graficos</div>
+        </div>
+      </div>
+
+      <div class="callout callout-insight">
+        <div class="callout-label">Por que importa esto</div>
+        <p>Sin data cargada en Data Gathering, Target Tracking no tiene valores que mostrar. Sin proyectos cargados, los escenarios no tienen con que proyectar. <strong>Todo esta conectado.</strong> La primera parte de este ejercicio es entender que hay debajo antes de llegar a targets.</p>
+      </div>
+    </section>
+
+    <!-- ================================================================ -->
+    <!-- FASE 1: RECONOCIMIENTO DEL TERRENO -->
+    <!-- ================================================================ -->
+
+    <section>
+      <div class="section-header">
+        <div class="section-num">1</div>
+        <h2>Reconocimiento del terreno</h2>
+      </div>
+
+      <div class="phase prereq">
+        <h3>Fase 1A: Data Gathering</h3>
+        <p>Entiendan que data tiene cargada la empresa antes de llegar a targets.</p>
+      </div>
+
+      <div class="task observe">
+        <div class="task-label">Explorar</div>
+        <h4>1.1 &mdash; Variables cargadas</h4>
+        <p>Vayan a Data Gathering. Miren el catalogo de variables de la empresa.</p>
+        <ol>
+          <li>Que variables de <strong>agua</strong> estan cargadas? (withdrawals, discharges, production, etc.)</li>
+          <li>Que variables de <strong>energia</strong> estan cargadas? (gas natural, electricidad, steam, etc.)</li>
+          <li>Hay <strong>variables compuestas</strong> (computed metrics)? Por ejemplo, "Water Intensity" que se calcula como withdrawals / production. Si las hay, cuales son y de que dependen?</li>
+          <li>Para cuantos anos hay data? Desde cuando hasta cuando?</li>
+        </ol>
+        <div class="task-hint">Una variable compuesta (computed metric) se define con una ecuacion que combina otras variables. Por ejemplo: <code>water_intensity = total_withdrawals / production</code>. El sistema la calcula automaticamente.</div>
+      </div>
+
+      <div class="task question">
+        <div class="task-label">Pregunta</div>
+        <h4>1.2 &mdash; Raw vs Computed</h4>
+        <p><strong>Cual es la diferencia practica entre una variable raw (ej: "Ground Withdrawals") y una computed (ej: "Water Intensity")?</strong> Expliquenlo en sus palabras.</p>
+      </div>
+
+      <div class="phase prereq">
+        <h3>Fase 1B: Conversion Factors</h3>
+        <p>Esto es critico para que carbon funcione.</p>
+      </div>
+
+      <div class="task observe">
+        <div class="task-label">Explorar</div>
+        <h4>1.3 &mdash; Conversion Factors</h4>
+        <p>Dentro de Data Gathering, vayan a la tab <strong>"Conversion Functions"</strong> (la ultima tab a la derecha).</p>
+        <ol>
+          <li>Que variables tienen conversion factors cargados?</li>
+          <li>Fijense en las columnas: hay factores <strong>Global</strong> (celeste) y factores por <strong>sitio</strong> (rosa = "Site override"). Que variables tienen factores distintos por sitio y cuales usan el global?</li>
+          <li>Miren las columnas de <strong>Purchased Electricity</strong> y <strong>Onsite Generation Electricity</strong>: los valores son distintos por sitio. Ahora miren <strong>Liquified Petroleum Gas</strong> o <strong>Purchased Steam</strong>: los sitios usan el global. Pueden ver esa diferencia?</li>
+        </ol>
+      </div>
+
+      <div class="callout callout-insight">
+        <div class="callout-label">Por que los factores de electricidad varian por sitio</div>
+        <p>Las variables de <strong>energia electrica</strong> tienen conversion factors distintos por sitio porque dependen de la <strong>matriz energetica del pais</strong>. En un pais con mucha energia renovable (ej: Noruega), 1 kWh genera muy poco CO2. En un pais con mucho carbon (ej: India), 1 kWh genera mucho mas. En cambio, las variables de <strong>gas natural</strong> o combustibles termicos tienen factores muy similares en todos lados &mdash; quemar gas genera las mismas emisiones sin importar donde. Por eso los factores de LPG, gas, y steam usan el "Global default", pero electricidad tiene "Site override" por pais.</p>
+        <p style="font-size: 0.78rem; margin-top: 0.5rem;">Referencia: <a href="https://www.iea.org/data-and-statistics/data-product/emissions-factors-2025" target="_blank" style="color: var(--wp-blue);">IEA Emissions Factors 2025</a> &mdash; dataset con factores de emision de electricidad por pais.</p>
+      </div>
+
+      <div class="phase prereq">
+        <h3>Fase 1C: Proyectos</h3>
+        <p>Los proyectos son acciones concretas con impacto medible. Son la base de los escenarios.</p>
+      </div>
+
+      <div class="task observe">
+        <div class="task-label">Explorar</div>
+        <h4>1.4 &mdash; Proyectos de su sitio</h4>
+        <p>Naveguen a Projects (Inside The Fence) y <strong>filtren por su sitio</strong>.</p>
+        <ol>
+          <li>Cuantos proyectos tiene su sitio?</li>
+          <li>En que <strong>fase</strong> estan? (Draft, Proposed, In Progress, Completed, Cancelled)</li>
+          <li>Abran un proyecto cualquiera. Identifiquen: sitio, titulo, impacto en metrica, financials (CapEx, NPV, payback), fechas.</li>
+          <li>Pueden entender <strong>cuanto impacto tiene sobre la metrica</strong>? Si es un proyecto de agua, cuantos m3 reduce? Si es de energia, cuantos kWh o tCO2?</li>
+        </ol>
+        <div class="task-hint">Los proyectos ya estan cargados &mdash; no van a crear proyectos nuevos en esta fase. Solo exploren lo que hay.</div>
+      </div>
+    </section>
+
+    <!-- ================================================================ -->
+    <!-- FASE 2: TARGET TRACKING - WATER (Explorar lo existente) -->
+    <!-- ================================================================ -->
+
+    <div class="domain-divider">
+      <span>Target Tracking comienza</span>
+    </div>
+
+    <section>
+      <div class="section-header">
+        <div class="section-num">2</div>
+        <h2>Targets de Water &mdash; explorar lo existente</h2>
+      </div>
+
+      <div class="phase">
+        <h3>Fase 2A: Primer contacto con Target Tracking</h3>
+        <p>Naveguen el modulo y entiendan como esta todo armado.</p>
+      </div>
+
+      <div class="task observe">
+        <div class="task-label">Explorar</div>
+        <h4>2.1 &mdash; Landing de Water Targets</h4>
+        <p>Desde el menu principal, vayan a <strong>Water Targets</strong>. Van a caer en la vista de <strong>Company</strong> por defecto &mdash; ahi se ve el resumen general de toda la empresa.</p>
+        <ol>
+          <li>Que ven en la landing a nivel Company? Hay targets creados?</li>
+          <li>Ahora busquen el menu horizontal en la parte superior donde dice <strong>"View by: Company"</strong>. Cambienlo para ver <strong>su sitio</strong> (<span class="person-badge person-jero">JERO</span> Goodyear, <span class="person-badge person-juli">JULI</span> Queretaro).</li>
+          <li>Tienen un target de <strong>Water Intensity</strong> creado para su sitio? Deberian verlo como una card.</li>
+        </ol>
+      </div>
+
+      <div class="task observe">
+        <div class="task-label">Explorar</div>
+        <h4>2.2 &mdash; Entrar al target</h4>
+        <p>Hagan click en la card del target de Water Intensity (pueden hacer click en cualquier parte de la card o en <strong>"Enter scenario"</strong>).</p>
+        <ol>
+          <li>Que tipo de grafico ven? (lineas, barras?)</li>
+          <li>El target dice <strong>On Track</strong> u <strong>Off Track</strong>? Por que creen que es asi?</li>
+          <li>Pueden distinguir: data historica vs forecast vs target?</li>
+          <li>Busquen las opciones de edicion del target &mdash; van a necesitarlas despues para eliminar.</li>
+        </ol>
+        <div class="task-hint">Si quieren ver como referencia un target con mas data, pueden ir al sitio <strong>Alexandria</strong> y explorar su Water Intensity.</div>
+      </div>
+
+      <div class="task observe">
+        <div class="task-label">Explorar</div>
+        <h4>2.3 &mdash; Los graficos</h4>
+        <p>Recorran los graficos disponibles para el target de su sitio:</p>
+        <ol>
+          <li><strong>Evolution Chart:</strong> el grafico principal de lineas. Pueden ver historia + proyeccion?</li>
+          <li><strong>Gap to Target:</strong> cuanto falta para llegar? Pueden cuantificar la brecha?</li>
+          <li><strong>Impact Waterfall:</strong> desglosa proyecto por proyecto cuanto contribuye. Pueden ver el impacto de cada proyecto?</li>
+        </ol>
+      </div>
+
+      <div class="task observe">
+        <div class="task-label">Explorar</div>
+        <h4>2.4 &mdash; Settings del modulo</h4>
+        <p>Busquen el icono de configuracion (engranaje) dentro del modulo de Target Tracking, arriba a la derecha.</p>
+        <ol>
+          <li>Que se puede configurar? (metricas de la landing, columnas, graficos visibles)</li>
+          <li>Cambien algo &mdash; por ejemplo, agreguen o saquen una metrica de la landing. Se refleja el cambio?</li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ================================================================ -->
+    <!-- FASE 3: ELIMINAR Y RECREAR TARGET DE WATER -->
+    <!-- ================================================================ -->
+
+    <section>
+      <div class="section-header">
+        <div class="section-num" style="background: var(--wp-red);">3</div>
+        <h2>Eliminar y recrear &mdash; Water Intensity</h2>
+      </div>
+
+      <p>Ahora que entienden como funciona, van a <strong>eliminar el target de Water Intensity de su sitio</strong> y <strong>recrearlo desde cero</strong> con los datos que les compartimos abajo. El objetivo es que practiquen todo el flujo de creacion.</p>
+
+      <div class="phase danger">
+        <h3>Fase 3A: Eliminar el target existente</h3>
+        <p>Vayan a su sitio y eliminen el target de Water Intensity.</p>
+      </div>
+
+      <div class="task do">
+        <div class="task-label">Hacer</div>
+        <h4>3.1 &mdash; Eliminar el target de Water Intensity</h4>
+        <p>Dentro del target de Water Intensity de su sitio:</p>
+        <ol>
+          <li>Busquen la opcion de <strong>Editar</strong> el target.</li>
+          <li>Dentro de la edicion, busquen la opcion de <strong>Eliminar</strong>.</li>
+          <li>Confirmen la eliminacion.</li>
+        </ol>
+        <div class="task-hint">Al eliminar un target, los escenarios asociados tambien se eliminan. Esto es esperado.</div>
+      </div>
+
+      <div class="phase">
+        <h3>Fase 3B: Crear el target desde cero</h3>
+        <p>Recreen el target con los datos exactos que estan mas abajo.</p>
+      </div>
+
+      <div class="task do">
+        <div class="task-label">Hacer</div>
+        <h4>3.2 &mdash; Crear el target de Water Intensity</h4>
+        <p>Creen un target nuevo en su sitio. Los datos exactos para cada uno estan en la tabla de abajo.</p>
+        <ol>
+          <li>Seleccionen la metrica <strong>Water Intensity</strong>.</li>
+          <li>Completen ano base, valor base, ano target, valor target con los datos de la tabla.</li>
+          <li><span class="person-badge person-jero">JERO</span> Seleccionen interpolacion por <strong>checkpoints</strong> y carguen los valores ano por ano.</li>
+          <li><span class="person-badge person-juli">JULI</span> Seleccionen interpolacion <strong>lineal</strong>.</li>
+          <li>Operador: "menor o igual" (el target se cumple cuando el valor real esta por debajo).</li>
+        </ol>
+        <div class="task-hint">El modal de creacion tiene 2-3 pasos. En el paso de checkpoints, van a poder definir valores intermedios ano por ano. Si eligen lineal, el sistema interpola automaticamente entre baseline y target.</div>
+      </div>
+
+      <div class="split-data">
+        <div class="split-col">
+          <h5><span class="person-badge person-jero">JERO</span> Goodyear &mdash; Water Intensity</h5>
+          <table>
+            <tr><td><strong>Metrica</strong></td><td>Water Intensity</td></tr>
+            <tr><td><strong>Ano base</strong></td><td>2021</td></tr>
+            <tr><td><strong>Valor base</strong></td><td>2.3278</td></tr>
+            <tr><td><strong>Ano target</strong></td><td>2030</td></tr>
+            <tr><td><strong>Valor target</strong></td><td>1.8622</td></tr>
+            <tr><td><strong>Reduccion</strong></td><td>~20%</td></tr>
+            <tr><td><strong>Operador</strong></td><td>Menor o igual (lte)</td></tr>
+            <tr><td><strong>Tipo</strong></td><td><strong>Con checkpoints</strong></td></tr>
+          </table>
+          <p style="font-size: 0.78rem; color: var(--wp-gray-500); margin-top: 0.6rem;"><strong>Checkpoints anuales:</strong></p>
+          <table>
+            <tr><td>2022</td><td>2.3138</td></tr>
+            <tr><td>2023</td><td>2.2905</td></tr>
+            <tr><td>2024</td><td>2.2579</td></tr>
+            <tr><td>2025</td><td>2.2114</td></tr>
+            <tr><td>2026</td><td>2.1416</td></tr>
+            <tr><td>2027</td><td>2.0717</td></tr>
+            <tr><td>2028</td><td>1.9926</td></tr>
+            <tr><td>2029</td><td>1.9181</td></tr>
+          </table>
+        </div>
+        <div class="split-col">
+          <h5><span class="person-badge person-juli">JULI</span> Queretaro &mdash; Water Intensity</h5>
+          <table>
+            <tr><td><strong>Metrica</strong></td><td>Water Intensity</td></tr>
+            <tr><td><strong>Ano base</strong></td><td>2025</td></tr>
+            <tr><td><strong>Valor base</strong></td><td>5.3401</td></tr>
+            <tr><td><strong>Ano target</strong></td><td>2030</td></tr>
+            <tr><td><strong>Valor target</strong></td><td>4.5391</td></tr>
+            <tr><td><strong>Reduccion</strong></td><td>~15%</td></tr>
+            <tr><td><strong>Operador</strong></td><td>Menor o igual (lte)</td></tr>
+            <tr><td><strong>Tipo</strong></td><td><strong>Lineal (sin checkpoints)</strong></td></tr>
+          </table>
+          <p style="font-size: 0.78rem; color: var(--wp-gray-500); margin-top: 0.6rem;">Este target NO tiene checkpoints anuales &mdash; la interpolacion es lineal entre baseline y target. Es un caso distinto al de Jero.</p>
+        </div>
+      </div>
+
+      <div class="task question">
+        <div class="task-label">Pregunta</div>
+        <h4>3.3 &mdash; Despues de crear</h4>
+        <ol>
+          <li>El target quedo creado? Ven el grafico?</li>
+          <li>El status dice On Track u Off Track?</li>
+          <li>La linea del target, es recta (lineal) o tiene curva (checkpoints)?</li>
+          <li>Si le tuvieran que explicar a alguien que es "on track" vs "off track", como lo dirian?</li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ================================================================ -->
+    <!-- FASE 4: ESCENARIOS WATER -->
+    <!-- ================================================================ -->
+
+    <section>
+      <div class="section-header">
+        <div class="section-num">4</div>
+        <h2>Escenarios &mdash; llegar al target</h2>
+      </div>
+
+      <p>Un escenario es un "que pasaria si" con proyectos seleccionados. El objetivo es armar un escenario que cierre la brecha con el target.</p>
+
+      <div class="phase">
+        <h3>Fase 4A: Crear un escenario agresivo</h3>
+        <p>Van a intentar llegar al 100% del target.</p>
+      </div>
+
+      <div class="task do">
+        <div class="task-label">Hacer</div>
+        <h4>4.1 &mdash; Crear escenario "Agresivo"</h4>
+        <p>Dentro del target de Water Intensity que acaban de crear:</p>
+        <ol>
+          <li>Creen un escenario nuevo. Llamenlo <strong>"Agresivo"</strong> y <strong>elijan un color</strong> para identificarlo en los graficos.</li>
+          <li>Agreguen <strong>todos los proyectos disponibles</strong> para su sitio.</li>
+          <li>Miren el grafico &mdash; la proyeccion llega al target? El status cambio?</li>
+        </ol>
+      </div>
+
+      <div class="task question">
+        <div class="task-label">Pregunta</div>
+        <h4>4.2 &mdash; Llega o no llega?</h4>
+        <ol>
+          <li>Con todos los proyectos, el escenario alcanza el 100% del target?</li>
+          <li>Cuanto gap queda? Pueden cuantificarlo mirando el grafico?</li>
+          <li>Si un cliente les pregunta "con este escenario llego a mi meta?", pueden responder mirando la pantalla?</li>
+        </ol>
+      </div>
+
+      <div class="callout callout-warning">
+        <div class="callout-label">Si no llegan al target (es probable)</div>
+        <p>Es muy posible que los proyectos existentes no alcancen para cerrar el gap. Eso esta hecho a proposito. Si no llegan, pasen a la fase 4B donde van a crear un proyecto nuevo.</p>
+      </div>
+
+      <div class="phase">
+        <h3>Fase 4B: Crear un proyecto para cerrar el gap</h3>
+        <p>Si el escenario no llega, necesitan un proyecto adicional.</p>
+      </div>
+
+      <div class="task do">
+        <div class="task-label">Hacer</div>
+        <h4>4.3 &mdash; Crear un proyecto nuevo</h4>
+        <p>Vayan a la seccion de <strong>Projects</strong> y creen un proyecto nuevo asociado a su sitio.</p>
+        <ol>
+          <li>Busquen en el <strong>Project Database</strong> algun proyecto que les sirva como referencia &mdash; copien titulo, descripcion, y adapten el impacto.</li>
+          <li>El proyecto tiene que tener <strong>impacto en la metrica del target</strong> (Water Intensity o una variable que la compone, como withdrawals).</li>
+          <li>Ponganle datos razonables: impacto, CapEx, fechas.</li>
+          <li>Una vez creado, vuelvan al escenario y agreguen este proyecto.</li>
+          <li>Ahora llegan al target?</li>
+        </ol>
+        <div class="task-hint">Si necesitan ideas: "Reciclaje de agua de proceso", "Reparacion de fugas en red", "Sistema de captacion de agua de lluvia", "Optimizacion de torres de enfriamiento".</div>
+      </div>
+
+      <div class="phase">
+        <h3>Fase 4C: Leer los graficos</h3>
+        <p>Ahora que tienen escenario + proyectos, interpreten lo que ven.</p>
+      </div>
+
+      <div class="task observe">
+        <div class="task-label">Explorar</div>
+        <h4>4.4 &mdash; Evolution Chart</h4>
+        <p>El grafico principal de lineas.</p>
+        <ol>
+          <li>Pueden distinguir: data historica, forecast, target, escenario?</li>
+          <li>Si cambian de escenario, la proyeccion se actualiza?</li>
+        </ol>
+      </div>
+
+      <div class="task observe">
+        <div class="task-label">Explorar</div>
+        <h4>4.5 &mdash; Gap to Target</h4>
+        <p>Cuanto falta para llegar.</p>
+        <ol>
+          <li>Pueden cuantificar la brecha entre el escenario y el target?</li>
+          <li>Cuanto falta en terminos absolutos y porcentuales?</li>
+        </ol>
+      </div>
+
+      <div class="task observe">
+        <div class="task-label">Explorar</div>
+        <h4>4.6 &mdash; Impact Waterfall</h4>
+        <p>Desglosa proyecto por proyecto cuanto contribuye a cerrar el gap.</p>
+        <ol>
+          <li>Pueden ver cuanto contribuye cada proyecto?</li>
+          <li>El proyecto con mas impacto es el que esperaban?</li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ================================================================ -->
+    <!-- FASE 5: CARBON & ENERGY -->
+    <!-- ================================================================ -->
+
+    <div class="domain-divider">
+      <span>Pausa &mdash; tomen 5 min y despues pasen a Carbon</span>
+    </div>
+
+    <section>
+      <div class="section-header">
+        <div class="section-num" style="background: var(--wp-gray-900);">5</div>
+        <h2>Carbon & Energy</h2>
+      </div>
+
+      <p>Carbon y Energy usan el <strong>mismo motor</strong> que Water, pero se dividen en dos modulos separados en la plataforma. En la barra lateral van a ver <strong>Water Targets</strong> y <strong>Energy Targets</strong> como modulos distintos. El motor de fondo es el mismo &mdash; targets, escenarios, graficos &mdash; pero las metricas y variables son diferentes.</p>
+
+      <div class="callout callout-insight">
+        <div class="callout-label">La diferencia clave</div>
+        <p>En Water, las variables son directas (m3 de agua). En Energy/Carbon, hay una capa extra: las variables de energia (gas, electricidad) se <strong>convierten</strong> a emisiones (tCO2e) usando los conversion factors que vieron antes. Un proyecto de energia puede impactar multiples variables a la vez.</p>
+      </div>
+
+      <div class="phase carbon">
+        <h3>Fase 5A: Explorar Energy Targets</h3>
+        <p>Vayan a su sitio en el modulo de Energy Targets.</p>
+      </div>
+
+      <div class="task observe">
+        <div class="task-label">Explorar</div>
+        <h4>5.1 &mdash; Energy vs Water</h4>
+        <p>Naveguen al modulo de <strong>Energy Targets</strong> y miren su sitio.</p>
+        <ol>
+          <li>Que modulos ven en la barra lateral? Identifican Water Targets y Energy Targets como cosas separadas?</li>
+          <li>Que metricas estan disponibles? Ven "Scope 1 & 2 Emissions", "Energy Intensity"?</li>
+          <li>Los targets de carbon les parecen mas complicados que los de agua?</li>
+        </ol>
+      </div>
+
+      <div class="phase danger">
+        <h3>Fase 5B: Eliminar y recrear targets de Carbon</h3>
+        <p>Mismo flujo que con Water: eliminar lo existente y recrear desde cero.</p>
+      </div>
+
+      <div class="callout callout-warning">
+        <div class="callout-label">Atencion &mdash; target lockeado</div>
+        <p><span class="person-badge person-jero">JERO</span> El target de <strong>Scope 1 & 2 de Goodyear esta LOCKED</strong>. Antes de eliminarlo, van a tener que <strong>desbloquearlo</strong>. Busquen la opcion dentro del target.</p>
+      </div>
+
+      <div class="task do">
+        <div class="task-label">Hacer</div>
+        <h4>5.2 &mdash; Eliminar los targets de carbon de su sitio</h4>
+        <p>Cada sitio tiene 2 targets de carbon: <strong>Scope 1 & 2</strong> y <strong>Energy Intensity</strong>. Eliminen ambos.</p>
+        <ol>
+          <li><span class="person-badge person-jero">JERO</span> Primero desbloqueen el Scope 1 & 2 (esta locked), despues eliminenlo.</li>
+          <li>Eliminen tambien el Energy Intensity.</li>
+        </ol>
+      </div>
+
+      <p>Ahora recreen ambos targets con estos datos:</p>
+
+      <h3>Target 1: Scope 1 & 2 (tCO2) - Manufacturing</h3>
+
+      <div class="split-data">
+        <div class="split-col">
+          <h5><span class="person-badge person-jero">JERO</span> Goodyear</h5>
+          <table>
+            <tr><td><strong>Metrica</strong></td><td>Scope 1 & 2 (tCO2) - Manuf.</td></tr>
+            <tr><td><strong>Ano base</strong></td><td>2021</td></tr>
+            <tr><td><strong>Valor base</strong></td><td>8,267.45 tCO2</td></tr>
+            <tr><td><strong>Ano target</strong></td><td>2030</td></tr>
+            <tr><td><strong>Valor target</strong></td><td>5,787.21 tCO2</td></tr>
+            <tr><td><strong>Reduccion</strong></td><td>~30%</td></tr>
+            <tr><td><strong>Tipo</strong></td><td><strong>Con checkpoints</strong></td></tr>
+          </table>
+          <p style="font-size: 0.78rem; color: var(--wp-gray-500); margin-top: 0.6rem;"><strong>Checkpoints:</strong></p>
+          <table>
+            <tr><td>2022</td><td>8,193.04</td></tr>
+            <tr><td>2023</td><td>8,069.03</td></tr>
+            <tr><td>2024</td><td>7,895.41</td></tr>
+            <tr><td>2025</td><td>7,647.39</td></tr>
+            <tr><td>2026</td><td>7,275.35</td></tr>
+            <tr><td>2027</td><td>6,903.32</td></tr>
+            <tr><td>2028</td><td>6,481.68</td></tr>
+            <tr><td>2029</td><td>6,084.84</td></tr>
+          </table>
+        </div>
+        <div class="split-col">
+          <h5><span class="person-badge person-juli">JULI</span> Queretaro</h5>
+          <table>
+            <tr><td><strong>Metrica</strong></td><td>Scope 1 & 2 (tCO2) - Manuf.</td></tr>
+            <tr><td><strong>Ano base</strong></td><td>2021</td></tr>
+            <tr><td><strong>Valor base</strong></td><td>32,141.11 tCO2</td></tr>
+            <tr><td><strong>Ano target</strong></td><td>2030</td></tr>
+            <tr><td><strong>Valor target</strong></td><td>22,498.78 tCO2</td></tr>
+            <tr><td><strong>Reduccion</strong></td><td>~30%</td></tr>
+            <tr><td><strong>Tipo</strong></td><td><strong>Con checkpoints</strong></td></tr>
+          </table>
+          <p style="font-size: 0.78rem; color: var(--wp-gray-500); margin-top: 0.6rem;"><strong>Checkpoints:</strong></p>
+          <table>
+            <tr><td>2022</td><td>31,851.84</td></tr>
+            <tr><td>2023</td><td>31,369.73</td></tr>
+            <tr><td>2024</td><td>30,694.76</td></tr>
+            <tr><td>2025</td><td>29,730.53</td></tr>
+            <tr><td>2026</td><td>28,284.18</td></tr>
+            <tr><td>2027</td><td>26,837.83</td></tr>
+            <tr><td>2028</td><td>25,198.63</td></tr>
+            <tr><td>2029</td><td>23,655.86</td></tr>
+          </table>
+        </div>
+      </div>
+
+      <h3>Target 2: Energy Intensity</h3>
+
+      <div class="split-data">
+        <div class="split-col">
+          <h5><span class="person-badge person-jero">JERO</span> Goodyear</h5>
+          <table>
+            <tr><td><strong>Metrica</strong></td><td>Energy Intensity</td></tr>
+            <tr><td><strong>Ano base</strong></td><td>2021</td></tr>
+            <tr><td><strong>Valor base</strong></td><td>0.5288</td></tr>
+            <tr><td><strong>Ano target</strong></td><td>2030</td></tr>
+            <tr><td><strong>Valor target</strong></td><td>0.4230</td></tr>
+            <tr><td><strong>Reduccion</strong></td><td>~20%</td></tr>
+            <tr><td><strong>Tipo</strong></td><td><strong>Con checkpoints</strong></td></tr>
+          </table>
+          <p style="font-size: 0.78rem; color: var(--wp-gray-500); margin-top: 0.6rem;"><strong>Checkpoints:</strong></p>
+          <table>
+            <tr><td>2022</td><td>0.5256</td></tr>
+            <tr><td>2023</td><td>0.5203</td></tr>
+            <tr><td>2024</td><td>0.5129</td></tr>
+            <tr><td>2025</td><td>0.5023</td></tr>
+            <tr><td>2026</td><td>0.4865</td></tr>
+            <tr><td>2027</td><td>0.4706</td></tr>
+            <tr><td>2028</td><td>0.4526</td></tr>
+            <tr><td>2029</td><td>0.4357</td></tr>
+          </table>
+        </div>
+        <div class="split-col">
+          <h5><span class="person-badge person-juli">JULI</span> Queretaro</h5>
+          <table>
+            <tr><td><strong>Metrica</strong></td><td>Energy Intensity</td></tr>
+            <tr><td><strong>Ano base</strong></td><td>2021</td></tr>
+            <tr><td><strong>Valor base</strong></td><td>0.4526</td></tr>
+            <tr><td><strong>Ano target</strong></td><td>2030</td></tr>
+            <tr><td><strong>Valor target</strong></td><td>0.3621</td></tr>
+            <tr><td><strong>Reduccion</strong></td><td>~20%</td></tr>
+            <tr><td><strong>Tipo</strong></td><td><strong>Con checkpoints</strong></td></tr>
+          </table>
+          <p style="font-size: 0.78rem; color: var(--wp-gray-500); margin-top: 0.6rem;"><strong>Checkpoints:</strong></p>
+          <table>
+            <tr><td>2022</td><td>0.4499</td></tr>
+            <tr><td>2023</td><td>0.4454</td></tr>
+            <tr><td>2024</td><td>0.4390</td></tr>
+            <tr><td>2025</td><td>0.4300</td></tr>
+            <tr><td>2026</td><td>0.4164</td></tr>
+            <tr><td>2027</td><td>0.4028</td></tr>
+            <tr><td>2028</td><td>0.3874</td></tr>
+            <tr><td>2029</td><td>0.3730</td></tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="task do">
+        <div class="task-label">Hacer</div>
+        <h4>5.3 &mdash; Crear ambos targets</h4>
+        <p>Creen los dos targets con los datos de arriba. Ambos tienen checkpoints anuales.</p>
+        <ol>
+          <li>Primero creen el de <strong>Scope 1 & 2</strong>.</li>
+          <li>Despues creen el de <strong>Energy Intensity</strong>.</li>
+          <li>El flujo de creacion fue igual que en Water o hubo algo diferente?</li>
+        </ol>
+      </div>
+
+      <div class="phase carbon">
+        <h3>Fase 5C: Escenario de Carbon</h3>
+        <p>Mismo ejercicio: armar un escenario para llegar al target.</p>
+      </div>
+
+      <div class="task do">
+        <div class="task-label">Hacer</div>
+        <h4>5.4 &mdash; Crear escenario "Agresivo" en Carbon</h4>
+        <p>Sobre el target de <strong>Scope 1 & 2</strong>:</p>
+        <ol>
+          <li>Creen un escenario "Agresivo" y elijan un color.</li>
+          <li>Agreguen todos los proyectos de energia disponibles para su sitio.</li>
+          <li>Llegan al 100% del target? Si no, que harian? (Pueden crear un proyecto de energia nuevo si quieren intentarlo.)</li>
+        </ol>
+        <div class="task-hint">Ideas de proyectos de energia: "Reemplazo caldera gas por electrica", "Instalacion paneles solares", "Optimizacion de sistemas de vapor", "Eficiencia en motores electricos".</div>
+      </div>
+    </section>
+
+    <!-- ================================================================ -->
+    <!-- FASE 6: FEATURES AVANZADAS -->
+    <!-- ================================================================ -->
+
+    <section>
+      <div class="section-header">
+        <div class="section-num" style="background: var(--wp-teal);">6</div>
+        <h2>Features avanzadas</h2>
+      </div>
+
+      <div class="task do">
+        <div class="task-label">Hacer</div>
+        <h4>6.1 &mdash; Target Locking</h4>
+        <p>Elijan uno de los targets de carbon que acaban de crear y <strong>lockeen</strong> el target.</p>
+        <ol>
+          <li>Encontraron la opcion? Donde esta?</li>
+          <li>Que pasa cuando intentan editarlo estando lockeado?</li>
+          <li>Deslockeenlo cuando terminen.</li>
+        </ol>
+        <div class="task-hint">El locking existe porque las empresas publican sus targets en reportes anuales (CDP, CSRD) y no quieren que nadie los modifique sin autorizacion.</div>
+      </div>
+    </section>
+
+    <!-- ================================================================ -->
+    <!-- FASE 7: REFLEXION -->
+    <!-- ================================================================ -->
+
+    <div class="domain-divider">
+      <span>Reflexion final &mdash; sigan en el Meet</span>
+    </div>
+
+    <section>
+      <div class="section-header">
+        <div class="section-num" style="background: var(--wp-green);">7</div>
+        <h2>Reflexion y feedback</h2>
+      </div>
+
+      <div class="task feedback">
+        <div class="task-label">Reflexion</div>
+        <h4>R1 &mdash; Friccion</h4>
+        <ol>
+          <li>Donde se trabaron mas? Hubo algun momento donde no sabian que hacer?</li>
+          <li>Alguna pantalla donde no entendieron que estaban viendo?</li>
+          <li>Si son un sustainability manager de una empresa grande, sin background tecnico: creen que podrian usar esto solos? Que ayuda adicional necesitarian?</li>
+        </ol>
+      </div>
+
+      <div class="task feedback">
+        <div class="task-label">Reflexion</div>
+        <h4>R2 &mdash; Water vs Carbon</h4>
+        <ol>
+          <li>La experiencia en Carbon fue muy distinta a Water?</li>
+          <li>El concepto de conversion factors y doble impacto quedo claro desde la plataforma? O necesita mas explicacion?</li>
+        </ol>
+      </div>
+
+      <div class="task feedback">
+        <div class="task-label">Reflexion</div>
+        <h4>R3 &mdash; Bugs y mejoras</h4>
+        <ol>
+          <li>Encontraron algun bug o comportamiento inesperado?</li>
+          <li>Algo que falta y un usuario lo esperaria?</li>
+          <li>Si pudieran cambiar <strong>una sola cosa</strong> de la experiencia, cual seria?</li>
+          <li>Que es lo mejor de la herramienta? Que les parecio que esta bien resuelto?</li>
+        </ol>
+      </div>
+
+      <div class="callout callout-success">
+        <div class="callout-label">Verificacion final</div>
+        <p>Antes de cerrar, verifiquen que la plataforma quedo como estaba:</p>
+        <ul style="margin-top: 0.5rem;">
+          <li>Su sitio tiene los 3 targets recreados (Water Intensity, Scope 1 & 2, Energy Intensity)</li>
+          <li>Los valores y checkpoints coinciden con los datos que les dimos</li>
+          <li>Ningun target quedo locked (salvo que asi estaba antes)</li>
+          <li>Si crearon proyectos adicionales para cerrar el gap, <strong>eliminen esos proyectos</strong> para dejar el pipeline como estaba</li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    Waterplan &middot; Target Tracking Hands-on &middot; Mayo 2026
+  </footer>
+
+</body>
+</html>

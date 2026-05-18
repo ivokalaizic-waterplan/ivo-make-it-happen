@@ -1,0 +1,80 @@
+﻿Meeting Transcript
+Ivo: ...at the airport because he told me that he's flying to Bianca Inquieta... so, super interesting, all connected.
+Vanessa: Okay, what is he doing?
+Ivo: To be honest, I don't really know. [Laughs] I don't know, Marissa, if you have more context.
+Marissa: Uh, yeah. I think he's visiting related to a water project and drilling, something like that. He's going with one of the water experts.
+Ivo: I believe he's traveling with Gian Carlo, maybe.
+Marissa: Yes.
+Vanessa: Yeah.
+Jordan: Yeah, he does. I had a meeting before this one with him, and he was telling me about this.
+Ivo: Well, I—sorry, we started like discussing about weather and we didn't introduce Jordan. So, I don't know, Jordan, if you want to introduce yourself.
+Jordan: Yeah, no problem. Yeah, so thank you so much, I'm very glad to meet you. Um, basically I'm Jordan, I'm an environmental engineer, I'm a member of the professional services team. I work with Gian Carlo on one side for the water projects and everything that has to do with the corporate water risk licenses, but also I'm here as a carbon expert because my previous experience has to do mostly with carbon projects. I have worked for—doing carbon footprint assessments and working on carbon credit projects as well in the past, working for external companies, usually as a consultant. Um, so yeah, the idea is to help the team here and try to listen to what you have to do and your ideas. I have received like this folder link with some information on the projects that you have, but honestly I've only done like a quick glance on that. But yeah, the idea is to be present here, to listen to you guys and, yeah, later on maybe address perhaps more technical questions if you happen to have or if they arise. So yeah, that would be it.
+Ivo: Yeah, like considering like we are in the final steps, we want to invite also Jordan now to join us and if there's any related carbon question that arise, Jordan is here.
+Ivo: So, Pepe will join now. First of all, like, is there any question? I was just checking and I have like some product-side news, but first, I don't know if you have any doubt, Marissa, Vanessa, if you had the chance to see Pepe's videos.
+Vanessa: Uh, I saw the deck but I haven't reviewed it in detail yet. Um, but it looked good from my initial glance. Um, but yeah, I don't think there's any issue on the product end, Marissa, so there's nothing open that we need to discuss.
+Marissa: No, I don't think so. I have nothing on my list right now.
+Ivo: Okay. Also Vance went through the training and has gone into the platform and he said that everything worked well and that it's like really great and all of that.
+Vanessa: Amazing, amazing.
+Ivo: I just wanted to show—I don't know if anyone of you want to share screen and, like, log in Waterplan. Who will do it? Because I need to change their access.
+Marissa: I'll open it.
+Ivo: Okay, give me a sec. I can update your user.
+[Pause]
+Ivo: I want to show you... Marissa... Company Owner... no, only access to Buddy. I will give you... so now if you can share it.
+Marissa: Why?
+Ivo: You should have access only to Buddy site. Amazing. Lets go to Scope 1 and 2, if you want,  Project database.
+Ivo: And now you here have like the projects of Buddy, but if you click on Quick Filters, Projects from other sites, you will see the name of the site now, regarding with your feedback. So that's like from my side.
+Vanessa: Awesome. So, I have a question: when did you make that change?
+Ivo: You want me to check? I can go to the...
+Vanessa: So, the only reason I'm curious is because Vance went through the platform and the training that we had sent him in the video, it—it um—had like "site whatever," whatever it said before it says the exact site. So I'm curious if on his end he was already able to see the...
+Ivo: I can tell you, give me a second. It went into production four days ago—two days ago, so on Monday.
+Vanessa: On Monday. That's when he did the training.
+Ivo: Okay. Um, so well, Pepe just told me that he's quite complicated to join us. So the main agenda topics are: first of all, like any question—I think that you don't have anything; questions regarding the videos—I don't know if you had the chance to see the videos that Pepe sent you.
+Vanessa: I think we still have to go through them.
+Marissa: Yeah.
+Vanessa: We saw the email, but it just came yesterday so we haven't had a chance to go through all of the videos and give us our feedback.
+Ivo: Okay. Interesting. Um, if you can see them, amazing, so we have more time like to edit if there's any change we should do. Um, and the other topic, but I think that we can discuss it offline, Marissa—or well, also we have Vanessa here, so it's amazing. So basically, Pampacon side asked us if they want to be able to determine the starting month for the projects, you know. First of all, before starting with this topic, I will give Company Owner access again to Marissa, if not... Company Owner.
+Ivo: Okay. So let me explain and now share my screen and I will show you what I'm talking about.
+[Screen Sharing]
+Ivo: So, can you see my screen now?
+Jordan: Yes, we can.
+Ivo: Okay. So basically, what's happening here... if you remember like here in Net Zero Carbon Roadmap and also in Water Targets we have this wheel for the configurations and we have the project rules and we have enabled the rule of starting date rule. What means this? That when the CAPEX request date is like defined, the start date is automatically calculated um and in this case we set it for 12 months.
+Ivo: So basically what is doing is it's always setting the start date of the projects to the next... as we only have one... like, I will show you here because it's quite complicated to explain it. But if I go to one particular project and we go to the project financials, in the year of CAPEX request, basically this is a year, is not a month, so the system in the back is understanding that it's January and with that we are like implementing the start date of the project is related and it's doing like a 12 month correlation.
+Ivo: What is happening? If the project has already a year of CAPEX request defined, this is not like—it wasn't—we didn't run this process for all the projects that were already created. We can do that, but I can show you now that if we update this... give me a second... like let's set 2027 and let's put it back 2026, this should... the start date should... now, like, it's updated, okay?
+Ivo: Well, this was like what we aligned with Rupert some months ago—Marissa was there—but last week a feedback from Pampacon side, like they told Agus, the solutions specialist that it's like discussing with—I don't remember the name of the girl from Pampacon—but she mentioned that she wanted to be able to define a different month for the starting date of the project, you know?
+Ivo: And this is like has a correlation with what we defined with Rupert, Marissa, Gauri. Um, and I want like to bring the topic here and understand if the project should—if the user should be able to define a month for the projects, like for the starting date. That I'm aligned with that, to be honest. Like, I think that we should allow the users to define it, but I don't know if there's any internal policy or if there is anything we should consider in these cases. And also I don't know if I explained well the problem. Let me know if...
+Vanessa: So basically the issue is the project is being listed as January and there's no ability for the user to change the month. It's just January and they're saying they want to select a different month other than January.
+Ivo: Exactly that.
+Vanessa: Marissa, do you know why Rupert wanted it that way? Is it because there's some annual calculation and... no? No.
+Marissa: No. Um, it was mainly because when they shared the data, they just gave the year. They said "budget year," they didn't say "oh, this project started February of 2023." So we were like, okay, let's—we need to make an assumption here. But I agree that they should be able to select the month.
+Marissa: It's just what happens to the projects that are already there. Do they stay like if it—they were selected by the year and we made the internal assumption of it starting the first month of the year? Would it stay like that? Or like... I don't know.
+Ivo: Yeah, that's not a problem. Like we can define it and we can like recalculate everything based on what we align today now. Um, this is a problem that can be solved with, like, user experience, basically. With the starting date, we can define like at the beginning has only like this dropdown with the years and in maybe in another box the month. Like that's something we can discuss with our design team and bring up a potential solution. The only thing that I wanted like to validate with you is that if as a company Colgate allow the projects to start in a different month than January. That for me the answer might be yes, no?
+Vanessa: Yeah, the projects do start in all different months. I'm just trying to understand if there's any reason we couldn't do that. I think it would be fine from my perspective, but I don't know if there was—Marissa, do you think there's any reason we couldn't?
+Marissa: No, it was mostly because we just needed to start with the platform and the calculations and the sites asked for too much data and the month was not that important so we were like, okay, let's make the assumption to start in January because...
+Vanessa: Okay.
+Marissa: Yeah, and then giving them the option to pick the month would be helpful.
+Ivo: Amazing. Well, that were maybe like the three topics that we had: like the changes on the site permission view, like cross-sites in the project database; the videos that if you can see them today or tomorrow, amazing; and the discussion about the start month. That's all from my side. Shoot from yours.
+Vanessa: I had looked at the email yesterday and it's funny, I had opened the deck that Felipe sent me and I was like, "I don't see any videos," and now I'm realizing it's in this platform and it looks really cool and interesting. So...
+Ivo: Yeah, amazing. You want to share screen?
+Vanessa: Yeah, sure. Marissa, I don't know if you've seen this yet.
+Marissa: No.
+Vanessa: Yeah, that platform is amazing. Arcade, no?
+Ivo: Yeah.
+Vanessa: Can you see my screen?
+Ivo: Yes.
+Vanessa: Um, yeah, it looks cool. So you can just click on what you want to do and it gives you a tutorial video.
+Ivo: Yes, no. So they are we already created I think that are five videos, no? If you scroll in the... one, two, three...
+Vanessa: "How to Create a Target," "Input Your Site Level Forecast Production," "Simulate Different Path"...
+Ivo: Those are all the potential actions that the users can do. So based on that is that these are the videos that later will be upload. And if you want to use them on the training or send them as a training...
+Vanessa: Yeah, no, I think this is really helpful to send everyone after the training because like we'll go through the training live but then when they need to go back, I think this would be...
+Ivo: Okay. So what I encourage you is like if you want to see them in like in detail and think as if you don't have any context related to Waterplan, if that's clear and if not we can rework on that.
+Vanessa: Yeah. Um, the "Create a Different"... does this show—is there somewhere where it shows all of the other charts, like the MACC curve and everything? Which one would that be under, or is it not included?
+Ivo: I think that is not included.
+Vanessa: Um, is it possible for us to include it?
+Ivo: Um, let me ask. I think that we should be able to and if not we can push it.
+Vanessa: Well, all of—besides that, also the Waterfall chart, because those are two of the key things. Basically what we're going to be asking the sites to do is to build their own charts using the MACC curve and the Waterfall chart and share that with their EH divisional lead. Like, that's their next step. So I think having those two here would be really important.
+Ivo: Oh, so is not about the definition of the MACCC curve, is more about like how to get to it and how it works and everything.
+Vanessa: Okay. Um, is there a video of how to create a scenario there?
+Ivo: Yes. "Simulate Different Path" should be that one. Uh, "For My Project" there. Let's see if there... or well, I will also take a look and discuss later with the team and review that, okay?
+Vanessa: Okay.
+Ivo: So well, if any doubt arise during the following days, feel free to reach out, okay?
+Vanessa: Okay, but yeah, thanks.

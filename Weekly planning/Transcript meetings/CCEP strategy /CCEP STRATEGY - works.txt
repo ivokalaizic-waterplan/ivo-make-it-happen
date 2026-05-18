@@ -1,0 +1,535 @@
+﻿CCEP STRATEGY - works? - May 13
+
+
+VIEW RECORDING - 39 mins (No highlights)
+
+
+
+
+@0:00 - Ivo Kalaizic (waterplan.com)
+Dale, dale, yo comparto.
+
+
+@0:01 - Camila Behar (waterplan.com)
+Dale.
+
+
+@0:20 - Ivo Kalaizic (waterplan.com)
+¿Qué? Perdón, segundo. Sí. Qué viejo. Bueno, vamos. Entonces, entonces, el objetivo de la reunión de ahora es revisar todo el feedback que obtuvimos de las tres reuniones que estuvimos nosotros presentes y con eso hablamos.
+Y la intención es ir, tipo, Ivo y Kami recorriendo la presentación y pensando cualquier solución, no importa que sea bajada a tierra o no, en la primera etapa, volemos, tipo, vayamos para allá, para ver cómo atacamos.
+Y el objetivo que nosotros tenemos, como el endgame que estamos intentando buscar, es que los sitios de CCP usen la plataforma.
+Sí, ahí, o sea, hay dos diferencias.
+
+
+@1:33 - Camila Behar (waterplan.com)
+O sea, cuando hablamos de, viste que los, cada e-lead tiene muchos sitios. O sea, todavía nosotros no conocimos a los de los sitios.
+Ok.
+
+
+@1:44 - Ivo Kalaizic (waterplan.com)
+Ok. ¿Y con quiénes hablamos? Con, ah, el e-lead.
+
+
+@1:48 - Camila Behar (waterplan.com)
+hablamos son los environmental leads, que cada uno de ellos tiene sitios, distintos sitios. Por ejemplo, hablamos con, ¿con quién estás vos?
+Antonio y María, los de Iberia, tienen todos los sitios de Iberia, o sea, todos los de España, Portugal, etcétera, pero de, o sea, no manejan cada sitio, ¿ok?
+Manejan todos los sitios como grupal, grupalmente. Ok, ok, perfecto.
+
+
+@2:24 - Ivo Kalaizic (waterplan.com)
+Entonces, por el lado está el tema de acá, el main finding, que dicen que como que el trabajo se duplica en lo que tienen que hacer en Waterplan, sobre todo para lo de target tracking y lo de Integrum, que básicamente, pensemos rápido qué es cada cosa, como que en Integrum ellos cargan los proyectos, y en Waterplan también los tienen que cargar.
+Hoy tenemos el flujo para que... Nosotros descarguemos los proyectos de Integrum y los tengamos en la plataforma, eso como resolvería el problema.
+Pero el problema principal está también que Integrum es como la fuente de información que ellos les obligan para reportar.
+¿Sabés si en Integrum también pueden crear estos Glypads y eso lo hacen en Excel ellos? No, en Integrum eso no lo hacen.
+
+
+@3:31 - Camila Behar (waterplan.com)
+Lo hacían en Excel según lo que entiendo. En Integrum también lo que pasa es que, o sea, si vemos la overall picture, esto de que ellos son e-leads no es water-leads.
+Ellos también tienen toda la parte de energía y la parte de residuos. Entonces, como que sus tareas todas implican cargar los consumos y los KPIs mensuales a Integrum y los proyectos a Integrum.
+De todo eso en ese conjunto, digamos, de cosas.
+
+
+@4:05 - Ivo Kalaizic (waterplan.com)
+Bien. Pero es poner acá este, Joss dijo, we have four project tracking tools, sites are complaining.
+
+
+@4:23 - Camila Behar (waterplan.com)
+Sí. Ahí yo no sé si tipo four, como realmente four, o como que tiró como varios, ¿viste? Porque después está Lori que dijo que tiene su propia project tracking tool.
+O sea, claramente hay información diferenciada. De todas formas, con esta gente también podemos volver a hablar, ¿no? Ahora que ya hablamos una vez.
+Pero eso de sites are complaining, los sites en realidad casi. Que ni subieron los proyectos a la plataforma, o sea, no sé, de Waterplan no se deberían estar quejando.
+Claro, se están quejando es tipo de, como, un problema interno de. Sí, de que hay muchas, muchas, muchos softwares, debe ser.
+Sí, un por ciento.
+
+
+@5:17 - Ivo Kalaizic (waterplan.com)
+Ok.
+
+
+@5:21 - Camila Behar (waterplan.com)
+Y acá, tipo, para mí lo que está bueno es que este Rory, el de Great Britain, es como un promoter dentro de los, de los élites.
+Porque al flaco como que le gusta, odia Integrum, tipo, es como un Tobías, porque odia Integrum, no le resulta como intuitiva.
+Lo poco que usó de Waterplan como que le resultó más ameno. Ahí hay como un promoter. Ok. Pero este problema de define Waterplan's role versus Integrum.
+Está difícil. O sea, ahí para mí, tal vez no hay que framearlo como una competencia, ¿no? O sea, nosotros podemos tomar data de ahí tranquilamente.
+
+
+@6:18 - Ivo Kalaizic (waterplan.com)
+Sí, pero el tema está en, bueno, justo acá lo dice, tipo, Integrum nos trae un problema de que le exigen a ellos que usen Integrum.
+Por otro lado, nosotros sacamos data de Integrum, pero no le inyectamos data de Integrum. No. Y por otro lado, que los sitios, tipo, en Integrum miran Energy, Carbon y Waste, y en Waterplan solamente agua.
+Después dice, esto no me importa, pues ya está, esto tampoco me importa. O sea, que ya... No la navegación, pero con la homepage ya se resuelve.
+Sí, eso sale pronto, ¿no?
+
+
+@7:05 - Camila Behar (waterplan.com)
+Sí, sí, sí, esta semana debería salir.
+
+
+@7:07 - Ivo Kalaizic (waterplan.com)
+Y que los targets pueden ser editados por cualquiera, como el governance risk, lo veo que eso ya está, tipo nada más Tobías y los elites van a poder bloquear este target.
+Sí habla sobre el role-based permission de, che, como esto que decía Tobías en su momento, de queremos que los sites puedan ver todos los sitios, pero no pueden editarlos.
+O mismo el otro día en la reunión cuando le mostramos lo de los, que ellos en el project database pueden ver los sitios que otros, pueden ver los proyectos que otros sitios están implementando para ese mismo target.
+Como que él decía, pero yo puedo editar el dato de otro sitio, ¿viste? Me preguntó. Y yo, la verdad que sí.
+Sí, porque tenés acceso, ¿entendés? Pero tal vez eso es algo que podemos trabajar, porque para colgar... O sea, que se puede trabajar, se puede trabajar, solamente hay que priorizarlo y meterle a cabeza y diseño y trabajo, y permiso es un tema paja para los desarrolladores, que odian, así que, no, eso.
+Respecto a otros puntos, medio que no sé qué vamos a hacer, tipo, la bidireccionalidad, no la vamos a poder atacar, lo de Carbon, yo lo que pullería es, tipo, que no sé, sé que vos lo hablaste, va, lo mandaste por el channel, sé con unos par de mensajes, no sé en qué quedó, esto de darles Carbon gratis por unos sitios para probar y eso.
+
+
+@8:36 - Camila Behar (waterplan.com)
+Sí, sí, justo después de esta tengo con Nili, ahí el, el blocker, en realidad es la jefa de Tobías, Elena, que él le dice Eliana, pero es Elena, como que en realidad la que hay que convencer más, tanto para esta licencia como para Gracias.
+Gracias. Gracias. En Potential Carbon es a ella. A fin de mes tenemos una reunión con ella para validar el Joint Impact Plan.
+O sea, alguna de las cosas que saquemos de acá, que armemos un plan de acción, creo que yo te invité a la reunión porque es el mismo slot que la de Tobías.
+O lo que salga acá como Action Plan es para validar con ella. yo eso de Carbon lo voy a volver a hablar con Mili.
+Mili yo habló y no querían saber nada.
+
+
+@9:33 - Ivo Kalaizic (waterplan.com)
+No, pero para mí, tipo, con lo que podemos hacer es, si ando predicando, tipo, Mili y todo, se esté como adaptado, che, si se los damos a tres sitios que sean re-responsive, tipo, a, a, a, a Ori de Green Britain, que está contento, a, a, a, a los tres promoters, a los más promoters, los damos, no sé si testeamos con ellos.
+¡Gracias!
+
+
+@10:02 - Camila Behar (waterplan.com)
+Sí, que hagan feedback real, sí.
+
+
+@10:04 - Ivo Kalaizic (waterplan.com)
+Bien, después, entonces, problemas que tenemos, tipo, ¿por qué los élites dicen que no están adopting the platform? Double work with Integrum.
+Water only scope. UX in aiming friction, este chat debería estar. Sí. No permission controls, esto para mí no es porque, tipo, para mí esto no significa que no adopten.
+Es una barrera de adopción. Total. No global mandate, esto sí, me parece importante. Y tool fatigue at sites, o demasiadas tools.
+Este no global mandate, para mí, acá lo que re podemos hacer es eso que yo le dije a la mina, de intentar reportar con Waterplan este mes, pero no sé ni bien ni cómo es la...
+La presentación que tiene que armar, ¿viste?
+
+
+@11:03 - Camila Behar (waterplan.com)
+Sí, no sé si, creo que lo que ellos tienen que hacer es actualizar los proyectos, no sé si reportar.
+¿Y mostrar tipo un glide path o un, tipo, no sé, pero le puedo mandar un mail y preguntarle.
+
+
+@11:18 - Ivo Kalaizic (waterplan.com)
+Vale, para mí, tipo, mandémosle un mail como, che, después de la reunión que tuvimos, como nos quedamos remanijas de armar esto, tipo, ¿qué es lo que, principales cosas que tenemos que mostrar?
+Bueno, integrar un duplication, ya está, ya está, dijimos que es medio complicado. Permissions y lock targets, esto. Lock targets estaría.
+Estaría y permissions, tenemos que presente. Navigation y naming, ya está. Early target setting, esto se refiere a, por un lado, el literalmente setting del early target.
+Sí. Que hablaba de la diferencia con el target de 20-30 que nosotros le calculamos con el GUR, y que ellos usan otra metodología.
+Creo que un quick win sería, ¿nosotros tenemos como el target anual, los targets anuales futuros, o los que están calculando justo ahora?
+No, no los tenemos.
+
+
+@12:19 - Camila Behar (waterplan.com)
+O sea, los de 20-26 ya deberían estar, pero no los tenemos. Ok.
+
+
+@12:25 - Ivo Kalaizic (waterplan.com)
+Pero vamos a irse a Tobías que los pase y los agregamos en la plataforma.
+
+
+@12:30 - Camila Behar (waterplan.com)
+Sí.
+
+
+@12:32 - Ivo Kalaizic (waterplan.com)
+Y tal vez acá valdría la pena preguntar con Tobías, tipo, para mí un output antes de la reunión con Elena es como llevarle eso a Tobías y pronunciarle, tipo, para vos esto es clave, tipo, y que él nos diga sí o no.
+¿Vos crees que esto los cambiaría? Es cierto que hoy tienen que hacer el, tipo, hoy se meten en Waterplan para hacer el work calculator y chau.
+ejemplo, si hacemos el Early Target... ... Al menos una de esas líneas se van a tener que meter.
+
+
+@13:02 - Camila Behar (waterplan.com)
+A ver, lo que tiene además es que se vendió en el scope eso. ¿Lo de Irly Targets?
+
+
+@13:09 - Ivo Kalaizic (waterplan.com)
+Sí. ¿O se vendió lo de Target Setting?
+
+
+@13:12 - Camila Behar (waterplan.com)
+Se vendió, a ver, tipo, literalmente está, licenses, el renglón dice, 2030 and annual Target Setting Efficiency.
+
+
+@13:31 - Ivo Kalaizic (waterplan.com)
+Bueno, entonces tal vez sea una paja, porque él lo que pasa con eso es que él estaba como, se estaba revisando la metodología o no.
+
+
+@13:42 - Camila Behar (waterplan.com)
+Sí, o sea, la reunión que tiene la semana que viene es para revisar la metodología. O sea, él en principio dijo pongan en pausa eso del annual setting, qué sé yo, porque queremos revisar la metodología.
+Pero bueno, o sea. Esto es dos cosas, o sea, lo podemos aperturar en dos cosas. Uno, que se pueda visualizar y setear por año, eso se puede, ya se puede, ya está habilitado.
+Otra cosa es compatibilizar metodologías o desarrollar la metodología, que eso es lo que tiene que definir CC y Pique, podemos darles soporte y lo que sea, como que si es una work calculator por año, no sé, o sea, lo pensamos juntos, pero serían dos cosas diferentes, me parece.
+
+
+@14:33 - Ivo Kalaizic (waterplan.com)
+O sea, una, dos cosas diferentes, porque una sería agarrar una nueva, otra sería digitalizar la actual.
+
+
+@14:39 - Camila Behar (waterplan.com)
+Sí, o sea, la actual ya está, así que ellos ya tienen el valor de 2026 y quieren poner manualmente 1.52, eso se puede hacer.
+Lo que podría, podemos abrirlo en tres pasos si quieres, o sea, hacer un input manual de los valores que ya están, digitalizar la metodología anual actual.
+O, nada, tipo, desarrollar la nueva metodología con L, o dar soporte en desarrollar la nueva metodología.
+
+
+@15:09 - Ivo Kalaizic (waterplan.com)
+Para mí deberíamos, tipo, sí, y lo que deberíamos intentar velar nosotros es, bueno, la Work Calculator es algo más, viste, Coca-Cola Company, y si Tobías puede hacer, o puede estar en esa decisión de seteo de targets anuales, o sea, si es para CCP lo podemos hacer, pero digo, siempre pensando como, si lo hacemos para todas las cocas.
+Es para un montón. Pasa que eso es una decisión que podemos tomar nosotros, sino que tiene que tomar como Tobías y CCP con Coca-Cola Company, que no sé bien cómo funciona eso.
+¿Vos decís la metodología anual?
+
+
+@15:47 - Camila Behar (waterplan.com)
+Sí. Sí, no, sí, claramente tienen que definirlo ellos. Yo no sé si es con Coca-Cola Company, porque viste que la metodología que hacen ahora de anual es esa proyección de finanzas.
+Sabes que ahí para mí Coca-Cola Company ni se mete. De hecho, hoy que te completé el archivo de los targets, como que son muy difusos en la manera en que comunican sus targets.
+¿Por qué? Tanto Coca-Cola Company como CCP. O sea, CCP, el compromiso del WUR en el último reporte no lo comunicó como una reduction de target.
+O los de replenishment sí, los de WUR no. Y Coca-Cola Company te dice, tipo, vamos a desarrollar un roadmap para reducir el consumo de agua en línea al acuerdo de París.
+Tipo, no, por eso no sé cuánta bajada hay de, debe haber una bajada interna, pero no tanto externa. Pero bueno, para mí eso es el input que nos tiene que dar él después.
+O la reunión de la semana que viene. Ok.
+
+
+@17:03 - Ivo Kalaizic (waterplan.com)
+Che, y acá miro lo de comments y activity logs, pero este es en la tool de Water Management Plans.
+Tengo una pregunta. La tool de Water Management Plans, ¿para quién la hicieron principalmente? Para CCDP.
+
+
+@17:17 - Camila Behar (waterplan.com)
+Tipo, se vendió, y para los Water Security Robments también, pero en el de CCDP se vendió una línea que dice Digitize Water Management Plans and Fawas Action Plan, que sería esto.
+Esta tool. ¿Y esta tool les va a servir mucho a ello?
+
+
+@17:37 - Ivo Kalaizic (waterplan.com)
+sea, ¿sabes qué estoy pensando? Tipo, che, nosotros estamos reenfocados en que Target Tracking sea el entry. Sí.
+
+
+@17:46 - Camila Behar (waterplan.com)
+Estamos pensando tipo, los Early Target Settings, ¿viste?
+
+
+@17:50 - Ivo Kalaizic (waterplan.com)
+Y yo digo, si entramos con Water Management Plans.
+
+
+@17:57 - Camila Behar (waterplan.com)
+Sí, o sea, puede ser una... Una estrategia. Hay algunas cositas, bueno, esos feedbacks que dieron que pueden servir para mejorar, pero re puede ser una puerta de entrada.
+Yo creo que ahí, o sea, hay dos cosas, dos cosas que pueden ayudar. Una es, tipo, cargar, o sea, que es cargar todo, algo que dijo el de Iberia, no sé si te acordás, que él dijo, uy, esto sirve como para cargar todos los vencimientos de todos los SBAs para que no se nos pasen, no sé qué, o bueno, sí, re, eso lo podemos hacer.
+Y después está la parte de digitalizar todos esos planes. La realidad es que muchos de los planes esos son de hace como 4 años o 3 años.
+Entonces, no sabemos si están actualizados, pero puede ser una tool que les sirva.
+
+
+@19:04 - Ivo Kalaizic (waterplan.com)
+¿Los planes son los SBAs?
+
+
+@19:07 - Camila Behar (waterplan.com)
+El SBA tiene asociado un plan de acción, pero los SBAs tienen un...
+
+
+@19:12 - Ivo Kalaizic (waterplan.com)
+Perdón, hacé un repaso rápido del flujo, no lo conozco.
+
+
+@19:15 - Camila Behar (waterplan.com)
+El SBA es tipo un documento de análisis de riesgo que hoy en día lo estamos haciendo con el análisis con la metodología de Waterplan.
+Es un Excel, o sea, hoy lo que estamos entregando es un Excel, que tiene...
+
+
+@19:29 - Ivo Kalaizic (waterplan.com)
+¿Por qué es un Excel?
+
+
+@19:30 - Camila Behar (waterplan.com)
+Porque cumple los requisitos de Coca-Cola según ciertos inputs de información que te piden. La parte de riesgo es la que vendemos que está digitalizada, que sería el Risk by Site Profile, ¿sí?
+Y después tiene una de las pestañas del Excel, una parte del SBA, es SBA es Source Vulnerability Assessment. Es analizar el riesgo del sitio.
+Hay una parte que es el Water Management Plan o Water Media. Y yo en plan, hay uno, para mí es water management, pero tiene mitigation actions, que de todos los riesgos que se identificaron, hay que hacer un plan de acción.
+Y ese plan de acción hay que seguirlo porque después te lo auditan. El periodo para hacer SBAs es cada 5 años.
+O sea, ¿qué es lo que pasa normalmente? Que hacen ese SBA con ese water management plan, lo firman todos los de Coca-Cola, muy lindo, muy lindo, y muere.
+O sea, que esas acciones no se siguen como se deberían seguir. Por eso, como la de mitigation actions, como para decir, che, las acciones que vos te comprometiste a hacer, las vas a poder trackear y las vas a poder demostrar cumplimiento más fácil y para que no queden o perdías en el olvido, las vas a tener en la plataforma.
+Ese es como el flujo, digamos.
+
+
+@20:55 - Ivo Kalaizic (waterplan.com)
+Ok. Y están haciendo ahora los SBA. O sea, depende.
+
+
+@21:02 - Camila Behar (waterplan.com)
+O sea, estamos haciendo algunos, sí. Todos tienen fechas de vencimiento distintas. Algunos los estamos haciendo nosotros, otros contratan empresas externas, o sea, empresas distintas.
+Hicimos algunos para Iberia, ahora estamos haciendo uno para Islandia. Nada, van a ir cayendo algunos más probablemente. Pero también están los que ya están hechos y se vencen en el dos mil, no sé, veintiocho, ponele, que ya tienen planes de acción que deberían estar haciéndose.
+Y todos esa data sí la tenemos, porque Tobias la compartió.
+
+
+@21:42 - Ivo Kalaizic (waterplan.com)
+Ok, sigamos acá. Tool saturations no me importa, site-hide projects, scenario as safe space to explore, site-hide projects.
+
+
+@21:56 - Camila Behar (waterplan.com)
+Acá, lo que a mí me parece que habían dicho es que... Se puedan como, que no sé si es la funcionalidad de la tool y por ahí no lo puedo explicar bien, pero que los proyectos como que queden y que no, o sea, una vez que vos cargas un proyecto quede, pero que después puedan jugar con muchos escenarios.
+Lo que yo entiendo es que también hay un límite de escenarios, ¿no? No puedes hacer la cantidad que quieras.
+No, pero se puede escalar eso. Porque yo, nada, me clare en una demo y no pude crear un escenario.
+
+
+@22:30 - Ivo Kalaizic (waterplan.com)
+Se puede hacer escenario base más cuatro escenarios, o son cinco en total. Ok, son cinco en total. Pero cubrir en la cantidad es algo muy rápido, es cambiar un número.
+
+
+@22:42 - Camila Behar (waterplan.com)
+Ok, yo creo igual acá que esto tiene más que ver con involucrar a los sitios también, tipo a los environmental managers.
+Ah, ¿sabes qué no? ¿Sabes qué creo que es esto?
+
+
+@22:57 - Ivo Kalaizic (waterplan.com)
+Ah, mentira, no, perdón. ver, yo lo voy a... Hay un proyecto, será el caso de que no subían el proyecto a Integro, porque era una paja todo el proceso de validación, y como que no lo usaban.
+Ah, puede ser. No lo cargaban, y como que lo implementaban directo, y preferían. va a quedar registrado. Sí, y lo pagaban con OPEX.
+Sí, puede ser que sea eso. Después, regional dashboard, acá se me ocurrió que, la verdad que, viste, en Target Tracking, hoy vos vas y podés ver como a Site Group, a Site, a Site Group y a Company, tal vez podríamos desarrollar como una nueva tab que sea, tipo, como Choose the Sites, no sé, Sites, no sé, Dashboard, algo así, y que vos puedas como seleccionar qué sitios querés ver, y que sea group, como que si yo tengo, soy de Iberia.
+Y de No sé, Barcelona, Madrid, Sevilla. Quiero ver nada más Barcelona, Madrid. Puedo seleccionar Barcelona, Madrid. Tipo, solamente ver eso.
+Eso es matemática, se puede hacer.
+
+
+@24:10 - Camila Behar (waterplan.com)
+Sí, claro, capaz como en el mismo gráfico que puedas filtrar, tipo, pido el totalizado o qué sitio veo.
+
+
+@24:21 - Ivo Kalaizic (waterplan.com)
+Sí, y Financial View by Year. también lo pidió igual para la de Mitigation Actions.
+
+
+@24:27 - Camila Behar (waterplan.com)
+Financial View by Year está.
+
+
+@24:30 - Ivo Kalaizic (waterplan.com)
+Mirá esto. Me lo mostró a Yerema y me quería morir, porque no lo sabía. Estoy en una demo, acá nada que ver, no sé ni qué estoy viendo, pero tengo acá, si vengo a Ray Taxis, Capex.
+Ah, mirá. Me dice que, tipo, cuánta guita tengo gastada en Capex en mis proyectos. De hecho, si te fijás, como que, por ejemplo, acá, bajo un montón.
+La línea y porque se implementa este proyecto y el acumulado me da, no me dice acá, pero casi un palo 400, y si me vengo acá, lo ordeno de menor a mayor, tengo todos estos, y salen, si yo 150, 950, un palo, un palo 150, un palo 220, un palo 260, sí, un palo 400, un palo 800, bueno, no sé cómo estará calculándose esto.
+¿Eso es el totalizado, decís? Acá dice, CAPEX, un palo 350, un palo 391, ah, esto es lo que está sumando, sí, es el totalizado, por año.
+
+
+@26:02 - Camila Behar (waterplan.com)
+Ok.
+
+
+@26:03 - Ivo Kalaizic (waterplan.com)
+Como que yo les lo mostré, les refiné el otro día este ticket, el del Waterfall, diciendo que poche ellos lo quieren ver by ear y verlo multiplicado por el target, por el CAPEX, como para que esta línea sea por CAPEX, y me dijeron eso y dije tipo, uy, qué boludo, lo podríamos haber visto ahí.
+Bueno, no importa, se lo puedo mostrar. Ah, bien.
+
+
+@26:36 - Camila Behar (waterplan.com)
+Para eso le puedo mandar en el mismo mail, le puedo mostrar cómo hacerlo. Dale. Dale lo de ver lo de los proyectos.
+
+
+@26:47 - Ivo Kalaizic (waterplan.com)
+Sí. Después hubo un bug, ahora que lo pienso, que no lo revisé, que fue que yo agarré, vine a Projects.
+No pudiste. Y le signé un tag, este es el proyecto de Goodyear, me vine a Energy, site-level, Goodyear, me vine a Energy, quise crear un escenario, y acá me lo agarró, acá está andando bien, perfecto.
+No me habían dado esto y funcionó ahora. Bien, ¿qué más? Pará, a ver si acá tiene. Fixed production volume bag.
+Production volume. No, pero...
+
+
+@28:00 - Camila Behar (waterplan.com)
+Eso yo lo puedo arreglar con lo que me dijiste. Lo que tiene es que hay un pico ahí, pero no me explicaste que están cargados manual.
+A ver, acá.
+
+
+@28:23 - Ivo Kalaizic (waterplan.com)
+No importa eso, yo lo arreglo. Claro. Implement Lock 2030 Target, ya está. Send Workshop Summary. Run Parallel Pilot, este es clave.
+Run a Pilot with Iberia. Vamos a comparar este reporte casi de Iberia manualmente con lo que hagamos nosotros. Homepage, esto ya va a estar.
+Add Financial View, ya podríamos decir que está. Define Permission Policy Per Role, esto debería trabajarlo con Mary y verlo de implementarlo.
+Add Comments, Activity Location Plans, esto podríamos decir que es la Tomy. Create Regional Dash. Esto con la solución esta de vinear y seleccionar más de un site, podríamos verlo.
+Complete early target feature aligned with 2030 target logic. Esto me parece que está bueno. Train site managers, evaluate energy carbon expansion of target tracking, build by direction e integra un roadmap imposible, create global adoption playbook.
+Esto podría llegar a ser, habría que ver, lo tienen que leer después. Consolidate excels. Ah, bueno, acá está otra.
+
+
+@29:30 - Camila Behar (waterplan.com)
+La de True Cost of Water y un par de excels más que dijeron al final de la call. Creo que fuera que vos no te pudiste sumar.
+¡Ay! No, la de Iberia, creo.
+
+
+@29:45 - Ivo Kalaizic (waterplan.com)
+No, no sé. No, la de...
+
+
+@29:48 - Camila Behar (waterplan.com)
+No, para qué. No, la Iberia no, perdón.
+
+
+@29:50 - Ivo Kalaizic (waterplan.com)
+por mandarse una, un segundo.
+
+
+@29:53 - Camila Behar (waterplan.com)
+Dale, dale, oye.
+
+
+@29:54 - Ivo Kalaizic (waterplan.com)
+Bajá de ahí. Al que trae en el gimnasio.
+
+
+@29:59 - Camila Behar (waterplan.com)
+Iberia de Iberia Iberia No, la Iberia Apagaste la cámara pero el micrófono, ¿no? Es que es esta cosita. No, no, no.
+
+
+@30:08 - Ivo Kalaizic (waterplan.com)
+Sos un loco.
+
+
+@30:10 - Camila Behar (waterplan.com)
+Sos un loquita. Bueno, pará. A ver, está. Lo de True Cost of Water, que lo pidió Elena también y que lo mencionaron algunos de los E-leads.
+Creo que vos estabas en una de esas. Que es este Excel. Pará, ¿ya sabés lo que es o te digo lo que es?
+
+
+@30:38 - Ivo Kalaizic (waterplan.com)
+Sí, o no lo vi nunca.
+
+
+@30:39 - Camila Behar (waterplan.com)
+Creo que yo te reenvíe el mail de Tobías, pero básicamente es un Excel que ellos, the code is word, no sé si lo puedo abrir acá.
+Ahí lo ves.
+
+
+@31:20 - Ivo Kalaizic (waterplan.com)
+Sí, veo. Es este Excel.
+
+
+@31:22 - Camila Behar (waterplan.com)
+Hoy viste que en la plataforma vos podés imputear el TrueCostOfWater manual en Target Locking. Bueno, esta es la calculadora que ellos usan, que básicamente vos ponés tipo tu facility ID que está acá cargada y te sale la facility.
+Y el objetivo de esto es como que hay distintas variables relacionadas a costos de agua que los sitios tienen que actualizar cada vez que hay un cambio importante.
+¿Por qué hacen esto? Porque quieren saber cuál es el verdadero costo del agua considerando el tratamiento. El transporte, no sé, o sea, el wastewater treatment también, como cuáles son todas las variables que influyen en el precio de ese agua, o no es solo lo que pagan porque les llegue el agua, sino todas estas variables, tipo qué químicos usan, etcétera, etcétera.
+
+
+@32:20 - Ivo Kalaizic (waterplan.com)
+¿Números que ponen o euros que ponen o...? Sí, ponen euros.
+
+
+@32:28 - Camila Behar (waterplan.com)
+Ponen variables acá, ver si como invento cosas, tipo me... no sé, no me deja... Bueno, tenés que abrir. Edit, latest.
+No sé, puedo poner acá, no sé, 1000. Bueno, debería estar actualizándose, capaz le falta alguna variable clave para que se actualice.
+Pero todavía también pasó la guía. ¿Cómo funciona esto? Y básicamente es, no es algo que sea...
+
+
+@33:04 - Ivo Kalaizic (waterplan.com)
+Es guía, ¿no? ¿Qué? Es esa hoja de guía. La tercera hoja tenés, tipo, dice guide. Sí, acá hay una guide, pero de las cosas.
+
+
+@33:15 - Camila Behar (waterplan.com)
+Todavía mandó esto.
+
+
+@33:26 - Ivo Kalaizic (waterplan.com)
+Ah, vos me lo mandaste, ¿no? Sí. Si vale la pena tirarle este archivo y el Excel a Claude, que haga tipo un reverse engineering de toda la matemática.
+Y que arme un proto de tipo... ¿Cómo sería?
+
+
+@33:47 - Camila Behar (waterplan.com)
+¿Cómo veríamos esto en la plataforma?
+
+
+@33:49 - Ivo Kalaizic (waterplan.com)
+Y que lo arme funcional. Porque si es algo estático, estático en el sentido de no depende de ninguna variable...
+La work calculator, que medio que dependiendo del input se multiplica siempre por los mismos factores y todo, yo creo que lo podemos recontrasar rapidísimo y que quede como con un activity load también, que eso puede estar piola.
+
+
+@34:22 - Camila Behar (waterplan.com)
+Sí, esto es como, esto como que puede ser algo que a priori no parece tan complejo, tampoco va a ser la solución de las vidas.
+
+
+@34:34 - Ivo Kalaizic (waterplan.com)
+No, es que para mí esto no, no, no drive adoption.
+
+
+@34:39 - Camila Behar (waterplan.com)
+No, no, no hace adoption, pero la mina esta como que la jefa de Tobías como que dijo como que sería muy útil que esté todo integrado, digamos.
+Lo que sí está, lo que sí hacen en teoría para los proyectos es Tener en cuenta el True Cost of Water para esos proyectos.
+Del sitio. Sí, entonces...
+
+
+@35:08 - Ivo Kalaizic (waterplan.com)
+Yo, Ivo, me llevo a hacer un reverse engineering de esto, pensar cómo lo podríamos implementar en la plataforma, con Activity Log y todo, ver si podemos tener un proto o algo para la reunión con Elena, y ver cómo vamos a asociar el True Cost of Water con los proyectos, para calcular también como Return of Investment.
+Porque si vos tenés la cantidad de savings en metros cúbicos, cuánto sale el Cost of Water, y es como que lo que te estarías hablando es savings por True Cost of Water, y sabes el CAPEX que tenés que hacer, puedes sacar algún ROI.
+
+
+@36:00 - Camila Behar (waterplan.com)
+Sí, y además algo que no te dije es que esto es medio a todo el sistema Coca, con más o menos alguna nuance.
+Ponerle, tengo también el archivo de, creo que es Andina o Arca, como que serviría para todo el sistema Coca-Cola.
+Si lo tenés ahí en un nuevo y me lo reenviás también.
+
+
+@36:21 - Ivo Kalaizic (waterplan.com)
+Sí.
+
+
+@36:23 - Camila Behar (waterplan.com)
+Entonces como que sí, tal vez no es lo que más usage te drivea, pero para hacer los ejercicios de proyectos, Capaz sí.
+Tipo, si vos querés simular algún proyecto y ponerte creativo, capaz puede ser como un buen, una buena herramienta.
+
+
+@36:46 - Ivo Kalaizic (waterplan.com)
+Bien.
+
+
+@36:48 - Camila Behar (waterplan.com)
+Y yo me llevo, mandarle un mail a Antonio y María, diciendo como, bueno, que hablamos, de lo que hablamos, mandarle el screenshot de que puede verla.
+Financial metrics, que cualquier cosa lo vemos juntos y que nos interesa hacer el ejercicio conjunto de la actualización de proyectos y preguntarle bien qué es lo que necesitan reportar para que lo podamos armar de nuestro lado y hacer el ejercicio comparativo.
+
+
+@37:18 - Ivo Kalaizic (waterplan.com)
+Dale, perfecto.
+
+
+@37:20 - Camila Behar (waterplan.com)
+Bueno, yo te mando esto para cuando encuentre el otro de True Cost of Water, te lo mando. Y nada, o sea, vamos a tener que volver a juntarnos para poner nada por ahí en un plan y demás.
+
+
+@37:41 - Ivo Kalaizic (waterplan.com)
+Dale. Bueno. Ivo, gracias.
+
+
+@37:45 - Camila Behar (waterplan.com)
+Nos vemos. Rogel y yo te mandamos un besito. Según te lo tenés, hace poco, ¿no?
+
+
+@37:52 - Ivo Kalaizic (waterplan.com)
+Sí.
+
+
+@37:53 - Camila Behar (waterplan.com)
+Van a ser dos meses.
+
+
+@37:55 - Ivo Kalaizic (waterplan.com)
+¿Y qué tanto, tipo, esfuerzo le tenés que poner? El mantenimiento de la vida de un ser vivo.
+
+
+@38:03 - Camila Behar (waterplan.com)
+La verdad que los gatos son distintos a los perros y no hay que ponerle mucho esfuerzo, o hay que limpiarle la litera, darle la comida y ocuparse de llevar a la veterinaria al principio, pero después es re autosuficiente el chabón, como que aprendió.
+Pero, re rápido, tipo, creo que el primer día hizo pis y caga en cualquier lado y después ya capísimo va, hace lo suyo, come.
+Ahora, bueno, hay que educarlo un poquito de que no trepe por todos lados, pero ya le compramos un gimnasio, pero en cuestión de demanda es poquita.
+Y además es re tierno, te cambia la vida. Sí, es muy tierno.
+
+
+@38:46 - Ivo Kalaizic (waterplan.com)
+¿Es bueno?
+
+
+@38:47 - Camila Behar (waterplan.com)
+Sí, es bueno.
+
+
+@38:50 - Ivo Kalaizic (waterplan.com)
+Es cariñoso. Eso es game changer, boludo. Yo, tipo, tuve una ex que tenía un gato, que el gato era malo, y era una paja.
+Tipo, oh, crees? ¿Viste esos gatos malos? Sí, sí, muy ariscos. Muy ariscos, tipo, ni a ella se le acercaba a la cama, nada, ¿viste?
+Y decís, dale, bro. Dale, bro, sos animal, tenés que ser capo. hago cargo de vos, güey.
+
+
+@39:16 - Camila Behar (waterplan.com)
+Sí, por ahora hay que ver cuando crezca, ¿no? Porque todavía es chiquita. Bueno, bueno, Camila.
+
+
+@39:24 - Ivo Kalaizic (waterplan.com)
+Bueno, nos vemos, digo, bye.

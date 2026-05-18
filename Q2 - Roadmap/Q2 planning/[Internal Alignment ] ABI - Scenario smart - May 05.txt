@@ -1,0 +1,428 @@
+﻿[Internal Alignment ] ABI - Scenario smart - May 05
+
+
+VIEW RECORDING - 42 mins (No highlights)
+
+
+
+
+@0:00 - Emanuel Casco (waterplan.com)
+Acabas me estás hablando más de, mira, ya metelo en cualquier lado, yo solamente lo que quiero es ver qué pasa si tengo ese proyecto.
+
+
+@0:06 - Ivo Kalaizic (waterplan.com)
+No, pero también puede llegar a haber un caso en el cual nosotros dos somos site managers y dos hay distintos, y es mejor a nivel empresa poner el presupuesto en mi site, porque o yo tengo peores KPIs, o tengo más riesgo, o estoy más alejado de mi target, contra vos, que venís bien y no vale la pena como invertir ese budget ahí.
+
+
+@0:24 - Emanuel Casco (waterplan.com)
+Ok, pero a nivel company estoy mirando, estoy mirando en qué site yo creo. Ah, 100%, es decir, en el elemental es el site, sin duda.
+ACTION ITEM: Email Emanuel Mary's demo video + Colgate KPIs (2020-2025) - WATCH
+
+
+@0:32 - Ivo Kalaizic (waterplan.com)
+Sí, sí. Bueno, entonces, esa es la respuesta como core que se basó todas las reuniones de ventas y todo para responder.
+Se hizo una demo que la armó Mary, después si querés te mando un video, porque no la tengo acá abierta, y a partir de ahí tuvimos tres sesiones.
+La primera sesión, cuatro sesiones. La primera sesión fue directamente como con el Project Leader que está llevando esto, y nos contó un poco cómo.
+Como él veía el proceso, después tuvimos una sesión con la mina que crea los targets de la empresa, que trabaja con la CSO, pero en el proceso de creación de target.
+Y después ya tuvimos dos entrevistas con un zone leader, que básicamente cómo se agrupan ellos son sitios y zonas, ¿está bien?
+Como side groups, por así decirlo. Y el piloto este, que tiene que estar para septiembre activo, es para la zona de SAS, se llama, que es Brasil, Brasil y Latinoamérica.
+¿Qué hicimos entonces? Te voy a poder mostrar, hasta cuando no lo vivieras, pero esto es como, no te voy mira, para otra cosa, yo no estuve metiendo en prioridad esto, alineado con Tommy, tipo, estaba como con cola de demás cosas, a partir de este Q, sí.
+¿Cómo va a ser mi prioridad? Tranqui, tranqui.
+
+
+@2:03 - Emanuel Casco (waterplan.com)
+Yo no necesito todo súper bajado como las features, sino entender a grandes rasgos como, por ejemplo, yo me estaba imaginando más algo de como hacer proyecciones a nivel matemático y ver qué combinación de proyectos o qué características tenía que tener un proyecto que le sirviera a la company.
+Pero la otra vez mencionaron algo de AI, entonces ahí me confundí porque es como un, ¿dónde meterías AI? No hay mucho ahí como para...
+Bien.
+
+
+@2:29 - Ivo Kalaizic (waterplan.com)
+¿Dónde...?
+
+
+@2:31 - Emanuel Casco (waterplan.com)
+Si querés, contame, tipo, general y después vamos a...
+
+
+@2:34 - Ivo Kalaizic (waterplan.com)
+Bueno, o sea, básicamente, general, ellos setean el target 2030, lo distribuyen en anual, lo distribuyen por zona, la zona recibe el target.
+Mientras que acá nos empieza a... Entramos nosotros, ¿no? Entonces, la zona recibe el target y tiene que decir, che, ¿qué carajo hago?
+En realidad, la zona recibe el target, y esta es la parte que, como tiene muchas entradas y salidas que no están tan bien definidas, pero...
+La zona recibe el target, mientras tanto, van recolectando... Todos los proyectos por tres distintas fuentes. Uno es una base de datos que armó un consultor, después son visitas a la planta, y proyectos que no requieren inversión, que lo llaman Good Operational Practices, básicamente.
+
+
+@3:14 - Emanuel Casco (waterplan.com)
+Cuando decís 400 proyectos por año, ¿esos son 400 proyectos nuevos por año o 400 proyectos en mantenimiento por año?
+Recolectados por año.
+
+
+@3:27 - Ivo Kalaizic (waterplan.com)
+Es buena tu pregunta, deberíamos tener la capacidad tal vez como para absorber 400 proyectos por año. No creo, sí, seguramente hay muchos remanentes que no se ejecutan y se ejecutan más adelante, y es cuestión de mapeo.
+
+
+@3:41 - Emanuel Casco (waterplan.com)
+Pregunto porque justo ahora Colgate tiene más o menos 400 proyectos, entonces no sé si es que son como 400 y es fijo, o de repente, no sé, arrancamos, estamos en 2016, pero arrancamos en algún momento y van a la planta y vuelven con, bueno, se pueden hacer este análisis y vuelven con 400 proyectos más.
+¿O es un, o nada, es tipo, no?
+
+
+@4:05 - Ivo Kalaizic (waterplan.com)
+Bueno, van a la planta y vuelven con 20, pero tienen 20, o vuelven con 5. 20 más sobre lo que...
+20 plantas, o sea... Perfecto, ok. Bueno, después consolidan en un Excel, que ahora te lo muestro, que me lo pasó el chabón, en todos los proyectos, y el tipo arranca haciendo una validación técnica, uno por uno, mirando, che, la descripción de este proyecto, ¿hace sentido con el impacto que le están planeando?
+Tipo, ¿sí o no? Si sí, lo marca como sí, si no, lo marca como, che, hay que retrabajarlo. Para mí ahí, re podemos ayudar.
+Ok. Después de hacer eso, básicamente, él sabe el impacto metros cúbicos del proyecto, entonces, la métrica que persiguen es, son dos, una que es intensidad, y otra que es más de, tipo, water stewardship.
+Ahora estamos, esto que estoy hablando es enfocado en la intensidad. Entonces, básicamente, él termina agarrando y dice... Ok, si este es mi impacto de metros cúbicos del proyecto, ¿cuál es el impacto de metros cúbicos sobre el total de la zona?
+Y con eso arma un ranking de dólares o de metros cúbicos, o sea, saving por dólar.
+
+
+@5:14 - Emanuel Casco (waterplan.com)
+Ok, pero ese saving por dólar no necesariamente es el mismo que estamos mostrando ahora en plataforma, es como un valor que se hace mientras están haciendo el proyecto, o es el saving, por ejemplo, ahora tenemos un project cost versus impact chai, un valor así.
+¿Es ese mismo valor o es un valor nuevo? Project cost versus impact.
+
+
+@5:39 - Ivo Kalaizic (waterplan.com)
+Es ese valor nada más que, no, no es ese valor, porque, no es ese valor. Ok. Porque el uso, o el de ahora, es project cost versus impact de ese proyecto, y esa es una métrica que ellos consideran, pero después hacen una métrica, como podríamos decir, derivada y demás, que es...
+Sobre el total de la zona, ¿cuál es el impacto de ese proyecto? Este proyecto sale 100 y vale 100.
+La métrica que dijiste vos es 1, 100 sobre 100. Ahora, si el total de la zona es 1.000, es 100 sobre 1.000.
+Ok. Bien, bien, bien. Y acá es cuando realmente entramos nosotros básicamente, que es, ok, tenés todo este database de proyectos, ¿cuáles son los que te deberías agarrar?
+Hoy, en lo que se priorizan, en lo que agarran 100% para la priorización, es el dólar sobre metro cúbico.
+O sea, tienen la lista, pero ya priorizada de antes. Yo le dije, si te dan 100.000, vas a ir sumando hasta que te pases a más de 99, te pasas a 101, ahí cortás, y esos son los proyectos que entran.
+100%, ok. Pero, justamente, lo que quiere el que nos está comprando, es que vayamos un paso más, me dice, yo no quiero que hagan algo ustedes que puedan hacer en Excel, como lineal, como creo que sean multivariables, básicamente.
+Bueno, y esto ya es como el cierre del loop, recibe el target, o sea, definen, priorizan, implementan, reportan y demás.
+Ese es un poco el contexto, lo que, por otro lado, nos mandaron un par, ah, este es el Excel que te, ahora sí que estoy tomando todo esto, si te interesa, pero básicamente este es el Excel que te, que te, que te.
+¿Qué te comenté? ¿Validado SIM? ¿Son estos? Y acá tiene que, lo que tiene además que las descripciones no son estándar, ¿viste?
+Como que depende mucho de, no sé si vos con el acueducto de modulazado, ATF, AR, ARN, podés saber si el impacto del proyecto o el costo es, tiene sentido.
+
+
+@8:19 - Emanuel Casco (waterplan.com)
+Lo que vamos a tener que hacer es la persona que se encarga de hacer ese análisis de viabilidad, qué tan cierto es ese impacto en base al proyecto, como medio que traernos toda la data que podamos de esa persona que está haciendo eso, como es el proceso, qué cosas chequea y todo lo demás, y validar en base a eso.
+Parece más algo estilo lo que están haciendo en RISC, de cómo validan insights generados por AI, algo estilo esto, básicamente todo ese proceso, ver de pasárselo a un AI para que el AI lo resuelva y lo pueda jugar.
+Y después que haya un humano que solamente tenga que doblechequear la info que puso la AI para validar el impacto que está puesto ahí.
+
+
+@9:09 - Ivo Kalaizic (waterplan.com)
+¿Y cómo le combatís a la, si vos me haces una entrevista, yo te digo, es una respuesta muy chota pero miradera, no solamente como para ver si puedo pensar juntos, tipo, no, bueno, es técnica la expertise, tipo, si ya sé que este proyecto tiene este impacto, ya me quedo tipo...
+Ok, ok, válido.
+
+
+@9:30 - Emanuel Casco (waterplan.com)
+La técnica, expertise está construida de casos anteriores, entonces lo que necesitaríamos ahí es un, podrías pasarme casos anteriores, es como cuando yo te digo una estimación para una tarea y me decís, ¿dónde sacaste ese 5 mágico, Ema?
+Y no, porque hace dos meses hicimos una feature para el TVP, un 5, llevado a un caso mucho más simple, ¿no?
+Esto es mucho más complejo. Pero lo que me imagino es que viene por ahí, entonces es un, ok, entonces lo que necesitaríamos es...
+Tener alguna especie de examples de, ok, un proyecto de estas características tiene este impacto, después habría que ver temas como inflación y demás, que me parece que también pueden llegar a ser importantes.
+
+
+@10:19 - Ivo Kalaizic (waterplan.com)
+Sí, o buscar proyectos similares en otros sites, y tipo que acá hay más sites, bueno, esa es una pregunta.
+Y después nos mandaron una data sample, ah, esta es como, esta es otra base de datos de proyectos, que es la de que armó, un consultor les armó una base de datos, una base de proyectos para que ellos eventualmente implementen, y ellos lo tienen eso como referencia, entonces saben que, en teoría lo que les vendió el consultor les dijo, si ustedes implementan,
+En estos proyectos, que esto es un sample nada más para un sitio, ustedes llegan a su target, les dijo, hace dos años.
+Entonces, ellos tienen esto como referencia, como estos son proyectos que valen la pena, lo cual a mí hay cosas que me hacen ruido, por ejemplo, este primer proyecto, vos lo ves así, water usage ratio, ratio 13, entonces vos decís, che, ¿cómo puede ser?
+Pero tiene una descripción un poco más.
+
+
+@11:26 - Emanuel Casco (waterplan.com)
+Bueno, ahí le metieron, igual la descripción sigue siendo, me llama la atención lo corta, que son las, yo me imaginaba como, un PDF por cada proyecto, es como bastante más high level.
+
+
+@11:38 - Ivo Kalaizic (waterplan.com)
+Sí, sí, entonces tenemos esto, tenemos KPIs, que acá básicamente tenemos 11 métricas, las podemos ver acá, un segundo. La columna H.
+
+
+@12:05 - Emanuel Casco (waterplan.com)
+Pero esos KPIs son nuevos, no estaban, son como Milestones, Checkpoint.
+
+
+@12:13 - Ivo Kalaizic (waterplan.com)
+Stone nos mandó como un sample de 2020 a 2025 para el mes de diciembre de un mismo site, la performance de distintos KPIs, que esto es un poco, le pedí al Rami que es el Solución Specialist, ayer sí, ¿puedo ir a hacer algún análisis y vincular si los proyectos que nos basaron hablan con estos KPIs de alguna forma y poder ver si tomamos algún insight acá?
+Estoy medio en bolas, por eso.
+
+
+@12:41 - Emanuel Casco (waterplan.com)
+No sé, sí, o sea, están como, son KPIs por proyecto.
+
+
+@12:46 - Ivo Kalaizic (waterplan.com)
+No, estos son KPIs por sitio, que habla sobre el uso del groundwater, surface water, municipal water, discharge, entonces, estarés acá, lo que vamos a sacar es tipo, ok, yo lo que quiero es mejorar la intención.
+Ya, si mejor la intensidad tengo que reducir la cantidad de Surface Water, Municipal Water, seguro.
+
+
+@13:07 - Emanuel Casco (waterplan.com)
+Ok, puede ser dicho a lo bruto, como sub-target, como tengo mi Water Intensity que necesito que llegue a 0.3.
+Sí. Una métrica dentro de mi Water Intensity es el Water Surface. Water Surface, claro, Surface. Surface está ahora en 8.000, lo tengo que bajar a 5.000.
+Si bajo Surface a 5.000, debería llegar a mi target, es como una cosa así.
+
+
+@13:41 - Ivo Kalaizic (waterplan.com)
+Sí, o sea, está buenísimo lo que vas decir. Me estoy preguntando cómo podemos llegar a ese 5, al value target, ¿viste?
+
+
+@13:54 - Emanuel Casco (waterplan.com)
+¿Al qué valor deberías bajar los withdrawals para que lleguen a...? Bueno, sí, ahí tenés más. ¿Cuál es más parecido al SAP?
+Porque tenés que empezar a jugar, o sea, básicamente la ecuación general es como, perdón, la Computed Metric es una ecuación, lo que podés hacer es empezar a jugar como, ¿qué pasa si subo tanto o bajo tanto mi Surface Withdrawal?
+¿Qué tanto más salco o me alejo de mi target? Pero nada, nos estamos adelantando, o sea, en principio sabemos que tenemos como tools las métricas que están dentro de la Computed Metric, y que si quieren tener KPIs de esas métricas, podríamos llegar a hacérselos.
+Otra cosa que pueden llegar a tener es también, recuerdo ejemplos de que no solamente querían bajar los withdrawals, sino que querían bajar Surface Withdrawals.
+O sea, como querían bajar la Intensity, pero querían bajar en particular la Surface, porque no sé, la Surface era más cara o tenía más riesgo.
+O lo que sea, entonces no le servía solamente que el proyecto fuese groundwater, porque está perfecto, pero si es Surface, mejor.
+Me acuerdo que había casos de ese estilo. En algún momento.
+
+
+@15:02 - Ivo Kalaizic (waterplan.com)
+Ok. Como si estoy diciendo una boluda ese. No, no, Y esto, lo que cambia, estos son variables de, como que el chabonjo se va un poco, y esta es mi dificultad y una falencia mía tal vez, pero como que, él lo que quiere también es que hasta le detectemos, él me dice, yo te comparto los KPIs, que estos los voy a pasar ahora por ahí, como para que le haga un análisis de esto, y que diga, como que nosotros detectamos, que dice, yo quiero que ustedes usen el data de ese proyecto, pero si ustedes detectan que hay una inconveniente en una máquina, detecten que ahí falta un proyecto, lo cual ya me parece extremadamente volado.
+
+
+@15:48 - Emanuel Casco (waterplan.com)
+Podemos decir, lo vamos viendo a medida que vayamos construyéndolo, porque es como detectar un inconveniente en una máquina, sí, pero necesito tener, o sea, conectarlo con otras cosas, tener, no sé, ponerle que...
+Podría estar relacionado con meters, eventualmente, de que, ok, si puedas tener checkpoints en meters y que meters te vaya ayudando a validar, no sé, por ejemplo, en este mes tuve tanto de agua, este mes tanto de meters, que si te estás pasando de lo que deberías, o que no sé, target tracking le puedas setear targets a meters, pero de vuelta, ahí ya creo que nos estamos yendo.
+A lo sumo, es como un se podría llegar a construir, porque están las partes, habría que ver cómo juntarlo.
+Otro problema que tenemos es que lo estamos haciendo chequeo de lo que declaran en el Meet, de que los que nos pasan a nosotros como data, sea lo que se está leyendo en meters.
+En el medio puede haber discrepancias, entonces no necesariamente te puede servir.
+
+
+@16:50 - Ivo Kalaizic (waterplan.com)
+¿Para vos por qué lo decís eso? O sea, ¿en qué use que usas? hoy en día... ¿En que hacer una manda data gathering y usa meters?
+Hoy, claro. Ah, sí, correcto. O sea, lo que tiene es que tal vez el meter está muy limitado a un site puntual de una company o un par de sites y no el total, como para poder, y en Data Guiding solo vamos a como de todos los sitios.
+Pero sí podríamos hacer ese chequeo. Bueno, nada, este es el, tipo, te acabo de decir todo lo que tenemos.
+De hecho, es lo que tengo que meter de cabeza este cubo.
+
+
+@17:35 - Emanuel Casco (waterplan.com)
+Lo que siento es que hay como varias partes, hay un par que quizás hasta podamos arrancar a hacer, pero siento que tenés como algo de, tengo un listado de proyectos que todavía no quiero meter en la plataforma, como que son drafts, que son como drafts de, bueno, tenemos el listado de drafts en Proyecto, así que no serían drafts, pero como preproyectos o proyectos pendientes de revisión o lo que quieras, y lo que queremos hacer es poder validar que esos proyectos...
+¿Qué efectivamente tienen el impacto que dicen que van a tener? Esta es una primera parte de cómo hago para, primero, imputear esos proyectos que todavía no son proyectos en plataforma, ver qué impacto podrían llegar a tener y validar si efectivamente tienen ese impacto.
+Esa parte de validar si tiene impacto o no, habría que meter algún estilo de lógica o reglas, lo que sea que puede llegar a tener AI, de cómo validamos que efectivamente tienen el impacto que dicen tener.
+O si es más o menos Epla, y que alguien pueda decir como, sí, ok, confío de que está bien, en base a esta data que me juntó la AI o que junto a Waterplan.
+Y una vez que como que los ascienden a proyectos de verdad, ahí recién empiezan a aparecer en plataforma. Pero en el medio también hay otra tool, en este proceso de como qué proyectos meto y qué proyectos no, debería haber una tool que me agarre y me muestre como relación costo-beneficio, los proyectos que mejor performan.
+Tanto de los que ya tengo como de los que quisiera meter, para que yo pueda ver rápido, ok, ordenado de los mejores a los peores proyectos, y estoy diciendo como, ok, este entra, este entra, este entra, este entra, este entra, y ver cuánto me impactan al final.
+Como ir viendo, como, ok, ¿qué pasa si meto estos primeros 100 proyectos nada más? ¿Cuánta plata es y cuánto me impactan en agua?
+Y ver la línea, el target, por ejemplo, como si fuese un escenario simulator. Y ahí ir metiendo, sacando proyectos.
+Pará, una pregunta.
+
+
+@19:30 - Ivo Kalaizic (waterplan.com)
+Entonces, vos lo que te estás imaginando, en principio, sería como algo externo.
+
+
+@19:35 - Emanuel Casco (waterplan.com)
+No, dentro del target tracking, pero yo, por ejemplo, no crearía, no metería, eso, ponele, te pasan 5 proyectos por site, tenés 200 sites, tenés 1.000 proyectos, de repente, un montón.
+Y capaz no querés meterlos todos en target tracking, porque de repente llenaste de basura proyectos que no vas a usar en target tracking.
+Entonces, quizás lo que querés, en realidad, es tener... Como algo, mira, te voy a ir subiendo proyectos que todavía no los quiero ver en la tool de target tracking porque los estoy evaluando, que tengan como un potencial, y que encima el wording diga, potencial impacto, potencial, bla, y que vos puedas ir agregando o sacando proyectos en una especie de simulador ideas como, ok, si meto estos X cantidad de proyectos, el impacto del target con los proyectos que ya tengo en la plataforma se vería así.
+Entonces tenés como una especie de preview de cómo se vería si agregas esos proyectos. Y ahí tendríamos que hacer tres cosas.
+Agregar la posibilidad de tener este preview de proyectos, como ir agregando y sacando proyectos a eso. Primero, feature. Segunda, algo que valide que el impacto que dicen que esos proyectos dicen tener efectivamente sea real.
+O que me haga alguna especie de chequeo que no va a ser 100% accurate porque es un LLM. Pero que por lo menos cuando venga alguien de Colgate o alguien de nosotros a ver si esos proyectos tienen sentido, básicamente Waterplan ya le pongo un, mirá, para mí es un 99% match por todas estas cosas.
+Y que la persona pueda decir no, o sí. Y el simulador, que es básicamente muy parecido al escenario builder que tenemos ahora, que básicamente puedes ir agregando y sacando proyectos.
+Te pasa algo un poquito más fancy, que es un poco más rápido, que sea un poquito más amigable, no tan incómodo usar, que tengas más filtros y eso.
+Y ahí ya tenés medio que lo que están pidiendo. Más, que todavía no sé muy bien cómo meter, lo de los KPIs.
+Que siento que es como, podría ser un complemento, porque siento que está atado a las métricas que componen el, o que podría estar atado a las métricas que componen el target.
+Pero no sé bien cómo usarlo todavía. Y nos podemos comer quilombos, porque siento que... Entonces empiezan a pedir cosas como, che, calculame cuánto debería bajar Surface para que mi target se vaya tanto.
+Ahí podríamos llegar a tener un lío en el sentido de, si tenés una ecuación muy compleja, te puede volver medio un quilombo calcular eso a nivel código.
+A nivel Excel es una pavada, pero a nivel código se puede volver a ser medio confuso, pero lo podríamos llegar a ver.
+
+
+@22:28 - Ivo Kalaizic (waterplan.com)
+Ese es mi resumen, ¿está bien o me Sí, está bien, está bien, está bien. Está muy bien.
+
+
+@22:42 - Emanuel Casco (waterplan.com)
+Porque, sí, decíme.
+
+
+@22:43 - Ivo Kalaizic (waterplan.com)
+No, no, mi pregunta es tipo, estoy en el centro entre, tipo, te escucho y estoy alineado y tengo que ir y hablar con el chabón, ¿viste?
+Entonces, tipo... ¿Cómo crees, o ping poníamos, tipo, qué te parece la mejor estrategia para ir a otro, y un contexto importante, en la última sesión como que el dijo, che, yo quiero empezar a ver avances, viste, como no el entrevistado, sino el que está como liderando el proyecto.
+Dice, che, estamos haciendo discovery, buenísimo, estamos haciendo sobre todo discovery, hicimos mucho discovery del seteo de targets, y no es tan relevante, el local, el core, es una vez que el target ya está seteado, yo puedo decir, che, tengo esta cantidad de guita, entonces ahora es como que se viene, hay más presión, viste.
+Entonces, yo, mi pregunta es, ¿cuál es la mejor manera, tal vez, de ir, como, iterando y validando? Porque, para todo lo que acabamos de hablar, necesitamos, que para la parte de proyectos, Mery le meta cabeza, que para la parte de AI, tipo, vos le metas cabeza, sea, Mery o vos, o todos, ¿no?
+
+
+@23:55 - Emanuel Casco (waterplan.com)
+Es hasta ahora, igual, todavía lo de AI es un, no pensemos en AI. Pensemos en, o sea, qué es lo que hay que automatizar o qué es lo que hay que como sistematizar y vemos si hace falta AI y en qué parte.
+Porque quizás ni siquiera hace falta AI, porque quizás lo que hace el chabón que para ver si un proyecto es eficiente o no es algo que se puede hacer matemáticamente, no necesita AI.
+O quizás lo único que necesita de AI es un che, saca key metrics de, en la descripción y con esa key metrics hacerme la cuenta y si no te alcanza, decime que está mal y listo.
+Entonces se termina reducido en algo que es una babada lo que está haciendo la AI. No, no, no es relevante.
+Por eso, pero yo lo que no termino de entender es un, la parte de, tengo tanta plata, me llegan proyectos, tengo que priorizar los proyectos y ver si están bien o no.
+Es como, cómo te llegan los proyectos, quién los sube, quién te los va a pasar, los estás creando vos o los crea una consultora, te vas a hacer el documento que me mostraste y los estás subiendo de ahí.
+Eso, de dónde salen los proyectos y quién los va a subir a la plataforma, qué data van a tener seguro, qué data no van a tener, y después cómo es el proceso de validar que esos proyectos son eficientes o no.
+Esa parte sí o sí necesitamos entender cómo laburan, que nos pasen, cómo, o sea, te paso 10 proyectos, cómo me decís este sí, este no.
+Y a lo sumo, lo que podemos hacer es llevarle propuestas, pero estamos medio como, va a ser una chachipiqueada, porque es como, tengo 10 proyectos de un Excel y me estás diciendo, tipo, está bueno y cuál no.
+ACTION ITEM: Prepare 10-project sample (SIM/no SIM) for Colgate review - WATCH
+
+
+@25:42 - Ivo Kalaizic (waterplan.com)
+es como, no, está bien, pero está bueno para la reunión, tal vez yo de mañana puedo hacer esa propuesta de, che, tenés estos, le mando yo 10 proyectos, que los veo como sim y como no, en aprobados y o no, y le digo, escúchame.
+Explícame, explícame, explícame lo de una transición. Y yo puedo ir con este GPT y también voy con, se va a sumar un señor, Ángel, no sé si lo conoces.
+Y nada, le pregunto a él qué opina.
+
+
+@26:10 - Emanuel Casco (waterplan.com)
+O sea, eso me recontra, creo que es la parte que más necesitamos a Colgate. Todo lo demás siento que es entre vos, un SSP y demás lo deberíamos poder resolver.
+Porque es como después, una vez que tenés los proyectos ya parametrizados, con la data que necesitas de los proyectos, el impacto, el costo, y qué porcentaje de confianza tenés en el proyecto, ahí ya tenés, ¿cómo se dice?
+Sí, toda tu base, al menos, como para empezar a jugar. Tenés para empezar a priorizar, es como después es hacer el laburo de cómo optimizás los proyectos que más te convienen.
+Y hasta puedes hacerle tipo un gráfico de, mira, el impacto debería moverse así, y si, como tienen un confidence, por lo que estamos haciendo con AI, supuestamente, tipo, se te abre en esto, y es como, este es...
+Este es el peor de los escenarios, que el Confidence fue el más bajo y eso fue lo que se aplicó, este es el más alto y armás algo un poco más fácil, fancy inclusive, que lo que tenemos ahora.
+Pero necesito entender esa parte de cómo se que un proyecto...
+
+
+@27:15 - Ivo Kalaizic (waterplan.com)
+Al menos tiene toda la data necesaria y bien.
+
+
+@27:18 - Emanuel Casco (waterplan.com)
+Mínimo tiene toda la data necesaria, sí, sí. Pero, por ejemplo, ¿cuál es toda la data necesaria? Entiendo qué costo, impacto, y a qué métricas impacta, y algo del estilo...
+Alguna data más, para saber si...
+
+
+@27:34 - Ivo Kalaizic (waterplan.com)
+No, y sitio, sí o sí, y con sitio podés obtener el riesgo de la plataforma, en caso de que ahora imputear, como para que sea una variable más del 1 al 5 de priorización, podés obtener...
+Los KPIs lo tienen por sitio, entonces podés tener el matcheo como por eso. Habría que agregar algo para que puedan subir los KPIs.
+
+
+@28:00 - Emanuel Casco (waterplan.com)
+Oh, KPIs. Porque hoy no tienen, o sea, hoy no existe el concepto de KPIs dentro de sitio, pero podría ser otra feature, es como, ok, podés agregarme KPIs que no son targets, sino que son KPIs y algo como, no sé, tipo, te suma estrellas mientras más KPIs tengas en un target o algo por el estilo, no sé, estoy hablando en voz alta, hablando en voz alta, estoy pensando en voz alta.
+ACTION ITEM: Build MVP mock (upload, template, simulator, prioritization) for Colgate - WATCH
+
+
+@28:23 - Ivo Kalaizic (waterplan.com)
+Buenísimo. Buena, no, bárbaro. Creo que me sirvió.
+
+
+@28:31 - Emanuel Casco (waterplan.com)
+O sea, recontra cebado de empezar a chusmear esto, tipo, podemos si querés armar una especie de esqueleto, si podemos pensar como las cosas mínimas que tiene que tener, podemos armar un esqueleto para mostrarles a ellos tipo MVP rápido en un par de días de, mira, así podrías subir tus proyectos, este es el template, así se verían en la plataforma, y acá te muestro como los priorizo, y acá viene, sé, acá vendría la parte de,
+El wizard o lo que sea que me va a decir si un proyecto está bien o no está bien, que ahora está todo hecho, o sea, no funciona, es un mock, y así se vería, y así verías el impacto de los proyectos, y así podés como definir que estos proyectos los ascendes a proyectos que tenés en la tool de target tracking, que no son proyectos que tenés como pendientes.
+Y eso no es algo que nos debería llevar mucho tiempo, lo podemos hacer con mínimo diseño, como Mary, dame un par de guidelines y lo hacemos.
+Si te sirve como referencia. Y es como, no tenemos todavía la parte de, como saber si esos proyectos sirven o no.
+Esa parte habría que hacerla, pero nos tienen que explicar cómo hacerlo. En lo posible no colgate específic, como que sea algo genérico.
+
+
+@29:56 - Ivo Kalaizic (waterplan.com)
+Pero, quiero mostrarte a ver si lo encuentro rápido. Mary hizo una demo, tipo un, yo una vez lo viste, tipo ahí un render, quedó bárbaro, boludo, la verdad.
+
+
+@30:40 - Emanuel Casco (waterplan.com)
+A ver si lo tenés, o si no, esto está también algo que no pueda. Pero para mí, o sea, ¿va alineado con lo que hablamos, lo de Mary, o era algo distinto?
+
+
+@30:51 - Ivo Kalaizic (waterplan.com)
+No, no, va alineado con lo que hablamos, quiero ver si es este, y si no es este, lo vemos ahora, te lo mando.
+Pues, bueno, casi no hay un videito. A ver, no sé si vos no escuchás nada, ¿no? Si no te lo mando.
+descargame y lo miro. O no sé si fue la versión final, pero explica la idea de qué es lo que había flasheado, y esto fue lo que se mostró en la reunión y les encantó.
+
+
+@31:43 - Emanuel Casco (waterplan.com)
+Ok.
+
+
+@31:46 - Ivo Kalaizic (waterplan.com)
+Así que nada, me llevo este Fathom para pensar un poco, y hoy también voy a estar con lo del Q, boludo, ¿viste?
+Con lo del... Sí, te dejé un montón de comments, perdón. Sí, pero la mayoría eran de...
+
+
+@32:00 - Emanuel Casco (waterplan.com)
+O sea, no creo que, nada que no, me pareció todo bien, no hubo nada que me llamara mucho la atención.
+
+
+@32:08 - Ivo Kalaizic (waterplan.com)
+Sí, lo único que quiero, la única pregunta que tengo es respecto, viste, de lo de, estoy compartiendo pantalla o ya dejé de compartir, pero, ya estoy compartiendo, perfecto.
+Respecto a de water y carbon separation and target tracking, sí, o sea, el core es, ¿sabes qué es lo que pienso yo?
+Y corregíme si está mal. Hoy nosotros tenemos una plataforma unificada que es water y carbon. Nosotros, a partir de ahí, las separamos en dos en el front para tener water y carbon por separado.
+Pero hoy comparten la misma estructura de tipo water y carbon, es por eso que comparten las, los... Comparten las métricas, comparten las configuraciones, que vos acá, creo que vos acá me pusiste que, bueno, para la configuración.
+
+
+@33:09 - Emanuel Casco (waterplan.com)
+o sea, lo de las configuraciones no recuerdo, pero puede ser, puede ser que estén compartidos, seguramente. Eso es fácil de separar igual.
+Lo podemos hacer que sean unas para Carbon y otras para Water, y podemos hacer, o sea, o que sean por métrica, como estamos haciendo ahora con todo.
+Entonces es, que cada company, que cada uno se lleve, que es lo que quiere ver en cada lugar.
+
+
+@33:34 - Ivo Kalaizic (waterplan.com)
+Mi pregunta es la siguiente, si nosotros en vez de, porque también yo pensaba hasta, digo, che, pero si yo soy el CSO de Colgate, y quiero tener un solo lugar que vea Carbon y Water, ¿viste?
+Entonces, y eso era lo que me tendía a a pensar, no, bueno, entonces dejemos la plataforma original y dejemos de romper los huevos con separar, y tipo, separemos en el front y ya, y si el día de mañana está ese job to be done, se lo podemos satisfacer.
+Y después pensaba, ¿y pero qué pasa si en vez de tener una unidad? Core, tenemos dos subunidades que tal vez eventualmente se suman en una unidad, pero la distribución es tipo bottom-up y no top-down.
+¿Cómo sería? Literalmente lo mismo que tenemos ahora, nada más que los escenarios viven en water y los escenarios viven en carbon, tipo todo así, pero si, esto no es prioridad, solamente pensamos en mi terreno de pensamiento y corregime.
+Pero si después queremos tener una plataforma tipo Target Tracking hoy, que podés switchear entre carbon y water, tal vez que cuando vas a carbon veas la entidad de carbon y cuando vas a water veas la entidad de water.
+
+
+@34:38 - Emanuel Casco (waterplan.com)
+Es que siento que estamos casi ahí, hay un par de lugares donde todavía seguimos compartiendo cosas, pero son las de menos, porque en la configuración de lo que te decía, es un, ok, ahora hay capaz algunas cosas que todavía se siguen compartiendo, que son a nivel company, saquémoslo y hagámoslo a nivel water o energy, eso es un cambio de un día, hagámoslo.
+Y básicamente tenés una config para water, otra config para energy, o todo es a nivel métrica. Y eso es lo más fácil porque es como no te vas a tener el problema de, ah, ahora está separado, no sé, energy de water.
+Pero yo quiero que lo que sea gas o lo que sea emisiones tenga unas métricas y lo que tenga energy tenga otras.
+Entonces es como listo. Hacelo por métricas y hace lo que quieras. Te lo llevas y lo configuras. Y lo otro que tenemos compartido, que para mí es el principal, el blocker de lo que vas a diciendo, son escenarios.
+Pero de vuelta, eso estaba en deuda técnica inclusive. como lo hacemos. Hacemos el cambio y tenés escenarios en vez de estar definidos por, estar limitados, perdón, por, por, por company, están limitados por tipo.
+Entonces tenés, ahora son cuatro escenarios extra, además del base case. Entonces tenés cuatro de energy y cuatro de agua, que vos igual querías.
+
+
+@35:58 - Ivo Kalaizic (waterplan.com)
+Cada cada un sitio va a poder tener. Un base case compartido, que no sé si va a estar compartido, imagino, y está bien que esté compartido porque van a agarrar todos los proyectos.
+Es que el base case está compartido, pero porque el base case es como un filtro. on, total.
+
+
+@36:14 - Emanuel Casco (waterplan.com)
+Es como, está compartido el concepto, pero en realidad los proyectos nunca van a estar compartidos porque las métricas son distintas, están tíos y separados.
+En los escenarios, el problema es que el escenario también es un filtro, pero te estoy diciendo que para la company son cinco y los estoy compartiendo entre agua y energy.
+es ahí donde vos venís y me decís, no, es más, tipo, uno es agua y el otro es energy.
+Entonces, son cinco escenarios separados. Ok.
+
+
+@36:45 - Ivo Kalaizic (waterplan.com)
+Y la otra, con eso estamos alineados, creo que voy a simplificar todo esto de separar a una sola con todo.
+Y la otra que me quería...
+
+
+@36:54 - Emanuel Casco (waterplan.com)
+Si querés, en las que son separar y donde yo te digo, che, esto está repetido porque está incluido en esa...
+En una que es más grande, dejála más grande, dejála de separar bien energy y agua, por ejemplo, y nada, se desprenderá de ahí el ticket de separar escenarios y chequeamos si hay algo más que separar.
+Como, quedate con el más genérico, como que a largo, como a grandes rasgos hay que hacer esto y nosotros después vemos qué es el, no sé, tipo videos y todo lo demás.
+
+
+@37:25 - Ivo Kalaizic (waterplan.com)
+Sí, esta es la que me, las otras que me preocupan, la de permisos, que sé que es un dolor de huevo.
+Sí. Hoy no es un problema, porque Tobías lo trajo a la mesa como tipo, esto eventualmente estaría bueno que esté.
+Bien. Y hoy tenemos la plataforma, no sé si hardcodeada, pero configurada para lo que Colgate quiere. Y Colgate es como el más gede, entonces estamos bien.
+Pero... Pero, eventualmente, vamos a tener que hacer lo de tu vida, en el cual yo, Evo, Site Manager, voy a poder ver mi site, editar y todo, y voy a poder ver tu site de EMA, no te voy a poder tocar nada, como que es algo que necesitamos.
+Y mi rock número uno a nivel Evo Product Manager es que los sitios de CDP usen la plataforma. Yo me pregunto, ¿los roles van a ser el driver para que los sitios usen la plataforma?
+Y para mí la respuesta es no, la verdad. La respuesta tal vez va, si tiene que ver algo con esto de roles, va mucho más apuntada a lo que vos decís, de tipo, che, Evo, pero ¿qué están queriendo ver los sitios?
+Y si vos a los sitios les podés recomendar qué proyectos hacer, sin duda les va a dar más valor.
+Pero yo estoy como con esa disyuntiva de tipo, podemos patearlo y hasta que sea un problema y que Tobías venga, mirá, che, Evo, yo necesito que esto suceda.
+Pero Tobías, ahí vamos de vuelta.
+
+
+@39:03 - Emanuel Casco (waterplan.com)
+O sea, yo lo que necesito entender es, a mí lo que no me termina de llegar es cuál es el problema que tienen.
+No quiero la feature que nos están pidiendo, no me interesa, o sea, en principio la feature. Está bueno como referencia, pero no me interesa.
+Es como qué problema tienen, qué no están pudiendo hacer hoy en plataforma porque no tienen eso. Y capaz, como yo lo pienso, lo que ellos necesitan, por ejemplo, en el caso que hablábamos ayer, lo que ellos necesitan es tener proyectos de referencia para poder inspirarse y implementarlos en sus plantas.
+El darles acceso a otros sitios, a los proyectos de otros sitios, no les resuelve en sí el problema. Les da una herramienta para resolverlo, pero los mandás a buscar proyectos.
+Entonces, si en el proceso podemos nosotros ya darles eso digerido y decirles, acá tenés proyectos que se implementaron en otros sitios parecidos a los tuyos, que te pueden servir, y te doy algo para ponerte en contacto con esos sitios, no tuviste que...
+No meterte con roles, ni permisos, o sea, no tuviste que meterte en eso, que quizás es un lío que te estás comprando, y ya le resolviste directamente el problema, versus darle permisos, darle acceso a los sitios, implica que encima construyamos otra cosa, para que puedan después priorizar cuáles son los proyectos de esos sitios que más les interesa, es como, hagamos eso directamente, no pasemos por los sitios.
+
+
+@40:22 - Ivo Kalaizic (waterplan.com)
+Bien, estoy de banco, de hecho ya le voy a mostrar lo de Active Projects from Other Sites, eso le va a gustar, y por otro lado, tengo una pregunta que es que, que después nosotros podamos, es tipo, le pregunté a Pipe, y el 11 de mayo, que es el lunes que viene, es el entrenamiento de colgate a los gerentes de planta.
+él estima que a la semana siguiente va a ser a los operadores, los que van a usar más de plataforma, ¿viste?
+Bien. Y ahí es cuando yo me atranco a preguntar, che, esto eventualmente, ¿viste? Lo digo, esto eventualmente va a explotar.
+¿Qué? Es que no todo lo, el de lock target es clave porque eso no deja que modifiquen el target, pero digo, no sé si todos los usuarios deberían poder crear un escenario o editar un escenario.
+ACTION ITEM: Define/implement role-based permissions (scenario create/edit, lock target) w/ Sofi; test - WATCH
+
+
+@41:14 - Emanuel Casco (waterplan.com)
+Bien, eso se puede, pero eso lo podemos limitar. Eso es, con los roles que ya tenemos, el can edit, can manage y demás, hagamos esa bajada de cuáles son los permisos que hay ahora y que queremos limitar, y eso lo limitamos rápido.
+Te digo que, capaz, en dos, tres días, con Sofi, porque atentamos a alguien como que nos dé una mano para testear o lo testeamos nosotros, lo tenemos resuelto.
+El problema es cuando nos metemos en desgranar los permisos, porque ahí sí nos metemos en un lío de, nos compramos un lío de mantenimiento después.
+No es tanto el costo de implementarlo, yo lo puedo implementar, y capaz implementarlo tarda menos de una semana. Bueno, el problema es que después es todo lo que hay que hacer para que eso siga funcionando.
+Bueno, como...
+
+
+@41:58 - Ivo Kalaizic (waterplan.com)
+Pensamos... E...
+
+
+@41:59 - Emanuel Casco (waterplan.com)
+Pensa... Pensamos... ... ... Saque ya hoy con roles, que son bolsas de permisos, los usuarios se confunden y lo terminan haciendo los SSP.
+Imaginate si encima tenemos que meterles más cosas, es como no lo van a hacer.
+
+
+@42:14 - Ivo Kalaizic (waterplan.com)
+Bueno, nada, gracias. Nos vemos ahora.
+
+
+@42:20 - Emanuel Casco (waterplan.com)
+Nos vemos un ratito. Gracias, Ivo, por el tiempo.
+
+
+@42:23 - Ivo Kalaizic (waterplan.com)
+Nada, vos, vale. Chau, chau.

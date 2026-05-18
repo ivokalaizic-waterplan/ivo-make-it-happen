@@ -1,0 +1,827 @@
+[
+  {
+    "scope": "company",
+    "companyId": "demo-sales",
+    "metricId": "019e03a0-b29b-7001-8655-d5fe0ec2b24a",
+    "name": "Scope 1 & 2 (tCO2) - Manufacturing",
+    "baselineYear": 2021,
+    "baselineValue": 75205.751002,
+    "targetYear": 2030,
+    "targetValue": 52644.025701,
+    "comparisonOperator": "lte",
+    "checkpoints": [
+      {
+        "year": 2022,
+        "value": 74528.899243
+      },
+      {
+        "year": 2023,
+        "value": 73400.812978
+      },
+      {
+        "year": 2024,
+        "value": 71821.492207
+      },
+      {
+        "year": 2025,
+        "value": 69565.319677
+      },
+      {
+        "year": 2026,
+        "value": 66181.060882
+      },
+      {
+        "year": 2027,
+        "value": 62796.802087
+      },
+      {
+        "year": 2028,
+        "value": 58961.308786
+      },
+      {
+        "year": 2029,
+        "value": 55351.432737
+      }
+    ]
+  },
+  {
+    "scope": "site",
+    "companyId": "demo-sales",
+    "metricId": "019e03a0-b29b-7001-8655-d5fe0ec2b24a",
+    "name": "Scope 1 & 2 (tCO2) - Manufacturing",
+    "baselineYear": 2021,
+    "baselineValue": 32141.113195,
+    "targetYear": 2030,
+    "targetValue": 22498.779236,
+    "comparisonOperator": "lte",
+    "checkpoints": [
+      {
+        "year": 2022,
+        "value": 31851.843176
+      },
+      {
+        "year": 2023,
+        "value": 31369.726478
+      },
+      {
+        "year": 2024,
+        "value": 30694.763101
+      },
+      {
+        "year": 2025,
+        "value": 29730.529705
+      },
+      {
+        "year": 2026,
+        "value": 28284.179611
+      },
+      {
+        "year": 2027,
+        "value": 26837.829517
+      },
+      {
+        "year": 2028,
+        "value": 25198.632745
+      },
+      {
+        "year": 2029,
+        "value": 23655.859311
+      }
+    ],
+    "siteId": "019dcf64-153b-711b-a458-5bae30460865"
+  },
+  {
+    "scope": "site",
+    "companyId": "demo-sales",
+    "metricId": "019e03a0-b29b-7001-8655-d5fe0ec2b24a",
+    "name": "Scope 1 & 2 (tCO2) - Manufacturing",
+    "baselineYear": 2021,
+    "baselineValue": 8267.445113,
+    "targetYear": 2030,
+    "targetValue": 5787.211579,
+    "comparisonOperator": "lte",
+    "checkpoints": [
+      {
+        "year": 2022,
+        "value": 8193.038107
+      },
+      {
+        "year": 2023,
+        "value": 8069.02643
+      },
+      {
+        "year": 2024,
+        "value": 7895.410083
+      },
+      {
+        "year": 2025,
+        "value": 7647.386729
+      },
+      {
+        "year": 2026,
+        "value": 7275.351699
+      },
+      {
+        "year": 2027,
+        "value": 6903.316669
+      },
+      {
+        "year": 2028,
+        "value": 6481.676969
+      },
+      {
+        "year": 2029,
+        "value": 6084.839603
+      }
+    ],
+    "siteId": "019dcf62-6e7d-711b-a458-3e860d718e3d"
+  },
+  {
+    "scope": "site",
+    "companyId": "demo-sales",
+    "metricId": "019e03a0-b29b-7001-8655-d5fe0ec2b24a",
+    "name": "Scope 1 & 2 (tCO2) - Manufacturing",
+    "baselineYear": 2021,
+    "baselineValue": 20285.86877,
+    "targetYear": 2030,
+    "targetValue": 14200.108139,
+    "comparisonOperator": "lte",
+    "checkpoints": [
+      {
+        "year": 2022,
+        "value": 20103.295951
+      },
+      {
+        "year": 2023,
+        "value": 19799.007919
+      },
+      {
+        "year": 2024,
+        "value": 19373.004675
+      },
+      {
+        "year": 2025,
+        "value": 18764.428612
+      },
+      {
+        "year": 2026,
+        "value": 17851.564517
+      },
+      {
+        "year": 2027,
+        "value": 16938.700423
+      },
+      {
+        "year": 2028,
+        "value": 15904.121115
+      },
+      {
+        "year": 2029,
+        "value": 14930.399414
+      }
+    ],
+    "siteId": "019dcf60-fd86-711b-a458-01fc75ee6f76"
+  },
+  {
+    "scope": "site",
+    "companyId": "demo-sales",
+    "metricId": "019e03a0-b29b-7001-8655-d5fe0ec2b24a",
+    "name": "Scope 1 & 2 (tCO2) - Manufacturing",
+    "baselineYear": 2021,
+    "baselineValue": 5315.45269,
+    "targetYear": 2030,
+    "targetValue": 3720.816883,
+    "comparisonOperator": "lte",
+    "checkpoints": [
+      {
+        "year": 2022,
+        "value": 5267.613616
+      },
+      {
+        "year": 2023,
+        "value": 5187.881825
+      },
+      {
+        "year": 2024,
+        "value": 5076.257319
+      },
+      {
+        "year": 2025,
+        "value": 4916.793738
+      },
+      {
+        "year": 2026,
+        "value": 4677.598367
+      },
+      {
+        "year": 2027,
+        "value": 4438.402996
+      },
+      {
+        "year": 2028,
+        "value": 4167.314909
+      },
+      {
+        "year": 2029,
+        "value": 3912.17318
+      }
+    ],
+    "siteId": "019dcf63-7b52-7009-b6d1-cb8b07e1d69f"
+  },
+  {
+    "scope": "site",
+    "companyId": "demo-sales",
+    "metricId": "019e03a0-b29b-7001-8655-d5fe0ec2b24a",
+    "name": "Scope 1 & 2 (tCO2) - Manufacturing",
+    "baselineYear": 2021,
+    "baselineValue": 9195.871235,
+    "targetYear": 2030,
+    "targetValue": 6437.109865,
+    "comparisonOperator": "lte",
+    "checkpoints": [
+      {
+        "year": 2022,
+        "value": 9113.108394
+      },
+      {
+        "year": 2023,
+        "value": 8975.170325
+      },
+      {
+        "year": 2024,
+        "value": 8782.05703
+      },
+      {
+        "year": 2025,
+        "value": 8506.180892
+      },
+      {
+        "year": 2026,
+        "value": 8092.366687
+      },
+      {
+        "year": 2027,
+        "value": 7678.552481
+      },
+      {
+        "year": 2028,
+        "value": 7209.563048
+      },
+      {
+        "year": 2029,
+        "value": 6768.161229
+      }
+    ],
+    "siteId": "019dcf61-a402-7222-9712-11e47a1571d0"
+  },
+  {
+    "scope": "company",
+    "companyId": "demo-sales",
+    "metricId": "019e03a7-dfdb-7992-a752-2a668af57616",
+    "name": "Energy Intensity",
+    "baselineYear": 2021,
+    "baselineValue": 0.324512,
+    "targetYear": 2030,
+    "targetValue": 0.25961,
+    "comparisonOperator": "lte",
+    "checkpoints": [
+      {
+        "year": 2022,
+        "value": 0.322565
+      },
+      {
+        "year": 2023,
+        "value": 0.31932
+      },
+      {
+        "year": 2024,
+        "value": 0.314777
+      },
+      {
+        "year": 2025,
+        "value": 0.308286
+      },
+      {
+        "year": 2026,
+        "value": 0.298551
+      },
+      {
+        "year": 2027,
+        "value": 0.288816
+      },
+      {
+        "year": 2028,
+        "value": 0.277782
+      },
+      {
+        "year": 2029,
+        "value": 0.267398
+      }
+    ]
+  },
+  {
+    "scope": "site",
+    "companyId": "demo-sales",
+    "metricId": "019e03a7-dfdb-7992-a752-2a668af57616",
+    "name": "Energy Intensity",
+    "baselineYear": 2021,
+    "baselineValue": 0.452626,
+    "targetYear": 2030,
+    "targetValue": 0.3621,
+    "comparisonOperator": "lte",
+    "checkpoints": [
+      {
+        "year": 2022,
+        "value": 0.44991
+      },
+      {
+        "year": 2023,
+        "value": 0.445384
+      },
+      {
+        "year": 2024,
+        "value": 0.439047
+      },
+      {
+        "year": 2025,
+        "value": 0.429994
+      },
+      {
+        "year": 2026,
+        "value": 0.416416
+      },
+      {
+        "year": 2027,
+        "value": 0.402837
+      },
+      {
+        "year": 2028,
+        "value": 0.387448
+      },
+      {
+        "year": 2029,
+        "value": 0.372963
+      }
+    ],
+    "siteId": "019dcf64-153b-711b-a458-5bae30460865"
+  },
+  {
+    "scope": "site",
+    "companyId": "demo-sales",
+    "metricId": "019e03a7-dfdb-7992-a752-2a668af57616",
+    "name": "Energy Intensity",
+    "baselineYear": 2021,
+    "baselineValue": 0.528788,
+    "targetYear": 2030,
+    "targetValue": 0.42303,
+    "comparisonOperator": "lte",
+    "checkpoints": [
+      {
+        "year": 2022,
+        "value": 0.525615
+      },
+      {
+        "year": 2023,
+        "value": 0.520327
+      },
+      {
+        "year": 2024,
+        "value": 0.512924
+      },
+      {
+        "year": 2025,
+        "value": 0.502348
+      },
+      {
+        "year": 2026,
+        "value": 0.486485
+      },
+      {
+        "year": 2027,
+        "value": 0.470621
+      },
+      {
+        "year": 2028,
+        "value": 0.452642
+      },
+      {
+        "year": 2029,
+        "value": 0.435721
+      }
+    ],
+    "siteId": "019dcf62-6e7d-711b-a458-3e860d718e3d"
+  },
+  {
+    "scope": "site",
+    "companyId": "demo-sales",
+    "metricId": "019e03a7-dfdb-7992-a752-2a668af57616",
+    "name": "Energy Intensity",
+    "baselineYear": 2021,
+    "baselineValue": 0.803869,
+    "targetYear": 2030,
+    "targetValue": 0.643095,
+    "comparisonOperator": "lte",
+    "checkpoints": [
+      {
+        "year": 2022,
+        "value": 0.799045
+      },
+      {
+        "year": 2023,
+        "value": 0.791007
+      },
+      {
+        "year": 2024,
+        "value": 0.779753
+      },
+      {
+        "year": 2025,
+        "value": 0.763675
+      },
+      {
+        "year": 2026,
+        "value": 0.739559
+      },
+      {
+        "year": 2027,
+        "value": 0.715443
+      },
+      {
+        "year": 2028,
+        "value": 0.688112
+      },
+      {
+        "year": 2029,
+        "value": 0.662388
+      }
+    ],
+    "siteId": "019dcf60-fd86-711b-a458-01fc75ee6f76"
+  },
+  {
+    "scope": "site",
+    "companyId": "demo-sales",
+    "metricId": "019e03a7-dfdb-7992-a752-2a668af57616",
+    "name": "Energy Intensity",
+    "baselineYear": 2021,
+    "baselineValue": 0.175589,
+    "targetYear": 2030,
+    "targetValue": 0.140471,
+    "comparisonOperator": "lte",
+    "checkpoints": [
+      {
+        "year": 2022,
+        "value": 0.174535
+      },
+      {
+        "year": 2023,
+        "value": 0.172779
+      },
+      {
+        "year": 2024,
+        "value": 0.170321
+      },
+      {
+        "year": 2025,
+        "value": 0.166809
+      },
+      {
+        "year": 2026,
+        "value": 0.161541
+      },
+      {
+        "year": 2027,
+        "value": 0.156274
+      },
+      {
+        "year": 2028,
+        "value": 0.150304
+      },
+      {
+        "year": 2029,
+        "value": 0.144685
+      }
+    ],
+    "siteId": "019dcf63-7b52-7009-b6d1-cb8b07e1d69f"
+  },
+  {
+    "scope": "site",
+    "companyId": "demo-sales",
+    "metricId": "019e03a7-dfdb-7992-a752-2a668af57616",
+    "name": "Energy Intensity",
+    "baselineYear": 2021,
+    "baselineValue": 0.173156,
+    "targetYear": 2030,
+    "targetValue": 0.138525,
+    "comparisonOperator": "lte",
+    "checkpoints": [
+      {
+        "year": 2022,
+        "value": 0.172117
+      },
+      {
+        "year": 2023,
+        "value": 0.170386
+      },
+      {
+        "year": 2024,
+        "value": 0.167962
+      },
+      {
+        "year": 2025,
+        "value": 0.164498
+      },
+      {
+        "year": 2026,
+        "value": 0.159304
+      },
+      {
+        "year": 2027,
+        "value": 0.154109
+      },
+      {
+        "year": 2028,
+        "value": 0.148222
+      },
+      {
+        "year": 2029,
+        "value": 0.142681
+      }
+    ],
+    "siteId": "019dcf61-a402-7222-9712-11e47a1571d0"
+  },
+  {
+    "scope": "company",
+    "companyId": "demo-sales",
+    "metricId": "water_intensity",
+    "name": "Water Intensity",
+    "baselineYear": 2021,
+    "baselineValue": 3.865311,
+    "targetYear": 2030,
+    "targetValue": 3.092249,
+    "comparisonOperator": "lte",
+    "checkpoints": [
+      {
+        "year": 2022,
+        "value": 3.842119
+      },
+      {
+        "year": 2023,
+        "value": 3.803466
+      },
+      {
+        "year": 2024,
+        "value": 3.749352
+      },
+      {
+        "year": 2025,
+        "value": 3.672046
+      },
+      {
+        "year": 2026,
+        "value": 3.556086
+      },
+      {
+        "year": 2027,
+        "value": 3.440127
+      },
+      {
+        "year": 2028,
+        "value": 3.308706
+      },
+      {
+        "year": 2029,
+        "value": 3.185016
+      }
+    ]
+  },
+  {
+    "scope": "site",
+    "companyId": "demo-sales",
+    "metricId": "water_intensity",
+    "name": "Water Intensity",
+    "baselineYear": 2021,
+    "baselineValue": 6.165772,
+    "targetYear": 2030,
+    "targetValue": 4.932618,
+    "comparisonOperator": "lte",
+    "checkpoints": [
+      {
+        "year": 2022,
+        "value": 6.128778
+      },
+      {
+        "year": 2023,
+        "value": 6.06712
+      },
+      {
+        "year": 2024,
+        "value": 5.980799
+      },
+      {
+        "year": 2025,
+        "value": 5.857484
+      },
+      {
+        "year": 2026,
+        "value": 5.672511
+      },
+      {
+        "year": 2027,
+        "value": 5.487537
+      },
+      {
+        "year": 2028,
+        "value": 5.277901
+      },
+      {
+        "year": 2029,
+        "value": 5.080596
+      }
+    ],
+    "siteId": "019dcf64-153b-711b-a458-5bae30460865"
+  },
+  {
+    "scope": "site",
+    "companyId": "demo-sales",
+    "metricId": "water_intensity",
+    "name": "Water Intensity",
+    "baselineYear": 2021,
+    "baselineValue": 2.327781,
+    "targetYear": 2030,
+    "targetValue": 1.862225,
+    "comparisonOperator": "lte",
+    "checkpoints": [
+      {
+        "year": 2022,
+        "value": 2.313814
+      },
+      {
+        "year": 2023,
+        "value": 2.290536
+      },
+      {
+        "year": 2024,
+        "value": 2.257947
+      },
+      {
+        "year": 2025,
+        "value": 2.211392
+      },
+      {
+        "year": 2026,
+        "value": 2.141558
+      },
+      {
+        "year": 2027,
+        "value": 2.071725
+      },
+      {
+        "year": 2028,
+        "value": 1.99258
+      },
+      {
+        "year": 2029,
+        "value": 1.918091
+      }
+    ],
+    "siteId": "019dcf62-6e7d-711b-a458-3e860d718e3d"
+  },
+  {
+    "scope": "site",
+    "companyId": "demo-sales",
+    "metricId": "water_intensity",
+    "name": "Water Intensity",
+    "baselineYear": 2021,
+    "baselineValue": 6.870108,
+    "targetYear": 2030,
+    "targetValue": 5.496087,
+    "comparisonOperator": "lte",
+    "checkpoints": [
+      {
+        "year": 2022,
+        "value": 6.828888
+      },
+      {
+        "year": 2023,
+        "value": 6.760187
+      },
+      {
+        "year": 2024,
+        "value": 6.664005
+      },
+      {
+        "year": 2025,
+        "value": 6.526603
+      },
+      {
+        "year": 2026,
+        "value": 6.3205
+      },
+      {
+        "year": 2027,
+        "value": 6.114397
+      },
+      {
+        "year": 2028,
+        "value": 5.880813
+      },
+      {
+        "year": 2029,
+        "value": 5.660969
+      }
+    ],
+    "siteId": "019dcf60-fd86-711b-a458-01fc75ee6f76"
+  },
+  {
+    "scope": "site",
+    "companyId": "demo-sales",
+    "metricId": "water_intensity",
+    "name": "Water Intensity",
+    "baselineYear": 2021,
+    "baselineValue": 4.332903,
+    "targetYear": 2030,
+    "targetValue": 3.466323,
+    "comparisonOperator": "lte",
+    "checkpoints": [
+      {
+        "year": 2022,
+        "value": 4.306906
+      },
+      {
+        "year": 2023,
+        "value": 4.263577
+      },
+      {
+        "year": 2024,
+        "value": 4.202916
+      },
+      {
+        "year": 2025,
+        "value": 4.116258
+      },
+      {
+        "year": 2026,
+        "value": 3.986271
+      },
+      {
+        "year": 2027,
+        "value": 3.856284
+      },
+      {
+        "year": 2028,
+        "value": 3.708965
+      },
+      {
+        "year": 2029,
+        "value": 3.570312
+      }
+    ],
+    "siteId": "019dcf63-7b52-7009-b6d1-cb8b07e1d69f"
+  },
+  {
+    "scope": "site",
+    "companyId": "demo-sales",
+    "metricId": "water_intensity",
+    "name": "Water Intensity",
+    "baselineYear": 2021,
+    "baselineValue": 2.537695,
+    "targetYear": 2030,
+    "targetValue": 2.030156,
+    "comparisonOperator": "lte",
+    "checkpoints": [
+      {
+        "year": 2022,
+        "value": 2.522469
+      },
+      {
+        "year": 2023,
+        "value": 2.497092
+      },
+      {
+        "year": 2024,
+        "value": 2.461564
+      },
+      {
+        "year": 2025,
+        "value": 2.41081
+      },
+      {
+        "year": 2026,
+        "value": 2.334679
+      },
+      {
+        "year": 2027,
+        "value": 2.258549
+      },
+      {
+        "year": 2028,
+        "value": 2.172267
+      },
+      {
+        "year": 2029,
+        "value": 2.091061
+      }
+    ],
+    "siteId": "019dcf61-a402-7222-9712-11e47a1571d0"
+  }
+]

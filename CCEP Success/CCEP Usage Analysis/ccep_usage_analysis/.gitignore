@@ -1,0 +1,32 @@
+# Secrets and credentials
+.env
+.env.local
+.env.production
+*.key
+*.pem
+credentials.json
+
+# Raw data exports with PII
+**/raw_exports/
+**/session_data/
+**/user_data/
+sessions_*.csv
+*_pii.csv
+
+# FullStory exports
+*.pkl
+all_summaries.json
+classifications.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+
+# Temporary files
+tmp/
+*.tmp

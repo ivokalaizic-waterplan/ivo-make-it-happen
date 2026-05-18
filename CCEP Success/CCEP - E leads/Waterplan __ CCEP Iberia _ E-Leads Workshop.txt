@@ -1,0 +1,1250 @@
+﻿Waterplan <> CCEP Iberia / E-Leads Workshop
+
+
+Camila Behar with Coca-Cola Europacific Partners
+Recorded on May 5, 2026 via Microsoft Teams, 1h 11m
+
+
+
+
+
+
+Participants
+
+
+Waterplan
+Camila Behar, Solutions Specialist
+Ivo Kalaizic
+SSP2
+
+
+Coca-Cola Europacific Partners
+Chantal Antonio Agudo
+María Rodríguez Cid
+
+
+Other
+RDL_2.01_TP
+
+
+
+
+
+
+Transcript
+
+
+0:00 | María
+Hola. Hola. Qué tal? Cómo… 
+
+
+0:03 | SSP2
+Andan. Antonia. María. Están. 
+
+
+0:06 | María
+Juntos. Hoy estamos juntos. Sí. Sí. 
+
+
+0:12 | Chantal
+A veces no estamos juntos, pero estamos cerca siempre. Sí. Casi. 
+
+
+0:15 | María
+Siempre ahora tiene que atender una llamada, pero no hay problema. Que además sabéis. Qué pasa? Que como Antonio está acostumbrado a la plataforma, podemos ir empezando nosotros. Si queréis. Pues, por aquí todo bien. Muy liados. Perdonad porque estábamos acabando otra y no podíamos colgar. 
+
+
+0:35 | SSP2
+No hay problema. 
+
+
+0:38 | María
+Entiendo por lo último que tuvimos, que el objetivo principal de hoy es pasear un poco por la, sobre todo, yo que la he usado menos, no? Por la plataforma y tal. Y ver la interfaz y, bueno, tanto una parte de aprendizaje y otra, por si tenemos algún comentario de lo que sería más. No? De lo que podamos dar de feedback. Correcto. 
+
+
+0:58 | SSP2
+Exacto. Exactamente. Ese es el objetivo de hoy. Después lo que nos quede pendiente de los sva, lo podemos charlar aparte. 
+
+
+1:07 | María
+Vale. Me quedaba algún punto. Vale. No ha salido. 
+
+
+1:11 | SSP2
+Acá tenemos a Ivo. Creo que no lo conocen. Ivo. 
+
+
+1:15 | María
+Si querés. 
+
+
+1:17 | SSP2
+Presentarte rápido y vamos a la plataforma. Cómo. 
+
+
+1:20 | Ivo
+Andan. Bueno. Un placer. Yo soy Ivo. Soy gerente de producto de lo que es target tracking. Así que también quería estar con ustedes hoy para primero conocerlos y después navegar target tracking y escuchar qué les parece? Si tienen comentarios, si creen que haya algo que podamos mejorar para que les sea más útil y más, principalmente, más útil para su trabajo y la planeación de proyectos para alcanzar el objetivo de Water use ratio. Así que un placer estar con ustedes. 
+
+
+1:52 | María
+Están. 
+
+
+1:53 | Ivo
+En Barcelona ustedes no? Dónde están? 
+
+
+1:56 | Chantal
+En Madrid. Los dos. 
+
+
+1:58 | Ivo
+En Madrid. Vaya, si estoy viviendo en Barcelona hasta el año pasado. Así que sé que tenían un site ahí en Barcelona. Pensé que tal vez estaban ustedes ahí. Pero qué lindo. No se. 
+
+
+2:08 | Chantal
+Te ha pegado nada el acento de allí? Cómo. No. Que no se te ha pegado nada el acento de allí. No. No. O ya lo has perdido? 
+
+
+2:16 | Ivo
+Igual, viste que en Barcelona hay mucho argentino también. Entonces… es. 
+
+
+2:21 | Chantal
+Por todos los lados. 
+
+
+2:24 | SSP2
+Pero bueno. Bien. Bueno. Primero, antes de compartir la pantalla, sé que Antonio y María tienen usos distintos de la plataforma. Entonces, quería preguntarles esto. Cuando piensan en waterplan. Si les pregunto qué usan de waterplan. Qué… responden como en dos oraciones. Como. Qué es lo que más usan de la plataforma? O para qué entran a la plataforma hoy en día? A. 
+
+
+2:56 | María
+Ver algo que si quieres yo mucho menos que Antonio. Yo creo que lo ha hecho a más porque le ha metido los objetivos y todo eso. Yo en mi cabeza veo bloques la parte un poco del assessment de la evaluación de la vulnerabilidad y los riesgos de eso. Que está fenomenal. Nos interesa un montón y además sabéis que es un requisito core por todo lo que tenemos y tal. Pero lo usamos menos frecuentemente o deberíamos menos. 
+
+
+3:21 | Chantal
+Frecuentemente lo usamos menos frecuentemente. Pero para nosotros es el water plan. Lo demás son añadidos. Ya. 
+
+
+3:28 | María
+Pero yo ahora cuando pienso Water plan, lo que quiero buscar es lo que a mí me interesa, el día a día, que son los objetivos. 
+
+
+3:33 | Chantal
+Y como. 
+
+
+3:35 | María
+Los proyectos que se supone que más o menos ya están incluidos. No? 
+
+
+3:40 | Chantal
+Lo que es el objetivo es veinte y treinta. Eso. 
+
+
+3:43 | María
+Es sí. Y con proyectos. Sin proyectos. O sea, la parte más de eficiencia de plantas. O sea, nosotros lo vemos porque trabajamos así como, digamos, más externo, vulnerabilidades, assessment, riesgos. Que esto está fenomenal. Y después la parte nuestra del día a día, que son nuestros proyectos, nuestros objetivos, cómo nos miden y los metros cúbicos y etcétera, etcétera. No? Poco eso por planta y por Iberia, que es lo que nosotros manejamos. Correcto. Pero eso es a un nivel muy global. Eso es un poco lo que yo cuando pienso en Waterplan. Es verdad que lo que tú dices porque empezó con la parte de pacs y empezó con la parte de vulnerability. Pero yo ahora lo que más me interesa casi es ver la parte de proyectos y objetivos. 
+
+
+4:23 | SSP2
+Ok. Perfecto. Esto sirve un montón. Voy a ir a la plataforma. Entonces. 
+
+
+4:31 | María
+Digo, porque a lo mejor incluso el visual te podría llevar como dos rutas, digamos, o algo así. Sabes? O sea, es. 
+
+
+4:37 | Chantal
+Cierto que es eso. Y bueno. Y ahora. Y el siguiente añadido, que es la parte de los svas. Que es cierto que yo todavía no he accedido. O sea, no he accedido para ver cómo se representa. Porque en principio, que yo sepa, ninguno ha sido entregado. O sea, creo que mañana tenéis la primera reunión final con Bilbao. Me parece que es. 
+
+
+5:01 | SSP2
+Tenemos, no mañana el jueves. Sevilla. 
+
+
+5:06 | María
+El. 
+
+
+5:07 | SSP2
+Viernes. Bilbao. Y estamos ahí viendo con Santi cuándo hacemos Barcelona. 
+
+
+5:12 | Chantal
+Sí. O sea, sabía que estaban todas ahí, pero que todavía entregados como tal. No hay. Sí, que he visto el borrador de Barcelona y. 
+
+
+5:21 | María
+De Bilbao. Y. 
+
+
+5:23 | Chantal
+La verdad es que tiene, no… sé si será mejor o peor que los documentos que teníamos antes, pero lo que está claro es que tiene una ventaja, o sea, de que todos estén estructurados de la misma forma. No hay pérdida ninguna. Entonces, porque… por lo menos a mí no me da tiempo a escarbar. Pero lo que está claro es que la información es mucho más práctica… para poder llegar a. 
+
+
+5:52 | SSP2
+Ella. Bien. Perfecto. Esa es la parte de sva. Lo que les puedo mostrar hoy ahora vemos en la plataforma es el principio de digitalización de los wmps que salen del Sva. Que eso es completamente nuevo. Pero dado que les interesa más esto de la parte de proyectos y objetivos, les propongo que empecemos por ahí y después vemos otros puntos de la plataforma. Qué les parece? Sí. 
+
+
+6:27 | Chantal
+Porque en lo del wwf ya me ha surgido ahí una pequeña duda. Pero bueno. Vale. Empezamos. 
+
+
+6:34 | SSP2
+Así, hagamos así. Empecemos por la parte de objetivos y proyectos, que también es la que María quiere usar más mejor y por ahí tenemos mejor devolución. Y después vamos a otros puntos. Ok. Ustedes son la plataforma en Español, verdad? 
+
+
+6:52 | María
+Sí, yo la tengo abierta. Sí. La mía pone. Resumen. Monitorear. Medir. Responder. Reportar. Sí. 
+
+
+6:58 | SSP2
+Perfecto. En principio, para ingresar a los objetivos. María, a vos te resulta claro cómo llegar a la información que tenés que buscar? O hay alguna dificultad? Me? 
+
+
+7:12 | María
+Lo contó. Antonio. Pero tengo por ahí mis notas, pero no me acuerdo en responder. No. 
+
+
+7:18 | Chantal
+Sí. Perfecto en responder. Pero hay que ser sinceros. 
+
+
+7:23 | María
+Sí, ya os lo dijimos acá. 
+
+
+7:25 | SSP2
+Sinceridad total. 
+
+
+7:27 | Chantal
+Intuitivo. Intuitivo, no es que para llegar a esos objetivos tengas que dar a. 
+
+
+7:33 | María
+Responder, no es. 
+
+
+7:34 | Chantal
+Intuitivo. O sea, no lo sabemos porque ya no lo sabemos. Pero intuitivo… no es yo. 
+
+
+7:44 | María
+Creo que ya Elena también te lo comentó, verdad? Camila? 
+
+
+7:47 | SSP2
+Sí. Elena. Lo estamos viendo con Elena. 
+
+
+7:49 | María
+Así como. 
+
+
+7:50 | SSP2
+Primer punto para que vean en lo que estamos trabajando, que estamos trabajando con Elena, en que sea un poco más intuitivo. Un primer paso que estamos trabajando es acá. Ven, esto es una visualización diferente a la que tienen ustedes ahora. Como es un, tiene acá la barra al costado y la idea es que estos nombres que hoy dice proyectos, que hoy dice veinte, treinta target tracking, puedan ser nombres que sean más csdp, para que ustedes puedan llegar más rápidamente. Y no solo eso, sino que también se va a poder… Fabi poner como favoritas ciertas páginas que usen más. Entonces, no van a tener que buscar en cada pestaña, sino que si usan más la parte de target de los targets y de los objetivos, queda acá arriba. Acá una pregunta. Ustedes, cómo llaman a esto? De los objetivos? De los proyectos? En Inglés? Va a tener? Creo que va a tener que ser en Inglés para que todos puedan tener una unificación. 
+
+
+9:00 | María
+Sí, eso es un problema. 
+
+
+9:01 | SSP2
+Pero, cómo lo llaman ustedes? Como para que sea intuitivo y útil? 
+
+
+9:08 | Chantal
+Es que realmente es el objetivo veinte treinta o el target veinte treinta. 
+
+
+9:12 | María
+Ok. Tal y así. Tal cual. Sí. Sí. 
+
+
+9:14 | Chantal
+Es así, tal cual, porque además los tiene fijado al año, porque es lo importante. Ok. 
+
+
+9:20 | SSP2
+Perfecto. Esto nos sirve bien. Cuando vienen acá a la parte de objetivos, veinte treinta. Ustedes lo suelen ver por Iberia, por sitios… acá. En nivel de tecnología, pueden poner grupos de sitios y tenemos el target de Iberia las. 
+
+
+9:40 | Ivo
+Dos, igualmente ustedes tengan un acceso restringido. A ver, únicamente Iberia. Ahora puedo chequear, pero directamente ahí deberían ver grupos de sitios de Iberia y los sitios correspondientes a Iberia más fácil directamente, no? 
+
+
+9:54 | Chantal
+No, en principio, podemos deberíamos. 
+
+
+9:56 | María
+Ver todos. 
+
+
+9:57 | Chantal
+Verdad? Podemos hablar de situaciones. Ok. O podemos entrar por grupos o por plantas. 
+
+
+10:04 | SSP2
+Bien. Cuando ingresan acá, digamos… qué es la acción que hacen? Normalmente, entrar a ver los gráficos y modelar distintos escenarios. Eso. María, vos lo tenés claro. Cómo hacer los distintos escenarios. 
+
+
+10:20 | María
+Bueno, no lo he hecho nunca, la verdad. Pero bueno, esto a lo mejor es porque yo no lo he hecho. Sí. Una vez. Sí. 
+
+
+10:28 | Chantal
+Fue una formación que nos dio Tobías. 
+
+
+10:31 | María
+Ah. Bueno. Sí. 
+
+
+10:34 | Chantal
+Vale. Pero realmente es la única forma? O. 
+
+
+10:37 | María
+Sea. Vale. Entonces, ahí lo que tenemos es Siberia. No? 
+
+
+10:40 | SSP2
+Bien. Acá lo que estamos viendo es Siberia. Exacto. Qué es lo que se ve a primer pantallazo? Está en esta línea gris. El target. Sí. El año base está establecido como veinte veinticuatro. Vale. La línea azul es como el progreso. Esto es como está en línea, digamos. Entera. Es porque son datos reales. Sí. Tenemos datos hasta veinte, veinticinco del wur. Y esta línea punteada, digamos, es una base de pronóstico. No? O sea, cómo vamos a llegar a veinte treinta? En este caso. Esta línea punteada tiene que ver con que es una línea con proyectos. Sí? Tiene proyectos incorporados. Entonces, en este panorama. Iberia estaría en un wur de. Tengo que? 
+
+
+11:29 | Chantal
+Decir una cosa. Sí. O la página lo calcula mal, o nosotros lo hemos metido mal. Ok. No hay más. O sea, o sea, no. O sea, no podemos. O sea, no tenemos proyectos que lleguen hasta uno cero cinco. Me parece que pone o uno seis cinco. Ah. 
+
+
+11:48 | Ivo
+Si quieren lo podemos ver. 
+
+
+11:50 | María
+Uno, cinco, seis. Me sale. A mí. Es que a mí no me sale eso. 
+
+
+11:55 | Ivo
+Probablemente estás mirando a nivel. Querés compartir pantalla? 
+
+
+11:59 | SSP2
+Uno, seis, cinco. 
+
+
+12:00 | Chantal
+Ah. Uno, seis, cinco. Entonces. Sí, es que estaba leyendo uno. 
+
+
+12:03 | SSP2
+Cero cinco. La escala no es Cero. Antonio. Por las dudas. 
+
+
+12:06 | Chantal
+Vale. Vale. Vale. Uno, seis, cinco. Entonces. Sí. Entonces, está bien eso de. Ah. 
+
+
+12:11 | María
+Vale. Es que lo estoy. 
+
+
+12:11 | Chantal
+Viendo. Bueno. Puede. Sí. Es que. Claro. Estaba leyendo uno cero cinco y digo. No, puede ser. Es imposible. Es imposible. Vale. Vale. Uno seis cinco. Eso sí puede ser. Ya. 
+
+
+12:21 | María
+Está. Ya, está. Ya está. Estaba mal. Estaba mal. Yo ya estoy en. 
+
+
+12:24 | Chantal
+El estaba leyendo mal. Vale. 
+
+
+12:25 | María
+No, no, yo lo estaba muy bien nomás. Vale. Entonces, tenemos objetivo final. Uno, seis, cinco, cuatro. 
+
+
+12:31 | SSP2
+Proyecto sería. Este. Esta línea por acá? 
+
+
+12:34 | Chantal
+Sí. Ese es el objetivo final de, de, de veinte, treinta comprometido. 
+
+
+12:41 | SSP2
+La, la línea gris lleva al objetivo veinte treinta. 
+
+
+12:45 | Chantal
+Correcto. El comprometido. Sí. Sí. Sí. Bien. Es. 
+
+
+12:49 | Ivo
+Es el número? Correcto? Ese. Perdón. Uno, siete. Cuarenta. Uno siete. Cuarenta. Uno siete. Veinticuatro. Pero. 
+
+
+12:57 | María
+Cuál es la diferencia entre objetivo final, veinte treinta y, y línea base? Bien. Eso que acabamos de ver abajo. Ponte en el puntito del veinte treinta, que es lo que me estoy poniendo yo aquí. 
+
+
+13:06 | SSP2
+Acá este. 
+
+
+13:09 | María
+Sí, sí. Ahí ponemos. Ahí. Tenemos abajo, línea de base. Veinte treinta, uno, siete, cuatro, tres. Objetivo final. Veinte treinta. Uno, siete, dos, cuatro. No sé muy bien qué es cada uno. Bueno, el objetivo veinte treinta, entiendo que es el comprometido con nuestro roadmap. 
+
+
+13:27 | Chantal
+No. Sí. Salvo error. Es eso. El uno siete dos cuatro es nuestro compromiso… es nuestro target. El uno siete cuatro tres es el punto de partida de donde está tirada la línea. Esa negra o gris? Oscura? Sí. No. Sí. 
+
+
+13:47 | Ivo
+Exactamente. Y. 
+
+
+13:49 | Chantal
+Luego, la línea apunteada es nuestros proyectos. Suponiendo que cumplamos todos los proyectos que tenemos previstos hacer y que se desarrollen tan bien como hemos dicho que se van a desarrollar. Tenemos un potencial de unos seis cinco. Sí? 
+
+
+14:06 | Ivo
+Acá. Qué es lo que también está representando esta base? No? Nosotros? Cuál es el objetivo alto a nivel de lo que estamos queriendo mostrar? Querer modelar distintos escenarios. Que cada escenario incluye un conjunto de proyectos y entender cómo terminaríamos en el año objetivo con los distintos escenarios. Por ejemplo, uno puede ser los proyectos que fueron aprobados o submitted to the carbon and water roadmap, o proyectos, tal vez un escenario más conservador que quieran incluir otro proyecto. Entonces, eso es el objetivo de la plataforma. 
+
+
+14:38 | Chantal
+Nosotros definimos. 
+
+
+14:40 | Ivo
+Lo que es un caso base, que es lo que están viendo ustedes acá. Qué es? El caso base? Incluye a todos los proyectos que no estén en estado de cancelado o en estado draft. Es como que entendemos que son proyectos que están modelándolos. A ver qué pasa y los incluimos todos en un caso base para mostrarles una primera realidad. Después podemos crear que ahora vamos a verlo, escenarios, haciendo las simulaciones de agregar. Qué pasaría si agrego este proyecto? Qué pasaría si agrego este otro también? Y eso es lo que estamos intentando modelar. No? 
+
+
+15:11 | Chantal
+Vale. Esos que dices que puedes. 
+
+
+15:12 | María
+Agregar qué? 
+
+
+15:13 | Chantal
+Son a agregar proyectos que tenemos en drap y que no hemos incluido. O quitar proyectos que realmente hemos incluido. Podrás hacer las dos cosas. 
+
+
+15:25 | Ivo
+Exactamente. Sí. 
+
+
+15:28 | SSP2
+Acá ustedes tienen, si vamos estado, como es Siberia. Acá abajo tienen todos los proyectos que cargaron la Sevilla. Lisboa. Etcétera. Todos y sus distintos estados. Entonces, acá está como la base de proyectos. Si ustedes quisieran modelar distintos escenarios, lo que podemos hacer es crear un nuevo escenario. Entonces, vamos a crear uno de prueba. Le vamos a poner acá prueba uno. 
+
+
+15:58 | Ivo
+Entonces, acá lo primero que vemos es cómo son nuestras métricas en este momento, que no tenemos nada creado. Bueno, estamos comparándonos en el año actual veinte veinticuatro en ese, en este dato. Entonces, tenemos un valor objetivo, un impacto esperado que al momento es cero. Un costo esperado que es cero porque no cargamos ningún proyecto. Y ahora vamos a ir agregándole los proyectos correspondientes que cada que ustedes quieran agregar en este escenario. No? Eso es lo que estamos intentando hacer. Ahí podemos, en la, en la parte de abajo, están viendo todos los proyectos que ven. Pero lo que podemos hacer es, por ejemplo, ustedes quieren filtrar todos los proyectos que tengan, que sean, ven que el costo del euro por metro cúbico sea menor al veinte a veinte euros. Entonces, ahí podrían utilizar el filtro de… etiqueta. 
+
+
+16:49 | SSP2
+De proyecto. 
+
+
+16:50 | Ivo
+Etiqueta de proyecto. Y filtrar eso y ir más rápido a la creación de esos proyectos puntuales. Entendés? Sí. 
+
+
+16:59 | SSP2
+Por ejemplo. Porque. 
+
+
+17:01 | Chantal
+Filtras, por ejemplo, los que son menores de cinco euros. Dices, estos, hay más probabilidades que no nos lo aprueben. Y si solo ejecutamos estos, que son los de alto impacto y bajo coste. Dónde nos quedaríamos? 
+
+
+17:14 | SSP2
+Seleccionamos estos dos acá. Ya vemos, fíjense cómo van cambiando las métricas. Nos… dice. Bueno, entonces, estamos en curso al objetivo. Hay distintos impactos. Vamos a crear este escenario, que entonces, elegimos los que son menores a cinco euros. Y quedaron estos dos de Sevilla y Barcelona. Creamos el escenario, que es el que queda. Le pusimos prueba uno. Sí es este. Violeta. Podemos sacar el caso base, por ejemplo, para que lo vean. Ahí sacamos todo. Esta es la línea Violeta punteada. Es el escenario que creamos únicamente con esos dos proyectos. 
+
+
+17:57 | Chantal
+No. Y medio nos tenemos que ir. 
+
+
+17:59 | María
+Ay, dios. Perdón. Un segundo. Sigue, sigue. Tú. No te preocupes. 
+
+
+18:05 | Ivo
+Algo interesante también. Si querés Cami, podés ir al siguiente gráfico. O sea, tenemos distintos gráficos que intentan agregar, cada gráfico, un distinto valor. En este primer gráfico, vemos el de la evolución, la gráfica de evolución. En esta gráfica, lo que estamos viendo es como, ok. Cuál es mi valor de veinte o veinticinco? Cuál es mi valor esperado en el escenario que acabamos de cargar? Cómo es mi brecha al objetivo? Lo que ustedes vieron es que agregando esos dos proyectos, ustedes sobrepasan el objetivo que tienen. Y si vas a uno siguiente, lo… que pueden ver acá es, bueno, nuevamente, cómo quedarían contra el objetivo de veinte o treinta. Sí? 
+
+
+18:45 | Chantal
+Nosotros, afortunadamente, estamos cerca del objetivo final. O sea. 
+
+
+18:50 | María
+Digamos que ahí está. Estoy buscando otra sala. No. Sí, no hay. Es que nos hemos quedado sin sala. Perdonad un segundo. Qué hacemos? O nos vamos a nuestro sitio? Es que no hay ninguna. La cero. Pero yo ahí a su momento aquí o en el Burger King? Nada. 
+
+
+19:12 | Chantal
+Ahí Edu va a estar con. Es peor. Sí. Vale. Nos conectamos ahora. 
+
+
+19:16 | María
+Mismo cada en cinco minutos. Perdón. Nos tenemos que mover de la sala. Es que esto. Perdonad. No hay grabar. Venga. Ahora vamos hasta ahora. 
+
+
+19:23 | SSP2
+Nos esperamos acá. 
+
+
+19:26 | Ivo
+Perdón. Si te piso. Avísame. Si. 
+
+
+19:29 | SSP2
+Querés No. No. Perfecto. Querés compartir vos mejor? 
+
+
+19:33 | Ivo
+Dale. Comparto. 
+
+
+19:42 | SSP2
+Acá para mí clave. Mostrémosle este y también mostremos lo de los anuales. Correcto. 
+
+
+21:45 | SSP2
+Antonio. Vamos a avisarnos cuando estés nomás. 
+
+
+21:47 | Chantal
+Sí, sí, ya estoy. Sí. María. También. Está ahí. 
+
+
+21:54 | SSP2
+Perfecto. María. Acá estás? También? No. Ya. 
+
+
+21:57 | María
+Estoy. Sí. Casi. Es que esto es una lucha por las salas. Nos quedamos aquí. Vale. Seguimos a ver si no perdemos mucho tiempo. Vale. O sea, aquí están cargados todos los proyectos. Los que están en el carbon roundup, estén en el estado que estén. Otra cosa es que después estén imputados o no. Digamos que ya están metidos todos los de draft también y que si en un momento dado queremos ver qué pasaría lo que tú decías, los metemos y como decía Antonio, que también es importante. Uno que a lo mejor está lo que es submitted en el carbon roadmap, pero que por lo que sea, no se hace o no da los ahorros, tal se puede modificar también. No? 
+
+
+22:34 | Ivo
+Exactamente. Y podemos cambiar desde el impacto de los proyectos, en caso de que no sea, o sea, que haya sido incorrectivamente imputeado o que cambie. Además. Qué es lo que me? 
+
+
+22:45 | SSP2
+Importa demostrar un detallecito. Es que. Perdón, solo están acá en Waterplan. Ahora solo están los de agua. Sí. Sí, sí. 
+
+
+22:54 | María
+Me refería a agua. Por ahora. Sí. Sí. Ya. Sé que después a lo mejor se meten los de energía, pero que por ahora es agua. Sí. 
+
+
+22:59 | SSP2
+Bien. Qué me? 
+
+
+23:00 | Ivo
+Importa mostrarles. Yo lo que quiero es que esto se asocie cien por ciento a su realidad. Entonces, algo que podemos hacer es, ustedes me dicen. Ivo, esta línea negra no representa mi realidad, porque mi target es verdad. Va de veinte veinticuatro y con la calculadora del water Registrator calculamos que es veinte treinta, pero en veinte veintiocho, mi target no es este. Y yo quiero poder compararme contra esto. Entonces, algo nuevo que podemos hacer es, podemos editar el target y setear targets anuales como para que la curva negra represente su realidad, la curva target represente su realidad del cien por ciento. Esto es algo que podemos hacer y que mismo, si quieren, podemos hacer ahora. 
+
+
+23:38 | María
+Para. 
+
+
+23:39 | Ivo
+Adaptar la curva negra y por compararnos ahí. No? 
+
+
+23:43 | Chantal
+Vale. Pero eso, cómo se? O sea, entiendo lo que quieres decir, porque nuestro objetivo de este año no es el uno, siete, cuatro, ocho o algo así, que te marcará la línea negra ahora mismo. Vale. O sea, en el noventa y seis ahí. Cuánto es? En. 
+
+
+24:03 | Ivo
+Este caso es uno siete. En realidad no te lo mostramos porque lo estamos interpolando nosotros. Sí. Y la idea es, podértelo definir exactamente lo que sea para vos. Pero. 
+
+
+24:13 | Chantal
+Ese punto seguro que no es será otro. Entonces. Pero es cierto que nosotros tenemos objetivos. 
+
+
+24:20 | María
+Año a año. 
+
+
+24:25 | Chantal
+Con la finalidad de que estemos por debajo del objetivo veinte treinta. En el veinte treinta. Pero, o sea, en una situación idílica, siempre tenemos que nuestros objetivos siempre van a ser por debajo de esa línea negra. Sí? En la situación. Pero es cierto que la línea comprometida es esa, tal cual está. Sí. O sea, la comprometida, me refiero a largo plazo. 
+
+
+24:53 | Ivo
+A largo plazo, sin duda, la comprometida es a veinte treinta. Lo que yo quiero que ustedes, o sea, cuál es mi objetivo? Y también que quiero escucharlos como sus dificultades actuales en el, en el uso de la plataforma, es que ustedes imagino que en reportar periodo a periodo o año a año, cómo vienen evolucionando. Y si nosotros podemos representar contra qué se están comparando en ese periodo a periodo o año a año y tienen los proyectos cargados y los escenarios cargados. Ustedes pueden representarlo o reportarlo directamente desde acá como que tienen toda la data necesaria o corréjenme si no. Y es parte de esta construcción que quiero lograr con ustedes, pero quiero entenderlo como si nosotros podríamos representar su realidad. Esto les serviría a ustedes para reportar? O? 
+
+
+25:40 | María
+Sea… nosotros. 
+
+
+25:45 | Chantal
+La, nuestra realidad. O sea, el objetivo que tenemos para el veinte veintiséis en cada uno de los meses y el seguimiento, cada uno de los meses. Ese seguimiento lo hacemos en otras plataformas. Entonces, es cierto que si tú… si tú representas aquí, cuál es tu objetivo y… dónde has quedado, ya sabes mejor cómo vas o cómo no vas. Porque nosotros vamos a ver, o sea, si comparamos este año, nuestro objetivo real que tenemos para este año veintiséis es más alto que el que has pintado, que con todos los proyectos. Y como. Por qué? Porque cuando se pintó eso… pusimos la carta de los reyes magos y luego nos han dicho, pues estos proyectos va a ser que sí. Estos va a ser que no. Estos de momento va a ser que no. Y te los aparcan cuando los solicitas. Entonces, eso es otra cosa. Entonces, pues bueno. Pero yo creo en mi opinión, que una cosa es mi comprometido, que la línea negra está muy bien… que año a año el poner el objetivo, no es ningún problema. Vale? Pero el dos mil treinta, no podemos perder nunca ese punto negro, porque ese es el comprometido a largo plazo, aunque luego mi objetivo sea otro. 
+
+
+27:11 | Ivo
+De hecho, cien por ciento de lo que nosotros hacemos, como en la matemática, por así decirlo, es como que nosotros decimos. Perfecto. Yo te quiero que vos puedas reportar año a año. Pero esta métrica que dice status to target, básicamente, lo que me voy a estar mirando es contra veinte treinta, que es contra lo que ustedes están mirando. Por qué esta métrica dice cuatrocientos ochenta y cinco por ciento? Esto lo podemos ver, es porque de todos los proyectos que estén cargados, los estamos contemplando para este escenario. Después. Tal vez podamos hacer una limpieza o tal vez esta es su realidad y están excediendo en un, como que con todos los escenarios en estos estados llegan a esta realidad. Pero si hay que ajustarlo, lo podemos ajustar después en función del estado real de los proyectos y el impacto real de los proyectos que están traídos directamente de Integrum, como para que represente esta diferencia contra el año treinta. 
+
+
+28:05 | SSP2
+A cuánto miran ustedes el progreso y la actualización de los proyectos? Digamos, en el no sé, tarea de Antonio o de María. 
+
+
+28:14 | María
+Bueno, a ver. Oficialmente, la actualización oficial es una vez al año, que es justo ahora que tenemos que hacerla antes del treinta y uno de junio o de mayo. La gorda. La gorda que volvemos a hacer. Pues hay que modificar fechas, algún presupuesto, comprobar algo que, pues, algún error. Pero después, bueno, un poco sobre las marchas, según se vayan presentando los proyectos, porque ahora se prepara el abp para el veinte veintisiete. Entonces, es verdad que aquí en Iberia están bastante bien, ya, como veis, bastante establecidos. Entonces, ahí bueno, pues se puede mover alguno. Como decíamos que en el veintisiete no nos va a dar tiempo de hacerlo. Lo pasamos al veintiocho. Pero bueno, digamos que entre mayo, junio y julio es cuando se hace una actualización gorda del carbon runback, del integrum, que es el que conocéis vosotros. Y después durante el año según se vayan ejecutando. O sea, hay uno que se ejecuta o algún proyecto nuevo se mete. Pero tampoco tenemos una rutina, bueno. Antonio, no sé tú, pero una rutina así de proyectos. Según un poco, pues eso, que nos pidan algo de central o que tengamos que hacer alguna modificación o comprobemos algunos ahorros, pero la oficial es una vez al año y. 
+
+
+29:22 | Ivo
+Perdón. Y esta vez al año. Cómo la hacen? Cómo. 
+
+
+29:27 | María
+Bueno, pues vamos, proyecto por proyecto, planta por planta. Vemos lo que está. Si hay algo que esté, por ejemplo, que ya se pueda cerrar y le puedas dar a completado. Comprobar que los ahorros son los que dijimos estimados. Meter un proyecto nuevo. Si hay que meterlo, cambiar de draft a sometirlo y al final son metros cúbicos el coste. Los metros cúbicos el coste. El payback. Bueno, lo que ya sabéis para que salga el scope es ir planta por planta y revisando. No? Yo hablo de Íntegro, que es lo que hacemos. Yo esto todavía no lo he hecho nunca. Ok. Claro. Eso es una pregunta que iba a hacer ahora. Por ejemplo, que tenemos que hacer esta revisión que os estoy contando, que antes de mayo o junio, si hay algunos cambios se cambia directamente. Aquí… no está ligado. No, no está. 
+
+
+30:26 | Ivo
+Si lo modificamos acá, no va a cambiar el impacto. No? 
+
+
+30:28 | María
+Si yo cambio en Íntegro, que es de donde entiendo que se volcó la información y cambio algún proyecto. Allí. Imagínate el metros cúbicos o el capex o lo que sea. Se cambia aquí automáticamente. 
+
+
+30:39 | Ivo
+Sí, automáticamente. No. Nosotros hacemos como una bajada semanal y se actualiza. Vale? 
+
+
+30:46 | María
+Pero que no tenemos que entrar en las dos plataformas, que se actualiza automáticamente, aunque sea una vez a la semana o cada quince días. Vale. Vale. Vale. Entonces, nosotros, en principio… bueno, no sé que nos digan lo contrario. Todavía haremos la revisión en el otro lado, porque además hacemos agua y energía lógicamente. Y por ahora solo tenemos aquí agua. Entonces, pues es revisar todo. Plazos savings, plazos de ejecución y inversiones… opex, o lo que sea. 
+
+
+31:18 | SSP2
+Vale. Y hoy en día. María, el limitante, digamos, a hacerlo en Íntegrum y no acá en Waterplan, es porque les exigen que lo hagan en Íntegrum o cuál es el factor? 
+
+
+31:32 | María
+Pues no, no tengo ni idea. Lo que nos digan. Lo puedo preguntar. Lo puedo hablar con Tobias y con Elena, si ellos consideran que hagamos aquí directamente. Pero claro, yo no sé los reportes que hacen a Central, por ejemplo, de ingeniería o a dirección, si los extraen todos de Íntegrum. Porque a nosotros nos han dicho que creo que tenemos que actualizar el otro. Pero lo pregunto. No hay problema. A nosotros nos da igual. Entiendo que aquí podemos ver un ejemplo, a lo mejor de uno. Cómo se podría? Cómo se ve el proyecto? Que yo no lo he mirado todavía. Uno cualquiera para. 
+
+
+32:02 | Ivo
+Ver cómo están los campos. Vamos a ir a la base de proyectos. Espera. 
+
+
+32:05 | María
+Un segundo. Que esto ha dejado. Vale. Es que ha dejado abierto. Ya está. Es que estamos tan cerca que se nos duplican los micros. 
+
+
+32:16 | Ivo
+Entonces, por ejemplo, tenemos. Cómo lo hacemos para María? Antes de empezar con esto. A mí me encantaría tipo, junto con Cami podemos, lo hablamos con Tobías y debemos reportarlo. Pero aprovechando que tenemos como el momento, justo ahora que tenés que hacer el reporte. Si Tobías nos permite y estamos todos alineados. Obviamente, ayudarte a actualizar esto como para ver si podríamos hacerlo todo desde acá. Y en caso de que no, entender qué cosas necesitas para poderlo hacer desde acá. Para eventualmente, el año que viene hacerlo desde acá. Entendés que lo alineamos todo con Tobías, con Elena y todo el equipo con todo. Pero parto de eso, de que te digo, por si nos quedamos sin tiempo y demás. No? Entonces, por ejemplo, podemos ir cómo hacemos. Voy? 
+
+
+33:00 | María
+A volver uno cualquiera. Sí. Este. 
+
+
+33:03 | Ivo
+Es tu target. No tu target. Vos venís Acá apretás entrás a target? Escenario en target. Escenario. La visión principal es ver como un pantallazo high level de cómo estás vos en tu escenario base. Pero después tenés distintas pestañas. Una que es de compear. Escenario. Lo último en Inglés. Lo puedo poner en Español? Para comparar escenarios o la base de datos de proyectos. En comparar escenarios. Es que tenemos los escenarios que fuimos creando, que acá Tobías se ve que creó uno dice Testtoby. Prueba uno que acabamos de crear y el escenario base. Ahora, la pregunta es. Ok. Cuáles son los proyectos que estamos impactando? Entonces, vamos a la base de datos de proyectos y acá tenemos todos los proyectos que tenemos cargados. Ok? Cosas interesantes para ver. Los filtros. Los filtros acá tenés impacto igual a all projects. Si aprieto acá, puedo poner. Quiero que ver únicamente los proyectos que están impactando esta métrica o proyectos que no afectan esta métrica. O puedo ver todos, si querés. Vamos a los que están impactando esta métrica. Ok? Entonces, hacemos un primer filtro y acá ya tenemos la listada de proyectos. Si querés, decime uno y lo puedo abrir. 
+
+
+34:19 | SSP2
+Ehm. María. Te perdimos? O estás acá? 
+
+
+34:24 | María
+No, estoy, estoy. Ehm. 
+
+
+34:28 | Chantal
+Pues, yo qué sé. 
+
+
+34:30 | Ivo
+Abro, este, de recuperación de agua, de lavadora y tengo. Es un proyecto de Sevilla que lo exportamos. Lo trajimos de Integrum. Está pronosticado para que la fecha de inicio sea de enero de veinte veintinueve. Las reducciones estimadas son de veintidós mil metros cúbicos y el gasto de capital es de quinientos mil euros. 
+
+
+34:48 | María
+Quinientos mil ajá. 
+
+
+34:50 | Ivo
+Vale. Cómo lo. Cómo lo edito? Vamos al caso de que. Ok. Quiero ver el proyecto completo. 
+
+
+34:55 | Chantal
+Ah, entonces acá. 
+
+
+34:56 | Ivo
+Este es como lo que nosotros llamamos la, la hoja de datos de proyecto. Básicamente que acá tenemos toda la data. Así que ese es. Podemos completar si es un tipo de proyecto para reduc reutilización o, o demás. Poner básicamente, toda la parte de finanzas del proyecto. Si hay capex, el periodo de repago y demás y la, el plazo del proyecto. Cosas fundamentales que, qué cosas sí o sí tienen que estar para que este proyecto sea considerado en la herramienta de trackeo de objetivos. Son el sitio que no te va a permitir crear un proyecto. Si no hay un sitio relacionado. Lógicamente el impacto. Porque yo te quiero modelar en la curva. Cuál va a ser el impacto de estos proyectos y el plazo del proyecto. Cuándo el proyecto va a arrancar? Porque en visionario también quiero poderlo determinar. Eso no? Después las finanzas del proyecto. Cuanta más información tenga el proyecto, más valioso es. Ustedes lo saben? Si queremos poner una descripción. Si queremos poner hasta imágenes, podemos poner tareas relacionadas con este proyecto y demás. Pero cómo lo editaríamos? Al lado de cada característica… del proyecto. Tenemos un lápiz que acá podemos venir y poner. Cuál es la métrica que está impactando? En este caso? Puede ser distintas métricas que hay de Withdrawals discharges, todo esto. Si vos me decís. Che. Ivo. Esto está siendo difícil para. Mí es el momento. O sea, mi objetivo. 
+
+
+36:25 | Chantal
+Detrás de todo esto? 
+
+
+36:27 | María
+Cuál es impacto anual esperado? O sea, veintidós mil. Se supone que están clasificados como. O sea, eso es un savings de. Ah. Vale. Del. A ver. Abren, impacta. 
+
+
+36:40 | Ivo
+En mirá? Qué pasa? Nosotros podemos impactar este proyecto en extracciones? En descargas. Y dentro de extracciones o descargas tenemos, bueno, qué qué descargas? Descargas a agua municipal, a Surface Water, a tipo, distintas métricas. Que algún momento si están acá es porque en algún momento hubo data cargada. Si no lo sabes, a cuáles puntualmente podemos impactar a todas las descargas o impactar a todas las extracciones. Por ejemplo… acá le podemos poner la unidad en la cual impacta básicamente y así definimos el impacto. Y así con todo esto, nosotros lo podemos exportar de Íntegrum. Igual, obviamente no. 
+
+
+37:20 | SSP2
+Estos son los campos que verificamos. 
+
+
+37:22 | Chantal
+Una preguntita. Una preguntita. 
+
+
+37:26 | María
+Estos datos. Vosotros. 
+
+
+37:28 | Chantal
+O sea, ya hay sincronización con Íntegro? No es una vez que lo hacéis al mes o cómo? 
+
+
+37:33 | Ivo
+Lo hacemos una vez por semana al momento. Vale. Sí, en manual. Vale. 
+
+
+37:38 | Chantal
+Y luego, si yo hago este proyecto y lo modifico desde aquí, no se transfiere al otro lado. 
+
+
+37:45 | Ivo
+No, se transfiere al otro lado. Vale. Y eso es un problema. No? 
+
+
+37:50 | Chantal
+No, no es un problema. 
+
+
+37:52 | María
+No, no, no. Es por enterarnos. Es. 
+
+
+37:53 | Chantal
+Por enterarnos y que no bajemos la guardia. Básicamente. Claro. 
+
+
+37:58 | María
+Porque estaban preguntando también Antonio, mientras estabas cogiendo tal. Estábamos hablando, vamos de la actualización que tenemos que hacer. Pero yo, mientras Elena no nos diga que solo hagamos aquí la actualización de los proyectos. Yo creo que por ahora hay que hacer todo en Íntegro, porque además, como estamos de energía, de ahí sacan los reportes completos. Yo creo. Pero bueno que estábamos hablando de eso, de si se puede modificar allí y tal, y que lo modificas allí y se modifica aquí, pero al revés. 
+
+
+38:26 | Ivo
+Perfecto. Y algo también valioso es, por ejemplo, díganme si hay dudas y si no, si me voy. Pero hay uno de los filtros rápidos, que nosotros decimos que es como proyectos de otros sitios, en los cuales tal vez ustedes vienen la duda de, ok, yo no sé qué más proyectos hacer. Si quieren, esto vale más la pena. Tal vez, cuando lo miro como a nivel sitio, vamos a ver un sitio Barcelona. Por ejemplo. Si digo, ok, yo en Barcelona tengo, nuevamente, estoy mirando ahora todo relacionado a Barcelona, pero en mi base de datos de proyectos, digo, ok, yo tengo estos proyectos cargados, pero tal vez no estoy llegando a mi objetivo y quiero buscar más proyectos de otros sitios. Entonces, podemos ver proyectos de otros sitios similares, como para ver acá otros proyectos. Entonces vemos ok. Wakefield. En este caso, yo tengo un acceso que puedo ver todo, pero ustedes probablemente no vean el nombre. Sí. Eso está bien. Ah, bueno. Perfecto. Ustedes van a ver todo. Entonces, van a ver. Wakefield hizo este proyecto. Qué interesante. Tal vez vale la pena, puedo abrirlo, el proyecto que llamó Wakefield, ver quién lo creó, cuál es, y tal vez hasta contactarme, en ese caso con Wakefield, no? Como para hablar de replicarlo y si realmente vale la pena, lo puedo hasta duplicar y asignarlo al sitio que yo quiera, como para entender potenciales. Proyectos. Ese es el principal objetivo que busca esta funcionalidad. 
+
+
+39:42 | Chantal
+Pregunta. Dime. En el caso que de duplicar y cosas de estas, yo… tengo permisos para modificar proyectos de otra Business Unit? O si le doy a duplicar y lo duplico en una planta en Alemania. Se duplicaría o no? 
+
+
+40:02 | Ivo
+Depende de tus accesos, del acceso, que sea el usuario básicamente, hoy. 
+
+
+40:07 | SSP2
+Ustedes tienen posibilidad para editar? Es una cosa que estábamos charlando con Tobías. Tobías quería que ustedes puedan ver todo, que los élites puedan ver lo de todos con el cuidado de editar solamente lo de ustedes. Entonces, si vos. Antonio, ponés duplicar y te confundís y ponés un sitio en Alemania. Sí se le va a duplicar. A sí, se le va a pasar al de Alemania. Por cómo están los permisos hoy en día? 
+
+
+40:37 | Chantal
+Vale. Vale. Es por saberlo y ver todo el cuadrado que tenemos que tener tanto en un sentido como en otro. Sí. 
+
+
+40:45 | Ivo
+Total. Bueno. Y ahí tendríamos como toda nuestra base. Y lo que quedaría es más como el jugar armando los distintos escenarios, entendiendo creando escenarios y como lo que hizo Cami antes, ir seleccionando los escenarios que ustedes quieran, pudiendo aplicar los filtros que quieran. No? Qué cosas se pueden hacer también a los proyectos? Si me vengo a la base de datos de proyectos, que tengo dos maneras de acceder. Por un lado, en el project database, puedo venir acá a abrir y ver el proyecto completo o puedo ir a la navegación, al módulo de proyectos. Pero quiero mostrarles esto. Puedo agregarle… impacto de proyecto, tags… que tags en este momento no hay creados por eso. No me deja. Se los voy a mostrar un segundo. 
+
+
+41:42 | Ivo
+Esto es algo que voy a hablar con Tobías, pero nosotros podemos crear etiquetas. Entonces, por ejemplo, voy a hacerlo para modo de ejemplo, top diez projects. Los proyectos que sean de top diez, les puedo asignar tags. Entonces, que después estos tags sirvan para filtrar. Entonces, si, por ejemplo, yo tengo este proyecto, lo etiqueto un segundo, yo tengo este proyecto de etiqueto y de esa manera, lo que voy haciendo es, al momento de ir armando mi escenario, puedo de una forma más rápida. No sé por qué no… signar. Etiqueta acá la signo, la etiqueta. Entonces, este proyecto ya quedó etiquetado. Básicamente. Bien. Y… ahora, si me voy a crear mi escenario. Ingreso… creo mi escenario. Yo podría filtrar por etiquetar el proyecto. Ahí, perdón, creo mi escenario. 
+
+
+42:43 | SSP2
+Ahí abajo. 
+
+
+42:45 | Ivo
+Etiqueta todo. Puedo ver únicamente los proyectos que tengan. Justo agregué un site. Voy a hacer todo para mostrártelo en el nuevo ejemplo… hoy Project sites. Bueno. Pero acá deberías vos poder ver todo esto. Me lo llevo yo para verlo. Pero utilizar esto para filtrar de una forma más rápida todos los proyectos que vos quieras y generando en el escenario. 
+
+
+43:08 | Chantal
+Vale. Pregunta. Dime. Si yo creo, duplico, hago todas las perrerías que se me ocurra hacer. Vale. Hay alguna forma de poder separar los que tienen respaldo en mi íntegro de los que han sido creados directamente en la plataforma? Sí. 
+
+
+43:31 | Ivo
+Cómo se hace eso? Yo puedo ver cómo se crearon los proyectos. En este caso. Si ves acá a la derecha, dice, por ejemplo, el nombre del sitio y quién lo creó. En este caso, esto es un usuario interno de Waterplan al momento. Pero en este caso es Sevilla y este proyecto fue absorbido de Integro. 
+
+
+43:51 | SSP2
+Vale. También se puede crear una etiqueta que sea integro y todos los que ya estén en integro, en vez de que sea top 10, son una etiqueta que es integro. Y vos ya sabéis que todos los que están en esa etiqueta están en Integro, también. Sí. 
+
+
+44:07 | Chantal
+Era por ver cuáles estaban respaldados y cuáles no para en un momento que fuera muy fácil quitarlos. Claro. 
+
+
+44:16 | SSP2
+Capaz la etiqueta puede ser una buena forma de verlo también. Hasta acá venían usando así la herramienta. Piensan… que la pueden usar. De esta manera. Le ven algún punto de mejora? Algo que hagan con la otra herramienta que les resulta, no sé, más fácil mejor como para que podamos también implementar A. 
+
+
+44:44 | Chantal
+Ver. Nosotros tenemos todo el cuadro de Íntegrum. Tenemos un poco el bi que sale las gráficas. Lo que pasa es que son fijas. Es cierto? Y es esta lo que tenemos representado. Es todo o nada junto. O sea, no podemos seleccionar escenario ni nada por el estilo. Es cierto que para. Y anteriormente yo tenía. O sea, teníamos nosotros desde aquí, desde Iberia, un Excel, que con el Excel es mucho más fácil, más intuitivo, porque te lo has creado tú, básicamente, no por otra cosa. Entonces, lo que pasa es que esto sí tiene posibilidades, porque, sobre todo porque puedes estar jugando y adecuar y decir, oye, es que este año solo vamos a poder. Al final, solo van a quedar activos estos tres proyectos y me los Quito todos los demás y voy a terminar con esto. Respalda mi objetivo de este año? No Respalda mi objetivo de este año. Vamos a seguir por debajo de la línea base. Claro que es práctico. Claro que es práctico. Lo que te digo que lo que es más rollo de todo es cargar los objetivos al veinte treinta y hacerlos. Eso sí es un rollo que no lo veas a qué. 
+
+
+45:49 | Ivo
+Te refieres con cargar los objetivos? Fran. 
+
+
+45:51 | Chantal
+Cuando marcas las producciones del veinte treinta, con qué tipos de productos? Qué volúmenes… la calculadora? Eso sí es un rollo, pero en. 
+
+
+46:05 | Ivo
+La plataforma? O siempre históricamente aquí? Aquí? Sí. 
+
+
+46:10 | Chantal
+Aquí es más. Esto antes lo hacíamos en un Excel, que era un rollo, pero aquí es más. Por qué? Porque el copiar, el pegar, arrastrar y todo eso era mucho más fácil, más manipulable. El Excel. Esto, como tienes que ir siempre casilla, casilla casilla. Y no podemos cargarlo desde ningún sitio externo. Sabes? Es más, es más rollo, una. 
+
+
+46:34 | Ivo
+Pregunta. Esto es algo que, perdón mi desconocimiento, pero esto es algo que el target a veinte treinta ya está fijo? O sea, es una vez que lo hiciste o vas a volver a hacer este ejercicio con la calculadora? Vale. Vale. Vale. Si querés que digo, qué respuesta estoy intentando buscar yo como gerente de producto. Quiero saber si le destino recursos a mejorar esta experiencia o si esto vos ya lo hiciste, fue tedioso, pero lo hiciste y no lo vas a volver a hacer. Entonces, si vos me decís. No. Yo, esto lo hago dos veces al año con mi input de finanzas, sí me vale la. 
+
+
+47:10 | Chantal
+Pena. Vale. Yo te digo, mi punto de vista es que tiene que ser fijo, porque es mi compromiso a largo plazo. Pero es cierto que… desde que hemos hecho nosotros esta herramienta, nosotros nos hemos visto obligados a modificarlo dos veces, porque han cambiado nuestros puntos bases fuertemente. Es decir, porque ha habido cambios estratégicos de la empresa. Teóricamente. No lo tengo que volver a modificar… o no deberíamos modificarlo. Pero te estoy dando mi impresión. O sea… hay situaciones que cambian drásticamente. O sea, nosotros, por ejemplo, hemos hecho con un crecimiento estimado de x, pero es que ese crecimiento estimado fue planteado hace siete años. Si nos dicen, oye, vamos a poner algo más realista, nos obligarán a cambiarlo y cambiará. Pero ya te digo, desde mi punto de vista. Si tú me dices a mí tú como Antonio, qué piensas? Digo, tiene que ser fijo, independientemente de lo que pase, porque para eso es un objetivo… pero es cierto que dan flexibilidad para poder modificarlo. Ok. Bien. Vale. Entonces, que si merece la pena cambiar cómo se ingresa para esto. Para el veinte treinta. Yo te diría que no. Yo te diría que no. Pero si, pero igual que va a haber el veinte treinta, habrá veinte, treinta y cinco o veinte cuarenta. Seguro que va a haber otro objetivo a largo plazo y el método… de inserción de datos, desde luego, es tedioso. Ok? 
+
+
+48:58 | Ivo
+Buenísimo. Me lo llevo. Vale. 
+
+
+49:01 | Chantal
+O sea, que no es una cosa que para mí no urge, pero, sin embargo, sí que habría que darle una vuelta para largo plazo. Ok. 
+
+
+49:10 | SSP2
+Qué otra información que… ustedes necesitan… y usan? Por ejemplo, que buscan en Integrum? Creen que podríamos tener de fácil acceso a un waterplan? María? Vos mencionaste. Bueno, yo quiero ver los objetivos y quiero ver los proyectos. La manera en que está hoy, es una visualización que cumple ese objetivo. Hay otras métricas que te servirían para tu tarea, que podríamos tener a mano, digamos, en la plataforma. 
+
+
+49:43 | María
+Yo, en principio, no se me ocurre nada más. La verdad. Hay veces que necesitamos. Pero bueno, eso es un momento muy puntual y se calcula por otras plataformas. Pero bueno, que… necesitamos, a lo mejor agrupar en cuanto a ratios, imagínate refrescos, que no sé si se puede seleccionar. O sea, no solo Iberia y después los sitios por separado, sino pues, tú puedas clicar. Entiendo que sí, que puedas coger, pues los cuatro manantiales son pocas veces. Antonio, me entiendes? Pero hay veces que sí nos interesa ver, pues la evolución del ratio de los proyectos de los cuatro manantiales y de los otros refrescos. Pues, por otro lado, algo así. Entonces, donde tenemos ahora poco, pues clicas y en Integro, por ejemplo, pues se tiene a las cuatro sitios o seis sitios y te sale o España y quitando Portugal, porque a veces hay reportes informes. Verdad? Que son anuales y se puede coger de otro sitio. Pero bueno, se me está ocurriendo así cosas que usamos de vez en cuando. Vale? Que es agrupar, no solo Iberia sino otros grupos más pequeños. 
+
+
+50:50 | SSP2
+Sí bien. 
+
+
+50:52 | María
+Ok. Vale. Y… bueno, así, en principio, no se me ocurre. Ya se me irán ocurriendo. Seguro. 
+
+
+51:04 | Chantal
+Pero bueno. 
+
+
+51:05 | María
+Me quedó mucho más claro. Al final, he de meterse un poco. Pero bueno, ya he visto un poco los proyectos. Le daremos ahí un poquito de uso. A ver cómo. 
+
+
+51:14 | SSP2
+Sí. Perdón. Ivana. No. Yo iba a decir que también en este ejercicio de probar la actualización, si los campos que tenemos en Waterplan son los campos que les piden en esta actualización para el avp. Entonces, ahí sí podemos. Podemos hablar con Elena, con Tobías de ya actualizarlos acá. Pero bueno, es también, creo que es una evaluación que pueden revisar, no? En base a lo que vimos hoy. Si los campos son suficientes para el avp o si hay algo que podríamos incluir. 
+
+
+51:50 | Chantal
+Yo te digo, o sea, me parece muy práctica la herramienta como para poder ver la influencia de todos los proyectos, por dónde vamos, a dónde queremos ir y todo esto. Pero si no está comunicado Integrum y Waterplan. Es decir, yo prefiero trabajar solo una vez. Digo, es decir, yo sé que lo voy a meter en Integrum y dentro de una semana estará. Sabes? Y solo trabajo una vez. Entonces, me parece más lógico… hacer eso… a no ser que tenga algo rápido que necesite ver. Sabes? 
+
+
+52:28 | María
+Es en? 
+
+
+52:28 | Chantal
+Situaciones, digamos que deberían de ser situaciones puntuales. 
+
+
+52:33 | Ivo
+Antonio, yo tengo una pregunta. La data. O sea, cuando vos decís lo hago en Integrum. Sería lo de revisar los proyectos y ver el impacto? Si se hizo o no, cambiar el estado en caso de ser necesario y demás? 
+
+
+52:44 | Chantal
+Sí. Todo eso actualmente lo tenemos que hacer en Integrum o crear nuevos proyectos. Lo tenemos que hacer en Integrum. Todo. O sea, al fin y al cabo, a día de hoy, nuestra base de datos oficial es Integrum. Lo que tiene que reflejar la realidad a día de hoy es Integrum. Si nosotros hacemos, aunque sean simulaciones en waterplan, que además, o lo ponemos la realidad en waterplan, pero luego no se traslada a Integrum. Al fin y al cabo, voy a tener que hacerlo en waterplan y… en Integrum. Entonces, para eso prefiero hacerlo directamente en Integrum. Aunque tarde una semana, es simplemente por no. 
+
+
+53:27 | Ivo
+Está bien. Te entiendo. Cien por ciento. 
+
+
+53:30 | María
+Hagamos. 
+
+
+53:31 | Ivo
+Esto díganme. Qué les parece? Y después les quiero mostrar en un minuto algo que creo que ataca el acá. Hablamos en la reunión de la dificultad de encontrar las partes. Pero. 
+
+
+53:41 | Chantal
+Ustedes. 
+
+
+53:42 | Ivo
+Cuándo van a perdón unas preguntas. La primera es, ustedes, cuándo empezarían con el trabajo para hacer el modelado de proyectos, escenarios para el año que tienen que entregar en fin de mayo, junio. O cuándo van a arrancar a revisar, a recopilar la información necesaria para eso? A. 
+
+
+54:03 | María
+Ver. Ay. Perdón. Que me estaba aquí poniendo. Es que tengo otra. Lo de la revisión anual. La que decíamos antes. Sí. Cuando. 
+
+
+54:12 | Chantal
+Acaben los. 
+
+
+54:13 | María
+Informes anuales de ley. Pues, a partir del quince o así tampoco nos llevará tanto, porque está bastante revisado. O sea, yo creo que es más que nada, ponernos unas horas. Antonio y yo que vayamos cogiendo huecos. No? Y revisando. Y cuando tenemos dudas de alguna cosa concreta en la planta, las convocamos y ya está. Tampoco. O sea, no hay proyectos todavía nuevos que introducir ni nada. Es más que nada lo que decíamos, fechas, capex y savings. Lo. 
+
+
+54:39 | Ivo
+Que ustedes van a mostrar es con la última data actualizada que tienen. Qué pasa con los proyectos nuevos y a dónde llegan? Cuál es el output, la reunión. Esa, cuál es el mensaje que ustedes trasladan? 
+
+
+54:55 | Chantal
+Nosotros, lo que tenemos que hacer en el próximo mes y medio, más o menos es. 
+
+
+54:59 | María
+Primero ver. 
+
+
+55:02 | Chantal
+Los proyectos que tenemos… cerrar, los que ya han sido ejecutados y valorarlos. Eso es lo primero. Pero, y luego, aquellos que no han sido ejecutados. Reprogramarlos. Sí. O cancelarlos. Y eso es lo que tenemos que hacer. Y luego, ya con los que, viendo cómo queda esa foto, ver si es necesario reprogramar para hacer una línea de capa. Es más o menos estable que no haya grandes puntas y introducir aquellos proyectos nuevos que hayan surgido porque ha habido cambios de tecnología. Básicamente. Nosotros, en nuestro caso, pues este año creemos que es un año de transición, que solamente es una actualización. Lo que tenemos que hacer en principio. Y replanificación de fechas. Por lo tanto, es relativamente rápido. Perdóname. Yo me tengo que ir. Es que tenía otras. Las cinco. 
+
+
+55:55 | Ivo
+Antonio. Vos tenés dos minutos. Más. Gracias. 
+
+
+55:56 | Chantal
+María. Sí. Sí, sí. Me quedo. Me quedo. Me quedo. Gracias. Un placer. Chao. 
+
+
+56:01 | Ivo
+Y Antonio, una vez que hiciste ese trabajo, no? De revisar los proyectos actualizados, ya tenés todo actualizado. Con eso. Imagino que después vas a hacer una matemática para decir. O sea, el mensaje no es, ya tengo los proyectos actualizados. Es otro, creo. No es como con esto actualizado. Entiendo. Qué va a pasar en los próximos años? O cómo es? 
+
+
+56:24 | Chantal
+Claro. Sí. O sea, entiendes qué es lo que va a pasar en esos años? Y luego nos tendríamos que revisar cuál… es la nueva, la situación, pero no la situación de si conseguimos el objetivo del veinte treinta. Porque el objetivo, nosotros del veinte treinta, realmente, salvo catástrofe vamos muy bien. Vale. Pero, sin embargo, hay plantas que tenemos la consecución del objetivo muy sobrada y otras que no está nada. Claro, que vayamos a llegar ni acercarnos tenéis. 
+
+
+56:55 | Ivo
+Alguna sí que se te venga a la cabeza, que más o menos estás complicado. 
+
+
+56:58 | Chantal
+Las dos más chungas. Santolín y Tenerife. Ok. Vale. Y te lo digo. Santolín llega porque hay un proyecto que creemos que no se va a hacer y como se termine cayendo, no sabemos qué vamos a hacer. Sí. Vale. Y Tenerife, porque es una isla fabrica de todo. Son los lotes muy cortos y cualquier actividad que hagas tiene una incidencia muy limitada y no tenemos una línea, depende muchísimo de la producción de que se vaya a fabricar muchísimo. Ok. Claro. 
+
+
+57:38 | Ivo
+Yo veo acá, en el caso de Tenerife, ustedes parecería que con el escenario base, si solamente son estos cuatro proyectos, de todas formas, creo que no estarían llegando contra el veinte treinta. No. No. 
+
+
+57:52 | Chantal
+Llegamos. Por eso te he dicho que son las dos plantas más chungas. Así que. Claro. Porque el resto de plantas, llegues o no llegues. Pero se puede, se puede forzar la máquina en meter más proyectos. Pero estas, estas dos que te estoy diciendo, concretamente, es muy difícil en hacer cosas. 
+
+
+58:08 | Ivo
+Ok. Perfecto. Yo por qué te pregunto esto? Porque lo que me gustaría una. 
+
+
+58:16 | Chantal
+Preguntita. Porque esta es la línea gris. Está vinculada desde el mil diecinueve y lo de Iberia estaba vinculada desde el veinte veinticuatro. 
+
+
+58:26 | Ivo
+Cuál es el año de base? 
+
+
+58:27 | Chantal
+De report. La línea gris. O sea, cuál es el año de base de report de dos mil diecinueve? Y. 
+
+
+58:32 | Ivo
+Para. Iberia. También. Iberia. 
+
+
+58:34 | Chantal
+Parecía veinte. Veinticuatro. Sí. 
+
+
+58:36 | Ivo
+Tal vez lo podemos ver. 
+
+
+58:39 | Chantal
+No, ya no podemos revisar. 
+
+
+58:41 | Ivo
+Va. En realidad, justo estamos de hora, pero me lo llevo para ver. Debería ser veinte, dos mil diecinueve también. Así que vemos eso. Pero, en fin. La propuesta que te voy a hacer yo, si querés, de nuestro lado es como, bueno, nosotros podemos actualizar los proyectos que hay en Integrum. Ahora, intentar hacer este ejercicio que vos mencionaste que vas a hacer de mirar las fechas y demás. Tipo. Sabés qué quiero hacer? Quiero hacer en paralelo el trabajo habitual de Integrum de su lado. De nuestro lado, intentar complementarlos como para ver si desde Waterplan podríamos también hacer ese proceso en paralelo y llegar al mismo output final. Porque si llegamos de esa forma. 
+
+
+59:21 | Chantal
+Nos vamos. 
+
+
+59:22 | Ivo
+A encontrar en el camino con uno, dificultades y es la que quiero que ataquemos para que eventualmente Waterplan sea la plataforma de reporte. Y dos, si llega a ser lo mismo, hasta mismo podamos hablar con todavía. Viste? Hablamos un montón. Podemos hablar de que reporten, tal vez a Waterplan, que obviamente, que sea una directriz interna. Pero bueno, eso me parece que está bueno. 
+
+
+59:45 | Chantal
+Pregunta. Vosotros cogéis de Íntegro la inversión necesaria? Sí… se grafica en algún sitio. Cuál es la inversión necesaria que necesito yo para conseguir todos esos objetivos? 
+
+
+1:00:01 | Ivo
+Sí. Tenéis en el, por ejemplo. Si fuéramos un escenario. Voy a hacerlo muy rápido. Por ejemplo, nosotros tenemos estos proyectos. A ver. No sé si se entiende. Yo te digo, yo hoy si tengo estos proyectos… llego al ochenta y dos por ciento. Si tendríamos más proyectos, llegaría al cien por ciento. Por ejemplo. Y acá tengo el cuáles son. Yo tengo el costo acá? 
+
+
+1:00:26 | Chantal
+Sí. Pero no, pero no me sirve para alinearlo, para decir. Oye, cuánto tengo que invertir cada uno de los años? 
+
+
+1:00:32 | Ivo
+Porque para nosotros. Mira. 
+
+
+1:00:36 | Chantal
+Esa es. A. 
+
+
+1:00:37 | Ivo
+Gráfica de cascada. Acá lo podemos ver por proyecto. Yo tengo un mes de veinte y cinco y hasta veinte y treinta. Yo tengo estos tres proyectos que me van a bajar este ur. Sí. 
+
+
+1:00:47 | Chantal
+Correcto. 
+
+
+1:00:48 | Ivo
+Y si lo miro por año. Viste? Acá dice ver por. Y lo miro por año. Yo digo. Ok. Esto es en año. Vos me estás igual preguntando otra cosa. Me parece que es financieramente. 
+
+
+1:00:58 | Chantal
+Sí, financieramente. 
+
+
+1:01:00 | Ivo
+Dejame que un segundo, veo un segundo, si se lo puedo mostrar. Y si no me lo llevo. Eso para trabajar… eso. A vos te daría valor eso. 
+
+
+1:01:11 | Chantal
+Sí, nos da valor, porque nosotros, una de las cosas que procuramos hacer… es linealizar la inversión. Es decir, no gastarnos este año diez millones y el próximo año, nada o uno. Sabes? Procuramos que sea algo más homogéneo, caro. Y es uno de los motivos por el cual replanificamos los proyectos. Listo? 
+
+
+1:01:37 | Ivo
+Me lo llevo. Eso me encantó. Antonio. Gracias por compartírmelo. Voy a dejar de trabajarlo y para la próxima sesión traértelo. Vale. Y también, otro dato que quiero trabajar para traerte es… siento que es difícil, a veces la comunicación corporativa en vos, decir cuánto wur alejado estás versus decir cuántos metros cúbicos estás. Y también eso te podría dar a vos una visibilidad de la suma… de proyectos, cuánto tienen que sumar de impacto para llegar al target. No sé si eso te pasa. 
+
+
+1:02:13 | SSP2
+De volumen. Sí. 
+
+
+1:02:15 | Chantal
+Pero, como eso lo tenemos con una herramienta que, como fabricamos tres mil millones de litros, sabemos cuánto es cada centésimo, cada décima. Sabes que no es cierto. Porque fabricamos un poquito más. No es un poquito más. Pero tienes una regla más técnica, que en nuestro caso es relativamente fácil. 
+
+
+1:02:33 | Ivo
+Ok. Para todo. 
+
+
+1:02:34 | Chantal
+Iberia. Para todo. Iberia. Si lo quiero hacer por planta, ya ahí cambia… bien. 
+
+
+1:02:43 | Ivo
+Y lo último es que quiero ver que esto es algo que va a estar en breve. Que yo creo que esto al momento de. Viste. Cuando vos me dijiste. Che. Ivo. Esto me es difícil. 
+
+
+1:02:55 | Chantal
+Bueno. 
+
+
+1:02:55 | Ivo
+Dijiste a los dos. Es difícil llegar a la. A. 
+
+
+1:02:59 | Chantal
+La, al modo. 
+
+
+1:03:02 | Ivo
+Apretar en. 
+
+
+1:03:02 | SSP2
+Medición. 
+
+
+1:03:05 | Ivo
+Ir a target tracking. Yo creo que si vos tendrías esta visión una como una homepage. Viste? Cuando entras a waterplan y podés hacer click en veinte, treinta targets, acá ir directo. Resolverías. 
+
+
+1:03:17 | SSP2
+No. Esto. 
+
+
+1:03:19 | Chantal
+Es mucho más visual. Es que lo otro, cuando dices medida. Medida no es objetivo. Es otra cosa o revisar. Sabes? Así? Con ese vocabulario que has puesto ahí. Sí que lo entiendo mejor bien. 
+
+
+1:03:36 | SSP2
+Buenísimo. Vale. Bueno. Antonio, sé que estamos súper pasados. 
+
+
+1:03:41 | Chantal
+Sí. Súper pasados. Pero te entretengo dos minutos más. Sí. 
+
+
+1:03:44 | SSP2
+Yo tengo tiempo. Sí. 
+
+
+1:03:46 | Chantal
+No me toques. Pero dos minutos más. Sva. Sí. Pregunta. Se genera el Excel del sva. Se genera el documento del wmp. Vale. 
+
+
+1:03:58 | SSP2
+Que está en el mismo documento. Bueno, sí, que está una de las pestañas del Excel. Es el Wmp. Sí. 
+
+
+1:04:10 | Chantal
+Vale. Sí. Pero claro. Pero luego todos los años. Ah, vale. Perfecto. Todos los años tenemos que revisar el wmp por parte de Waterplan. Es quien revisa, aunque no tenga que hacer todas las acciones, porque normalmente las acciones, en este caso recaen más en nosotros. Vale. Sí. Pero el swan y el wmp tiene que estar aprobado por compañía. Coca Cola. Eso cómo se hace? 
+
+
+1:04:39 | SSP2
+A ver. Nosotros, justamente, el Excel que estamos, que les vamos a entregar, tienen la primera parte como el panel de firmas, para que eso lo puedan circular y quede aprobado el documento. Ahí ya cuando ustedes lo circulen para firmas, ahí quedaría aprobado todo que incluye el wmp. Hasta ahí. Estamos de acuerdo? Sí. 
+
+
+1:05:03 | Chantal
+O sea, que estoy diciéndolo… sería necesario imprimirlo, aunque solo fuera ese panel de firmas, que nos lo firmaran y luego os lo mandaríamos para que se cargara y que se viera que está aprobado en tal fecha. 
+
+
+1:05:16 | SSP2
+Sí, puede ser con una firma digital. Eso no hace falta imprimirlo. Bueno, vamos a hacerlo sobre el Excel. Puede ir con firma digital. Vale. Cuando ustedes lo tengan todo aprobado, ahí sí nos lo devuelven así. También nos queda como queda evidencia en la plataforma de que ese documento quedó aprobado. 
+
+
+1:05:38 | Chantal
+Vale. Perfecto. Bien. Y luego otra, porque es que ya te digo, no me he metido nada. 
+
+
+1:05:51 | Chantal
+La fecha de elaboración del s u v a sí… figurará. En el s u v a figurará la fecha de aprobación del mismo. Y la temporalidad. Tenemos algún contador que venga, cuando ese es el límite de tiempo. 
+
+
+1:06:11 | SSP2
+Qué? O sea, nosotros. 
+
+
+1:06:13 | Chantal
+Cada cinco años tenemos que hacer, o sea, el wfb. Tienes que renovar todos los años y seguir. Y cada cinco años tienes que hacer un nuevo. S. U v. A. Hay algún sitio donde se, digamos, si vas a ver Valencia, pues te da igual. Pero cuando quieres… nosotros que tenemos once plantas y Tobías, que tiene setenta o noventa, no sé cuántas tiene. Le vendrá muy bien en un momento decir cuál… es mi caducar? Porque no se la va a poder saber. Yo me la podría llegar a intuir once plantas, pero Tobías con noventa, imposible. 
+
+
+1:06:45 | SSP2
+No. Obvio. Mirá te respondo. Mostrándote dos cosas. Este va a ser el documento que se entregue. Sí? Aquí vamos a completar, donde dice la fecha de finalización de este swa y la próxima. Actualización va a estar acá. Acá está todo el panel de firmas. Qué es lo nuevo que tenemos en plataforma? Te voy a mostrar. Acá. Dentro de monitorear… desarrollamos, es el pan. Esto le podemos cambiar el nombre para que sea más ccp, pero le pusimos acciones de mitigación. Qué va a estar acá? Todo lo del w w. Hoy estoy wmp. Eso va a estar acá. Sí. Y acá se puede agregar la tarea de la renovación de los, s, de los sva's. Entonces, por ejemplo, lo que tenemos acá es cargué algunas tareas del actual wump de Barcelona. Sí? Que tiene que ver con inundación actualización del plan de autoprotección y plan de contingencia. Quién lo tiene que hacer Santiago? Y si bien lo tiene que hacer todos los años. Entonces, la fecha de vencimiento va a ser a diciembre. Y acá se puede agregar como planes de implementación para todas las tareas del wvmp. Entonces, la idea es que ese wvmp que estaba como estático en un documento, ya quede disponible para todas las plantas. Qué es lo que podemos hacer? Es agregar, por ejemplo, agrego una tarea que sea renovación. A ver. Cómo está? Estoy inventando. No? Renovación sva y le pongo acá una etiqueta que sea sva para Barcelona. 
+
+
+1:08:40 | Chantal
+Y. 
+
+
+1:08:40 | SSP2
+Esto, la fecha de vencimiento. Vamos a terminarlo ahora la primera semana de mayo. Supongamos que vamos. 
+
+
+1:08:47 | Chantal
+A poner ahora los. 
+
+
+1:08:49 | SSP2
+Años va a ser el, el veinte treinta. Cómo creé que lo vencí? En mayo? En mayo. 
+
+
+1:08:55 | SSP2
+Cuándo tenemos que empezarlo? Para llegar bien? Vamos a tener que empezar. 
+
+
+1:09:00 | Chantal
+Sí. Una cosa es la fecha de vencimiento y otra cosa es que un año antes digas, ya tienes que pedir presupuesto, tienes que, no sé qué, y todas esas cosas. 
+
+
+1:09:07 | SSP2
+Exacto. Entonces, no sé. Ponemos en veinte, veintinueve. No sé. Febrero. Estoy inventando. Tenemos que empezar este proceso. 
+
+
+1:09:16 | Chantal
+Vale. Vale. 
+
+
+1:09:17 | SSP2
+Entonces, lo que vamos a poder hacer me olvidé ponerle el área, pero podemos ponerle rápidamente acá. Que el área sea renovaciones. Por ejemplo, estamos inventando y qué vamos a poder hacer? Que después, todos los que queden en renovaciones, los vas a tener acá y vas a tener todas las fechas. Y qué. Tenemos también un gancho. Obviamente, renovaciones no aparece hasta que nos vayamos acá, por ejemplo, hasta febrero de este veintinueve, que nos va a aparecer. 
+
+
+1:09:47 | Chantal
+Ok. Perfecto. Responde. Lo. 
+
+
+1:09:49 | SSP2
+Que. 
+
+
+1:09:50 | Chantal
+Sí. Es un trabajo manual que tendríamos que tendría que decirnos. Tobias. Esto se hace así con esta palabra. Con esto. Con esto tendría que crear una ficha para decir, rellenarlo conforme esta ficha, nosotros. 
+
+
+1:10:03 | SSP2
+Les vamos a, el primer input, lo vamos a hacer nosotros. Y la idea es después ir refinándolo. Qué terminologías le ponemos para que el. Porque el trabajo es automatizado. Le cargamos el Excel y ya lo carga. Vale. Y. 
+
+
+1:10:17 | Chantal
+Otra pregunta, aunque sé que no es lo que queréis vosotros. Pero si nosotros tenemos Sva con otras plantas, siempre… y cuando se haga con el Excel oficial del pcp, se podrían cargar en la plataforma. 
+
+
+1:10:32 | SSP2
+Sí se podrían cargar. Vale. He. 
+
+
+1:10:35 | Chantal
+Partido que no es lo que queréis vosotros, pero era para ver las posibilidades. De acuerdo? Sí. A. 
+
+
+1:10:41 | SSP2
+Ver. La idea es que esto también sea una herramienta para ustedes. Si ustedes ya tienen acciones que están trackeando y la idea es que la puedan realizar acá. Así que podemos también ver eso. Bueno, respecto a los svas, vamos a estar cerrándolos y la idea es armar como este caso como de éxito con los sitios, para poder presentarlo con nosotros Ilits. Si te parece, cerramos esto y cerramos los svas con los sitios y nos volvemos a juntar para ver de armar el caso de éxito y cómo podemos continuar. 
+
+
+1:11:22 | Chantal
+Sí, yo la de Sevilla casi seguro que no me puedo unir, me intentaré unir a la de Bilbao. Bueno, que esa tengo alguna posibilidad más y, por lo menos para ver cómo ha quedado todo, para hacerme mejor la idea. Ok. Perfecto. Bueno, seguimos. 
+
+
+1:11:40 | SSP2
+La conversación. 
+
+
+1:11:41 | Chantal
+Perfecto. Camila. 
+
+
+1:11:42 | SSP2
+Muchas gracias. Antonio. 
+
+
+1:11:43 | Chantal
+Gracias. A ti. Hasta luego.

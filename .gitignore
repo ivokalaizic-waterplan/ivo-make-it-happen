@@ -1,0 +1,12 @@
+.DS_Store
+*.xlsx
+*.csv
+*.parquet
+*.ogg
+*.pptx
+.signals/
+session-explorer/
+Linear Org/
+tmp/
+*.tmp
+**/Waterplan - Q1 snapshot/

@@ -1,0 +1,388 @@
+﻿Ivo - Maria - - May 14
+
+
+VIEW RECORDING - 32 mins (No highlights)
+
+
+
+
+@0:00 - María Berrocal Olmos (waterplan.com)
+Pero enfiar el primer problema, no puedo empezar a dimensionar the solution, ¿se entiende? Bien. Como que estoy aline por ahora, pero mis preguntas reales van a empezar a salir cuando empiece, como, ¿y acá qué hago?
+¿y por dónde me meto acá? ¿y cómo resuelvo esto? Eso ya cuando esté all hands on deck, pero por ahora estamos aline.
+
+
+@0:25 - Ivo Kalaizic (waterplan.com)
+Tengo una pregunta. Vos, para poder empezar, ¿cuáles serían, tipo, los inputs que sentís que necesitarías para poder tener esos primeros prompts y voladas?
+
+
+@0:42 - María Berrocal Olmos (waterplan.com)
+Yo creo que lo primero es con qué información cuento, y con qué información nos van a dar, ¿sabes? No, porque en un principio puede ser que la iteración de diseño no requiera...
+¿Qué diseño? O sea, ¿te acuerdas que un predotipo lo hemos hecho tipo chat? Eso no requiere diseño, mío, tipo va a ocurrir más como lógica de Jero y Juli cuando desarrollen ese chat.
+Si nos vamos por un wizard, ahí sí requiere lógica de diseño, pero entonces es como que hay que ver con qué información cuento para ver qué es la forma más escalable de iterarlo.
+Si es por un chat, si es por un wizard, etc, etc, etc. Pero si me dices, como que ellos nos van a pasar estas tres cosas, tipo todos estos proyectos y toda esta data.
+
+
+@1:41 - Ivo Kalaizic (waterplan.com)
+Nosotros vamos a hacer XYZ con esos proyectos.
+
+
+@1:47 - María Berrocal Olmos (waterplan.com)
+Sí, porque, o sea, lo que queremos que haga el output lo tenemos más o menos, queremos que arroje una sugerencia de you can invest on this, this.
+That's this project, right? Tipo, eso es más o menos lo que queremos que haga. El how lo va a tener que resolver, Gero, el matemático, Juli, tú, ¿me entiendes?
+El how de cómo llegan, tipo, criterias que se toman, los pesos, todo eso. Y mi aporte inicial va a ser más como que con qué información tengo y por dónde nos vamos.
+Bien. Por dónde nos vamos a empezar a iterar. Eso para mí va a ser lo primero, como que, ¿qué es lo que nos va a pasar?
+Para yo entender con qué cuento en un inicio y ver con qué escalo ahí. Porque puede salir, o sea, como patear para cualquier lado, ¿me entiendes?
+Sí. Pero estaría mal por mí asumir que nos van a dar información, que no nos van a terminar pasando.
+Eso es lo que estaría mal.
+
+
+@2:51 - Ivo Kalaizic (waterplan.com)
+Bueno, yo si querés, decime qué te parece esto. Yo voy a pasarles a ustedes con el Fathom de hoy, los documentos que tenemos.
+Ahí vas a tener información. Siempre nos van a pasar, tipo, un sample, pero no es fósil, tipo, va a ser eso.
+Si querés, yo next week quiero intentar pujear a fondo y yo incluirme, tipo, ver si yo puedo armar algo, no sé.
+Armar una optimización re simple, tipo, con una sola variable, nada de dificultad, para poderles mostrar eso en dos semanas, o sea, en timeline, en dos semanas.
+Y para eso necesitábamos tener como un, ¿por qué? Pues yo quiero que la parte del diseño, en dos semanas, quede definida, decimos copias, tipo, ok, después vamos a ver cómo hacemos, resolvemos la parte del algoritmo, ¿viste?
+Que sí, eso no es, está, excede tu scope, pero el, o cómo lo definimos bien, tal vez es más simple, tipo, siento que vos repuedes aportar, ¿verdad?
+
+
+@3:55 - María Berrocal Olmos (waterplan.com)
+Sí, sea, si bien el algoritmo es algo que no defino yo. El robot que toma la decisión, whatever, the agent que toma la decisión.
+Yo lo que necesito es, sí o sí, por ejemplo, saber qué data va a entrar a ese algoritmo, que el agente haga lo que sea y saber qué data sale.
+En la entrada y en la salida va a requerir que pensemos en diseño, porque eso es lo que de cara al cliente ve.
+Ve la entrada, que es la ingesta de data, y ve la salida, que es la sugerencia, que es el final del modelo.
+
+
+@4:33 - Ivo Kalaizic (waterplan.com)
+Bueno, sí que, tipo, por el momento, me lo llevo yo a darte como una definición un poco más clara, me lo recibe, tipo, de qué cosas.
+Yo lo que te digo es, tipo, va a ser Projects, de entrada, que ahora después vamos a hablar de Projects y eso, y el mismo módulo, yo me imagino, tipo, algo re, o sea, Projects, después vos le metés el diseño, pero tipo, me acuerdo en el protocolo en este momento, que era como Create Manual.
+Y a partir de ahí se corre la optimización esa que no sé cómo la vamos a hacer, pero se corre y después tenés un layer para preguntarle por qué ahí se hicieron las cosas que se hicieron.
+¿Qué pensás? Sí, for sure.
+
+
+@5:29 - María Berrocal Olmos (waterplan.com)
+O sea, igual si quieres podemos empezar a hacer esa bajada juntos, como hemos hecho en otras ocasiones que tipo, Sí, pues está muy volado.
+Abro, abro el prompt y empiezo, abro el, la tool y empezamos a pronunciar el tribunal, ¿qué pasa si nos vamos por acá?
+¿qué pasa si nos vamos por acá? Y visualmente podemos ir viendo por dónde va el Jao, que lo resuelva Jero y Juli y tú, y después a mí yo entro en el final otra vez que es como, Mary es la que va a sacar la tool, y ahí entro yo otra vez.
+Bueno, ok.
+
+
+@6:02 - Ivo Kalaizic (waterplan.com)
+Si te parece hagamos esto, bajo, primero bajo como un ticket con esta conversación, la conversación que tuvimos antes, tenés tus momentos de inspiración y la semana que viene nos contamos y lo refinamos juntos.
+
+
+@6:17 - María Berrocal Olmos (waterplan.com)
+Dale, a mí igual lo que, bueno, no sé si tenés otro tema para hablar, pero yo tengo un tema para hablar.
+
+
+@6:25 - Ivo Kalaizic (waterplan.com)
+Ok. ¿Qué es Simplify? Yo quiero hablar de eso, sí.
+
+
+@6:31 - María Berrocal Olmos (waterplan.com)
+Que lo dejamos a medias. ¿Y por qué te digo que lo dejamos a medias? Porque hay muchas de las cosas que si hacemos Simplify nos va a ayudar en la vida y en la existencia.
+
+
+@6:47 - Ivo Kalaizic (waterplan.com)
+Es que si me decís a mí cómo lo pienso yo antes de empezar con Simplify, que es lo que quiero hablar, yo imagino, Mika terminando en la homepage y los tickets que tiene ahora, María.
+Volviendo a la semana que viene, entonces tomando cosas de water stewardship ya de vuelta y Mika sin water stewardship, Mika cerrando Simplify a pleno con vos, tipo, todo esto, mientras tanto, vos diseñando toda la experiencia de Gaby, Fero y Juli resolviendo, tipo, creo que Juli, no nos ponemos por bien, tipo, que hace bien cada uno, pero tipo, Fero, al ser matemático, me lo imagino más en la parte de, tipo, que era yo, vamos pensar cómo hacemos la organización, y Juli más, tipo, che, tenemos que separar carbon y water, solidamente, hagámoslo, viste, tipo, nada.
+
+
+@7:35 - María Berrocal Olmos (waterplan.com)
+Juli es una máquina en BAC. Ok. Juli, con Jero nunca he trabajado, pero Juli es una máquina absolutamente minimal en BAC.
+Sí. En mi mundo cuando yo estaba en Monitor antes. Es una riqueza. Entiendo, entiendo, igual le podemos preguntar, pero entiendo que no le gusta Front, o sea,
+Es como, perfecto, pero es una bestia en vaca. Entonces ahí, que es, por ejemplo, Emma, le gusta a ambos.
+Entonces estamos acostumbrados a Emma, que Emma como que ya te codea y al mismo tiempo queda hermoso. Ah, por eso.
+Y con Juli no es así, pero por eso está mía.
+
+
+@8:19 - Ivo Kalaizic (waterplan.com)
+Bien.
+
+
+@8:21 - María Berrocal Olmos (waterplan.com)
+Igual capaz mejor, capaz le gusta ahora, porque a veces lo voy escribiendo en el grupo de Design System, entonces cosas está haciendo.
+Sí, o sea, también cambió mucho, Julián.
+
+
+@8:32 - Ivo Kalaizic (waterplan.com)
+Tipo, hoy ahora es, tipo, ¿no? Cambió mucho, digo, el mundo, ¿viste? Como, ya no...
+
+
+@8:39 - María Berrocal Olmos (waterplan.com)
+todo lo que pasa con AI, tipo, ahora no lo hace él, pero si se lo mete el código AI, tipo, capaz le saca el front y...
+Sí, no. ...idea de pronto. Eso ya se ha hecho en lo que trabajaba con Juli, pero sé que eso, ese es un detalle.
+Estamos mal acostumbrados con Emma. I know, va a ser cuando el martes...
+
+
+@8:59 - Ivo Kalaizic (waterplan.com)
+O sea, Cuando se sumen Sofi, que no sé si es el lunes o el martes, lloramos todos juntos y hacemos la, en realidad hay que manejarlo bien y no llorar y estar re contentos de la incorporación, pero vamos a llorar en el fondo.
+
+
+@9:15 - María Berrocal Olmos (waterplan.com)
+Igual estoy llorando, no te has ido. No, no, yo también, me voy a estar, no me voy. Pará, a darle a esto.
+
+
+@9:29 - Ivo Kalaizic (waterplan.com)
+Yo sé, pará, yo quiero hablar de dos cosas, yo quiero hablar de dos cosas, porque nos quedan 17 minutos.
+De Simplified y de, creo que es Projects, pero vos el otro día dijiste que venías con unos avances re buenos y querías mostrar.
+
+
+@9:44 - María Berrocal Olmos (waterplan.com)
+Sí, eso todo te lo va mostrar en la misma cosa. Para mí todo es lo mismo, todo es Simplified.
+Mételo todo en misma cosa. Esto es lo que hay hoy, ¿cierto? Tipo, entras en el escenario y después tienes estar en escenarios con peores escenarios, pero de otra vez, I hate it, I hate it, I hate it, I hate hate it.
+Y después tienes por acá Projects. ¿Qué es la iteración que yo estuve armando? Vamos a a Targets. Esto que ves acá es mi prototipo de la plataforma, ¿cierto?
+Sí. Varias cosas. La primera, notas que acá tengo el Project Roadmap. Me traje la Project Database y me la traigo acá, al lado de los Targets.
+
+
+@10:26 - Ivo Kalaizic (waterplan.com)
+Algo que me encanta, de lo que acabo de ver, tipo hoy, que vas a Projects, a la tab de Projects, y no tenés, tipo, ves el nombre del proyecto, si tenés que ver, ordenar y todo, no podés.
+A la tab de Projects está. Sí, porque nada más tenés el nombre, ¿viste? Es medio choto eso.
+
+
+@10:47 - María Berrocal Olmos (waterplan.com)
+Yo no quiero igual, o sea, yo acá no me estoy metiendo con Project Inside Defense, estoy hablando del mundo Targets tracking.
+Esta tabla que ves acá, que es el Project Roadmap, serían todos los proyectos que están listos. Linkeadas a esta company que tienen o que aportan en el target de este site.
+Ejemplo, miren acá incluso hay una columna que se llama Link Targets. Yo puedo ver que este proyecto impacta a tres targets.
+Ejemplo, ¿no? Es la única forma de traer esta tabla acá que haga relevancia porque va a estar la de los targets.
+Porque yo puedo tener acá en la tab de Projects 500 proyectos, pero solo de esos 500, 200 impactan a un target.
+esto para mí es la forma de contextualizar y que las dos tabs tengan sentido y que convivan juntas ¿y cómo te imaginas llevando de Projects a la Project Roadmap?
+es que ¿proyecto la Proyecto?
+
+
+@11:43 - Ivo Kalaizic (waterplan.com)
+no, viste que me dijiste en Project Roadmap están únicamente los proyectos que tienen posibilidad de impactar en el target y contextualizas con eso y hoy en la Project Database por así decirlo
+
+
+@12:02 - María Berrocal Olmos (waterplan.com)
+Todos los proyectos.
+
+
+@12:03 - Ivo Kalaizic (waterplan.com)
+Todos los proyectos, entonces.
+
+
+@12:04 - María Berrocal Olmos (waterplan.com)
+No, sí, claro, acuérdate que tuvimos como una reunión hace dos meses por ahí con Tommy Soriano y no sé quién, Gonzalo, que querían hacerlo como un revamp para Project, porque quieren incluir proyectos que no sé qué cosa, pero no necesariamente son proyectos que impactan un target, sino proyectos de no sé qué cosa, bueno, whatever.
+Yo quiero dejar abierta esa posibilidad de incluir esos proyectos en la tab de Projects y que Target Tracking, de ahí me jale los proyectos que impactan a los targets de Water Efficiency y en Energy, que me jale los proyectos.
+O sea, que los proyectos sean como nuestro real database y acá yo solamente estoy viendo los proyectos que están impactando a los targets, tipo, bien contextualizado, tipo Water Efficiency o Energy Intensity o Carmo, o lo que sea.
+Pero no es como que, no es un duplicado, es simplemente como lo jale del otro lado. Si son los mismos proyectos de lado y lado.
+Oya, pero por eso quiero separar los mundos, porque allá puedes agregar proyectos random, está tipo un training de la facility, agrégalo, y queda en la lista ya, pero acá en un target de Waterpitches y no vas a ver un proyecto que sea training, ¿se entiende?
+Eso para mí es como, igual todavía está bastante, podemos revisarlo. Entonces, para mí esto podría ser una de las formas de empezar a mejorar la visualización de los proyectos, y la última parte que nos faltó de Simplify, que es cuando entras al escenario tool, es, yo tengo mi current situation, que hay que renombrarla como, current situation, tipo, porque, o sea, si vienes a un escenario, es mi current situation, right, tipo, es el base case de todo.
+No, yo no, no estoy tan alineado, supuestamente honesto, o sea, porque... Este es mi current situation. Nosotros lo que estamos haciendo hoy es que cambias todo el tiempo el escenario acá.
+Yo quiero que el current situation tenga su importancia clave, tipo, que siempre lo tengas pendiente. En vez de estar en escenarios, esta es mi current situation.
+
+
+@14:31 - Ivo Kalaizic (waterplan.com)
+Ok.
+
+
+@14:32 - María Berrocal Olmos (waterplan.com)
+Tipo, quiero que siempre esté ahí, ¿me entiendes? Pero sabes, sabes que hay un...
+
+
+@14:39 - Ivo Kalaizic (waterplan.com)
+A mí lo que me cuesta de esto es que, tipo, estamos diciendo que, o sea, que el base case es la current situation.
+Que mirando las definiciones de qué es un base case, tiene sentido, son todos... Estos proyectos posteriores a la última fecha reportada que no estén en estado de cancel o, no sé, de precado.
+Entonces tiene sentido. Pero yo no sé si, porque también mi current situation podría ser, en realidad estoy buscando como un edge case, me parece que, o sea, yo estoy de acuerdo con vos, pero es, por ejemplo, Tobías, ¿viste?
+Por eso yo decía que soy regel con lo de el escenario, recién acabo de darme cuenta que el base case intenta representar la current situation, te lo juro por Dios, porque yo, mi postura es, andate tipo a la de old targets, tipo, y por eso yo estaba tan gede con decir que las métricas de estas que dependían del escenario, deberíamos permitir al usuario que confiere qué escenario quiere ver, porque tal vez Tobías quiere ver los escenarios, los proyectos que están submitted to carbon and water roadmap, que es un escenario.
+Ese, y no sé si, ¿entendés? Tal vez ese escenario representa su current situation. Pero es cierto que...
+
+
+@16:11 - María Berrocal Olmos (waterplan.com)
+Te entendí, pero realmente no. Claro. Current situation son los base case. Los base case es lo que ve acá, no vayas.
+Entonces... Cecilia y los que vean.
+
+
+@16:23 - Ivo Kalaizic (waterplan.com)
+¿No sentís que entonces tal vez sí valdría la pena permitir renombrar el base case?
+
+
+@16:28 - María Berrocal Olmos (waterplan.com)
+Claro, o sea, por eso te digo como, hoy lo estamos tratando como base case, y no queda claro que el base case es el current situation, por eso hemos, tipo, o hemos tenido que decir current situation, base case, y en cualquier lado decimos base case slash current situation, porque no queda claro que es un escenario que se crea, hasta current situation, automáticamente creas el target.
+Ok. Porque eso es lo que no es claro. Entonces yo por eso como que... Quiero dejarlo aún más claro, es más, podemos en vez de decirle base plan, podemos decirle current situation, o como le queramos llamar, o que ellos renombren su escenario, pero que realmente es el current situation, tipo, no es un escenario, es un current situation, tipo, es donde estás parado hoy, against your target.
+Ahora, los escenarios que vas a crear, los vas a comparar contra tu current situation, que ahí es donde está la, ahí es donde empezamos a jugar con el escenario tool, que hoy esa definición no queda tan clara.
+Podemos seguir deep diving with, pero esto, o como que te quería bajar el concepto de lo que hemos bajado en sentido en su momento, que es, una cosa es el current situation, que es lo que ves hoy, contra tu target, y otra cosa son los escenarios que vas a crear, para corregir ese current situation, o para mejorarlo, corregirlo si estás abstract, y mejorarlo si estás abstract, y quieres estar mejor, right?
+Y acá es donde empiezan los escenarios. Esto es acá en lo del width. Vamos empezar de, ¿cómo se llama?
+Acá, de hecho acá ves todo. Este es el que existe hoy en día, que es selecciono proyectos y se me va actualizando los APIs acá arriba, ¿verdad?
+Sí.
+
+
+@18:14 - Ivo Kalaizic (waterplan.com)
+Y me creó un escenario.
+
+
+@18:16 - María Berrocal Olmos (waterplan.com)
+Acá justamente se me lo creó un track, pero básicamente mira que, básicamente, es una vista donde voy a estar todo el tiempo y si creo otro escenario, creemos otro, es como una vista diferente el compare.
+Ver, ver muy bien. Vamos, vamos, vamos, Tengo los escenarios, tengo mi current situation, tengo el new escenario, tengo el new escenario, y mientras voy switchando, voy switchando también se me switchea la data de abajo, tipo, tabla, y queremos poner la gráfica también que muestra la gráfica de los escenarios.
+
+
+@18:52 - Ivo Kalaizic (waterplan.com)
+Sí, tal vez que la gráfica, a mí la gráfica me encanta, y también la gráfica en Carbon agrega valor, porque tenés la MacCard, tenés
+Esas cosas. Sí, tal vez podemos, por ejemplo, que estaba pensando en el Evolution Chart, que tenés, mostrás como la histórica data y mostrás los distintos escenarios, estarés cuando vas fletando ahí, tipo, se va poniendo más fuerte el color del escenario, y creo que eso está activado.
+
+
+@19:16 - María Berrocal Olmos (waterplan.com)
+Sí, obvio. Pero viste que por eso siempre digo como que esa tab de Compare la quiero volar porque no me sirve de nada la tab de Compare.
+Sí. Es porque la quiero revampiar a algo más así, que es como, estás viendo siempre tu current situation, que es más, si la quieres ir a ver, está acá, pero siempre vas a estar viendo contra todos tus escenarios creados, if you want to.
+Y, de nuevo, los escenarios acá se van cambiando en la medida que los agregas. Hermoso.
+
+
+@19:45 - Ivo Kalaizic (waterplan.com)
+¿Qué te imaginas? No voy a parar, porque acá, acá va a Simplify. ¿Acá qué? Acá terminaba nuestra Wave 4 de Simplify.
+Ok, para, un segundo. Estoy. Preguntas, yo creo que eventualmente, cosas para que tengas en cuenta, va a haber más de 5 posibles, tipo, me parece re choco que haya 5 posibles escenarios, y, tipo, y.
+Ah, sí, el límite de los escenarios. Sí, no, yo te lo traigo porque tal vez vos estás imaginando que ahí en tu ventana te están apareciendo, te entran como 2 boxes más, y queda hermoso, pero si tenés 7 escenarios, tipo, no sé.
+Debería ser un carrusel.
+
+
+@20:52 - María Berrocal Olmos (waterplan.com)
+Vamos a ver si lo hace. Debería ser un carrusel o debería ser otra cosa. Mira, un carrusel. Bien.
+
+
+@21:00 - Ivo Kalaizic (waterplan.com)
+Bien, pará. Esto me encantó, Amelie. Y en Explore Projects, ¿qué te imaginas?
+
+
+@21:07 - María Berrocal Olmos (waterplan.com)
+Esto acá es lo que estoy todavía jugando del Explore Projects of Other Side. Todavía no sé si va a ir acá, todavía no sé si es una tab, no sé si es un botón, todavía el dónde no sé, porque todavía tengo que entender el link de por dónde.
+Y porque es la pregunta que se está haciendo el usuario para poder triggeriar el flujo, pero básicamente es, independiente de por dónde entres, yo quisiera poder ver una lista de proyectos de otros sites, right, que esto fue lo que hablé con Emma, voy a ponerla en esta versión que me gusta más, un boxes, y ver simplemente la información que puede ver, que en este caso es el project name, el status, si es que, no sé si aporta algo el status del proyecto de otros sites, el impacto, la métrica en la que impacta, y por ejemplo el duration, ¿no?
+Y poder, en una primera iteración, Y verlos, que es lo que pueden hacer hoy en la tabla, ¿right? Es lo único que pueden hacer en la tabla, solo normalmente los pueden ver, no pueden hacer nada.
+Pero ir a un paso más allá, en una iteración 2, donde yo pueda evaluar el impacto de ese proyecto en las métricas de mi site.
+Y acá es donde yo me quedé hablando con Emma, porque estábamos diciendo como, bueno, pero ¿qué sería? O sea, ¿cómo evaluamos ese impacto?
+O sea, ¿qué data me traigo? ¿Qué data tiene que tener el site para que la plataforma evalúe un impacto con las métricas mías, pero de otro, del proyecto de otro site?
+Entonces ahí me quedé hablando con Emma como que veamos qué sucede, porque el objetivo, y para mí es, lo que le agregaría valor al Explorer, es, Ok, este Advanced Raw Recovery Project, me gusta, quiero simular este proyecto dentro un escenario mío, which is, es una acción que puedo hacer, o, en verdad, quiero duplicar este proyecto as a draft, y me lo crea en la database, y tipo, me lo asigna a target.
+Ese para mí sería como the best case scenario, tipo las dos acciones que puede resolver una persona right now.
+Pero de nuevo, para llegar a este evaluation of the impact, yo, María Betriz, todavía no entiendo muy bien cómo se haría esa evaluación.
+En un principio, lo que debería poder ver es una lista de proyectos de otros sites, tal cual con la información que sabemos que pueden ver.
+El por what, es lo que tenemos que definir. ¿A qué quieren verlos? No, los quiero ver, tal vez. ¿Quieren duplicarlos a su graph?
+¿Quieren incluirlos dentro de un graph? Eso también lo podemos hacer. En la evaluación, es lo que todavía no quedó claro.
+Pero de nuevo, por eso te digo, como que todavía no entiendo si este flujo se triggería desde. Yo, por ejemplo, estoy creando un escenario, o veo que este escenario de mí está abstract, y quiero simular un proyecto, pero en vez de simularlo yo sola,
+Esta simulación lo que me abren dos ventanas, ¿quieres simular un proyecto viendo proyectos de otros sites o quieres simular un proyecto tú solo con tus propias métricas?
+¿Se entiende? ¿A dónde voy? Todavía no entiendo el flujo de por dónde triguereo ese listado de cosas. Yo, particularmente, no pondría los proyectos como están hoy, que es en la tabla, en la database, porque al final del día lo que hacen es que ven una cantidad de no data.
+
+
+@24:34 - Ivo Kalaizic (waterplan.com)
+No sé si aporta mucho.
+
+
+@24:36 - María Berrocal Olmos (waterplan.com)
+Cuando ven projects de otros sites. Claro, dentro de la tabla de mi roadmap, no sé si aporta mucho ver proyectos de otros sites.
+Dado que pueden ver miserables dos columnas, si acaso. El resto es no data. Por eso se me ocurría como revampiarlo por otro lado.
+Acá está.
+
+
+@25:01 - Ivo Kalaizic (waterplan.com)
+¿Qué onda? Decía que no. ¿De qué? Yo antes decía que no lo respondí.
+
+
+@25:06 - María Berrocal Olmos (waterplan.com)
+¿Me estás ignorando para Slack? No, te lo estoy ignorando a todos. Sí, pero yo me tienes que tener como VIP, ¿cómo así?
+
+
+@25:17 - Ivo Kalaizic (waterplan.com)
+VIP, VIP. A ver, vamos a ver si está en Slack. ¿Hace cuánto me escribiste?
+
+
+@25:24 - María Berrocal Olmos (waterplan.com)
+No sé, como una hora, dos horas. A las 12 y 51. Bueno, ¿me decimos por dónde me estoy metiendo?
+
+
+@25:34 - Ivo Kalaizic (waterplan.com)
+Que lo apruebe Luis, sí, ese pedido, el budget.
+
+
+@25:39 - María Berrocal Olmos (waterplan.com)
+Pero el budget es de marketing o de producto. O sea, y si es para marketing, va a ser para marketing, lo pagaremos, o sea, pero...
+O sea, debe estar, debe estar el budget.
+
+
+@25:53 - Ivo Kalaizic (waterplan.com)
+Para no nos distraigamos, sigamos con lo que estás haciendo. No, bien, yo lo que necesito...
+
+
+@26:04 - María Berrocal Olmos (waterplan.com)
+¿Pero ves por qué todo está conectado? O sea, que incluso lo de Abby está conectado con lo que estoy diciendo.
+Sí, para mí está buenísimo.
+
+
+@26:13 - Ivo Kalaizic (waterplan.com)
+Y no he oído tantos cambios en la lógica detrás, como que para mí esto es algo que te da en Mika, lo puedo hacer todo.
+Sí, la primera parte es donde te dije esto es Simplify, hasta ahí todo lo puedo hacer Mika. ¿Y el breakdown?
+¿Lo pensaste? El breakdown.
+
+
+@26:32 - María Berrocal Olmos (waterplan.com)
+El breakdown de targets. Exacto. Breakdown, sí.
+
+
+@26:36 - Ivo Kalaizic (waterplan.com)
+Viste, el otro día me habíamos pensado de, a través de eso, agregarle el lock. Si no lo pensaste está perfecto porque creo que lo vimos el martes en el refi y no tuviste nada, ¿eh?
+Pero solamente, viste, vos habías dicho, tal vez el lock de los targets podemos hacerlo desde acá. Y el company manager puede hacer como el bulk lock desde acá.
+tiendas, que parte. kw peas en
+
+
+@27:00 - María Berrocal Olmos (waterplan.com)
+Sí, o sea, me acuerdo que en las proposals que yo les dejé del log estaba eso también, tipo poner el log acá, o ponerlo tipo dentro de un settings o lo que sea, como que yo creo que es el del use case.
+
+
+@27:14 - Ivo Kalaizic (waterplan.com)
+¿Sabes qué estoy pensando yo y ahora también lo hablo con Tommy? A mí, en dos semanas salimos con Colgate, tipo training de 200 personas, a ver target tracking, le vamos a mostrar esto, los videos y todo, y nosotros estamos haciendo, o sea, estamos planeando cambios en la experiencia, entonces, primera cosa es como, me lo llevo para pensar en ver cómo es, anyway, tipo los cambios que estamos haciendo es siempre en búsqueda de mejorar la experiencia del usuario y sé que hasta que no lo busquemos y no lo consigamos, no lo vamos a implementar, entonces, de conforme que me animo a ir a defender la Colgate, tipo, bueno, estamos mejorando para ser más fácil, tal vez, lo que pienso también es que esto que estás armando
+Está buenísimo. Vería, tipo, de tener una reunión, tal vez, con Colgate o con CCP, mostrándoselo, y ver de empezar a cerrarlo, boluda.
+Hay cosas que ya saben, andate a, tipo, apretar un target ahí, el tab de compare escenario, cambiar current situation, y, tipo, esto ya lo tenés bastante claro, y está buenísimo, como que siento que sirve.
+O sea, el cambio más grande. Te puse una pregunta, es, ¿qué nos hace falta? Más que, tipo, que nos sentemos, digamos, sí, de tu lado, para que Mary se anime a dar un, tipo, hand-off de esto en un Figma, y, tipo, yo muero con esta decisión para implementar desde perspectiva de diseño.
+¿Qué te falta?
+
+
+@28:54 - María Berrocal Olmos (waterplan.com)
+Yo estoy full, estoy full confident en mi decisión. No, no, no. O sea, falta, me falta crear las pantallas, pero, o sea, porque sé que yo hice los trainings de Colgate con la plataforma que hay hoy, y si viene mañana Mika y revampea todo, y me manda la data, veis, al inicio, por ejemplo, ese video queda outdated.
+No me asusta, porque al final del día no estamos creando funcionalidades, ¿no? Sino que estamos reorganizando.
+
+
+@29:24 - Ivo Kalaizic (waterplan.com)
+Sí.
+
+
+@29:26 - María Berrocal Olmos (waterplan.com)
+Entonces, no me asusta, o sea, el objetivo de Simplify era mejorar la experiencia y una de las cosas era la navegación.
+No me asusta eso, o sea, me parece muy difícil, o sea, si incluso hacemos los, que seguramente va a ser los trainings, van a ser primero, y después van a haber cambios en la plataforma.
+Sí. No me asusta, porque al final del día puede ser que hasta incluso nos salga bien, tipo, que vean como, ah, gracias por pasarme la data, veis, acá adelante, tipo, ya entiendo.
+
+
+@29:54 - Ivo Kalaizic (waterplan.com)
+Escúchame, te digo, pero, ¿qué estoy pensando? No No No me asusta. me Tipo, viste cuando al principio te dije, las próximas semanas, tipo, Pedro y Puli seguramente van a estar atacando más con toda esta parte de cómo priorizamos los de AVI, vos vas a tener un rol re clave en, que tal vez vos me decís, no, boludo, para la primera etapa de diseño no necesito tanto, necesito armar, sí, un chatbot, la creación de escenario smart, que medio que ya la tenés hecha, y no sé cuánto tiempo te requiere.
+Y también tenés esto, que aparte vos estás re manija con Simplify desde que entré, y tipo, quiero que lo cerremos, entonces.
+
+
+@30:33 - María Berrocal Olmos (waterplan.com)
+Quiero cerrar Simplify.
+
+
+@30:34 - Ivo Kalaizic (waterplan.com)
+Oh, no, ya lo sé. Entonces, mi pregunta es como, pensemos, si querés lo hablamos a las 5, no sé, 5 y media, o mañana, pero pensemos, tipo, ¿cuánto tiempo necesita Mary para bajar a Figma todo esto, y que ya poder hacer un handoff a Mika y que Mika lo arranca a laburar y cerrar Simplify, contra cuánto tiempo necesita Mary para, en las próximas 3 semanas.
+Estar cerrando, considerando que va a haber iteraciones, el diseño de lo de AVI, Scenarios, Marte, ¿verdad? Mary ya se adelantó y ya tiene Figma.
+Ah, solía.
+
+
+@31:12 - María Berrocal Olmos (waterplan.com)
+Mira mi nueva Target and Project, tipo, Current Scenarios, Scenarios, tipo, Mary ya lo hizo, Mary está. Epa. Está, está.
+Bueno. Pero, eh.
+
+
+@31:27 - Ivo Kalaizic (waterplan.com)
+Hagamos una refinement session, el martes refinemos esto, con el team.
+
+
+@31:33 - María Berrocal Olmos (waterplan.com)
+Perfecto. Porque yo tengo que hablar con Mika de unos temas de sign-up, que son, no blotters, pero dependen, o sea, que Mika resuelva la relación de navigation, va a resultar en que esto esté bien.
+O sea, le simplifies algo bien. Bueno. Pero bueno, te quería mostrar updates.
+
+
+@31:54 - Ivo Kalaizic (waterplan.com)
+No, me encantó, eh. Posta.
+
+
+@31:57 - María Berrocal Olmos (waterplan.com)
+Let's do it. Muy bueno. De mi lado. No requiere mucho time porque ya está muy bajado. Listo.
+
+
+@32:04 - Ivo Kalaizic (waterplan.com)
+Bueno, chau chau. Chau.

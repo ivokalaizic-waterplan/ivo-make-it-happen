@@ -1,0 +1,1732 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>True Cost of Water Calculator | Waterplan</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      /* Waterplan Seastem Design Tokens */
+      --firefly-25: #F0FDFF;
+      --firefly-50: #EBF6FA;
+      --firefly-100: #D6ECF4;
+      --firefly-200: #AED9E9;
+      --firefly-300: #86C6DE;
+      --firefly-400: #5EB4D3;
+      --firefly-500: #35A1C9;
+      --firefly-600: #2B81A0;
+      --firefly-700: #206078;
+      --firefly-800: #154050;
+      --firefly-900: #0F2D38;
+
+      --gray-25: #FAFAFA;
+      --gray-50: #EEEFF0;
+      --gray-100: #DADBDE;
+      --gray-200: #C6C7CC;
+      --gray-300: #AAABB1;
+      --gray-400: #96979F;
+      --gray-500: #808288;
+      --gray-600: #6A6C72;
+      --gray-700: #55575B;
+      --gray-800: #3F4144;
+      --gray-900: #2A2B2D;
+
+      --blue-25: #EBF1FC;
+      --blue-50: #D8E3FA;
+      --blue-100: #C5D5F7;
+      --blue-200: #9EBAF2;
+      --blue-300: #789FEE;
+      --blue-400: #5284E9;
+      --blue-500: #4077E8;
+      --blue-600: #396BD1;
+      --blue-700: #2C53A2;
+      --blue-800: #203B74;
+      --blue-900: #132445;
+
+      --jungle-25: #E1FCF5;
+      --jungle-50: #DCF7F0;
+      --jungle-100: #B9EFE2;
+      --jungle-200: #96E8D4;
+      --jungle-300: #73E0C6;
+      --jungle-400: #50D9B8;
+      --jungle-500: #2DD1A9;
+      --jungle-600: #25AE8D;
+      --jungle-700: #1E8B71;
+      --jungle-800: #166854;
+
+      --success-50: #ECFDF3;
+      --success-500: #12B76A;
+      --success-700: #027A48;
+
+      --warning-50: #FFFAEB;
+      --warning-400: #FDB022;
+      --warning-600: #DC6803;
+      --warning-700: #B54708;
+
+      --error-50: #FEF3F2;
+      --error-500: #F04438;
+
+      --orange-500: #FB6514;
+      --purple-500: #7A5AF8;
+
+      --platform-bg: #F3F5F8;
+      --table-headers: #F5F7FA;
+      --white: #FFFFFF;
+
+      --radius-sm: 6px;
+      --radius-md: 10px;
+      --radius-lg: 12px;
+
+      --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
+      --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.07), 0 2px 4px -2px rgba(0,0,0,0.05);
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--platform-bg);
+      color: var(--gray-800);
+      font-size: 14px;
+      line-height: 1.5;
+      min-height: 100vh;
+    }
+
+    /* Sidebar + Main layout */
+    .app-layout {
+      display: flex;
+      min-height: 100vh;
+    }
+
+    .sidebar {
+      width: 56px;
+      background: var(--firefly-900);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 16px 0;
+      gap: 16px;
+      flex-shrink: 0;
+    }
+
+    .sidebar-logo {
+      width: 32px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .sidebar-logo svg { width: 28px; height: 28px; }
+
+    .sidebar-nav {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin-top: 12px;
+    }
+
+    .sidebar-nav-item {
+      width: 36px;
+      height: 36px;
+      border-radius: var(--radius-sm);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--firefly-300);
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+
+    .sidebar-nav-item:hover { background: rgba(255,255,255,0.08); }
+    .sidebar-nav-item.active { background: rgba(255,255,255,0.12); color: white; }
+
+    /* Main content */
+    .main-content {
+      flex: 1;
+      overflow-y: auto;
+      padding: 0;
+    }
+
+    /* Top nav bar */
+    .topbar {
+      background: var(--white);
+      border-bottom: 1px solid var(--gray-100);
+      padding: 12px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .topbar-left {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .topbar-breadcrumb {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 13px;
+      color: var(--gray-500);
+    }
+
+    .topbar-breadcrumb span { color: var(--gray-300); }
+    .topbar-breadcrumb strong { color: var(--gray-800); font-weight: 600; }
+
+    .topbar-actions {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    /* Buttons */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 7px 14px;
+      border-radius: var(--radius-sm);
+      font-size: 13px;
+      font-weight: 500;
+      border: 1px solid var(--gray-100);
+      background: var(--white);
+      color: var(--gray-700);
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+
+    .btn:hover { background: var(--gray-25); border-color: var(--gray-200); }
+
+    .btn-primary {
+      background: var(--firefly-500);
+      color: white;
+      border-color: var(--firefly-500);
+    }
+
+    .btn-primary:hover { background: var(--firefly-600); border-color: var(--firefly-600); }
+
+    .btn svg { width: 14px; height: 14px; }
+
+    /* Page content */
+    .page-content {
+      padding: 24px;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+
+    /* Calculator header */
+    .calc-header {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+
+    .calc-header-badge {
+      width: 36px;
+      height: 36px;
+      border-radius: var(--radius-sm);
+      background: var(--blue-25);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .calc-header-badge svg { width: 20px; height: 20px; color: var(--blue-500); }
+
+    .calc-header-text h1 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--gray-900);
+      margin-bottom: 2px;
+    }
+
+    .calc-header-text p {
+      font-size: 13px;
+      color: var(--gray-500);
+    }
+
+    /* Layout: form left + results right */
+    .calc-layout {
+      display: grid;
+      grid-template-columns: 1fr 340px;
+      gap: 20px;
+      align-items: flex-start;
+    }
+
+    @media (max-width: 1100px) {
+      .calc-layout { grid-template-columns: 1fr; }
+    }
+
+    /* Cards */
+    .card {
+      background: var(--white);
+      border-radius: var(--radius-md);
+      border: 1px solid var(--gray-100);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .card-header {
+      padding: 16px 20px;
+      border-bottom: 1px solid var(--gray-50);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .card-header-left {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .card-header-badge {
+      width: 24px;
+      height: 24px;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 11px;
+      font-weight: 700;
+      color: white;
+    }
+
+    .card-header-title {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--gray-800);
+    }
+
+    .card-header-subtitle {
+      font-size: 12px;
+      color: var(--gray-400);
+      margin-left: 8px;
+    }
+
+    .card-header-value {
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--gray-600);
+      font-family: 'SF Mono', 'Fira Code', monospace;
+    }
+
+    .card-body { padding: 16px 20px; }
+
+    /* Facility form highlight */
+    .facility-form {
+      background: var(--firefly-50);
+      border-radius: var(--radius-md);
+      padding: 20px;
+      margin-bottom: 4px;
+    }
+
+    /* Form grid */
+    .form-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .form-label {
+      font-size: 12px;
+      font-weight: 500;
+      color: var(--gray-700);
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .form-input, .form-select {
+      width: 100%;
+      padding: 8px 10px;
+      border: 1px solid var(--gray-100);
+      border-radius: var(--radius-sm);
+      font-size: 13px;
+      font-family: inherit;
+      background: var(--white);
+      color: var(--gray-800);
+      transition: border-color 0.15s;
+    }
+
+    .form-input:focus, .form-select:focus {
+      outline: none;
+      border-color: var(--firefly-400);
+      box-shadow: 0 0 0 3px rgba(53, 161, 201, 0.1);
+    }
+
+    .form-input::placeholder { color: var(--gray-300); }
+    .form-input[readonly] { background: var(--gray-25); color: var(--gray-500); }
+
+    /* Auto-badge (Waterplan auto-populate indicator) */
+    .auto-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      font-size: 10px;
+      padding: 1px 6px;
+      border-radius: 99px;
+      background: var(--success-50);
+      color: var(--success-700);
+      border: 1px solid var(--jungle-100);
+      font-weight: 600;
+      white-space: nowrap;
+    }
+
+    .auto-badge svg { width: 10px; height: 10px; }
+
+    /* Tooltip icon */
+    .tooltip-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: var(--gray-50);
+      color: var(--gray-500);
+      font-size: 9px;
+      font-weight: 700;
+      cursor: help;
+      flex-shrink: 0;
+    }
+
+    /* Data tables */
+    .data-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+
+    .data-table thead th {
+      background: var(--table-headers);
+      padding: 8px 10px;
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--gray-600);
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      text-align: left;
+      border-bottom: 1px solid var(--gray-100);
+    }
+
+    .data-table tbody td {
+      padding: 6px 10px;
+      border-bottom: 1px solid var(--gray-50);
+      vertical-align: middle;
+    }
+
+    .data-table tbody tr:last-child td { border-bottom: none; }
+
+    .data-table .row-number {
+      font-size: 11px;
+      color: var(--gray-400);
+      font-weight: 500;
+    }
+
+    .data-table .cell-value {
+      text-align: right;
+      font-family: 'SF Mono', 'Fira Code', monospace;
+      font-size: 12px;
+      color: var(--gray-600);
+    }
+
+    .data-table .table-input {
+      width: 100%;
+      padding: 5px 8px;
+      border: 1px solid var(--gray-100);
+      border-radius: 4px;
+      font-size: 13px;
+      font-family: inherit;
+      background: var(--white);
+      transition: border-color 0.15s;
+    }
+
+    .data-table .table-input:focus {
+      outline: none;
+      border-color: var(--firefly-400);
+      box-shadow: 0 0 0 2px rgba(53, 161, 201, 0.08);
+    }
+
+    .data-table .special-row { background: var(--warning-50); }
+
+    .table-note {
+      font-size: 11px;
+      color: var(--gray-400);
+      padding: 8px 10px;
+      border-top: 1px solid var(--gray-50);
+    }
+
+    /* Collapsible sections */
+    .section-toggle {
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .section-toggle .chevron {
+      width: 16px;
+      height: 16px;
+      color: var(--gray-400);
+      transition: transform 0.2s;
+      flex-shrink: 0;
+    }
+
+    .section-content { display: none; }
+    .section-open .section-content { display: block; }
+    .section-open .chevron { transform: rotate(90deg); }
+
+    /* Results panel (right side) */
+    .results-panel {
+      position: sticky;
+      top: 72px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    /* Result cards (like TotalsPanel in WUR calculator) */
+    .result-card {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 14px 16px;
+      border-radius: var(--radius-md);
+      background: var(--blue-25);
+    }
+
+    .result-card.variant-firefly { background: var(--firefly-50); }
+    .result-card.variant-jungle { background: var(--jungle-25); }
+    .result-card.variant-warning { background: var(--warning-50); }
+
+    .result-card-icon {
+      width: 32px;
+      height: 32px;
+      border-radius: var(--radius-sm);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .result-card-icon.blue { background: var(--blue-50); }
+    .result-card-icon.firefly { background: var(--firefly-100); }
+    .result-card-icon.jungle { background: var(--jungle-50); }
+    .result-card-icon.warning { background: rgba(253, 176, 34, 0.15); }
+
+    .result-card-icon svg { width: 18px; height: 18px; }
+
+    .result-card-label {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--gray-700);
+      flex: 1;
+      min-width: 0;
+    }
+
+    .result-card-value {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--blue-700);
+      font-family: 'SF Mono', 'Fira Code', monospace;
+      white-space: nowrap;
+    }
+
+    .result-card.variant-firefly .result-card-value { color: var(--firefly-700); }
+    .result-card.variant-jungle .result-card-value { color: var(--jungle-700); }
+    .result-card.variant-warning .result-card-value { color: var(--warning-700); }
+
+    .result-card-unit {
+      font-size: 11px;
+      color: var(--gray-500);
+      font-weight: 500;
+    }
+
+    /* Big result */
+    .big-result {
+      padding: 20px;
+      text-align: center;
+      background: var(--white);
+      border-radius: var(--radius-md);
+      border: 1px solid var(--gray-100);
+      box-shadow: var(--shadow-md);
+    }
+
+    .big-result-label {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--gray-500);
+      margin-bottom: 4px;
+    }
+
+    .big-result-value {
+      font-size: 36px;
+      font-weight: 800;
+      color: var(--firefly-700);
+      font-family: 'SF Mono', 'Fira Code', monospace;
+      line-height: 1.1;
+    }
+
+    .big-result-unit {
+      font-size: 13px;
+      color: var(--gray-400);
+      margin-top: 2px;
+    }
+
+    .big-result-split {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      margin-top: 12px;
+    }
+
+    .split-item {
+      padding: 10px;
+      border-radius: var(--radius-sm);
+      text-align: center;
+    }
+
+    .split-item-label {
+      font-size: 10px;
+      font-weight: 500;
+      color: var(--gray-500);
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+
+    .split-item-value {
+      font-size: 16px;
+      font-weight: 700;
+      font-family: 'SF Mono', 'Fira Code', monospace;
+      margin-top: 2px;
+    }
+
+    .split-internal { background: var(--blue-25); }
+    .split-internal .split-item-value { color: var(--blue-700); }
+    .split-external { background: var(--jungle-25); }
+    .split-external .split-item-value { color: var(--jungle-700); }
+
+    /* Breakdown list */
+    .breakdown-list {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .breakdown-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 12px;
+    }
+
+    .breakdown-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 2px;
+      flex-shrink: 0;
+    }
+
+    .breakdown-item-label { flex: 1; color: var(--gray-600); }
+
+    .breakdown-item-value {
+      font-family: 'SF Mono', 'Fira Code', monospace;
+      font-size: 11px;
+      font-weight: 500;
+      color: var(--gray-700);
+    }
+
+    .breakdown-total {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 8px;
+      border-top: 1px solid var(--gray-100);
+      margin-top: 4px;
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    .breakdown-total-value {
+      font-family: 'SF Mono', 'Fira Code', monospace;
+    }
+
+    /* WCRS detail */
+    .wcrs-detail {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      font-size: 12px;
+    }
+
+    .wcrs-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .wcrs-row-label { color: var(--gray-600); }
+
+    .wcrs-row-value {
+      font-family: 'SF Mono', 'Fira Code', monospace;
+      font-size: 11px;
+      color: var(--gray-700);
+    }
+
+    /* Info callout */
+    .callout {
+      font-size: 11px;
+      padding: 8px 10px;
+      border-radius: var(--radius-sm);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .callout-info { background: var(--blue-25); color: var(--blue-700); }
+    .callout-warning { background: var(--warning-50); color: var(--warning-700); }
+    .callout-hidden { display: none; }
+
+    /* Scale bar */
+    .scale-bar {
+      height: 6px;
+      border-radius: 3px;
+      background: linear-gradient(to right, var(--jungle-200), var(--warning-300), var(--error-500));
+      position: relative;
+      margin: 12px 0 4px;
+    }
+
+    .scale-marker {
+      position: absolute;
+      top: -4px;
+      width: 3px;
+      height: 14px;
+      background: var(--gray-800);
+      border-radius: 2px;
+      transition: left 0.4s ease;
+    }
+
+    .scale-labels {
+      display: flex;
+      justify-content: space-between;
+      font-size: 10px;
+      color: var(--gray-400);
+    }
+
+    /* Savings grid */
+    .savings-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 6px;
+    }
+
+    .savings-item {
+      background: var(--success-50);
+      border-radius: var(--radius-sm);
+      padding: 8px;
+      text-align: center;
+    }
+
+    .savings-pct {
+      font-size: 10px;
+      color: var(--gray-500);
+      font-weight: 500;
+    }
+
+    .savings-value {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--success-700);
+      font-family: 'SF Mono', 'Fira Code', monospace;
+    }
+
+    .savings-unit {
+      font-size: 9px;
+      color: var(--gray-400);
+    }
+
+    /* Chart */
+    .chart-container {
+      margin-top: 12px;
+      height: 160px;
+    }
+
+    /* Print */
+    @media print {
+      .sidebar, .topbar, .no-print { display: none !important; }
+      .main-content { padding: 0; }
+      .results-panel { position: static; }
+      .calc-layout { grid-template-columns: 1fr 1fr; }
+    }
+
+    /* Scrollbar */
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: var(--gray-200); border-radius: 3px; }
+    ::-webkit-scrollbar-thumb:hover { background: var(--gray-300); }
+  </style>
+</head>
+<body>
+  <div class="app-layout">
+    <!-- Sidebar (mimics Waterplan platform sidebar) -->
+    <aside class="sidebar no-print">
+      <div class="sidebar-logo">
+        <svg viewBox="0 0 32 32" fill="none"><path d="M16 4C16 4 7 14 7 20a9 9 0 0018 0c0-6-9-16-9-16z" fill="white" opacity="0.9"/></svg>
+      </div>
+      <nav class="sidebar-nav">
+        <div class="sidebar-nav-item active" title="Water Stewardship">
+          <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707"/></svg>
+        </div>
+        <div class="sidebar-nav-item" title="Target Tracking">
+          <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6m6 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0h6m4 0v-4a2 2 0 00-2-2h-2a2 2 0 00-2 2v4"/></svg>
+        </div>
+        <div class="sidebar-nav-item" title="Projects">
+          <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/></svg>
+        </div>
+      </nav>
+    </aside>
+
+    <div class="main-content">
+      <!-- Top bar -->
+      <header class="topbar no-print">
+        <div class="topbar-left">
+          <div class="topbar-breadcrumb">
+            Water Stewardship <span>/</span> <strong>True Cost of Water Calculator</strong>
+          </div>
+        </div>
+        <div class="topbar-actions">
+          <button class="btn" data-testid="btn-reset">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+            Reset
+          </button>
+          <button class="btn btn-primary" data-testid="btn-export">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+            Export
+          </button>
+        </div>
+      </header>
+
+      <div class="page-content">
+        <!-- Calculator header -->
+        <div class="calc-header">
+          <div class="calc-header-badge">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"/></svg>
+          </div>
+          <div class="calc-header-text">
+            <h1>True Cost of Water Calculator</h1>
+            <p>Calculate the true cost of water per facility, combining operational costs with water risk externalities.</p>
+          </div>
+        </div>
+
+        <!-- Main layout -->
+        <div class="calc-layout">
+          <!-- LEFT: Form sections -->
+          <div class="calc-form-sections">
+
+            <!-- Section 0: Facility Information -->
+            <div class="card section-open" data-section="facility-info">
+              <div class="card-header section-toggle" data-testid="section-facility-info">
+                <div class="card-header-left">
+                  <div class="card-header-badge" style="background: var(--firefly-500);">0</div>
+                  <span class="card-header-title">Facility Information</span>
+                </div>
+                <svg class="chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+              </div>
+              <div class="section-content">
+                <div class="card-body">
+                  <div class="facility-form">
+                    <div class="form-grid">
+                      <div class="form-group">
+                        <label class="form-label" for="facilitySelect">
+                          Facility
+                          <span class="auto-badge"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>Auto</span>
+                        </label>
+                        <select id="facilitySelect" data-testid="input-facility" class="form-select">
+                          <option value="">-- Select facility --</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <label class="form-label" for="facilityName">Plant Name</label>
+                        <input id="facilityName" data-testid="input-facility-name" type="text" class="form-input" readonly />
+                      </div>
+                      <div class="form-group">
+                        <label class="form-label" for="country">Country</label>
+                        <input id="country" data-testid="input-country" type="text" class="form-input" readonly />
+                      </div>
+                      <div class="form-group">
+                        <label class="form-label" for="bottlerName">Bottler Name</label>
+                        <input id="bottlerName" data-testid="input-bottler" type="text" class="form-input" value="CCEP" readonly />
+                      </div>
+                      <div class="form-group">
+                        <label class="form-label" for="reportingYear">Reporting Year</label>
+                        <select id="reportingYear" data-testid="input-year" class="form-select">
+                          <option value="2020" selected>2020</option>
+                          <option value="2019">2019</option>
+                          <option value="2018">2018</option>
+                          <option value="2017">2017</option>
+                          <option value="2016">2016</option>
+                          <option value="2015">2015</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <label class="form-label" for="currency">Input Currency</label>
+                        <select id="currency" data-testid="input-currency" class="form-select">
+                          <option value="EUR" selected>EUR (Euro)</option>
+                          <option value="USD">USD (US Dollar)</option>
+                          <option value="GBP">GBP (British Pound)</option>
+                          <option value="SEK">SEK (Swedish Krona)</option>
+                          <option value="NOK">NOK (Norwegian Krone)</option>
+                          <option value="ISK">ISK (Icelandic Krona)</option>
+                          <option value="AUD">AUD (Australian Dollar)</option>
+                          <option value="NZD">NZD (New Zealand Dollar)</option>
+                          <option value="IDR">IDR (Indonesian Rupiah)</option>
+                          <option value="PHP">PHP (Philippine Peso)</option>
+                          <option value="PGK">PGK (Papua New Guinean Kina)</option>
+                          <option value="FJD">FJD (Fijian Dollar)</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <label class="form-label" for="totalWithdrawal">
+                          Total Water Withdrawal (m3/year)
+                          <span class="auto-badge"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>Auto</span>
+                          <span class="tooltip-icon" title="Total volume of water withdrawn from all sources annually. Key denominator for per-m3 calculations.">?</span>
+                        </label>
+                        <input id="totalWithdrawal" data-testid="input-withdrawal" type="number" min="0" step="1" class="form-input" placeholder="e.g. 3,000,000" />
+                      </div>
+                      <div class="form-group">
+                        <label class="form-label" for="bwsScore">
+                          Baseline Water Stress (BWS)
+                          <span class="auto-badge"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>Auto</span>
+                          <span class="tooltip-icon" title="WRI Aqueduct BWS score (0-5). Used to calculate externality costs.">?</span>
+                        </label>
+                        <input id="bwsScore" data-testid="input-bws" type="number" min="0" max="5" step="0.001" class="form-input" placeholder="0-5" />
+                        <span id="bwsCategory" style="font-size:11px;color:var(--gray-400);margin-top:2px;"></span>
+                      </div>
+                      <div class="form-group">
+                        <label class="form-label" for="washScore">
+                          WASH Score
+                          <span class="auto-badge"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>Auto</span>
+                          <span class="tooltip-icon" title="If >= 4.001, WCRS is floored at 4.0 USD/m3.">?</span>
+                        </label>
+                        <input id="washScore" data-testid="input-wash" type="number" min="0" max="5" step="0.001" class="form-input" placeholder="0-5" />
+                      </div>
+                      <div class="form-group">
+                        <label class="form-label" for="facilityAreaScore">
+                          Facility Area Score (FAWVA)
+                          <span class="tooltip-icon" title="High = 20% premium on internal costs.">?</span>
+                        </label>
+                        <select id="facilityAreaScore" data-testid="input-facility-area" class="form-select">
+                          <option value="Low" selected>Low</option>
+                          <option value="Medium">Medium</option>
+                          <option value="High">High</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <label class="form-label" for="communityScore">
+                          Community & Watershed Score
+                          <span class="tooltip-icon" title="Determines externality multiplier: Low=33%, Medium=66%, High=100%.">?</span>
+                        </label>
+                        <select id="communityScore" data-testid="input-community" class="form-select">
+                          <option value="Low" selected>Low (33%)</option>
+                          <option value="Medium">Medium (66%)</option>
+                          <option value="High">High (100%)</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Section 1: Variable Water Fees -->
+            <div class="card section-open" data-section="water-fees">
+              <div class="card-header section-toggle" data-testid="section-water-fees">
+                <div class="card-header-left">
+                  <div class="card-header-badge" style="background: var(--firefly-400);">1</div>
+                  <span class="card-header-title">Variable Water Fees</span>
+                </div>
+                <div style="display:flex;align-items:center;gap:12px;">
+                  <span id="s1Total" class="card-header-value">0.0000 /m3</span>
+                  <svg class="chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+                </div>
+              </div>
+              <div class="section-content">
+                <div class="card-body" style="padding:0;">
+                  <table class="data-table">
+                    <thead>
+                      <tr><th style="width:40px;">Item</th><th>Source</th><th style="width:130px;">Volume (m3)</th><th style="width:130px;">Annual Cost</th><th style="width:90px;">Per m3</th></tr>
+                    </thead>
+                    <tbody>
+                      <tr><td class="row-number">1.1</td><td>Private Well</td><td><input data-testid="input-s1-vol-1" data-section="s1" data-type="vol" type="number" min="0" class="table-input cost-input" placeholder="0" /></td><td><input data-testid="input-s1-cost-1" data-section="s1" data-type="cost" type="number" min="0" step="0.01" class="table-input cost-input" placeholder="0" /></td><td class="cell-value s1-unit">-</td></tr>
+                      <tr><td class="row-number">1.2</td><td>Municipal</td><td><input data-testid="input-s1-vol-2" data-section="s1" data-type="vol" type="number" min="0" class="table-input cost-input" placeholder="0" /></td><td><input data-testid="input-s1-cost-2" data-section="s1" data-type="cost" type="number" min="0" step="0.01" class="table-input cost-input" placeholder="0" /></td><td class="cell-value s1-unit">-</td></tr>
+                      <tr><td class="row-number">1.3</td><td>Other Source 1</td><td><input data-testid="input-s1-vol-3" data-section="s1" data-type="vol" type="number" min="0" class="table-input cost-input" placeholder="0" /></td><td><input data-testid="input-s1-cost-3" data-section="s1" data-type="cost" type="number" min="0" step="0.01" class="table-input cost-input" placeholder="0" /></td><td class="cell-value s1-unit">-</td></tr>
+                      <tr><td class="row-number">1.4</td><td>Other Source 2</td><td><input data-testid="input-s1-vol-4" data-section="s1" data-type="vol" type="number" min="0" class="table-input cost-input" placeholder="0" /></td><td><input data-testid="input-s1-cost-4" data-section="s1" data-type="cost" type="number" min="0" step="0.01" class="table-input cost-input" placeholder="0" /></td><td class="cell-value s1-unit">-</td></tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+            <!-- Section 2: Variable Energy Fees -->
+            <div class="card" data-section="energy-fees">
+              <div class="card-header section-toggle" data-testid="section-energy-fees">
+                <div class="card-header-left">
+                  <div class="card-header-badge" style="background: var(--warning-400);">2</div>
+                  <span class="card-header-title">Variable Energy Fees</span>
+                </div>
+                <div style="display:flex;align-items:center;gap:12px;">
+                  <span id="s2Total" class="card-header-value">0.0000 /m3</span>
+                  <svg class="chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+                </div>
+              </div>
+              <div class="section-content">
+                <div class="card-body" style="padding:0;">
+                  <table class="data-table">
+                    <thead>
+                      <tr><th style="width:40px;">Item</th><th>Activity</th><th style="width:110px;">kWh</th><th style="width:110px;">EUR/kWh</th><th style="width:90px;">Total</th></tr>
+                    </thead>
+                    <tbody>
+                      <tr><td class="row-number">2.1</td><td>Pumps (water transport)</td><td><input data-testid="input-s2-kwh-1" data-section="s2" data-type="kwh" type="number" min="0" class="table-input cost-input" placeholder="0" /></td><td><input data-testid="input-s2-rate-1" data-section="s2" data-type="rate" type="number" min="0" step="0.001" class="table-input cost-input" placeholder="0" /></td><td class="cell-value s2-line">-</td></tr>
+                      <tr><td class="row-number">2.2</td><td>WW treatment (electricity)</td><td><input data-testid="input-s2-kwh-2" data-section="s2" data-type="kwh" type="number" min="0" class="table-input cost-input" placeholder="0" /></td><td><input data-testid="input-s2-rate-2" data-section="s2" data-type="rate" type="number" min="0" step="0.001" class="table-input cost-input" placeholder="0" /></td><td class="cell-value s2-line">-</td></tr>
+                      <tr><td class="row-number">2.3</td><td>WW treatment (thermal)</td><td><input data-testid="input-s2-kwh-3" data-section="s2" data-type="kwh" type="number" min="0" class="table-input cost-input" placeholder="0" /></td><td><input data-testid="input-s2-rate-3" data-section="s2" data-type="rate" type="number" min="0" step="0.001" class="table-input cost-input" placeholder="0" /></td><td class="cell-value s2-line">-</td></tr>
+                      <tr><td class="row-number">2.4</td><td>Water treatment (electricity)</td><td><input data-testid="input-s2-kwh-4" data-section="s2" data-type="kwh" type="number" min="0" class="table-input cost-input" placeholder="0" /></td><td><input data-testid="input-s2-rate-4" data-section="s2" data-type="rate" type="number" min="0" step="0.001" class="table-input cost-input" placeholder="0" /></td><td class="cell-value s2-line">-</td></tr>
+                      <tr><td class="row-number">2.5</td><td>Water treatment (thermal)</td><td><input data-testid="input-s2-kwh-5" data-section="s2" data-type="kwh" type="number" min="0" class="table-input cost-input" placeholder="0" /></td><td><input data-testid="input-s2-rate-5" data-section="s2" data-type="rate" type="number" min="0" step="0.001" class="table-input cost-input" placeholder="0" /></td><td class="cell-value s2-line">-</td></tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+            <!-- Section 3: Chemicals -->
+            <div class="card" data-section="chemicals">
+              <div class="card-header section-toggle" data-testid="section-chemicals">
+                <div class="card-header-left">
+                  <div class="card-header-badge" style="background: var(--jungle-500);">3</div>
+                  <span class="card-header-title">Chemicals</span>
+                </div>
+                <div style="display:flex;align-items:center;gap:12px;">
+                  <span id="s3Total" class="card-header-value">0.0000 /m3</span>
+                  <svg class="chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+                </div>
+              </div>
+              <div class="section-content">
+                <div class="card-body" style="padding:0;">
+                  <table class="data-table">
+                    <thead><tr><th style="width:40px;">Item</th><th>Type</th><th style="width:140px;">Annual Cost</th><th style="width:90px;">Per m3</th></tr></thead>
+                    <tbody>
+                      <tr><td class="row-number">3.1</td><td>Water Treatment (coagulation, disinfection)</td><td><input data-testid="input-s3-1" data-section="s3" type="number" min="0" step="0.01" class="table-input cost-input" placeholder="0" /></td><td class="cell-value s3-unit">-</td></tr>
+                      <tr><td class="row-number">3.2</td><td>Wastewater Chemicals</td><td><input data-testid="input-s3-2" data-section="s3" type="number" min="0" step="0.01" class="table-input cost-input" placeholder="0" /></td><td class="cell-value s3-unit">-</td></tr>
+                      <tr><td class="row-number">3.3</td><td>Depreciation of Treatment Plants</td><td><input data-testid="input-s3-3" data-section="s3" type="number" min="0" step="0.01" class="table-input cost-input" placeholder="0" /></td><td class="cell-value s3-unit">-</td></tr>
+                      <tr><td class="row-number">3.4</td><td>Other Chemicals</td><td><input data-testid="input-s3-4" data-section="s3" type="number" min="0" step="0.01" class="table-input cost-input" placeholder="0" /></td><td class="cell-value s3-unit">-</td></tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+            <!-- Section 4: Waste/Wastewater Disposal -->
+            <div class="card" data-section="disposal">
+              <div class="card-header section-toggle" data-testid="section-disposal">
+                <div class="card-header-left">
+                  <div class="card-header-badge" style="background: var(--orange-500);">4</div>
+                  <span class="card-header-title">Waste / Wastewater Disposal</span>
+                </div>
+                <div style="display:flex;align-items:center;gap:12px;">
+                  <span id="s4Total" class="card-header-value">0.0000 /m3</span>
+                  <svg class="chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+                </div>
+              </div>
+              <div class="section-content">
+                <div class="card-body" style="padding:0;">
+                  <table class="data-table">
+                    <thead><tr><th style="width:40px;">Item</th><th>Type</th><th style="width:140px;">Annual Cost</th><th style="width:90px;">Per m3</th></tr></thead>
+                    <tbody>
+                      <tr><td class="row-number">4.1</td><td>Carbon, sand, sludge, resin disposal</td><td><input data-testid="input-s4-1" data-section="s4" type="number" min="0" step="0.01" class="table-input cost-input" placeholder="0" /></td><td class="cell-value s4-unit">-</td></tr>
+                      <tr><td class="row-number">4.2</td><td>WW discharge fee (intake water basis)</td><td><input data-testid="input-s4-2" data-section="s4" type="number" min="0" step="0.01" class="table-input cost-input" placeholder="0" /></td><td class="cell-value s4-unit">-</td></tr>
+                      <tr class="special-row"><td class="row-number">4.2b</td><td>WW discharge fee/m3 (residual water) <span style="font-size:10px;color:var(--warning-600);font-weight:500;">*special</span></td><td><input data-testid="input-s4-2b-rate" data-section="s4special" type="number" min="0" step="0.01" class="table-input cost-input" placeholder="EUR/m3" /></td><td class="cell-value" id="s4-2b-perm3">-</td></tr>
+                      <tr class="special-row"><td></td><td style="font-size:11px;color:var(--warning-700);">Annual WW discharge volume (m3)</td><td><input data-testid="input-s4-ww-vol" data-section="s4special" type="number" min="0" class="table-input cost-input" placeholder="m3/year" /></td><td></td></tr>
+                      <tr><td class="row-number">4.4</td><td>Water/WW quality testing</td><td><input data-testid="input-s4-4" data-section="s4" type="number" min="0" step="0.01" class="table-input cost-input" placeholder="0" /></td><td class="cell-value s4-unit">-</td></tr>
+                      <tr><td class="row-number">4.5</td><td>Source water permit extension</td><td><input data-testid="input-s4-5" data-section="s4" type="number" min="0" step="0.01" class="table-input cost-input" placeholder="0" /></td><td class="cell-value s4-unit">-</td></tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+            <!-- Section 5: Other Variable Costs -->
+            <div class="card" data-section="other">
+              <div class="card-header section-toggle" data-testid="section-other">
+                <div class="card-header-left">
+                  <div class="card-header-badge" style="background: var(--purple-500);">5</div>
+                  <span class="card-header-title">Other Variable Costs</span>
+                </div>
+                <div style="display:flex;align-items:center;gap:12px;">
+                  <span id="s5Total" class="card-header-value">0.0000 /m3</span>
+                  <svg class="chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+                </div>
+              </div>
+              <div class="section-content">
+                <div class="card-body" style="padding:0;">
+                  <table class="data-table">
+                    <thead><tr><th style="width:40px;">Item</th><th>Type</th><th style="width:140px;">Annual Cost</th><th style="width:90px;">Per m3</th></tr></thead>
+                    <tbody>
+                      <tr><td class="row-number">5.1</td><td>Maintenance of water infrastructure</td><td><input data-testid="input-s5-1" data-section="s5" type="number" min="0" step="0.01" class="table-input cost-input" placeholder="0" /></td><td class="cell-value s5-unit">-</td></tr>
+                      <tr><td class="row-number">5.2</td><td>Third-party water services</td><td><input data-testid="input-s5-2" data-section="s5" type="number" min="0" step="0.01" class="table-input cost-input" placeholder="0" /></td><td class="cell-value s5-unit">-</td></tr>
+                      <tr><td class="row-number">5.3</td><td>Other variable water costs</td><td><input data-testid="input-s5-3" data-section="s5" type="number" min="0" step="0.01" class="table-input cost-input" placeholder="0" /></td><td class="cell-value s5-unit">-</td></tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+            <!-- Section 6-7: Central/Leadership Costs -->
+            <div class="card" data-section="central">
+              <div class="card-header section-toggle" data-testid="section-central">
+                <div class="card-header-left">
+                  <div class="card-header-badge" style="background: var(--gray-500);">6-7</div>
+                  <span class="card-header-title">Central Team / Leadership Costs</span>
+                  <span class="card-header-subtitle">(optional)</span>
+                </div>
+                <div style="display:flex;align-items:center;gap:12px;">
+                  <span id="s67Total" class="card-header-value">0.0000 /m3</span>
+                  <svg class="chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+                </div>
+              </div>
+              <div class="section-content">
+                <div class="card-body">
+                  <p class="table-note" style="padding:0 0 12px;border:none;">These costs are managed centrally. Include only if applicable to this facility.</p>
+                  <div class="form-grid">
+                    <div class="form-group">
+                      <label class="form-label" for="replenishmentCost">6.1 Replenishment Projects Total Cost</label>
+                      <input id="replenishmentCost" data-testid="input-s6-replenishment" type="number" min="0" step="0.01" class="form-input cost-input" placeholder="0" />
+                    </div>
+                    <div class="form-group">
+                      <label class="form-label" for="scarcityCost">7.1 Water Scarcity Risk / Business Impact</label>
+                      <input id="scarcityCost" data-testid="input-s7-scarcity" type="number" min="0" step="0.01" class="form-input cost-input" placeholder="0" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- RIGHT: Results Panel -->
+          <div class="results-panel">
+            <!-- Big TCW result -->
+            <div class="big-result">
+              <div class="big-result-label">True Cost of Water</div>
+              <div id="tcwValue" data-testid="output-tcw" class="big-result-value">--</div>
+              <div class="big-result-unit">USD/m3</div>
+              <div id="tcwLocal" style="font-size:11px;color:var(--gray-400);margin-top:4px;"></div>
+              <div class="big-result-split">
+                <div class="split-item split-internal">
+                  <div class="split-item-label">Internal</div>
+                  <div id="internalCostVal" data-testid="output-internal" class="split-item-value">--</div>
+                </div>
+                <div class="split-item split-external">
+                  <div class="split-item-label">External</div>
+                  <div id="externalCostVal" data-testid="output-external" class="split-item-value">--</div>
+                </div>
+              </div>
+              <div id="riskPremiumBadge" class="callout callout-warning callout-hidden" style="margin-top:10px;">
+                +20% facility risk premium applied (High FAWVA)
+              </div>
+            </div>
+
+            <!-- Operational Breakdown -->
+            <div class="card">
+              <div class="card-body">
+                <div style="font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.04em;color:var(--gray-500);margin-bottom:10px;">Operational Cost Breakdown (per m3)</div>
+                <div class="breakdown-list">
+                  <div class="breakdown-item"><div class="breakdown-dot" style="background:var(--firefly-400);"></div><span class="breakdown-item-label">Water Fees</span><span id="bar-s1" class="breakdown-item-value">0.0000</span></div>
+                  <div class="breakdown-item"><div class="breakdown-dot" style="background:var(--warning-400);"></div><span class="breakdown-item-label">Energy</span><span id="bar-s2" class="breakdown-item-value">0.0000</span></div>
+                  <div class="breakdown-item"><div class="breakdown-dot" style="background:var(--jungle-500);"></div><span class="breakdown-item-label">Chemicals</span><span id="bar-s3" class="breakdown-item-value">0.0000</span></div>
+                  <div class="breakdown-item"><div class="breakdown-dot" style="background:var(--orange-500);"></div><span class="breakdown-item-label">Disposal</span><span id="bar-s4" class="breakdown-item-value">0.0000</span></div>
+                  <div class="breakdown-item"><div class="breakdown-dot" style="background:var(--purple-500);"></div><span class="breakdown-item-label">Other</span><span id="bar-s5" class="breakdown-item-value">0.0000</span></div>
+                  <div class="breakdown-item"><div class="breakdown-dot" style="background:var(--warning-600);"></div><span class="breakdown-item-label">WW Discharge</span><span id="bar-s4ww" class="breakdown-item-value">0.0000</span></div>
+                </div>
+                <div class="breakdown-total">
+                  <span>Total Operational</span>
+                  <span id="totalOpCost" data-testid="output-opcost" class="breakdown-total-value">0.0000</span>
+                </div>
+                <div class="chart-container">
+                  <canvas id="chartBreakdown" data-testid="chart-breakdown"></canvas>
+                </div>
+              </div>
+            </div>
+
+            <!-- Water Credit Risk Score -->
+            <div class="card">
+              <div class="card-body">
+                <div style="font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.04em;color:var(--gray-500);margin-bottom:8px;">Water Credit Risk Score</div>
+                <div class="result-card variant-jungle" style="margin-bottom:10px;">
+                  <div class="result-card-icon jungle">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707"/></svg>
+                  </div>
+                  <span class="result-card-label">WCRS (inflation adj.)</span>
+                  <span id="wcrsValue" data-testid="output-wcrs" class="result-card-value">--</span>
+                  <span class="result-card-unit">USD/m3</span>
+                </div>
+                <div class="wcrs-detail">
+                  <div class="wcrs-row"><span class="wcrs-row-label">Agriculture</span><span id="wcrs-agri" class="wcrs-row-value">-</span></div>
+                  <div class="wcrs-row"><span class="wcrs-row-label">Domestic</span><span id="wcrs-domestic" class="wcrs-row-value">-</span></div>
+                  <div class="wcrs-row"><span class="wcrs-row-label">Human Health</span><span id="wcrs-health" class="wcrs-row-value">-</span></div>
+                  <div class="wcrs-row"><span class="wcrs-row-label">Environment</span><span id="wcrs-env" class="wcrs-row-value">-</span></div>
+                  <div class="wcrs-row" style="padding-top:6px;border-top:1px solid var(--gray-100);margin-top:4px;font-weight:600;"><span class="wcrs-row-label">Total (2015 USD)</span><span id="wcrs-total2015" class="wcrs-row-value">-</span></div>
+                </div>
+                <div id="washFloorNote" class="callout callout-info callout-hidden" style="margin-top:10px;">
+                  WASH floor applied: score floored at 4.0 USD/m3
+                </div>
+                <div style="margin-top:8px;font-size:11px;color:var(--gray-400);">
+                  Community multiplier: <span id="communityMultLabel" style="font-weight:600;">33%</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Scale -->
+            <div class="card">
+              <div class="card-body">
+                <div style="font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.04em;color:var(--gray-500);margin-bottom:4px;">Where does this facility sit?</div>
+                <div class="scale-bar">
+                  <div id="scaleMarker" class="scale-marker" style="left:0%;"></div>
+                </div>
+                <div class="scale-labels">
+                  <span>1 EUR/m3</span>
+                  <span>6 EUR/m3</span>
+                  <span>12 EUR/m3</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Business Case -->
+            <div class="card">
+              <div class="card-body">
+                <div style="font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.04em;color:var(--gray-500);margin-bottom:10px;">Potential Savings (if water use reduced)</div>
+                <div class="savings-grid">
+                  <div class="savings-item">
+                    <div class="savings-pct">-5%</div>
+                    <div id="saving5" class="savings-value">--</div>
+                    <div class="savings-unit">USD/year</div>
+                  </div>
+                  <div class="savings-item">
+                    <div class="savings-pct">-10%</div>
+                    <div id="saving10" class="savings-value">--</div>
+                    <div class="savings-unit">USD/year</div>
+                  </div>
+                  <div class="savings-item">
+                    <div class="savings-pct">-20%</div>
+                    <div id="saving20" class="savings-value">--</div>
+                    <div class="savings-unit">USD/year</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer style="padding:16px 24px;text-align:center;font-size:11px;color:var(--gray-400);border-top:1px solid var(--gray-100);margin-top:32px;" class="no-print">
+        <p>True Cost of Water Calculator v1.2 | Powered by <strong>Waterplan</strong> | CCEP Water Stewardship</p>
+        <p style="margin-top:4px;">Model based on TCOW Excel Tool (denkstatt GmbH) | GDP deflators frozen at 2020 | 98 CCEP sites with live BWS + WASH + FAWVA data from Waterplan API</p>
+      </footer>
+    </div>
+  </div>
+
+  <script>
+    // ================================================================
+    // CONSTANTS & DATA (from Excel reverse engineering)
+    // ================================================================
+
+    const DALY_VALUE = 50000;
+    const MAX_HABITAT_VALUE = 0.50;
+
+    const GDP_DEFLATORS = {
+      2015: 100.000,
+      2016: 101.094,
+      2017: 103.015,
+      2018: 105.446,
+      2019: 107.285,
+      2020: 107.285
+    };
+
+    const LATEST_DEFLATOR_YEAR = 2020;
+
+    const CURRENCY_RATES_TO_USD = {
+      'EUR': 1.0, 'USD': 1.0, 'GBP': 1.27, 'SEK': 0.096,
+      'NOK': 0.094, 'ISK': 0.0072, 'AUD': 0.66, 'NZD': 0.61,
+      'IDR': 0.000063, 'PHP': 0.018, 'PGK': 0.27, 'FJD': 0.45
+    };
+
+    const FACILITY_DB = {
+  '13b5ab31-5d42-4816-bbaf-ad927c403970': { name: 'Akureyri (Brewery)', country: 'Iceland', bws: 1, wash: 1, bwsCat: 'Low', fawva: null },
+  '73328174-6ad9-4578-856b-d9aed3830edd': { name: 'Antwerpen', country: 'Belgium', bws: 5, wash: 1, bwsCat: 'Extremely High', fawva: 'High' },
+  '95b69601-87c4-477b-b01a-0ebd5ed7d5ef': { name: 'Auckland Oasis', country: 'New Zealand', bws: 1, wash: 1, bwsCat: 'Low', fawva: 'Medium' },
+  '0191792f-a60e-7331-89ef-4a540aef2978': { name: 'Bacolod', country: 'Philippines', bws: 1, wash: 3, bwsCat: 'Low', fawva: 'High' },
+  '053fa931-ecf5-420d-ad3c-c0ebe5d8a783': { name: 'Bad Neuenahr', country: 'Germany', bws: 1, wash: 1, bwsCat: 'Low', fawva: 'Low' },
+  '019cd792-4141-7bbf-b22a-e2fa867eeafb': { name: 'Bali', country: 'Indonesia', bws: 5, wash: 4, bwsCat: 'Extremely High', fawva: null },
+  'c3677143-4b63-4936-a5df-11779a352305': { name: 'Bandung (Closed)', country: 'Indonesia', bws: 5, wash: 4, bwsCat: 'Extremely High', fawva: 'High' },
+  'd34acaa7-84ad-4621-b7ac-20c46bcc2893': { name: 'Barcelona', country: 'Spain', bws: 5, wash: 1, bwsCat: 'Extremely High', fawva: 'High' },
+  '019cd792-9cbf-7ee8-942e-e7e7ce520422': { name: 'Bassendean', country: 'Australia', bws: 3, wash: 1, bwsCat: 'Medium - High', fawva: null },
+  'b2374097-849b-4ef5-84bc-4b97ad3b4579': { name: 'Bekasi 1', country: 'Indonesia', bws: 4, wash: 3, bwsCat: 'High', fawva: 'High' },
+  'e676ce18-5e66-4c10-ba63-9ee586363b8d': { name: 'Bekasi 2', country: 'Indonesia', bws: 4, wash: 3, bwsCat: 'High', fawva: 'High' },
+  'a37bb923-61ea-468d-8e0b-f8eb3d82a7ce': { name: 'Bilbao', country: 'Spain', bws: 3, wash: 1, bwsCat: 'Medium - High', fawva: 'Low' },
+  '0191792f-a60c-7331-89ef-1504bf044b7c': { name: 'Calasiao', country: 'Philippines', bws: 4, wash: 3, bwsCat: 'High', fawva: 'Medium' },
+  '0191792f-a60b-7331-89ee-fd7be41bfe2e': { name: 'Canlubang', country: 'Philippines', bws: 3, wash: 2, bwsCat: 'Medium - High', fawva: 'Low' },
+  '0191792f-a60e-7331-89ef-46301561e317': { name: 'Cebu', country: 'Philippines', bws: 3, wash: 2, bwsCat: 'Medium - High', fawva: 'High' },
+  'e62f1429-4e9d-4cbf-aa0f-8a20d7116abb': { name: 'Chaudfontaine', country: 'Belgium', bws: 4, wash: 1, bwsCat: 'High', fawva: 'Medium' },
+  '7d3e6776-c6b3-4566-bd87-92f275b9cab9': { name: 'Christchurch', country: 'New Zealand', bws: 1, wash: 1, bwsCat: 'Low', fawva: 'Low' },
+  'ca3f2a71-f0ae-4410-a7f3-8a16cd12fb1c': { name: 'Clamart (closed) ', country: 'France', bws: 2, wash: 1, bwsCat: 'Low - Medium', fawva: 'Low' },
+  '9ab92a03-8a03-465d-ace9-996a60074591': { name: 'Coruña', country: 'Spain', bws: 2, wash: 1, bwsCat: 'Low - Medium', fawva: 'Low' },
+  '0191792f-a60d-7331-89ef-2c2e1f386f3c': { name: 'Davao 1', country: 'Philippines', bws: 1, wash: 3, bwsCat: 'Low', fawva: 'Low' },
+  '0191792f-a60d-7331-89ef-3a5ac7c25209': { name: 'Davao 2', country: 'Philippines', bws: 1, wash: 3, bwsCat: 'Low', fawva: 'Low' },
+  '6323479d-80f8-485f-b657-7c357c3bf022': { name: 'Deizisau', country: 'Germany', bws: 4, wash: 1, bwsCat: 'High', fawva: 'Medium' },
+  'a09ac1a9-4ff7-4b41-9ec3-840308fda03a': { name: 'Dongen', country: 'Netherlands', bws: 4, wash: 1, bwsCat: 'High', fawva: 'High' },
+  'b81ebaff-b32d-4a91-afef-1d0c697baff6': { name: 'Dorsten', country: 'Germany', bws: 1, wash: 1, bwsCat: 'Low', fawva: 'Low' },
+  '6a661de8-ddac-427d-a02b-cde4444cfff2': { name: 'Dunkerque', country: 'France', bws: 2, wash: 1, bwsCat: 'Low - Medium', fawva: 'High' },
+  'cf68338d-a3b7-4b3d-a6cc-1e47db1d1b4e': { name: 'East Kilbride', country: 'United Kingdom', bws: 1, wash: 1, bwsCat: 'Low', fawva: 'Low' },
+  'a2fa7a1b-8bf1-440b-abbd-4ccc882473ba': { name: 'Edmonton', country: 'United Kingdom', bws: 4, wash: 1, bwsCat: 'High', fawva: 'Medium' },
+  '8ab26b98-3ac4-4e25-b920-0650c55f341d': { name: 'Fontoira', country: 'Spain', bws: 2, wash: 1, bwsCat: 'Low - Medium', fawva: 'Low' },
+  'ea764b87-8a9d-488c-9fcc-ca88612ac1a7': { name: 'Fuenmayor', country: 'Spain', bws: 3, wash: 1, bwsCat: 'Medium - High', fawva: 'Low' },
+  '1e16ce39-f91b-4a83-a6d7-56cec1ab5556': { name: 'Fürstenfeldbruck', country: 'Germany', bws: 1, wash: 1, bwsCat: 'Low', fawva: 'Low' },
+  'b94b08ea-247f-441d-997a-68b89f55c69d': { name: 'Genshagen', country: 'Germany', bws: 4, wash: 1, bwsCat: 'High', fawva: 'Medium' },
+  '9f332297-1eac-490b-aece-c39d355a5457': { name: 'Gent', country: 'Belgium', bws: 5, wash: 1, bwsCat: 'Extremely High', fawva: 'High' },
+  '31af8286-5915-4695-adc4-edda8772d0a3': { name: 'Grigny', country: 'France', bws: 3, wash: 1, bwsCat: 'Medium - High', fawva: 'High' },
+  '074bdee6-4434-48a4-b441-7576db62657b': { name: 'Halle', country: 'Germany', bws: 4, wash: 1, bwsCat: 'High', fawva: 'Medium' },
+  '128eb88e-40fb-490e-841b-90e6ff6bcc3b': { name: 'Hildesheim', country: 'Germany', bws: 3, wash: 1, bwsCat: 'Medium - High', fawva: 'Low' },
+  '0191792f-a60c-7331-89ef-199ff298e179': { name: 'Ilagan', country: 'Philippines', bws: 3, wash: 3, bwsCat: 'Medium - High', fawva: 'Low' },
+  '0191792f-a60c-7331-89ef-221daafd3314': { name: 'Ilocos', country: 'Philippines', bws: 3, wash: 3, bwsCat: 'Medium - High', fawva: 'Low' },
+  '0191792f-a60e-7331-89ef-562e0f0580cb': { name: 'Iloilo', country: 'Philippines', bws: 2, wash: 3, bwsCat: 'Low - Medium', fawva: 'High' },
+  '019cd793-6050-7bbf-b22b-13677ddb8469': { name: 'Imus', country: 'Philippines', bws: 3, wash: 2, bwsCat: 'Medium - High', fawva: null },
+  '1a0dfdbe-7ce5-4a3d-ae63-015e9df23ea1': { name: 'Jordbro', country: 'Sweden', bws: 4, wash: 1, bwsCat: 'High', fawva: 'Low' },
+  'd168ab33-7f5d-4e18-82e6-bf36d4b40bc3': { name: 'Karlsruhe', country: 'Germany', bws: 1, wash: 1, bwsCat: 'Low', fawva: 'Low' },
+  'd7e585b0-5895-4616-b9d5-1436900bda42': { name: 'Keri Juice', country: 'New Zealand', bws: 1, wash: 1, bwsCat: 'Low', fawva: 'Low' },
+  '408e29b4-4672-4fba-98c5-45c9c788e34f': { name: 'Kewdale', country: 'Australia', bws: 3, wash: 1, bwsCat: 'Medium - High', fawva: 'Low' },
+  'a0563e91-a0b4-4ece-810b-66e90e113b86': { name: 'Knetzgau', country: 'Germany', bws: 4, wash: 1, bwsCat: 'High', fawva: 'Medium' },
+  '4cab95af-faf4-4ec2-b21d-27951837c038': { name: 'Köln (Closed)', country: 'Germany', bws: 1, wash: 1, bwsCat: 'Low', fawva: 'Low' },
+  '30b7922d-b37c-45a3-aa41-2b5fe38cd04c': { name: 'Lae', country: 'Papua New Guinea', bws: 1, wash: 4, bwsCat: 'Low', fawva: 'Low' },
+  'a87ab5c4-d092-4240-a53a-b9ffe36870cb': { name: 'Lampung (Closed)', country: 'Indonesia', bws: 3, wash: 4, bwsCat: 'Medium - High', fawva: 'Low' },
+  '921d4b73-0070-46cc-a46a-05b6d365a2ea': { name: 'Lautoka Distillery (Brewery)', country: 'Fiji', bws: 1, wash: 3, bwsCat: 'Low', fawva: null },
+  '019cd793-c21f-700d-b2da-53b09f8ed812': { name: 'Liederbach', country: 'Germany', bws: 4, wash: 1, bwsCat: 'High', fawva: null },
+  '44fda24b-1313-4bd7-87d6-f0e054759937': { name: 'Lisboa', country: 'Portugal', bws: 0, wash: 0, bwsCat: 'Low', fawva: 'Medium' },
+  '43e36bb5-f666-4ef2-b31d-7aef9af8b150': { name: 'Lüneburg', country: 'Germany', bws: 1, wash: 1, bwsCat: 'Low', fawva: 'Low' },
+  '6e79e5e7-202b-45bc-b466-bc08c9cb7d99': { name: 'Mannheim', country: 'Germany', bws: 4, wash: 1, bwsCat: 'High', fawva: 'Medium' },
+  'b246e9c5-1f47-479b-9c6d-a4c002f21ab9': { name: 'Marseille', country: 'France', bws: 4, wash: 1, bwsCat: 'High', fawva: 'Medium' },
+  '2ce7e715-2a80-4dc9-a8bb-dc16e3f81eab': { name: 'Medan', country: 'Indonesia', bws: 1, wash: 3, bwsCat: 'Low', fawva: 'Low' },
+  '0191792f-a60b-7331-89ee-f257e0c82c57': { name: 'Meycauayan', country: 'Philippines', bws: 3, wash: 2, bwsCat: 'Medium - High', fawva: 'Medium' },
+  '019cd794-68ab-7bbf-ab33-0a6b6ef9f63f': { name: 'Milton Keynes', country: 'United Kingdom', bws: 2, wash: 1, bwsCat: 'Low - Medium', fawva: null },
+  '0191792f-a60f-7331-89ef-6ec0e6cefd17': { name: 'Misamis Oriental', country: 'Philippines', bws: 1, wash: 3, bwsCat: 'Low', fawva: 'Low' },
+  '004fc2e3-79b1-42ae-a420-d7d71662f15a': { name: 'Moorabbin', country: 'Australia', bws: 2, wash: 1, bwsCat: 'Low - Medium', fawva: 'Low' },
+  'a9091217-26e0-46ee-a1b4-53164fee3e47': { name: 'Morpeth', country: 'United Kingdom', bws: 1, wash: 1, bwsCat: 'Low', fawva: 'Low' },
+  '019cd794-164c-7bbf-b22b-22fbb99315af': { name: 'Málaga', country: 'Spain', bws: 5, wash: 1, bwsCat: 'Extremely High', fawva: null },
+  '520b0a47-f93d-407a-9958-bb3c4755a6da': { name: 'Mölln', country: 'Germany', bws: 2, wash: 1, bwsCat: 'Low - Medium', fawva: 'Low' },
+  'da301f02-b6ff-459d-a6f8-c6148834e475': { name: 'Mönchengladbach', country: 'Germany', bws: 4, wash: 1, bwsCat: 'High', fawva: 'Medium' },
+  '0191792f-a60c-7331-89ef-0f05407217c5': { name: 'Naga', country: 'Philippines', bws: 1, wash: 3, bwsCat: 'Low', fawva: 'Low' },
+  'c2c63a19-c81a-4fe6-af10-c28613511f14': { name: 'Neverfail Garbutt', country: 'Australia', bws: 1, wash: 1, bwsCat: 'Low', fawva: 'Low' },
+  'b2f5dc7f-5a94-42c7-aeb0-2ad7c823096f': { name: 'Neverfail Heatherton', country: 'Australia', bws: 2, wash: 1, bwsCat: 'Low - Medium', fawva: 'Low' },
+  'bcd724a4-d0db-4e7c-b46e-27e84260922b': { name: 'Neverfail Malaga', country: 'Australia', bws: 3, wash: 1, bwsCat: 'Medium - High', fawva: 'High' },
+  'e576a538-a489-4999-b395-ca006dede4b0': { name: 'Neverfail Peats Ridge', country: 'Australia', bws: 4, wash: 1, bwsCat: 'High', fawva: 'Medium' },
+  '019cd794-c0ae-700d-b2da-72eae3b54a2b': { name: 'Neverfail Salisbury', country: 'Australia', bws: 5, wash: 1, bwsCat: 'Extremely High', fawva: null },
+  '3ea57ab1-4202-45e0-acc2-312e1793bd51': { name: 'Neverfail Yatala', country: 'Australia', bws: 2, wash: 1, bwsCat: 'Low - Medium', fawva: 'Medium' },
+  '5e8328b1-1c54-4c8f-869d-f3d15f944a60': { name: 'Northmead', country: 'Australia', bws: 4, wash: 1, bwsCat: 'High', fawva: 'Medium' },
+  'f98a938e-4ab5-45e4-91bc-e3eb69c6c61b': { name: 'Pasuruan', country: 'Indonesia', bws: 3, wash: 4, bwsCat: 'Medium - High', fawva: 'High' },
+  '05c6b8c3-0173-43ab-8389-ef7578690a4f': { name: 'Port Moresby', country: 'Papua New Guinea', bws: 1, wash: 4, bwsCat: 'Low', fawva: 'Low' },
+  'a002e244-8876-4902-b252-04001ddb9c99': { name: 'Putaruru', country: 'New Zealand', bws: 1, wash: 1, bwsCat: 'Low', fawva: 'Low' },
+  '0c136c89-6e5d-427e-8840-9f5a0e471554': { name: 'Reykjavik', country: 'Iceland', bws: 1, wash: 1, bwsCat: 'Low', fawva: 'Low' },
+  '7a640aa2-f577-4c0a-b4b9-8dc9a60309ef': { name: 'Richlands', country: 'Australia', bws: 4, wash: 1, bwsCat: 'High', fawva: 'High' },
+  'cf94446a-7c12-4324-9723-2c466161d55c': { name: 'Robsrud', country: 'Norway', bws: 1, wash: 1, bwsCat: 'Low', fawva: 'Low' },
+  '019cd795-1f7c-7ee8-942f-204c2aaa1c37': { name: 'Samoa Apia Brewery / Vailima', country: 'Samoa', bws: -9999, wash: -9999, bwsCat: 'Low', fawva: null },
+  '0191792f-a60b-7331-89ef-06f368e6dc01': { name: 'San Fernando', country: 'Philippines', bws: 5, wash: 3, bwsCat: 'Extremely High', fawva: 'Medium' },
+  'cbcf39d4-4248-4e4b-8fbb-8553dba10e8a': { name: 'Santolín', country: 'Spain', bws: 4, wash: 1, bwsCat: 'High', fawva: 'Medium' },
+  'c9d01262-9d10-4cb0-a5c9-c7d8e3f09846': { name: 'Semarang', country: 'Indonesia', bws: 5, wash: 4, bwsCat: 'Extremely High', fawva: 'Medium' },
+  '40f0c6f9-46b6-477e-b8ae-de65da9a8890': { name: 'Sevilla', country: 'Spain', bws: 5, wash: 1, bwsCat: 'Extremely High', fawva: 'High' },
+  '26c50733-82d8-4cac-851f-36394ad21e44': { name: 'Sidcup', country: 'United Kingdom', bws: 4, wash: 1, bwsCat: 'High', fawva: 'High' },
+  '019cd795-7b77-7bbf-ab33-32a5e21441f0': { name: 'Sodenthal', country: 'Germany', bws: 3, wash: 1, bwsCat: 'Medium - High', fawva: null },
+  '0191792f-a60a-7331-89ee-ebfab0ec32a5': { name: 'Sta Rosa 1', country: 'Philippines', bws: 3, wash: 2, bwsCat: 'Medium - High', fawva: 'Medium' },
+  '0195cd7a-a267-7224-95e9-4a564f8dfc88': { name: 'Sta Rosa 2', country: 'Philippines', bws: 3, wash: 2, bwsCat: 'Medium - High', fawva: 'Medium' },
+  '5cde9e5b-ea54-4aed-8382-54a24b070d26': { name: 'Sumedang (Closed)', country: 'Indonesia', bws: 4, wash: 3, bwsCat: 'High', fawva: 'Medium' },
+  '9d95c21a-aca0-4bfe-beef-1a63f0dd57fb': { name: 'Suva Beverages (Brewery)', country: 'Fiji', bws: 1, wash: 3, bwsCat: 'Low', fawva: null },
+  '019522a2-57af-7aad-90d1-e4318bb6d275': { name: 'Suva CSD Site (Brewery)', country: 'Fiji', bws: 1, wash: 3, bwsCat: 'Low', fawva: 'Low' },
+  '0191792f-a60f-7331-89ef-5d1d1e79cfa5': { name: 'Tacloban', country: 'Philippines', bws: 1, wash: 3, bwsCat: 'Low', fawva: 'Medium' },
+  '0191792f-a60f-7331-89ef-62863db52fc0': { name: 'Tagbilaran', country: 'Philippines', bws: 2, wash: 3, bwsCat: 'Low - Medium', fawva: 'Low' },
+  'e12dc3e4-f0c3-43ff-9dfd-6a0881050561': { name: 'Tenerife', country: 'Spain', bws: 3, wash: 1, bwsCat: 'Medium - High', fawva: 'High' },
+  'cdfb03c4-6412-4b8c-960b-cac6be74918f': { name: 'Toulouse', country: 'France', bws: 4, wash: 1, bwsCat: 'High', fawva: 'Medium' },
+  '8cf2b9b5-c4ed-4964-91f2-0e6b13a35331': { name: 'Valencia', country: 'Spain', bws: 3, wash: 1, bwsCat: 'Medium - High', fawva: 'Low' },
+  'b239c0fc-20e0-43ae-8c57-07bf3ce4ba0a': { name: 'Vilas del Turbón', country: 'Spain', bws: 4, wash: 1, bwsCat: 'High', fawva: 'Medium' },
+  '4e7c9b5f-9f7a-4530-8f6c-535987d034df': { name: 'Wakefield', country: 'United Kingdom', bws: 1, wash: 1, bwsCat: 'Low', fawva: 'High' },
+  '019cd795-d674-7bbf-ab33-3b7fb37fbc44': { name: 'Wilkins Cebu', country: 'Philippines', bws: 3, wash: 2, bwsCat: 'Medium - High', fawva: null },
+  '019cd796-47fa-7bbf-ab33-5a2c09290d01': { name: 'Yenda', country: 'Philippines', bws: 3, wash: 2, bwsCat: 'Medium - High', fawva: null },
+  '0191792f-a60d-7331-89ef-300553178010': { name: 'Zamboanga', country: 'Philippines', bws: 1, wash: 3, bwsCat: 'Low', fawva: 'Low' },
+};
+
+    // ================================================================
+    // CALCULATION ENGINE
+    // ================================================================
+
+    function calcWaterCreditRiskScore(bws) {
+      if (bws === 0 || bws === null || bws === undefined) {
+        return { agriculture: 0.01, domestic: 1, humanHealth: 0, environment: 0.01, total2015: 1.02 };
+      }
+      const agriculture = (2 * bws) / 5;
+      const domestic = (4 / 5) * bws + 1;
+      const envQuality = bws * MAX_HABITAT_VALUE / 5;
+      const humanHealth = DALY_VALUE * (2e-8 * (bws ** 2)) + (1e-8 * bws) + (1e-7);
+      const environment = envQuality * (0.031 * (bws ** 2)) + (0.15 * bws);
+      const total2015 = agriculture + domestic + humanHealth + environment;
+      return { agriculture, domestic, humanHealth, environment, envQuality, total2015 };
+    }
+
+    function adjustForInflation(value, year) {
+      const deflator = GDP_DEFLATORS[year] || GDP_DEFLATORS[LATEST_DEFLATOR_YEAR];
+      return value * (deflator / GDP_DEFLATORS[2015]);
+    }
+
+    function applyWashFloor(wcrs, washScore) {
+      if (washScore >= 4.001) return Math.max(wcrs, 4.0);
+      return wcrs;
+    }
+
+    function calcInternalCost(opCostPerM3, facilityAreaScore) {
+      return facilityAreaScore === 'High' ? opCostPerM3 * 1.2 : opCostPerM3;
+    }
+
+    function calcExternalCost(wcrs, communityScore) {
+      const multipliers = { 'Low': 0.33, 'Medium': 0.66, 'High': 1.0 };
+      return wcrs * (multipliers[communityScore] || 0.33);
+    }
+
+    // ================================================================
+    // UI
+    // ================================================================
+
+    let breakdownChart = null;
+
+    function getNum(id) {
+      const el = document.getElementById(id) || document.querySelector(`[data-testid="${id}"]`);
+      if (!el) return 0;
+      const v = parseFloat(el.value);
+      return isNaN(v) ? 0 : v;
+    }
+
+    function fmt(n, decimals = 4) {
+      if (n === null || n === undefined || isNaN(n) || !isFinite(n)) return '--';
+      return n.toFixed(decimals);
+    }
+
+    function fmtCurrency(n) {
+      if (n === null || n === undefined || isNaN(n) || !isFinite(n)) return '--';
+      if (Math.abs(n) >= 1e6) return (n / 1e6).toFixed(2) + 'M';
+      if (Math.abs(n) >= 1e3) return (n / 1e3).toFixed(1) + 'K';
+      return n.toFixed(0);
+    }
+
+    // ================================================================
+    // POPULATE FACILITIES
+    // ================================================================
+
+    function populateFacilities() {
+      const sel = document.getElementById('facilitySelect');
+      const sorted = Object.entries(FACILITY_DB).sort((a, b) => a[1].name.localeCompare(b[1].name));
+      for (const [id, f] of sorted) {
+        const opt = document.createElement('option');
+        opt.value = id;
+        opt.textContent = `${f.name} (${f.country})`;
+        sel.appendChild(opt);
+      }
+    }
+
+    function onFacilityChange() {
+      const id = document.getElementById('facilitySelect').value;
+      const f = FACILITY_DB[id];
+      if (!f) {
+        document.getElementById('facilityName').value = '';
+        document.getElementById('country').value = '';
+        document.getElementById('bwsScore').value = '';
+        document.getElementById('washScore').value = '';
+        document.getElementById('bwsCategory').textContent = '';
+        return;
+      }
+      document.getElementById('facilityName').value = f.name;
+      document.getElementById('country').value = f.country;
+      document.getElementById('bwsScore').value = f.bws > 0 ? f.bws : '';
+      document.getElementById('washScore').value = f.wash > 0 ? f.wash : '';
+      document.getElementById('bwsCategory').textContent = f.bwsCat;
+      if (f.fawva) {
+        document.getElementById('facilityAreaScore').value = f.fawva;
+      }
+      recalculate();
+    }
+
+    // ================================================================
+    // MAIN CALCULATION
+    // ================================================================
+
+    function recalculate() {
+      const withdrawal = getNum('totalWithdrawal');
+      const bws = getNum('bwsScore');
+      const wash = getNum('washScore');
+      const facilityArea = document.getElementById('facilityAreaScore').value;
+      const community = document.getElementById('communityScore').value;
+      const year = parseInt(document.getElementById('reportingYear').value);
+      const currency = document.getElementById('currency').value;
+      const currRate = CURRENCY_RATES_TO_USD[currency] || 1.0;
+
+      // BWS category
+      const bwsCatEl = document.getElementById('bwsCategory');
+      if (bws <= 1) bwsCatEl.textContent = 'Low';
+      else if (bws <= 2) bwsCatEl.textContent = 'Low - Medium';
+      else if (bws <= 3) bwsCatEl.textContent = 'Medium - High';
+      else if (bws <= 4) bwsCatEl.textContent = 'High';
+      else bwsCatEl.textContent = 'Extremely High';
+
+      // Section 1
+      let s1Total = 0;
+      for (let i = 1; i <= 4; i++) {
+        const costEl = document.querySelector(`[data-testid="input-s1-cost-${i}"]`);
+        const cost = costEl ? parseFloat(costEl.value) || 0 : 0;
+        s1Total += cost;
+        const unitEl = document.querySelectorAll('.s1-unit')[i - 1];
+        if (unitEl && withdrawal > 0) {
+          const volEl = document.querySelector(`[data-testid="input-s1-vol-${i}"]`);
+          const vol = volEl ? parseFloat(volEl.value) || 0 : 0;
+          unitEl.textContent = vol > 0 ? fmt(cost / vol) : '-';
+        } else if (unitEl) {
+          unitEl.textContent = '-';
+        }
+      }
+      const s1PerM3 = withdrawal > 0 ? s1Total / withdrawal : 0;
+      document.getElementById('s1Total').textContent = fmt(s1PerM3, 4) + ' /m3';
+
+      // Section 2
+      let s2TotalCost = 0;
+      for (let i = 1; i <= 5; i++) {
+        const kwh = parseFloat(document.querySelector(`[data-testid="input-s2-kwh-${i}"]`)?.value) || 0;
+        const rate = parseFloat(document.querySelector(`[data-testid="input-s2-rate-${i}"]`)?.value) || 0;
+        const lineCost = kwh * rate;
+        s2TotalCost += lineCost;
+        const lineEl = document.querySelectorAll('.s2-line')[i - 1];
+        if (lineEl) lineEl.textContent = lineCost > 0 ? fmtCurrency(lineCost) : '-';
+      }
+      const s2PerM3 = withdrawal > 0 ? s2TotalCost / withdrawal : 0;
+      document.getElementById('s2Total').textContent = fmt(s2PerM3, 4) + ' /m3';
+
+      // Section 3
+      let s3Total = 0;
+      for (let i = 1; i <= 4; i++) {
+        const cost = parseFloat(document.querySelector(`[data-testid="input-s3-${i}"]`)?.value) || 0;
+        s3Total += cost;
+        const unitEl = document.querySelectorAll('.s3-unit')[i - 1];
+        if (unitEl) unitEl.textContent = withdrawal > 0 ? fmt(cost / withdrawal) : '-';
+      }
+      const s3PerM3 = withdrawal > 0 ? s3Total / withdrawal : 0;
+      document.getElementById('s3Total').textContent = fmt(s3PerM3, 4) + ' /m3';
+
+      // Section 4
+      let s4Total = 0;
+      const s4Items = [1, 2, 4, 5];
+      let s4idx = 0;
+      for (const i of s4Items) {
+        const cost = parseFloat(document.querySelector(`[data-testid="input-s4-${i}"]`)?.value) || 0;
+        s4Total += cost;
+        const unitEls = document.querySelectorAll('.s4-unit');
+        if (unitEls[s4idx]) unitEls[s4idx].textContent = withdrawal > 0 ? fmt(cost / withdrawal) : '-';
+        s4idx++;
+      }
+      const s4PerM3 = withdrawal > 0 ? s4Total / withdrawal : 0;
+
+      const wwRate = parseFloat(document.querySelector('[data-testid="input-s4-2b-rate"]')?.value) || 0;
+      const wwVol = parseFloat(document.querySelector('[data-testid="input-s4-ww-vol"]')?.value) || 0;
+      const wwDischargePerM3 = wwVol > 0 ? wwRate / wwVol : 0;
+      document.getElementById('s4-2b-perm3').textContent = wwDischargePerM3 > 0 ? fmt(wwDischargePerM3) : '-';
+      document.getElementById('s4Total').textContent = fmt(s4PerM3 + wwDischargePerM3, 4) + ' /m3';
+
+      // Section 5
+      let s5Total = 0;
+      for (let i = 1; i <= 3; i++) {
+        const cost = parseFloat(document.querySelector(`[data-testid="input-s5-${i}"]`)?.value) || 0;
+        s5Total += cost;
+        const unitEl = document.querySelectorAll('.s5-unit')[i - 1];
+        if (unitEl) unitEl.textContent = withdrawal > 0 ? fmt(cost / withdrawal) : '-';
+      }
+      const s5PerM3 = withdrawal > 0 ? s5Total / withdrawal : 0;
+      document.getElementById('s5Total').textContent = fmt(s5PerM3, 4) + ' /m3';
+
+      // Section 6-7
+      const replenishment = getNum('replenishmentCost');
+      const scarcity = getNum('scarcityCost');
+      const s67PerM3 = withdrawal > 0 ? (replenishment + scarcity) / withdrawal : 0;
+      document.getElementById('s67Total').textContent = fmt(s67PerM3, 4) + ' /m3';
+
+      // Operational cost
+      const opCostPerM3 = s1PerM3 + s2PerM3 + s3PerM3 + s4PerM3 + s5PerM3 + wwDischargePerM3;
+      const opCostUSD = opCostPerM3 * currRate;
+
+      // WCRS
+      const wcrsComponents = calcWaterCreditRiskScore(bws);
+      const wcrsInflated = {
+        agriculture: adjustForInflation(wcrsComponents.agriculture, year),
+        domestic: adjustForInflation(wcrsComponents.domestic, year),
+        humanHealth: adjustForInflation(wcrsComponents.humanHealth, year),
+        environment: adjustForInflation(wcrsComponents.environment, year),
+      };
+      const wcrsTotalInflated = wcrsInflated.agriculture + wcrsInflated.domestic + wcrsInflated.humanHealth + wcrsInflated.environment;
+      const wcrsFloorApplied = applyWashFloor(wcrsTotalInflated, wash);
+      const washFloorActive = wash >= 4.001 && wcrsTotalInflated < 4.0;
+
+      // Internal & External
+      const internalCost = calcInternalCost(opCostUSD, facilityArea);
+      const facilityPremiumActive = facilityArea === 'High';
+      const externalCost = calcExternalCost(wcrsFloorApplied, community);
+      const communityMult = { 'Low': 0.33, 'Medium': 0.66, 'High': 1.0 }[community] || 0.33;
+
+      // TCW
+      const tcw = internalCost + externalCost;
+
+      // Update UI
+      document.getElementById('tcwValue').textContent = withdrawal > 0 ? fmt(tcw, 2) : '--';
+      document.getElementById('internalCostVal').textContent = withdrawal > 0 ? fmt(internalCost, 2) : '--';
+      document.getElementById('externalCostVal').textContent = fmt(externalCost, 2);
+
+      if (currency !== 'USD' && currency !== 'EUR' && withdrawal > 0) {
+        document.getElementById('tcwLocal').textContent = `~ ${fmt(tcw / currRate, 2)} ${currency}/m3`;
+      } else {
+        document.getElementById('tcwLocal').textContent = '';
+      }
+
+      document.getElementById('riskPremiumBadge').classList.toggle('callout-hidden', !facilityPremiumActive);
+
+      document.getElementById('bar-s1').textContent = fmt(s1PerM3);
+      document.getElementById('bar-s2').textContent = fmt(s2PerM3);
+      document.getElementById('bar-s3').textContent = fmt(s3PerM3);
+      document.getElementById('bar-s4').textContent = fmt(s4PerM3);
+      document.getElementById('bar-s5').textContent = fmt(s5PerM3);
+      document.getElementById('bar-s4ww').textContent = fmt(wwDischargePerM3);
+      document.getElementById('totalOpCost').textContent = fmt(opCostPerM3);
+
+      document.getElementById('wcrsValue').textContent = fmt(wcrsFloorApplied, 2);
+      document.getElementById('wcrs-agri').textContent = fmt(wcrsInflated.agriculture);
+      document.getElementById('wcrs-domestic').textContent = fmt(wcrsInflated.domestic);
+      document.getElementById('wcrs-health').textContent = fmt(wcrsInflated.humanHealth, 6);
+      document.getElementById('wcrs-env').textContent = fmt(wcrsInflated.environment);
+      document.getElementById('wcrs-total2015').textContent = fmt(wcrsComponents.total2015);
+      document.getElementById('washFloorNote').classList.toggle('callout-hidden', !washFloorActive);
+      document.getElementById('communityMultLabel').textContent = (communityMult * 100).toFixed(0) + '%';
+
+      const pct = Math.min(100, Math.max(0, ((tcw - 1) / 11) * 100));
+      document.getElementById('scaleMarker').style.left = `${pct}%`;
+
+      if (withdrawal > 0 && tcw > 0) {
+        document.getElementById('saving5').textContent = fmtCurrency(withdrawal * 0.05 * tcw);
+        document.getElementById('saving10').textContent = fmtCurrency(withdrawal * 0.10 * tcw);
+        document.getElementById('saving20').textContent = fmtCurrency(withdrawal * 0.20 * tcw);
+      } else {
+        document.getElementById('saving5').textContent = '--';
+        document.getElementById('saving10').textContent = '--';
+        document.getElementById('saving20').textContent = '--';
+      }
+
+      updateChart(s1PerM3, s2PerM3, s3PerM3, s4PerM3 + wwDischargePerM3, s5PerM3, externalCost);
+    }
+
+    // ================================================================
+    // CHART
+    // ================================================================
+
+    function updateChart(water, energy, chemicals, disposal, other, external) {
+      const ctx = document.getElementById('chartBreakdown').getContext('2d');
+      const data = [water, energy, chemicals, disposal, other, external];
+      const labels = ['Water Fees', 'Energy', 'Chemicals', 'Disposal', 'Other', 'External (Risk)'];
+      const colors = ['#35A1C9', '#FDB022', '#2DD1A9', '#FB6514', '#7A5AF8', '#25AE8D'];
+
+      if (breakdownChart) {
+        breakdownChart.data.datasets[0].data = data;
+        breakdownChart.update();
+        return;
+      }
+
+      breakdownChart = new Chart(ctx, {
+        type: 'doughnut',
+        data: {
+          labels: labels,
+          datasets: [{ data, backgroundColor: colors, borderWidth: 2, borderColor: '#fff' }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { position: 'bottom', labels: { boxWidth: 10, font: { size: 10, family: 'Inter' }, padding: 8 } },
+            tooltip: {
+              callbacks: { label: ctx => `${ctx.label}: ${ctx.parsed.toFixed(4)} /m3` }
+            }
+          }
+        }
+      });
+    }
+
+    // ================================================================
+    // SECTION TOGGLE
+    // ================================================================
+
+    function initSectionToggles() {
+      document.querySelectorAll('.section-toggle').forEach(toggle => {
+        toggle.addEventListener('click', () => {
+          const card = toggle.closest('.card');
+          card.classList.toggle('section-open');
+        });
+      });
+    }
+
+    // ================================================================
+    // INIT
+    // ================================================================
+
+    function init() {
+      populateFacilities();
+      initSectionToggles();
+
+      document.getElementById('facilitySelect').addEventListener('change', onFacilityChange);
+
+      document.querySelectorAll('.cost-input, select, input[type="number"]').forEach(el => {
+        el.addEventListener('input', recalculate);
+        el.addEventListener('change', recalculate);
+      });
+
+      document.querySelector('[data-testid="btn-export"]').addEventListener('click', () => {
+        window.print();
+      });
+
+      document.querySelector('[data-testid="btn-reset"]').addEventListener('click', () => {
+        document.querySelectorAll('input[type="number"]').forEach(el => { el.value = ''; });
+        document.getElementById('facilitySelect').value = '';
+        document.getElementById('facilityName').value = '';
+        document.getElementById('country').value = '';
+        document.getElementById('facilityAreaScore').value = 'Low';
+        document.getElementById('communityScore').value = 'Low';
+        document.getElementById('reportingYear').value = '2020';
+        document.getElementById('currency').value = 'EUR';
+        document.getElementById('bwsCategory').textContent = '';
+        recalculate();
+      });
+
+      recalculate();
+    }
+
+    document.addEventListener('DOMContentLoaded', init);
+  </script>
+</body>
+</html>

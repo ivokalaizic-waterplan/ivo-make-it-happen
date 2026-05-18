@@ -1,0 +1,365 @@
+﻿15 may 2026
+Ivo - Mica - Mery - Transcripción
+00:00:00
+ 
+María Berrocal Olmos: Olis,
+Micaela Balza: Hi.
+María Berrocal Olmos: sorry, I'm late.
+Micaela Balza: No, tranqui. Y vos no
+María Berrocal Olmos: Ah,
+Micaela Balza: viene.
+María Berrocal Olmos: qué atrevido. ¿Por qué no viene?
+Micaela Balza: Porque ten terapia.
+María Berrocal Olmos: Ah,
+Micaela Balza: Me gusta que nos pasa lo mismo.
+María Berrocal Olmos: que vaya necesita todos necesitamos. Ay, Dios calor.
+Micaela Balza: Ay, eh,
+María Berrocal Olmos: ¿Qué más?
+Micaela Balza: bien. Estoy muy indispuesta. Pero está
+María Berrocal Olmos: Tienes estás con malparidez,
+Micaela Balza: todo un
+María Berrocal Olmos: aguda.
+Micaela Balza: poco, un poco desde ayer.
+María Berrocal Olmos: Muy bien. Lo bueno es que no nos sucede a todos al mismo tiempo.
+Micaela Balza: Estaría bueno. Ardería.
+María Berrocal Olmos: Imaginas en el Blue, todas al mismo tiempo, Sofi, Mik, Jimmy y María indispuestas at the same time nos matan.
+ 
+ 
+00:01:49
+ 
+María Berrocal Olmos: O sea, básicamente es como
+Micaela Balza: O los matamos ahí o renuncian
+María Berrocal Olmos: que
+Micaela Balza: todos.
+María Berrocal Olmos: sabes que lo peor, a mí se me nota mucho cuando estoy en mis días. Es como que Sofi, Sofi enseguida se da cuenta como Mary, ¿cómo estás? Bien, Sofi. Y Sofia sea como,
+Micaela Balza: Okay.
+María Berrocal Olmos: "Okay, bueno,
+Micaela Balza: Ay,
+María Berrocal Olmos: pero bueno, yendo a cosas más divertidas.
+Micaela Balza: ay, me olvidé que me acabo de acordar que esto
+María Berrocal Olmos: ¿Para qué era esto?
+Micaela Balza: está s siendo grabado para Ivo. Perdón,
+María Berrocal Olmos: My god.
+Micaela Balza: bueno, vamos. Sí.
+María Berrocal Olmos: Vamos. Let's go. Presentation. Regres.
+Micaela Balza: Por eso no lo encontrábamos.
+María Berrocal Olmos: ¿Qué
+Micaela Balza: Claro, el prototipo,
+María Berrocal Olmos: cosa?
+ 
+ 
+00:03:05
+ 
+Micaela Balza: porque iba ayer me decía que el prototipo, que el prototipo, el prototipo no estaba en firma.
+María Berrocal Olmos: No está en build, o sea, hay pantalla ya en Figma,
+Micaela Balza: Claro.
+María Berrocal Olmos: pero lo que le mostré a a Ivo está en builder. What happ? No, bueno, estoy pensando. Vamos traer el brot builder,
+Micaela Balza: Ok.
+María Berrocal Olmos: pero obviamente nuestros componentes son a little bit different de cómo me imagino yendo. Está de cómo me imagino e target tracking going somewhere. para terminar las weights, tipo, ya quiero terminar simplify, tipo cerrar simplify y mover move the page.
+Micaela Balza: Hm.
+María Berrocal Olmos: Entonces, una de las cosas que estábamos hablando mucho es, ¿qué hacemos con la database que está como rara metida por allá en la tool de escenarios, right?
+Micaela Balza: La de
+María Berrocal Olmos: y la Project Database,
+Micaela Balza: Sí.
+María Berrocal Olmos: no la tab de project de la SA, sino la database. Y en su momento, cuando hablábamos con Tommy Gross, eh se nos ocurría como, ¿por qué no por qué no pasamos la database a acá al frente, al lado de los targets?
+ 
+ 
+00:04:33
+ 
+María Berrocal Olmos: ¿Por qué? Porque en, o sea, desde el inicio número uno,
+Micaela Balza: Sí.
+María Berrocal Olmos: Project Database nunca fue target related, siempre fue un listado de proyectos.
+Micaela Balza: Ajá. Mm.
+María Berrocal Olmos: Nosotros con el tiempo se hizo target related,
+Micaela Balza: Sí.
+María Berrocal Olmos: cosa de que si switchabas a water efficiency de repente se te ponía el proyecto como griseado y el mismo proyecto si cambiaba el target no era griciado, como cosas raras. Y esos comportamientos yo siempre lo detesté. Entonces, volviendo al comportamiento originales, traigámoslo acá al lado de los targets, ¿cierto?
+Micaela Balza: Mhm.
+María Berrocal Olmos: Y que al final del día si queremos, esto es un nice to have y pues si queremos decir el proyecto a qué target está relacionado, podríamos decirlo. Sal ya, bro. Pero esto es un nice to have. Okay, tipo, te estoy contando como my vision for it, eh, pero traérmelo acá,
+Micaela Balza: Okay.
+María Berrocal Olmos: right? Eh, y que esto sea listado tipo tal cual la tabla, nuestra tabla con todas nuestras cosas hermosas.
+ 
+ 
+00:05:42
+ 
+María Berrocal Olmos: Dando eso, si hacemos este cambio, te voy a contar todo y después vamos tipo break it down. haciendo cambio, lo que sucedería es que cuando entramos a un target,
+Micaela Balza: Dale.
+María Berrocal Olmos: tipo esto dice creo que go to escenario, vi to escenario, waterplan, eh esta sí sería como una tool de escenarios porque solamente vivirán acá los escenarios, el currency que es nuestro base case y los escenarios.
+Micaela Balza: Mhm.
+María Berrocal Olmos: Entonces, esto de acá es lo que estoy explorando, que todavía no sé dónde va a ir o mixto por ahora. Por ahora la, o sea, la wave la wave 4 de simplify terminaba haciendo esos cambios, moviendo la database acá y nombrando la primera tab que tenemos
+Micaela Balza: Mhm.
+María Berrocal Olmos: hoy en Waterplan hasta curventenario y solo vive el curv escenario que es el base case y una tapa adicional que es los escenarios. Vamos a crear un for the effect of this que si te das cuenta tiene una vista parecida a la
+Micaela Balza: Okay.
+María Berrocal Olmos: water strip which is trying
+Micaela Balza: Sí, está
+María Berrocal Olmos: to do como por efectos de consistencia pero eso es básicamente lo que sucede.
+ 
+ 
+00:06:56
+ 
+María Berrocal Olmos: Entonces yo era hablando con Ivo que le mostraba esto. Los dos decíamos capaz estos son todos cambios en front porque no estoy segura, tipo si estamos moviendo cosas en el back y puede agarrar.
+Micaela Balza: Mhm.
+María Berrocal Olmos: Em, that's it. Voy a parar ahí porque eso es básicamente lo que sucede. La tab de compare scenarios se va porque es reemplazada por esta basically, que son las de los escenarios. Y si queremos mantener la funcionalidad, tipo, podemos hacerlo botón que se triguere como el compare, la gráfica de la comparación, que es donde están todos los escenarios en una gráfica. We can do that later.
+Micaela Balza: que cómo sería seleccionar dos como tiki Qu
+María Berrocal Olmos: Claro, no creo que no funcionarón,
+Micaela Balza: tiqui
+María Berrocal Olmos: pero era algo así como que la misma gráfica que tenemos hoy y como que si fuese un select tipo, okay, quiero ver estos dos escenarios juntos, tipo, veo los dos, veo solo estos tres, veo estos cuatro, estos cinco, estos seis, whatever.
+Micaela Balza: okay, no hay problema ahí. ¿Qué más? Vamos a la de Projects, a la nueva Tab de Projects.
+ 
+ 
+00:08:01
+ 
+María Berrocal Olmos: Es la misma datab que no sé por qué le puso road mal el prototipo. Le podemos dejar
+Micaela Balza: Está bien.
+María Berrocal Olmos: database.
+Micaela Balza: Lo único que veo complejo tal vez acá es lo de linked targets linked.
+María Berrocal Olmos: Sí, eso lo puedo quitar.
+Micaela Balza: No hace falta saber dónde están ahora.
+María Berrocal Olmos: No se saber,
+Micaela Balza: Ven.
+María Berrocal Olmos: o sea, porque es es una realidad que un proyecto puede tocar varios targets, ¿right? E esa es mi lógica.
+Micaela Balza: Sí.
+María Berrocal Olmos: Un proyecto puede impactar varios targets, which is okay. Entonces dije como que dado que sabemos que eso sucede, estaría cool de pronto saber un proyecto a qué target está impactando. Pero de nuevo, eso para mí es como nice to have.
+Micaela Balza: Perfecto, porque eso es lo único que sí me parece que tendría. Seguro. Estaría bueno hacerlo en el BC y además es como le decís dónde está, pero no en qué escenario, solo le decís en qué
+María Berrocal Olmos: Sí, no,
+Micaela Balza: target.
+ 
+ 
+00:09:04
+ 
+María Berrocal Olmos: no estoy hablando de escenario, estoy hablando en que, o sea, qué target está impactando.
+Micaela Balza: Claro, pero digo, para que impacte un target tiene que estar metido en algún escenario. Eso no.
+María Berrocal Olmos: Pero si, pero el escenario en este caso es el base case.
+Micaela Balza: Ah, okay. Estamos en
+María Berrocal Olmos: Claro, acá no estamos hablando de escenarios, este es el,
+Micaela Balza: base.
+María Berrocal Olmos: o sea, todo esta todo esto, todo esta tab, todo esta data de aquí, todo esto es del base case. Todo es base case. Tipo, no, acá no me fí a ningún tipo, no es que selecciono un escenario y quiero saber, no todo base. Pero de nuevo ponerlo como onhold y solamente traernos la
+Micaela Balza: Claro, estoy pensando porque ahí tal vez sí puedo decirte en cuál en cuál está impactando,
+María Berrocal Olmos: database.
+Micaela Balza: pero bueno, lo pienso de última vez. Sí, nice to have esa columna. Ya, después del resto estoy igual. Perfecto, me encanta.
+ 
+ 
+00:10:03
+ 
+Micaela Balza: No veo problemas. Vamos a lo siguiente. Acá hay algo. Acá cambio algo. Lo del breakdown,
+María Berrocal Olmos: Eh, esto está todavía del desde el momento cero que es lo arm builder, pero no no he hecho nada con el breakdown,
+Micaela Balza: o sea, no cambiamos nada ahí, ¿no? Listo. Entonces sería cambiar las tabs,
+María Berrocal Olmos: ¿no?
+Micaela Balza: hacer que se va a ver un poco más parecido a water stet.
+María Berrocal Olmos: Eh, claro, acá, por ejemplo, mira, el prototipo me voló la la la gráfica de los escenarios. No pasa nada, podemos traer la gráfica acá, tipo gráfica, tabla normal, eh, pero lo que sí me parecía divertido es estas cards acá arriba porque lo que es lo que pasa hoy en en Water Stwardship, que ves como los escenarios uno al lado de otro.
+Micaela Balza: Y los escenarios que mostras, puedo ver, eh, de impact y,
+María Berrocal Olmos: Ah, esto, esto fue prototipo prototipado. Podemos
+Micaela Balza: o sea,
+María Berrocal Olmos: decir,
+ 
+ 
+00:11:09
+ 
+Micaela Balza: podría tener impact gap from target y status to target. Con eso estaríamos bien. Y si está un track track,
+María Berrocal Olmos: para mí, para mí
+Micaela Balza: que es la info que tengo. Perfecto.
+María Berrocal Olmos: sí,
+Micaela Balza: Yo creo que entonces si todo front, si no hay nada más, todo front y todo bastante easy.
+María Berrocal Olmos: porque todos son cambios de navegación de UX, tipo, no es que estamos inventos una nueva feature que agarra una información y calcula la acá,
+Micaela Balza: Claro.
+María Berrocal Olmos: ¿no? Pues todo lo que tenemos e que esto al final del día era el final tipo de cherry on top de simplify.
+Micaela Balza: Okay, estamos sú Si esto.
+María Berrocal Olmos: El sexto nada más.
+Micaela Balza: Estamos muy bien.
+María Berrocal Olmos: O sea, terminé mi semana on fire. That's it.
+Micaela Balza: Perfecto. De esto hay que hacer tareas.
+María Berrocal Olmos: Okay, let's do tasks.
+Micaela Balza: Okay.
+María Berrocal Olmos: Eh, te voy a mostrar igual cómo quedó en Figma porque estoy hasta abajo en Figma.
+ 
+ 
+00:12:08
+ 
+Micaela Balza: Ah, bueno, s.
+María Berrocal Olmos: Ya me había adelantado eh, porque usé usé target tracking como conejito de indias para el title header de la S navigation. Le puse Jime, revisa las pantallas de respond y ponme un check si crees que estás de acuerdo. Cinco checks. Vamos a targets. Eh, así ya quedaría con nuestro beautiful con title header component target. Le podemos decir database, tipo, no tengo problema. Este sería el de los escenarios situation y escenarios
+Micaela Balza: Ah.
+María Berrocal Olmos: componente tal cual tipo y y creo que ah, esto era lo que no había que hacer. Esto borrar borrar que tengo que hacer es la tab de projects acá. Esa es la que no tengo. La voy a hacer porque no existe y yo no sé, o sea, por eso decía yo le decía a Ivo como yo no sé si tú vas a querer because I don't know. Conociéndote vas a querer hacerlo. No sé si vas a querer primero hacer el componente el title header y después ponerte a hacer esto.
+Micaela Balza: ¿Qué cosa de nuevo?
+ 
+ 
+00:13:44
+ 
+María Berrocal Olmos: Este componente,
+Micaela Balza: Eso no está. Ahora sí.
+María Berrocal Olmos: ¿no? O sea, este es el componente, acuérdate que dijimos, para estandarizar todos los title header de toda la
+Micaela Balza: Ah, okay, okay, okay.
+María Berrocal Olmos: feature,
+Micaela Balza: Sí, podría, pero puede ir por otro lado. No, está bien.
+María Berrocal Olmos: como no sé si vas a querer hacer
+Micaela Balza: No,
+María Berrocal Olmos: primero
+Micaela Balza: em estas tabs que son nuevas ya son definitivas.
+María Berrocal Olmos: y está todo acá. Mira, te creé un ticket por cada componentito.
+Micaela Balza: Okay, perfecto.
+María Berrocal Olmos: Acá
+Micaela Balza: Pues vos estás al tanto de que la gente está usando el
+María Berrocal Olmos: también
+Micaela Balza: switch, el de ese okay
+María Berrocal Olmos: este estoy tanto y ya hablé con Gonza. Ya hablé con porque hay que cambiarlo.
+Micaela Balza: tipo o sea, yo te juro que dejo las cosas para que les puedan cambiar el color y lo que necesiten y no sé quién y lo deja azul y amarillo cuando no tiene nada que ver con
+ 
+ 
+00:14:48
+ 
+María Berrocal Olmos: Sí,
+Micaela Balza: nada.
+María Berrocal Olmos: está creo que así en Mitigation Actions. Y si te das cuenta, yo creé un ticket, de hecho,
+Micaela Balza: Ajá.
+María Berrocal Olmos: que se llama, y te lo asigné, que se llama cambiar los colores del switch para que no se use el amarillo cuando no tiene que usarse el amarillo, que creo que por acá está, ¿dónde está? Mitigation.
+Micaela Balza: ¿Dónde están esos tickets? Yo los quiero ver.
+María Berrocal Olmos: Este sería el componente que debería quedar
+Micaela Balza: Claro, así es el
+María Berrocal Olmos: es uno que quede parecido al filtro,
+Micaela Balza: perfecto.
+María Berrocal Olmos: si es que está acá. Nada de cosas amarillas random.
+Micaela Balza: Mm.
+María Berrocal Olmos: Existe el de cambiar el switch component colors whatever. Tipo que ya no amarillo.
+Micaela Balza: existen y los tengo yo.
+María Berrocal Olmos: Sí,
+Micaela Balza: Okay.
+María Berrocal Olmos: ¿no lo ves?
+Micaela Balza: No lo veo.
+María Berrocal Olmos: Eh,
+Micaela Balza: No, te estoy mintiendo.
+ 
+ 
+00:15:45
+ 
+María Berrocal Olmos: entremos.
+Micaela Balza: Te estoy mintiendo. Creo que debe estar por acá.
+María Berrocal Olmos: No me mientas. Debe estar como subissue, de hecho.
+Micaela Balza: Okay.
+María Berrocal Olmos: Por eso, o sea, busca tu tu ticket de el title header.
+Micaela Balza: Compone
+María Berrocal Olmos: Dentro de ese issue debe estar el sub el subissue del switch.
+Micaela Balza: true. Claro, pero no los tengo a los chiquititos, no como que no me los asigna automáticamente.
+María Berrocal Olmos: Ah, okay.
+Micaela Balza: Voy a hacer
+María Berrocal Olmos: ¿Por qué con subissue? y te voy a mostrar el el because es un subici y
+Micaela Balza: eso.
+María Berrocal Olmos: es que por eso te decía como que si querías una reunión de este componente, let's do it, porque este componente así como lo ves, tiene muchas cosas que están ocultas.
+Micaela Balza: Mhm.
+María Berrocal Olmos: Eh, por ejemplo, los badges que no se usan todo el tiempo,
+Micaela Balza: Está
+María Berrocal Olmos: features que tienen badges, eh, los call to action siempre hay uno que está escondido,
+ 
+ 
+00:16:47
+ 
+Micaela Balza: bien.
+María Berrocal Olmos: las tabs no siempre están así. Este, por ejemplo, esta línea acá que son estos filters, tiene este que es el switch por si alguna feature lo quiere y tiene más cosas.
+Micaela Balza: Me lo en algún lado con todo a la
+María Berrocal Olmos: Como te lo dejo en algún lado con
+Micaela Balza: vista.
+María Berrocal Olmos: todo.
+Micaela Balza: Sí.
+María Berrocal Olmos: Listo.
+Micaela Balza: tipo el peor escenario.
+María Berrocal Olmos: El peor escenario que no va a suceder nunca.
+Micaela Balza: Claro, pero bueno,
+María Berrocal Olmos: Pero eso, o sea, lo que ves en este Figma es que me tomé el trabajo de pantalla por pantalla,
+Micaela Balza: así
+María Berrocal Olmos: tipo agarrar los title hair de todas las features y decir, tiene que caber en este componente. Si no cabe en este componente está mal hecha la feature,
+Micaela Balza: te amo, hermoso.
+María Berrocal Olmos: está muy mal hecha y me tomé el trabajo. Es más, hay un par de features donde tipo @gonza@gime, esto está mal hecho, lo voy a rediseñar. Listo, Mary, go ahead.
+ 
+ 
+00:17:49
+ 
+María Berrocal Olmos: Como el del Waterbalance, lo rediseñé como se me dio la gana. Approved by Jime y
+Micaela Balza: Perfecto.
+María Berrocal Olmos: Martos.
+Micaela Balza: Es que literalmente a mí me sirve porque voy a ir, voy a agarrar el peor de los que ya estén mapeados. Voy a empezar por ese. Después voy a decirle a Claudio, vamos a ir pantalla por pantalla y lo vas a ir aplicando así.
+María Berrocal Olmos: Y lo otro que hay que hacer, que esto lo podemos hacer con Marto cuando cuando tenga su versión desktop,
+Micaela Balza: Mm.
+María Berrocal Olmos: hay que pasarla también a la versión mobile porque va tenemos el issue emits.
+Micaela Balza: Está
+María Berrocal Olmos: E y acá nos puede ayudar marto a tipo a hacer el responsive mobile.
+Micaela Balza: bien.
+María Berrocal Olmos: No estoy muy segura cómo se hace, pero lo dejé igual porque acá están son es la única feature que tiene la pantalla en desktop con su title header y su versión en mobile que sería algo así,
+Micaela Balza: Excelente,
+María Berrocal Olmos: pero estoy segura cómo se componentiza
+Micaela Balza: excelente.
+María Berrocal Olmos: eso y te dejo acá.
+ 
+ 
+00:18:48
+ 
+Micaela Balza: No, no está muy
+María Berrocal Olmos: Este sería el peor escenario de todos.
+Micaela Balza: bien.
+María Berrocal Olmos: Y bueno, tema timings, ¿viste que acá este este escenario no sucede nunca? Quiero que sepas que no hay ninguna no hay ninguna feature que tenga este
+Micaela Balza: Por ahora no,
+María Berrocal Olmos: worrio.
+Micaela Balza: pero está está perfecto, ¿no? La pantalla de Criation me hace
+María Berrocal Olmos: Eh, ah, es terrible. Yo cada tanto le escribo a Gonza y yo,
+Micaela Balza: m*****.
+María Berrocal Olmos: "Gona, no entiendo por qué está este botón acá y me dice, Mary, yo tampoco." Pero pero si la hiciste tú, ¿cómo que no sabes? Me dice, "No, yo no la
+Micaela Balza: Bueno,
+María Berrocal Olmos: hice.
+Micaela Balza: perfecto. Y después de lo de no las no llego a crearla yo ahora. Igual no sé si se las dejamos a Ivo o las creo después cuando vuelvo porque tengo que salir corriendo ahora el cinco.
+María Berrocal Olmos: ¿Qué cosa?
+ 
+ 
+00:19:50
+ 
+Micaela Balza: Eh, las issues de simplify.
+María Berrocal Olmos: Eh, yo los creo, pero voy a robar a Io tipo diciéndole como el si necesitas más contexto.
+Micaela Balza: Dale. O sea,
+María Berrocal Olmos: Tá.
+Micaela Balza: para mí es como una para mover lo de la project database si no sé si querés hacerle un ahí un una subu tipo nice to have que se vea a qué targets están relacionados los proyectos. Así veo si no es tan complejo. Em y después lo otro es lo de escenarios
+María Berrocal Olmos: Después lo otro es lo de escenarios clas la current situation.
+Micaela Balza: y que sean dinámicas con el gráfico y listo.
+María Berrocal Olmos: Sí,
+Micaela Balza: Nada máso y no necesito activárselo a alguien y alguien no es para todos
+María Berrocal Olmos: no
+Micaela Balza: igual.
+María Berrocal Olmos: es para todos. Entiendo igual que Ivo quiere mostrárselo primero a Golgata y tenemos reunión el martes para mostrarles este prototipo a ver
+Micaela Balza: Ok.
+María Berrocal Olmos: si están off que Ivo, o sea, Ivo lo que me dice seguramente van a estar off porque va va improve the experience, entonces no van a estar en contra, pero pero asumo que antes de lanzar la producción va a tener que avisar la colgate como esto va a cambiar,
+ 
+ 
+00:21:07
+ 
+Micaela Balza: Okay,
+María Berrocal Olmos: pero tenemos reunión el martes, así
+Micaela Balza: está bien.
+María Berrocal Olmos: optimistic.
+Micaela Balza: No, no, no. Después, la semana que viene les voy a contar todo lo que estuve haciendo esta semana con Claudio y cosas y Vicky me está taladrando el
+María Berrocal Olmos: Muy bien, muy
+Micaela Balza: cerebro,
+María Berrocal Olmos: bien.
+Micaela Balza: no sé si estás al tanto, pero de algo de una de unos reportes que se ven como la mía.
+María Berrocal Olmos: Nos cae eso, me parece, a producto.
+Micaela Balza: Yo creo que sí, creo que lo está hablando con Gonza y con Nico, no sé si vos lo viste también, pero que está generando unos reportes, no sé qué tool que se ven feísimos, que por favor que alguien los haga que se vean más
+María Berrocal Olmos: O sea,
+Micaela Balza: lindos.
+María Berrocal Olmos: lo que estoy casi segura es que esa tarea ahora le va a caer a producto. Nico me la había comentado. No estoy segura si me cae a mí o le acaba a caer a Gonza.
+Micaela Balza: Está bien. No creo que tal vez sea Gonza, pero bueno, yo te digo porque igual la semana que viene sí con estuvimos hablando con Ema y los chicos y les vamos a pasar a ustedes como muchos archivos para promptear. Sí, o sea,
+María Berrocal Olmos: component.
+Micaela Balza: son como archivitos tipo punto MD con un con todo esto que habíamos hablado de las reglas y que yo que es lo que estamos usando en el front como para ver si se lo pasas a eso que genera reportes y no hace cualquier
+María Berrocal Olmos: Me encanta.
+Micaela Balza: cosa. Bueno,
+María Berrocal Olmos: Vemos.
+Micaela Balza: muchísimo. Nada,
+María Berrocal Olmos: Bueno,
+Micaela Balza: me voy, me voy a tenis.
+María Berrocal Olmos: muy bien.
+Micaela Balza: Sí.
+María Berrocal Olmos: Soltar las
+Micaela Balza: Bueno,
+María Berrocal Olmos: chakras.
+Micaela Balza: bueno, buen fin de hasta el lunes.
+María Berrocal Olmos: See you mand.
+Micaela Balza: Qué buen chao.
+María Berrocal Olmos: Ok.
+ 
+ 
+La transcripción finalizó después de 00:23:00
+
+
+Esta transcripción editable se ha generado por ordenador y puede contener errores. Los usuarios también pueden cambiar el texto después de que se haya generado.
